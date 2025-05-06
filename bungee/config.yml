@@ -30,7 +30,7 @@ permissions:
 log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
-timeout: 30000
+timeout: 50000
 stats: 614623bd-e602-4a2e-b09d-0acb68d88c3e
 player_limit: -1
 ip_forward: false
@@ -46,9 +46,9 @@ disabled_commands:
 servers:
   lobby:
     motd: 'lobby'
-    address: 95.217.198.48:20923
+    address: localhost:25566
     restricted: false
   Civilisations:
-    motd: '&1Just another Waterfall - Forced Host'
+    motd: SoulCraft season 1
     address: 95.217.198.48:20923 
     restricted: false

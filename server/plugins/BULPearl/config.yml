@@ -1,0 +1,30 @@
+#BulPearl link : https://www.spigotmc.org/resources/93260/
+#If you like the plugin, let a star on the Github repo https://github.com/AliHaine/BulPearl
+
+damage: 2.0
+
+can_kill: true
+
+cooldown: 30
+
+#[world1, world2, example3]
+cooldown_blacklist_world: []
+
+sound: LEVEL_UP
+
+enable_craft_creator: true
+
+messages:
+  use_pearl: "&a[BulPearl] &eYou have used an Ender Pearl to teleport."
+  on_cooldown: "&a[BulPearl] &cYou must wait %time% before using an Ender Pearl again."
+  end_cooldown: "&a[BulPearl] &eYou can now use an Ender Pearl."
+  craft_created: "&a[BulPearl] &eYou have created a craft for Ender Pearls."
+  reload: "&a[BulPearl] Configuration reloaded."
+  error_only_ingame: "&c[BulPearl] You can't use this command from the console."
+  error_unknown: "&c[BulPearl] Unknown command."
+  error_craft_creator_disabled: "&c[BulPearl] The craft creator is disabled in the config.yml."
+  no_permission: "&c[BulPearl] You do not have permission to reload the configuration."
+
+actionbar:
+  on_cooldown: "&cYou can reuse an enderpearl in &e%time%s"
+  end_cooldown: "&aYou can now use again an EnderPearl"

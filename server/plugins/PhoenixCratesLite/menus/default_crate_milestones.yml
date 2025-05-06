@@ -1,0 +1,71 @@
+items:
+  down-filler:
+    slot: 27-35
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&e'
+    lore: []
+    actions: []
+  go-back:
+    slot: '31'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&6Go Back'
+    lore: []
+    actions:
+    - '[GOBACK]'
+settings:
+  type: CRATE_MILESTONES
+  title: '%crate% Milestones'
+  rows: 4
+  refresh:
+    enabled: false
+    rate: 20
+  on-open-actions: []
+pagination:
+  align-items: LEFT
+  slots: 10-16
+  fill-item:
+    material: AIR
+    custom-model-data: 0
+    glow: false
+    display-name: ''
+    lore: []
+    actions: []
+  previous-item:
+    slot: '9'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&6Previous page - Page %page%'
+    lore:
+    - '&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<'
+    actions: []
+  next-item:
+    slot: '18'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&6Next page - Page %page%'
+    lore:
+    - '&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>'
+    actions: []
+milestone:
+  name: '&7%reward_name%'
+  lore:
+  - '&8(%status%)'
+  - ''
+  - '%reward_lore%'
+  - ''
+  - '&eMilestone: &6%milestone% openings'
+  - §7(This lore is configured at the menus folder)

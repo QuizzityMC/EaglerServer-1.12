@@ -1,0 +1,91 @@
+# go-spawn: Go spawn on enter
+# cooldown-time: Time between teleport and teleport
+# wait-time: Time to teleport to spawn
+Config:
+  enter-message: true
+  enter-message-text: '&6&lWelcome to the server %player%! &f| &5TSetSpawn'
+  go-spawn: true
+  join: true
+  join-message: '&5TSetSpawn &e> &f%player% has joined.'
+  quit: true
+  quit-message: '&5TSetSpawn &e> &f%player% has left.'
+  welcome: true
+  welcome-message: '&5TSetSpawn &e> &f%player% entered for the first time!'
+  cooldown-time: 5
+  death-teleport: true
+  drop-items-on-death: true
+  spawn-title-subtitle-enabled: true
+  spawn-title: '&aWelcome to the spawn!'
+  spawn-subtitle: '&eEnjoy your stay!'
+  Translate:
+    version: '&5TSetSpawn &e> &7The version is: %version%'
+    spawn-not-placed: '&5TSetSpawn &e> &cThe spawn does not exist'
+    console: '&5TSetSpawn &e> &7You cannot send commands from the console'
+    spawn-placed: '&5TSetSpawn &e> &aSpawn placed'
+    reload: '&5TSetSpawn &e> &aReloaded'
+    unknown-command: '&5TSetSpawn &e> &cUnknown command'
+    help: '&5TSetSpawn &e> &fUse the command &a/spawn &fto go to the spawn'
+    spawn: '&5TSetSpawn &e> &fYou have been teleported'
+    no-permission: '&5TSetSpawn &e> &cYou do not have permissions'
+    cooldown-message: '&5TSetSpawn &e> &cYou have to wait &e%time% &cseconds before
+      running this command again!'
+    disconnect-message: '&5TSetSpawn &e> &fTeleport canceled because you disconnected.'
+    spawn-removed: '&5TSetSpawn &e> &fSpawn removed.'
+    ftspawn-removed: '&5TSetSpawn &e> &fFTSpawn removed.'
+    remove-usage: '&5TSetSpawn &e> &cUsage is /removespawn (spawn|ftspawn)'
+  Particles:
+    enabled: false
+    radius: 1.5
+    amount: 50
+    particle-type: MOBSPAWNER_FLAMES
+  Sound:
+    enable-sound: false
+    sound-type: LEVEL_UP
+    volume: 1.0
+    pitch: 1.0
+  Wait-time:
+    enabled: true
+    times:
+      admin: 2
+      mod: 4
+      vip: 3
+      default: 5
+    enable-messages: true
+    messages:
+      '5': '&5TSetSpawn &e> &fGet ready! Teleporting in 5 seconds.'
+      '4': '&5TSetSpawn &e> &fGet ready! Teleporting in 4 seconds.'
+      '3': '&5TSetSpawn &e> &fGet ready! Teleporting in 3 seconds.'
+      '2': '&5TSetSpawn &e> &fGet ready! Teleporting in 2 seconds.'
+      '1': '&5TSetSpawn &e> &fGet ready! Teleporting in 1 seconds.'
+      '0': '&5TSetSpawn &e> &fTeleporting now!'
+    titles-enabled: true
+    title-message: '&aTeleporting!'
+    subtitle-message: '&eGet ready!'
+  Cancel-on-move:
+    enabled: true
+    check-x: true
+    check-y: true
+    check-z: true
+    check-yaw: false
+    check-pitch: false
+  Void:
+    enabled: true
+    VoidTeleportHeight: 0
+    void-teleport-message: '&5TSetSpawn &e> &fTeleported to the Spawn'
+    EnabledWorlds:
+    - world
+    - world_nether
+    - world_the_end
+  Firework:
+    enabled: true
+    colors:
+    - FF0000
+    - FFFF00
+    fade-colors:
+    - 00FF00
+    - 0000FF
+    type: BALL
+    power: 1
+  ActionBar:
+    enabled: true
+    message: '&5TSetSpawn &e> &aWelcome to the spawn!'

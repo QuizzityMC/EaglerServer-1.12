@@ -1,0 +1,9 @@
+every 5 seconds:
+    loop all players:
+        if loop-player's inventory contains a dragon egg:  # Check if the Dragon Egg is in the player's inventory
+            set loop-player's max health to 20  # Set max health to 20 (10 hearts)
+            set loop-player's health to loop-player's max health  # Set current health to max health
+        else:
+            set loop-player's max health to 10  # Reset max health to default (5 hearts)
+            if loop-player's health > loop-player's max health:  # Ensure current health doesn't exceed max health
+                set loop-player's health to loop-player's max health

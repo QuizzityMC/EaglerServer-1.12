@@ -1,0 +1,71 @@
+options:
+    login-message: &aYou have successfully logged in!
+    register-message: &aYou have successfully registered!
+    already-logged-in-message: &cYou are already logged in!
+    not-logged-in-message: &cYou must log in or register to use commands!
+    usage-message: &cUsage: /login <password> or /register <password>
+    spawn-x: 0  # Replace with your spawn X coordinate
+    spawn-y: 70 # Replace with your spawn Y coordinate
+    spawn-z: 0  # Replace with your spawn Z coordinate
+
+variables:
+    {passwords::*} = list
+    {last_location.%player%} = location
+
+on join:
+    if player is not a console:
+        set {logged_in.%player%} to false
+        if {last_location.%player%} is not set:
+            set {last_location.%player%} to player's location
+        teleport player to location at {@spawn-x}, {@spawn-y}, {@spawn-z}
+        send "&eWelcome! Please /login <password> or /register <password> to continue."
+
+on quit:
+    if player is not a console:
+        set {last_location.%player%} to player's location
+
+on any movement:
+    if player is not a console:
+        if {logged_in.%player%} is not true:
+            cancel event
+            send "&cYou must log in or register to move!"
+
+command /register [<text>]:
+    trigger:
+        if player is a console:
+            send "&cThe console cannot register."
+            stop
+        if {passwords::%player%} is set:
+            send "&cYou are already registered. Use /login <password>."
+            stop
+        if arg-1 is not set:
+            send "{@usage-message}"
+            stop
+        set {passwords::%player%} to arg-1
+        set {logged_in.%player%} to true
+        send "{@register-message}"
+        teleport player to {last_location.%player%}  # Teleport to the last saved location
+
+command /login [<text>]:
+    trigger:
+        if player is a console:
+            send "&cThe console cannot log in."
+            stop
+        if {passwords::%player%} is not set:
+            send "&cYou are not registered. Use /register <password>."
+            stop
+        if arg-1 is not set:
+            send "{@usage-message}"
+            stop
+        if arg-1 is not {passwords::%player%}:
+            send "&cIncorrect password!"
+            stop
+        set {logged_in.%player%} to true
+        send "{@login-message}"
+        teleport player to {last_location.%player%}  # Teleport to the last saved location
+
+on command:
+    if player is not a console:
+        if {logged_in.%player%} is not true:
+            cancel event
+            send "{@not-logged-in-message}"

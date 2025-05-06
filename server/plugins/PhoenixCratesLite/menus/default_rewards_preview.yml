@@ -1,0 +1,91 @@
+items:
+  down-filler:
+    slot: 45-53
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&e'
+    lore: []
+    actions: []
+  close-menu:
+    slot: '49'
+    material: BARRIER
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&aClose Menu'
+    lore:
+    - '&7Click here to close this menu.'
+    - ''
+    - '&6Left-Click: &eClose menu.'
+    actions:
+    - '[CLOSE_INVENTORY]'
+settings:
+  type: REWARDS_PREVIEW
+  title: '%crate% Rewards'
+  rows: 6
+  refresh:
+    enabled: false
+    rate: 20
+  on-open-actions: []
+pagination:
+  align-items: LEFT
+  slots: 10-16, 19-25, 28-34
+  fill-item:
+    material: AIR
+    custom-model-data: 0
+    glow: false
+    display-name: ''
+    lore: []
+    actions: []
+  previous-item:
+    slot: '18'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&6Previous page - Page %page%'
+    lore:
+    - '&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<'
+    actions: []
+  next-item:
+    slot: '26'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&6Next page - Page %page%'
+    lore:
+    - '&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>'
+    actions: []
+review:
+  name: '&7%reward_name%'
+  lore:
+  - '%reward_lore%'
+  - ''
+  - '&eYour percentage: &6%percentage%%'
+  - '&eYour chance: &6%chance%%'
+  - ''
+  - '&7Check our &6&lWIKI &7to understand the difference'
+  - '&7between percentage and chance.'
+  - ''
+  - '&7(This lore is configured at the menus folder)'
+milestone:
+  slot: '4'
+  material: NETHER_STAR
+  amount: 1
+  custom-model-data: 0
+  glow: true
+  hide-attributes: true
+  display-name: '&a%milestone_type% Milestones'
+  lore:
+  - '&7By clicking here you will be able to'
+  - '&7access the milestones of this crate.'
+  - ''
+  - '&6Left-Click: &eNavigate.'
+  menu: default_crate_milestones

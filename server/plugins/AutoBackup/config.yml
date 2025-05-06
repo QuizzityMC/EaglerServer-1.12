@@ -1,0 +1,141 @@
+# +------------------+ #
+#      AutoBackup      #
+# +------------------+ #
+
+# Information:
+# - AutoBackup - Schedule and perform automatic backups
+#   by SparklingComet
+# - This config was first generated for plugin version 1.2.1
+# - If you need to regenerate the default config, delete or rename this file
+#   and restart the server.
+# - Please consider re-generating the config after updating the plugin because otherwise
+#   new config options will not show up.
+#
+#  DOCUMENTATION
+#  To avoid cluttering of the config, most comments were removed in version v1.1.1.
+#  The explanations and the default settings can be found on the wiki:
+#  https://github.com/SparklingComet/AutoBackup/wiki/Configuration
+#  Please consult the documentation when in doubt in order to avoid mistakes.
+
+
+# +------------- Start of Config -------------+
+
+# Disable plugin version checking system.
+disable-updater: false
+
+# Determines which kind of backup to perform on default, aka when the command '/backup default' is run.
+default-modes: ['overworld', 'nether', 'end']
+
+# Determines whether to exclude the backup directory from a potential backup.
+# It is HIGHLY RECOMMENDED that you leave this to the default setting (true)! Check the wiki for more information (link
+# above)
+exclude-backup: true
+
+# Determines whether the paths in this config are to be taken relative to the Minecraft server root
+# as opposed to actual system root. Leave the default option (true) unless you know what you
+# are doing and you would like to export the backups outside your Minecraft server directory.
+relative-paths: true
+
+# Determines where to save the backups.
+# WARNING: Only change if you know what you are doing! Check the wiki (link above) for more information.
+backup-dir: '/backups'
+
+# Determines whether or not to log to console when backups are performed successfully (recommended).
+# If a backup fails, the plugin will log it regardless of whether this option is set to true or false.
+# This also determines whether or not the console should be notified when the backups are purged (recommended).
+log-to-console: true
+
+# Determines whether or not to perform the first iteration of a scheduled backup cycle on server start
+# and on plugin reload, or wait the scheduled time interval before the first cycle.
+immediate-backup: false
+
+# Determines whether the console is allowed to perform a backup even if manual trigger for the backup
+# (allow-manual option) is disabled.
+allow-force-console: true
+
+# Should AutoBackup log all backups to the backup-log.txt file? Should AutoBackup log which entity (player or console)
+# issued the backup? If log-entity is 'false', only the path will be logged.
+backup-log:
+  enable: true
+  log-entity: true
+  log-success: true
+  log-failure: true
+
+# Should admins be allowed to purge all backups using in-game commands?
+allow-players-purge: false
+
+# Should admins be allowed to purge all backups using a console command?
+allow-console-purge: true
+
+# Use this configuration section to determine what is backed up.
+# Every list entry is a different backup mode. Feel free to add your own modes and remove the examples
+# you don't need.
+#
+# - The mode name (example: everything, plugins, etc) can be chosen freely. Avoid using 'default' though.
+# - The dir option determines what folder is backed up. '/' means server root.
+# - The allow-manual option determines whether this backup can be performed by the /backup command
+# - The schedule option determines whether or not to perform the backup automatically every x minutes, set to 0 or
+#   negative to disable.
+# - The compression option specifies the degree of the compression. Better compression means less disk space
+#   is occupied, but the backup itself takes longer.
+#   Possible settings: -1 (No compression); 0 (Default Compression); 1 (Best speed); 2 (Best Compression).
+#   More about this on the wiki (link at the top)
+# - The recursive option determines whether to backup only the files at the given path (false) or also the files inside
+#   the subdirectories of the given path (true)
+#
+# NOTE: These are just (working) examples! You should add and tweak the ones you need and get rid of those you
+# do not need. In particular, the backup 'everything' is extremely inefficient and can take very long times. It
+# is therefore highly discouraged. You should rather setup separate smaller backups, ie. one for plugin data, one for
+# each world, etc.
+backup-modes:
+  - name: 'everything'
+    dir: '/'
+    allow-manual: true
+    schedule: 0
+    compression: 0
+    recursive: true
+
+  - name: 'server-data'
+    dir: '/'
+    allow-manual: true
+    schedule: 0
+    compression: 0
+    recursive: false
+
+  - name: 'plugins'
+    dir: '/plugins'
+    allow-manual: false
+    schedule: 0
+    compression: 0
+    recursive: true
+
+  - name: 'plugin-jars'
+    dir: '/plugins'
+    allow-manual: false
+    schedule: 0
+    compression: 0
+    recursive: false
+
+  - name: 'overworld'
+    dir: '/world'
+    allow-manual: true
+    schedule: 720
+    compression: 0
+    recursive: true
+
+  - name: 'nether'
+    dir: '/world_nether'
+    allow-manual: true
+    schedule: 1440
+    compression: 0
+    recursive: true
+
+  - name: 'end'
+    dir: '/world_the_end'
+    allow-manual: true
+    schedule: 2880
+    compression: 0
+    recursive: true
+
+# +-------------- End of Config --------------+
+# You are done configuring AutoBackup. Enjoy :)
