@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1746461433160
+  login: 1746461378744
+money: '100'
+last-account-name: FlameFrags
+logoutlocation:
+  world: 2338f618-dd20-44b8-a9a0-2130c06c4a11
+  world-name: world
+  x: 11.67900623015998
+  y: 76.0
+  z: -4.353494914416098
+  yaw: -157.34999084472656
+  pitch: 10.350004196166992
+lastlocation:
+  world: 199eb472-caa9-4c97-a0a5-fed790d76be3
+  world-name: world
+  x: -182.10206745454283
+  y: 71.0
+  z: -264.03267529154846
+  yaw: 128.54995727539062
+  pitch: 12.600068092346191

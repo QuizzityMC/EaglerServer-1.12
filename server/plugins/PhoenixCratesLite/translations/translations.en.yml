@@ -1,0 +1,880 @@
+en:
+  error-processing:
+  - '&cAn error occurred while processing this action (Check console):'
+  - '&7%message%'
+  unknown-argument: '&cUnknown Argument!'
+  no-permission: '&cYou are not allowed to do this! (Need %permission%)'
+  command-not-allowed: '&cYou are not allowed to execute this command!'
+  only-ingame-players: '&cCommand only allowed for in-game players.'
+  labels:
+    last-one: Last One
+    swap-option: Swap option
+    item: Item
+    all: All
+    go-back: Go Back
+    navigate: Navigate
+    reload: Reload
+    switch-state: Switch State
+    empty: '&7(Empty)'
+    default: '&7(Default)'
+    undefined: '&7Undefined'
+    yes-word: '&aYes'
+    no-word: '&cNo'
+    location: Location
+    region: Region
+    material: Material
+    menu: Menu
+    enabled: Enabled
+    disabled: Disabled
+    range: Range
+    multiplier: Multiplier
+    cooldown: Cooldown
+    receive-placeable-crate: Receive placeable crate
+    receive-crate-key: Receive crate key
+    identifier: Identifier
+    display-name: Display Name
+    line: Line
+    swap-engine: Swap engine
+    edit-engine: Edit engine
+    not-installed: Not Installed
+    not-available: Not Available
+    not-enabled: Not Enabled
+    change-amount-money: Change amount of money
+    disable-money-requirement: Disable money requirement
+    money-necessary: Money Necessary
+    vault-installed: Vault installed
+    required: Required
+    permission: Permission
+    crate: Crate
+    reward: Reward
+    multiple-rewards: Multiple rewards
+    items: Items
+    cancel: Cancel
+    animation: Animation
+    limited-time-offer: Limited Time Offer
+    see-more: See More
+    attach-block: Attach Block
+    reorder-reward: Reorder reward
+    set-as-default-display-name: Set as default display name
+    set-as-default-display-lore: Set as default display lore
+    update-block: Update Block
+    percentage: Percentage
+    win-limit: Win Limit
+    unlimited: Unlimited
+    virtual: Virtual
+    broadcast: Broadcast
+    paid: Paid
+    free: Free
+    save: Save
+    leave: Leave
+    confirm: Confirm
+    decline: Decline
+    locked-field: Locked field
+    add-items: Add Items
+    no-cooldown: No cooldown
+    current: Current
+    first: First
+    second: Second
+    third: Third
+    to-choose: To choose
+    not-colorable: Not colorable
+    previous-phase: Previous Phase
+    next-phase: Next Phase
+    default-menu: Default Menu
+    amount: Amount
+    migrate-files: Migrate files
+    group: Group
+    only-premium: Available on Premium
+  time:
+    day: Day
+    days: Days
+    hour: Hour
+    hours: Hours
+    minute: Minute
+    minutes: Minutes
+    second: Second
+    seconds: Seconds
+  commands:
+    info:
+    - ''
+    - '&e➥ Phoenix Crates Commands'
+    - '%commands%'
+    - ''
+    - '&e➥ Additional information:'
+    - ' &9<argument> - required argument'
+    - ' &3[argument] - optional argument'
+    usage: '&e➥ Usage:'
+    create: ' &f/%command% create &9<identifier> &8- &7Create crate type'
+    delete: ' &f/%command% delete &9<identifier> &8- &7Delete crate type'
+    give-crate: ' &f/%command% giveCrate &9<identifier> &8- &7Give yourself a crate
+      to be placed'
+    give-key: ' &f/%command% giveKey &9<identifier> <player/all> [amount] &8- &7Give
+      a player(or all players) a key'
+    take-key: ' &f/%command% takeKey &9<identifier> <player> [amount] &8- &7Set player
+      virtual keys'
+    set-key: ' &f/%command% setKey &9<identifier> <player> [amount] &8- &7Set player
+      virtual keys'
+    preview: ' &f/%command% preview &9<identifier> &8- &7Allows you to preview crate
+      rewards'
+    give-reward: ' &f/%command% giveReward &9<crate> <reward> &8- &7Give a player(or
+      all players) a crate reward'
+    bulk: ' &f/%command% bulk &9<action> &8- &7Dangerous commands with destructive
+      actions, only use it if necessary.'
+    setup: ' &f/%command% setup <template> &8- &7Allows you to setup a template of
+      crates'
+    editor: ' &f/%command% editor &8- &7Allows you to edit all crates in-game'
+    reload: ' &f/%command% reload &8- &7Reload all PhoenixCrates configuration files'
+  player-offline: '&cPlayer %name% is not online!'
+  not-a-number: '&cThe amount placed is not a number.'
+  plugin-reloaded: '&aPhoenixCrates have been successfully reloaded.'
+  crate-type-created: '&aCrate type created successfully.'
+  crate-type-deleted: '&aCrate type deleted successfully.'
+  crate-key-received: '&aYou have received a key for crate &2"%display_name%&2"&a!'
+  crate-key-given: '&aThe key(s) was successfully given.'
+  crate-virtual-key-received: '&aYou have received a virtual key for crate &2"%display_name%&2"&a!'
+  crate-type-received: '&aYou have received placeable crate.'
+  crate-type-dont-exist: '&cThere is no crate type with the identifier "%identifier%"!'
+  crate-type-already-exist: '&cThere is already a crate type with the identifier "%identifier%"!'
+  need-plugin-reload: '&6Need plugin reload!'
+  crate:
+    quick-open-available: '&eCrouch and click again to skip the animation and open
+      another crate.'
+    already-opening: '&cSomeone is already opening this crate, wait!'
+    no-key: '&cYou need %key%&r&c to open this crate!'
+    no-keys: '&cYou don''t have enough keys to open this crate!'
+    cooldown-wait: '&cYou have to wait for %cooldown% before opening this crate again.'
+    no-money: '&cYou need %necessary_money%$ to open this crate.'
+    money-used: '&aYou just used %money_consumed%$ to open this crate.'
+    need-crouched: '&eFor you to remove this crate you have to be crouched.'
+    successfully-removed: '&aYou have successfully removed this crate.'
+    successfully-placed: '&aYou successfully placed a crate!'
+    reward-received: '&aYou received &e%item%'
+    player-got: '&e%player% &fgot: &r%reward%'
+    no-rewards: '&cThis crate have no rewards.'
+    no-available-rewards: '&cThis crate does not have any rewards available to you.'
+    no-permission: '&cYou are not allowed to open this crate! [Requires permission:
+      %permission%]'
+    broadcast: '&ePlayer &a%player% &ejust got &6"%reward%" &ereward from the crate
+      &6%crate%&e!'
+    cooldown-display:
+      counting: '&fYou can open again in &e%cooldown%'
+      over: '&aAvailable to open'
+  items:
+    placeable-crate:
+      display-name: '&e%display_name% Crate'
+      lore: '&7Place this crate somewhere!'
+  actions:
+    need-item: '&cYou need to add an item for you to be able to do this action.'
+    force-close: '&cYou forced cancellation of what you were doing.'
+  layout:
+    actions:
+      left-click: '&6Left-Click: &e%action%.'
+      right-click: '&6Right-Click: &e%action%.'
+      left-right-click: '&6Left/Right-Click: &e%action%.'
+      shift-left-click: '&6Shift + Left-Click: &e%action%.'
+      shift-right-click: '&6Shift + Right-Click: &e%action%.'
+      drag-drop-click: '&6Drag & Drop: &e%action%.'
+      description:
+        add: Add %value%
+        set: Set %value%
+        create: Create %value%
+        remove: Remove %value%
+        edit: Edit %value%
+        delete: Delete %value%
+        clear: Clear %value%
+        choose: Choose %value%
+        change: Change %value%
+        select: Select %value%
+        replace: Replace %value%
+    displays:
+      state: '&fIs %type%: &7%state%'
+      value: '&f%type%: &7%value%'
+      material: '&fMaterial: &7%material%'
+      location:
+        empty: '&fLocation: &7Empty'
+        populated:
+        - '&fLocation: '
+        - ' &fWorld: &7%world%'
+        - ' &fX axis: &7%x%'
+        - ' &fY axis: &7%y%'
+        - ' &fZ axis: &7%z%'
+        - ' &fYaw: &7%yaw%'
+        - ' &fPitch: &7%pitch%'
+      region:
+        empty: '&fRegion: &7Empty'
+        populated:
+        - '&fRegion: '
+        - ' &fWorld: &7%world%'
+        - ' &fPosition #1: &7%minimum%'
+        - ' &fPosition #2: &7%maximum%'
+      item:
+        empty: '&fItem: &7Empty'
+        populated:
+        - '&fItem: '
+        - ' &fName: &7%name%'
+        - ' &fLore: &7%lore_if_empty%'
+        - ' &f- &5&o%lore%'
+    extras:
+      previous-page:
+        title: '&aPrevious page - Page %page%'
+        description:
+        - '&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<'
+      next-page:
+        title: '&aNext page - Page %page%'
+        description:
+        - '&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>'
+      no-data-found:
+        title: '&cNo data found.'
+        description:
+        - '&7No data were found using this filter.'
+      filter:
+        title: '&aFilter'
+        description:
+        - '&7By clicking here you will be able'
+        - '&7to filter by name.'
+        - ''
+        - '&fFilter: &e%filter%'
+        - ''
+        - '&6Left-Click: &eSet filter.'
+        - '&6Right-Click: &eClear filter.'
+  editor:
+    messages:
+      write-identifier-chat: '&eWrite the new identifier in the chat.'
+      identifier-updated: '&aIdentifier successfully updated to "%identifier%&a"!'
+      write-displayname-chat: '&eWrite the new display name in the chat.'
+      displayname-updated: '&aDisplay name successfully updated to "%display_name%&a"!'
+      write-in-chat: '&aWrite in the chat.'
+      value-updated: '&aValue successfully updated!'
+      write-lore-line-chat: '&eWrite the new lore line in the chat.'
+      lore-line-added: '&aLore Line successfully added!'
+      lore-cleared: '&aLore successfully cleared.'
+      opening-animation-changed: '&aOpening Animation successfully changed.'
+      crate-type-deleted: Crate Type deleted successfully.
+      migration-completed: '&aMigration completed.'
+    errors:
+      identifier-already-in-use: '&cThis identifier is already in use.'
+      no-spaces: '&cCan''t have spaces!'
+      invalid-input: '&cInvalid input!'
+      invalid-number: '&cInvalid number!'
+      inventory-full: '&cYour inventory is full.'
+      username-not-found: '&cNo original account with name %username% found.'
+      invalid-rewards: There are %amount% reward(s) that are invalid!
+      no-rewards-configured: There are no rewards configured!
+      invalid-reward-display: 'Invalid Reward: Founded empty display item!'
+      only-premium: Only available on premium version.
+    titles:
+      main: Phoenix Crates v%version% > Editor
+      crates: Editor > Crates
+      migrations: Editor > Migrations
+      addons: Editor > Addons
+      settings: Editor > Settings
+      crate:
+        new: Editor > ... > New Crate
+        show: Editor > ... > Crate
+        display: Editor > ... > Engine
+        idle-animation: Editor > ... > Idle Animation
+        opening-animations: Editor > ... > Opening Animations
+        opening-animation: Editor > ... > Opening Animation
+        effect: Editor > ... > Animation Effect
+        rewards: Editor > ... > Rewards
+        reward: Editor > ... > Reward
+        reward-items: Editor > ... > Edit Reward Items
+        reward-commands: Editor > ... > Edit Reward Commands
+        multiple-rewards: Editor > ... > Add Multiple Rewards
+        engine: Editor > ... > Engine
+        key: Editor > ... > Key
+        hologram: Editor > ... > Hologram
+        milestones: Editor > ... > Milestones
+        others: Editor > ... > Others
+    main:
+      crates:
+        title: '&aCrates'
+        description:
+        - '&7By clicking here, you will be able'
+        - '&7to explore and manage all available crates.'
+      migrations:
+        title: '&aMigrations'
+        description:
+        - '&7Explore options for migrating from other crate plugins'
+        - '&7and manage the migration process by clicking here.'
+      addons:
+        title: '&aAddons'
+        description:
+        - '&7Explore additional features and enhancements'
+        - '&7by clicking here to access the addons menu.'
+      settings:
+        title: '&aSettings'
+        description:
+        - '&7By clicking here, you will be able'
+        - '&7to explore and customize plugin settings.'
+      reload:
+        title: '&aReload Config'
+        description:
+        - '&7By clicking here, you will initiate'
+        - '&7a reload of all plugin configurations.'
+    migrations:
+      plugin:
+        title: '&aMigrate from %name%'
+        description:
+        - '&8%url%'
+        - ''
+        - '&7By clicking here you will be able to'
+        - '&7migrate some files from %name% to this plugin.'
+        - ''
+        - '&aFiles supported:'
+        - '&8 &7- %files%'
+    addons:
+      loading:
+        title: '&eLoading...'
+        description:
+        - '&7The addons are loading,'
+        - '&7wait a few seconds.'
+      empty:
+        title: '&cNo addons available'
+        description:
+        - '&7No records were found'
+        - '&7according to the current filter.'
+      addon:
+        title: '&a%name%'
+        description:
+        - '&7%description%'
+        - ''
+        - '&fPrice: &a%price%'
+    settings:
+      language:
+        title: '&aLanguage'
+        description:
+        - '&7This option allows you to change'
+        - '&7the base language this plugin will be using'
+        - ''
+        - '&e&nYou can always configure translations.en.yml.'
+      crate-knockback:
+        title: '&aCrate Knockback'
+        description:
+        - '&7This option allows you to vary the'
+        - '&7knockback the player takes when trying'
+        - '&7to open a crate with the wrong key.'
+      crate-despawn-range:
+        title: '&aCrate Despawn Range'
+        description:
+        - '&7This option allows you to define the'
+        - '&7distance that effects will need to'
+        - '&7stop showing to the player.'
+        - ''
+        - '&c&nHigh values not recommended as they can cause lag.'
+      crate-quick-open:
+        title: '&aCrate Quick Open'
+        description:
+        - '&7This option allows players to'
+        - '&7quick open when holding crate'
+        - '&7key and shifting right clicking.'
+        - ''
+        - '&e&nOnly works with crate simultaneous openings!'
+    crates:
+      type:
+        title: '&a%name% &7(Id: %identifier%)'
+        description:
+        - '&7By clicking here you will be'
+        - '&7able to configure this crate.'
+      add:
+        title: '&aAdd Crate'
+        description:
+        - '&7By clicking here you will be'
+        - '&7able to create a crate type.'
+    crate:
+      identifier:
+        title: '&aIdentifier'
+        description:
+        - '&7By clicking here you will be able'
+        - '&7to rename your crate identifier.'
+        - '&eThis identifier need to be unique.'
+      display-name:
+        title: '&aDisplay name'
+        description:
+        - '&7By clicking here you will be able'
+        - '&7to rename your crate name.'
+      animations:
+        title: '&aAnimations'
+        description:
+        - '&7By clicking here you will be able to'
+        - '&7change the animations of this crate.'
+        - ''
+        - '&fYou can configure:'
+        - '&8> &aIdle Animation'
+        - '&8> &aOpening Animation'
+      display-settings:
+        block-material:
+          title: '&aBlock Material'
+          description:
+          - '&7By clicking here you will be'
+          - '&7able to change the material that'
+          - '&7is used for the crate block.'
+        engine-mode:
+          title: '&aEngine Mode'
+          description:
+          - '&7By clicking here you will be able'
+          - '&7change engine that this crate will use.'
+          - ''
+          - '&b➥ Vanilla Block engine:'
+          - '&7Default engine of a crate, the representation will'
+          - '&7be the material chosen as the block of this crate.'
+          - ''
+          - '&b➥ Vanilla Model engine: &9(1.12+)'
+          - '&7Possibility to assign a custom static model to the crate'
+          - '&7but does not support animations. This supports vanilla models'
+          - '&7through material and custom model data.'
+          - ''
+          - '&b➥ Model Engine engine: &9(1.16.5+)'
+          - '&7Possibility to assign a custom model to the crate as'
+          - '&7well as a custom opening animation. The crate block material'
+          - '&7will be used for particles matter only.'
+          - ''
+          - '&fEngines:'
+        hologram:
+          title: '&aHologram'
+          description:
+          - '&7By clicking here you will be able to'
+          - '&7configure the hologram above this crate.'
+        idle-animation:
+          title: '&aIdle Animation'
+          description:
+          - '&7By clicking here you will be avable to'
+          - '&7customize the idle animation of this crate.'
+          - ''
+          - '&7The idle animation will appear when'
+          - '&7a player is not opening this crate.'
+        opening-animation:
+          title: '&aOpening Animation'
+          description:
+          - '&7By clicking here you will be able to'
+          - '&7customize the opening animation of this crate.'
+          - ''
+          - '&fHow does the opening animation work?'
+          - '&7This animation is composed of 3 phases, each'
+          - '&7phase being composed of different mini-animations'
+          - '&7and properties. In a simplified way, the phases'
+          - '&7represent the beginning, middle and end of an animation.'
+          - ''
+          - '&7Also if you are using an engine that supports'
+          - '&7model animations you can sync certain model'
+          - '&7animations with each level.'
+      open-cooldown:
+        title: '&aOpen Cooldown'
+        description:
+        - '&7Click here to change the amount'
+        - '&7of time a player will have to wait'
+        - '&7to open another crate.'
+      open-money-cost:
+        title: '&aOpen Money Cost'
+        description:
+        - '&7Click here to change the money'
+        - '&7necessary to open this crate.'
+        - '&7key and shifting right clicking.'
+        - ''
+        - '&e&nOnly works with Vault!'
+      simultaneous-openings:
+        title: '&aSimultaneous Openings'
+        description:
+        - '&7This option allows you to define'
+        - '&7whether one or more players can'
+        - '&7open this crate at the same time.'
+        - ''
+        - '&e&nQuick Open is disabled'
+        - '&e&nwithout simulatenous openings'
+      preview-reward:
+        title: '&aPreview Reward'
+        description:
+        - '&7By clicking here you will enable'
+        - '&7a preview reward above each crate.'
+      permission-required:
+        title: '&aPermission Requirement'
+        description:
+        - '&7By clicking here you will set'
+        - '&7the permission a player must have'
+        - '&7to open this crate.'
+      rewards:
+        title: '&aRewards'
+        description:
+        - '&7By clicking here you will be able to'
+        - '&7configure all the rewards that a player'
+        - '&7can earn by opening this crate.'
+        add:
+          title: '&aAdd Reward'
+          description:
+          - '&7By clicking here you can start'
+          - '&7setting up a new reward in this crate.'
+        edit:
+          title: '&aReward #%position%'
+          description: []
+        multiple-rewards:
+          title: '&aAdd Multiple Rewards'
+          description:
+          - '&7By clicking here you can'
+          - '&7add multiple rewards at once.'
+        reordering:
+          title: '&aReordering'
+          description:
+          - '&7By clicking here you can sort'
+          - '&7the rewards in the order you want.'
+        win-amount:
+          title: '&aMax Win Rewards'
+          description:
+          - '&7By clicking here you can define'
+          - '&7how much rewards a player will win at once.'
+          selected:
+            title: '&eSelected'
+      reward:
+        drag-item:
+          title: '&aDrag an item'
+          description:
+          - '&7Drag any item to set the reward.'
+          - ''
+          - '&6Drag & Drop: Replace item.'
+        filled-item:
+          title: '&7%name%'
+          description:
+          - '%lore%'
+          - ''
+          - '&6Drag & Drop: &eReplace item.'
+        identifier:
+          title: '&aChange Identifier'
+          description:
+          - '&7By clicking here you will be able'
+          - '&7to rename your reward idenfier.'
+          - '&eThis identifier need to be unique.'
+        display-item:
+          title: '&aDisplay Item'
+          description:
+          - '&7This item will serve as the display'
+          - '&7representing the reward for this crate.'
+          name:
+            title: '&aDisplay Name'
+            description:
+            - '&7The name that will be used'
+            - '&7to represent this Reward'
+          lore:
+            title: '&aDisplay Lore'
+            description:
+            - '&7The lore that will be used'
+            - '&7to represent this Reward'
+        alternative-item:
+          title: '&aAlternative Item'
+          description:
+          - '&7This item will be the extra item the user'
+          - '&7will receive if the conditions meet.'
+        win-items:
+          title: '&aWin Items'
+          description:
+          - '&7By clicking here you will be able'
+          - '&7to add items that the player will'
+          - '&7receive when winning this reward.'
+          add-item:
+            title: '&aAdd Item'
+            description:
+            - '&7Drag an item from your inventory'
+            - '&7here to add it as an item for this reward.'
+        percentage:
+          title: '&aPercentage'
+          description:
+          - '&7The percentage will contribute to a'
+          - '&7player''s chance of winning this item.'
+        virtual:
+          title: '&aVirtual Item'
+          description:
+          - '&7This option sets if the winner.'
+          - '&7should receive this physical item.'
+        win-commands:
+          title: '&aWin Commands'
+          description:
+          - '&7By clicking here you can manage'
+          - '&7all the commands that will be executed'
+          - '&7when a player wins this reward.'
+        broadcast:
+          title: '&aBroadcast Message'
+          description:
+          - '&7This options set if a broadcast message'
+          - '&7should appear when a player wins this reward.'
+        win-limit:
+          title: '&aWin Limit'
+          description:
+          - '&7This option sets how many times'
+          - '&7a player can win this reward.'
+          - ''
+          - '&e&lTIP: &7You can combine this'
+          - '       &7with an alternative reward.'
+        restricted-permissions:
+          title: '&aRestricted Permissions'
+          description:
+          - '&7This option defines sets the'
+          - '&7restricted permissions the player'
+          - '&7cannot have to win this reward.'
+          - '&eThis will not apply if the player has op.'
+          - ''
+          - '&e&lTIP: &7You can combine this'
+          - '       &7with an alternative reward.'
+        alternative-reward:
+          title: '&aAlternative Reward'
+          description:
+          - '&7By clicking here you will be'
+          - '&7able to configure the alternative'
+          - '&7reward of this reward.'
+          - ''
+          - '&7If is active when a player exceeds'
+          - '&7win limits or have blacklist permissions'
+          - '&7he will receive this reward instead.'
+        delete:
+          title: '&aDelete Reward'
+          description:
+          - '&7By clicking here this reward'
+          - '&7will be deleted from this crate.'
+          - ''
+          - '&6Left-Click: &eDelete reward.'
+      key:
+        title: '&aKey'
+        description:
+        - '&7By clicking here you will be able'
+        - '&7to configure the key of this crate.'
+        enabled:
+          title: '&aKey to open'
+          description:
+          - '&7When a key is disabled'
+          - '&7you will not need a key to'
+          - '&7open any crate of this type.'
+          - ''
+          - '&fIs Enabled: %state%'
+          - ''
+          - '&6Left-Click: &eToggle state.'
+        item:
+          title: '&aKey Item'
+          description:
+          - '&7A custom key item that can'
+          - '&7be used to open a crate.'
+          - ''
+          - '&fName: &f&o%item_name%'
+          - ''
+          - '&fLore:'
+          - '&8- &5&o%item_lore%'
+          - ''
+          - '&fPlaceholders: &e%crate%'
+          - ''
+          - '&6Drag & Drop: &eReplace item'
+          - '&6Left-Click: &eChange display name'
+          - '&6Right-Click: &eAdd lore line'
+          - '&6Shift + Right-Click: &eClear lore'
+      preview-menu:
+        title: '&aPreview Menu'
+        description:
+        - '&7By clicking here you will be able to configure'
+        - '&7what preview menu this crate will have.'
+      enabled:
+        title: '&aEnabled'
+        description:
+        - '&7By clicking here you will be able'
+        - '&7to change if this crate is available.'
+      attach-block:
+        title: '&aAttach Block'
+        description:
+        - '&7By clicking here you will be'
+        - '&7to create a crate by attaching a block.'
+      delete:
+        title: '&aDelete Crate'
+        description:
+        - '&7By clicking here this crate'
+        - '&7will be deleted from the server.'
+        - ''
+        - '&e&nAll keys in this crates will no longer be valid.'
+    crate-engine:
+      model-engine:
+        model-name:
+          title: '&aModel Name'
+          description:
+          - '&7By clicking here you will be able'
+          - '&7to change the model name of this crate.'
+          - ''
+          - '&fCurrent Name: &7%name%'
+          - ''
+          - '&6Left-Click: &eEdit name.'
+      vanilla-model:
+        material-select:
+          title: '&a%name%'
+          description:
+          - ''
+          - '&6Left-Click: &eSelect material.'
+        custom-model-data:
+          title: '&aCustom Model Data'
+          description:
+          - '&7By clicking here you will be able'
+          - '&7to change the custom model data of this item.'
+          - ''
+          - '&fCustom Model Data: &7%custom_model_data%'
+          - ''
+          - '&6Left-Click: &eChange Custom Model Data.'
+    reward-commands:
+      add:
+        title: '&aAdd Command'
+        description:
+        - '&7By clicking here you will be able to add'
+        - '&7a command that will be executed when'
+        - '&7a player wins this reward.'
+        - ''
+        - '&7Commands that starts with &a* &7are executed by'
+        - '&7players . Otherwise, they are executed by console.'
+        - ''
+        - '&7You can also use the placeholder &a%player%'
+        - '&7and placeholders from &aPlaceholderAPI&7.'
+        - ''
+        - '&6Left-Click: &eAdd command.'
+      command:
+        title: '&aCommand #%id%'
+        description:
+        - '&fCommand: &7%command%'
+        - ''
+        - '&6Left-Click: &eRemove command.'
+    alternative-reward:
+      enabled:
+        title: '&aState'
+        description:
+        - '&7When an alternative reward is active,'
+        - '&7if the player exceeds win limits or'
+        - '&7have blacklist permissions he will'
+        - '&7receive this reward.'
+    edit-standby-animation:
+      add-effect:
+        title: '&aAdd Effect'
+        description:
+        - '&7By clicking here you will be able to'
+        - '&7add a new effect to the idle animation.'
+        - ''
+        - '&6Left-Click &eAdd effect.'
+      edit-effect:
+        title: '&eEffect #%id%'
+        description:
+        - ''
+        - '&fEffect Type: &7%effect_type%'
+        - '&fParticle Type: &7%particle_type%'
+        - '&fParticle Velocity: &7%particle_velocity%'
+        - '&fColor: &7%color%'
+        - '&fOffset: &7%offset%'
+        - '&fSpread: &7%spread%'
+        - '&fAmount: &7%amount%'
+        - ''
+        - '&6Left-Click &eEdit effect.'
+        - '&6Shift + Left-Click: &eRemove effect.'
+    edit-standby-effect:
+      effect-type:
+        title: '&aEffect Type&8: &e%effect_type%'
+        description:
+        - ''
+        - '%effects%'
+        - ''
+        - '&6Left/Right-Click: &eSwitch type.'
+      particle-type:
+        title: '&aParticle Type'
+        description:
+        - '&fCurrent: &7%particle_type%'
+        - ''
+        - '&6Left-Click: &eChange particle.'
+      particle-select:
+        title: '&a%name%'
+        description:
+        - '&fProperties: &a%properties%'
+        - ''
+        - '&6Left-Click: &eSelect particle.'
+      color:
+        title: '&aColor'
+        description:
+        - '&fCurrent: &7%color%'
+        - ''
+        - '&e&nOnly works with colorable particles.'
+        - ''
+        - '&6Left-Click: &eChange color.'
+      color-select:
+        title: '&a%name%'
+        description:
+        - ''
+        - '&6Left-Click: &eSelect color.'
+      spread:
+        title: '&aSpread'
+        description:
+        - '&fCurrent: &7%spread%'
+        - ''
+        - '&6Left-Click: &eAdd 0.1.'
+        - '&6Shift + Left-Click: &eAdd 1.'
+        - '&6Right-Click: &eRemove 0.1.'
+        - '&6Shift + Right-Click: &eRemove 1.'
+      particle-velocity:
+        title: '&aParticle Velocity'
+        description:
+        - '&fCurrent: &7%particle_velocity%'
+        - ''
+        - '&6Left-Click: &eAdd 0.1.'
+        - '&6Shift + Left-Click: &eAdd 1.'
+        - '&6Right-Click: &eRemove 0.1.'
+        - '&6Shift + Right-Click: &eRemove 1.'
+      amount:
+        title: '&aAmount'
+        description:
+        - '&fCurrent: &7%amount%'
+        - ''
+        - '&6Left-Click: &eAdd 1.'
+        - '&6Right-Click: &eRemove 1.'
+      offset-x:
+        title: '&aOffset X'
+        description:
+        - '&fCurrent: &7%offset_x%'
+        - ''
+        - '&6Left-Click: &eAdd 0.1.'
+        - '&6Shift + Left-Click: &eAdd 1.'
+        - '&6Right-Click: &eRemove 0.1.'
+        - '&6Shift + Right-Click: &eRemove 1.'
+      offset-y:
+        title: '&aOffset Y'
+        description:
+        - '&fCurrent: &7%offset_y%'
+        - ''
+        - '&6Left-Click: &eAdd 0.1.'
+        - '&6Shift + Left-Click: &eAdd 1.'
+        - '&6Right-Click: &eRemove 0.1.'
+        - '&6Shift + Right-Click: &eRemove 1.'
+      offset-z:
+        title: '&aOffset Z'
+        description:
+        - '&fCurrent: &7%offset_z%'
+        - ''
+        - '&6Left-Click: &eAdd 0.1.'
+        - '&6Shift + Left-Click: &eAdd 1.'
+        - '&6Right-Click: &eRemove 0.1.'
+        - '&6Shift + Right-Click: &eRemove 1.'
+    opening-animation:
+      phase:
+        title: '&a%phase% Phase'
+        description:
+        - '&7Each opening animation is made up'
+        - '&7of phases, this is one of the phases.'
+        - ''
+        - '&fPhase: &e%name%'
+      change-phases:
+        title: '&aAnimation Phases'
+        description:
+        - '&7Choose animations for the'
+        - '&7opening animation stages.'
+        - ''
+        - '&6Left-Click: &eChange animation.'
+    edit-opening-animation:
+      phase-navbar:
+        title: '&a%phase% Phase'
+        description:
+        - '&7Each opening animation is made up'
+        - '&7of phases, this is one of the phases.'
+        - ''
+        - '&fPhase: &e%name%'
+        - ''
+        - '&6Left-Click: &eNavigate'
+      select-phase:
+        title: '&a%name%'
+        description:
+        - '&fRequired Version: &7%required_version%'
+        - '&fBlock Supported: &7%block_supported%'
+        - ''
+        - '&6Left-Click: &eCreate phase.'
+        - '&6Shift + Left-Click: &eCreate phase quick.'

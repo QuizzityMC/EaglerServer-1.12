@@ -1,0 +1,8 @@
+kill_rewards:
+  player_kill_commands:
+    - "say %player% has eliminated %victim%!"
+    - "crate givekey killcrate %player% 1"  # Only giving the key now
+    
+messages:
+  version-message: "&aThe version of %plugin% is %version%"
+  no-permission-message: "&cYou do not have permission to execute this command."

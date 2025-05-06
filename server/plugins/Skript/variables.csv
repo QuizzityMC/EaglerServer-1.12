@@ -1,0 +1,10 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.5.3
+
+last_location.<player>, classinfo, 8108636F64654E616D652080086C6F636174696F6E
+last_location.flamefrags, location, 8605776F726C6480FF0000000181046E616D65208005776F726C6401780900000000000000000179094050000000000000017A09000000000000000005706974636808BF6666660379617708BF866666
+logged_in.flamefrags, boolean, 01
+passwords::flamefrags, string, 8007616C6932303132
+

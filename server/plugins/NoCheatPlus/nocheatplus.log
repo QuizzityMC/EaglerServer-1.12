@@ -1,0 +1,681 @@
+25-05-05 14:30:41 [INFO] Logger started.
+25-05-05 14:30:41 [INFO] Logging system initialized.
+25-05-05 14:30:41 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 14:30:50 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 14:30:50 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 14:30:50 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 14:30:50 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 14:30:50 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 14:30:50 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 14:30:50 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 14:30:50 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 14:30:50 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 14:30:50 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 14:30:50 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 14:30:50 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 14:30:50 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 14:30:57 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 14:30:57 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 14:30:57 [INFO] Post-enable running...
+25-05-05 14:30:58 [INFO] Post-enable finished.
+25-05-05 14:30:58 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 14:34:17 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 14:34:17 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 7 (7/0) | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 357 (357/0) |
+25-05-05 14:34:17 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-05 14:34:24 [INFO] Logger started.
+25-05-05 14:34:24 [INFO] Logging system initialized.
+25-05-05 14:34:24 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 14:34:32 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 14:34:32 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 14:34:32 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 14:34:32 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 14:34:32 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 14:34:32 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 14:34:32 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 14:34:32 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 14:34:32 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 14:34:32 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 14:34:32 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 14:34:32 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 14:34:32 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 14:34:38 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 14:34:38 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 14:34:38 [INFO] Post-enable running...
+25-05-05 14:34:40 [INFO] Post-enable finished.
+25-05-05 14:34:40 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 14:37:53 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 14:37:53 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 0 |
+25-05-05 14:37:53 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-05 14:38:01 [INFO] Logger started.
+25-05-05 14:38:01 [INFO] Logging system initialized.
+25-05-05 14:38:01 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 14:38:06 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 14:38:06 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 14:38:06 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 14:38:06 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 14:38:06 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 14:38:06 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 14:38:06 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 14:38:06 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 14:38:06 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 14:38:06 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 14:38:06 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 14:38:06 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 14:38:06 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 14:38:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 14:38:13 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 14:38:13 [INFO] Post-enable running...
+25-05-05 14:38:14 [INFO] Post-enable finished.
+25-05-05 14:38:15 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 14:39:11 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 14:39:11 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 266 (266/0) |
+25-05-05 14:39:11 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-05 14:39:22 [INFO] Logger started.
+25-05-05 14:39:22 [INFO] Logging system initialized.
+25-05-05 14:39:22 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 14:39:30 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 14:39:30 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 14:39:30 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 14:39:30 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 14:39:30 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 14:39:30 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 14:39:30 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 14:39:30 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 14:39:30 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 14:39:30 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 14:39:30 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 14:39:30 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 14:39:30 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 14:39:41 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 14:39:41 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 14:39:41 [INFO] Post-enable running...
+25-05-05 14:39:42 [INFO] Post-enable finished.
+25-05-05 14:39:42 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 14:44:34 [INFO] Logger started.
+25-05-05 14:44:34 [INFO] Logging system initialized.
+25-05-05 14:44:34 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 14:44:50 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 14:44:50 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 14:44:50 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 14:44:50 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 14:44:50 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 14:44:50 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 14:44:50 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 14:44:50 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 14:44:50 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 14:44:50 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 14:44:50 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 14:44:50 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 14:44:50 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 14:45:01 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 14:45:01 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 14:45:01 [INFO] Post-enable running...
+25-05-05 14:45:02 [INFO] Post-enable finished.
+25-05-05 14:45:02 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 14:48:56 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 14:48:56 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 14 (14/0) | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 787 (787/0) |
+25-05-05 14:48:56 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-05 14:49:05 [INFO] Logger started.
+25-05-05 14:49:05 [INFO] Logging system initialized.
+25-05-05 14:49:05 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 14:49:12 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 14:49:12 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 14:49:12 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 14:49:12 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 14:49:12 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 14:49:12 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 14:49:12 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 14:49:12 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 14:49:12 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 14:49:12 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 14:49:12 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 14:49:12 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 14:49:12 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 14:49:19 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 14:49:19 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 14:49:19 [INFO] Post-enable running...
+25-05-05 14:49:20 [INFO] Post-enable finished.
+25-05-05 14:49:20 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 14:56:51 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 14:56:51 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 138 (138/0) | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 4556 (4556/0) |
+25-05-05 14:56:51 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-05 14:56:59 [INFO] Logger started.
+25-05-05 14:56:59 [INFO] Logging system initialized.
+25-05-05 14:56:59 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 14:57:05 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 14:57:05 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 14:57:05 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 14:57:05 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 14:57:05 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 14:57:05 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 14:57:05 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 14:57:05 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 14:57:05 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 14:57:05 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 14:57:05 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 14:57:05 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 14:57:05 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 14:57:13 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 14:57:13 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 14:57:13 [INFO] Post-enable running...
+25-05-05 14:57:14 [INFO] Post-enable finished.
+25-05-05 14:57:14 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 14:58:02 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 14:58:02 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 0 |
+25-05-05 14:58:02 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-05 14:58:09 [INFO] Logger started.
+25-05-05 14:58:09 [INFO] Logging system initialized.
+25-05-05 14:58:09 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 14:58:16 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 14:58:16 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 14:58:16 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 14:58:16 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 14:58:16 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 14:58:16 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 14:58:16 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 14:58:16 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 14:58:16 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 14:58:16 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 14:58:16 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 14:58:16 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 14:58:16 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 14:58:23 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 14:58:23 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 14:58:23 [INFO] Post-enable running...
+25-05-05 14:58:24 [INFO] Post-enable finished.
+25-05-05 14:58:25 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 14:58:48 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 14:58:48 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 0 |
+25-05-05 14:58:48 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-05 14:58:55 [INFO] Logger started.
+25-05-05 14:58:55 [INFO] Logging system initialized.
+25-05-05 14:58:55 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 14:59:00 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 14:59:00 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 14:59:00 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 14:59:00 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 14:59:00 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 14:59:00 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 14:59:00 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 14:59:00 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 14:59:00 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 14:59:00 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 14:59:00 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 14:59:00 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 14:59:00 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 14:59:08 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 14:59:08 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 14:59:08 [INFO] Post-enable running...
+25-05-05 14:59:09 [INFO] Post-enable finished.
+25-05-05 14:59:09 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 14:59:13 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 14:59:13 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 0 |
+25-05-05 14:59:13 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-05 14:59:20 [INFO] Logger started.
+25-05-05 14:59:20 [INFO] Logging system initialized.
+25-05-05 14:59:20 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 14:59:28 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 14:59:28 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 14:59:28 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 14:59:28 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 14:59:28 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 14:59:28 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 14:59:28 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 14:59:28 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 14:59:28 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 14:59:28 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 14:59:28 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 14:59:28 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 14:59:28 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 14:59:35 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 14:59:35 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 14:59:35 [INFO] Post-enable running...
+25-05-05 14:59:36 [INFO] Post-enable finished.
+25-05-05 14:59:36 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 15:15:04 [INFO] Logger started.
+25-05-05 15:15:04 [INFO] Logging system initialized.
+25-05-05 15:15:04 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 15:15:20 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 15:15:20 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 15:15:20 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 15:15:20 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 15:15:20 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 15:15:20 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 15:15:20 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 15:15:20 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 15:15:20 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 15:15:20 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 15:15:20 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 15:15:20 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 15:15:20 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 15:15:31 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 15:15:31 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 15:15:31 [INFO] Post-enable running...
+25-05-05 15:15:32 [INFO] Post-enable finished.
+25-05-05 15:15:33 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 15:20:07 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 15:20:07 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 73 (73/0) |
+25-05-05 15:20:07 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-05 15:20:13 [INFO] Logger started.
+25-05-05 15:20:13 [INFO] Logging system initialized.
+25-05-05 15:20:13 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 15:20:18 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 15:20:18 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 15:20:18 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 15:20:18 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 15:20:18 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 15:20:18 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 15:20:18 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 15:20:18 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 15:20:18 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 15:20:18 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 15:20:18 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 15:20:18 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 15:20:18 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 15:20:25 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 15:20:25 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 15:20:25 [INFO] Post-enable running...
+25-05-05 15:20:25 [INFO] Post-enable finished.
+25-05-05 15:20:26 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 15:45:36 [INFO] Logger started.
+25-05-05 15:45:36 [INFO] Logging system initialized.
+25-05-05 15:45:36 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 15:45:49 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 15:45:49 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 15:45:49 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 15:45:49 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 15:45:49 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 15:45:49 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 15:45:49 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 15:45:49 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 15:45:49 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 15:45:50 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 15:45:50 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 15:45:50 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 15:45:50 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 15:46:02 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 15:46:02 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 15:46:02 [INFO] Post-enable running...
+25-05-05 15:46:04 [INFO] Post-enable finished.
+25-05-05 15:46:06 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 15:53:58 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 15:53:58 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 12 (12/0) | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 290 (290/0) |
+25-05-05 15:53:58 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-05 15:54:04 [INFO] Logger started.
+25-05-05 15:54:05 [INFO] Logging system initialized.
+25-05-05 15:54:05 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 15:54:09 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 15:54:09 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 15:54:09 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 15:54:09 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 15:54:09 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 15:54:09 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 15:54:09 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 15:54:09 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 15:54:09 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 15:54:09 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 15:54:09 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 15:54:09 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 15:54:09 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 15:54:16 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 15:54:16 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 15:54:16 [INFO] Post-enable running...
+25-05-05 15:54:16 [INFO] Post-enable finished.
+25-05-05 15:54:17 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 16:06:12 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 16:06:12 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 153 (153/0) | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 4113 (4113/0) |
+25-05-05 16:06:12 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-05 16:09:11 [INFO] Logger started.
+25-05-05 16:09:11 [INFO] Logging system initialized.
+25-05-05 16:09:11 [INFO] Detected Minecraft version: 1.12.2
+25-05-05 16:09:15 [INFO] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+25-05-05 16:09:15 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-05 16:09:15 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-05 16:09:15 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-05 16:09:15 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-05 16:09:15 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-05 16:09:15 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-05 16:09:15 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-05 16:09:15 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-05 16:09:15 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-05 16:09:15 [INFO] Packet level access: ProtocolLib is not available.
+25-05-05 16:09:15 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-05 16:09:15 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbdev.MCAccessCBDev
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbdev.BlockCacheCBDev
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.cbdev.AttributeAccess
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbdev.EntityAccessLastPositionAndLook
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-05 16:09:22 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-05 16:09:22 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-05 16:09:22 [INFO] Post-enable running...
+25-05-05 16:09:23 [INFO] Post-enable finished.
+25-05-05 16:09:23 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-1620 ~MC: 1.12.2~
+  detected: 1.12.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.12-1.12.2 / Spigot-CB-1.12_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+25-05-05 16:10:48 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-05 16:10:48 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 102 (102/0) |
+25-05-05 16:10:48 [INFO] [GenericInstanceRegistry] Registry cleared.
