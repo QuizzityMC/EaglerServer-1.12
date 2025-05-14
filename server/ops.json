@@ -1,7 +1,19 @@
 [
   {
+    "uuid": "28e64808-f11c-33e4-8df1-47397a20c7df",
+    "name": "Ex3mo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "febdbb10-b91d-3d00-9817-1ff489b34cde",
     "name": "Neonic",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "686fc372-0a8a-3cf5-87b7-5e2b44ba9a79",
+    "name": "The_Collector",
     "level": 4,
     "bypassesPlayerLimit": false
   }
