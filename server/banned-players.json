@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "uuid": "cfabd847-26dd-3917-bf97-0887d907dde9",
+    "name": "gaymer#",
+    "created": "2025-05-13 11:43:06 +0000",
+    "source": "Ex3mo",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "6c7d0137-e273-33b4-8ad5-fbc80dec95ff",
+    "name": "gaymer",
+    "created": "2025-05-13 11:43:08 +0000",
+    "source": "Ex3mo",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
