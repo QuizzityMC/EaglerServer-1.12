@@ -1,0 +1,639 @@
+# == LevelHearts Language Configuration ==
+#
+# In this file, you can change the text LevelHearts outputs.
+# To change the current language, edit the chat language option in config.yml.
+# 
+# You can add a color marker with &(colorName) and use dynamic values with %(value).
+# For a full color and value list go to the LevelHearts website.
+# To add your own languages, just copy an existing one and rename the language to something else.
+# Reload the plugin and you will be able to use your custom language configuration.
+# 
+# Thanks to everyone that contributed to this file by providing their own translation.
+# Please note that I cannot assume liability for the accuracy and completeness of the translations.
+# A list of contributors can be found at http://levelhearts.zettelnet.com/pages/contributors/
+
+config:
+  version: 1.4.8
+  autoUpdate: true
+
+enUS:
+  command:
+    error:
+      syntax: "&(red)Syntax: &(yellow)%(syntax)"
+      invalidArgument: "&(red)Argument \"%(arg)\" invalid"
+      invalidArgumentType: "&(red)Argument %(argType) \"%(arg)\" invalid"
+      missingArgument: "&(red)Missing argument %(argType)"
+      notPlayer: "&(red)The player %(player) is currently not online"
+      notNumber: "&(red)%(number) is not a valid number"
+      notPositiveNumber: "&(red)%(number) is not a positive number"
+      noPermission: "&(red)You don't have permission to do this"
+      disabled: "&(red)This command is disabled"
+    argument:
+      amount: "amount"
+      player: "player"
+      health: "health amount"
+      maxHealth: "maximum health amount"
+    help:
+      command: "&(yellow)/%(syntax)&(gray) - &(white)%(description)"
+    info:
+      self:
+        get: "&(prefix)&(gold)You have %(health)&(gold) of %(maxHealth)&(gold) health!"
+        increase: "&(yellow)Your maximum health will increase on level &(gold)%(maxHealthIncreaseLevel)&(yellow)!"
+        noIncrease: "&(yellow)You can no longer increase your maximum health."
+      other:
+        get: "&(prefix)&(gold)%(player) has %(health)&(gold) of %(maxHealth)&(gold) health!"
+        increase: "&(yellow)His maximum health will increase on level &(gold)%(maxHealthIncreaseLevel)&(yellow)!"
+        noIncrease: "&(yellow)He can no longer increase his maximum health."
+    health:
+      set: "&(yellow)You have changed %(player)'s health to %(health)&(yellow)."
+      give: "&(yellow)You have given %(player) %(healthChange)&(yellow) health.&(br)%(status)"
+      take: "&(yellow)You have taken %(healthChange) health from %(player).&(br)%(status)"
+      restore: "&(yellow)You have restored %(player)'s health.&(br)%(status)"
+    maxHealth:
+      set: "&(yellow)You have changed %(player)'s maximum health to %(maxHealth)&(yellow)."
+      give: "&(yellow)You have given %(player) %(maxHealthChange)&(yellow) maximum health.&(br)%(status)"
+      take: "&(yellow)You have taken %(maxHealthChange)&(yellow) maximum health from %(player).&(br)%(status)"
+      reset: "&(yellow)You have reset %(player)'s maximum health.&(br)%(status)"
+  health:
+    display: "&(red)%(health) &(heart)"
+    status: "&(white) - &(yellow)Current health: %(health)&(yellow)."
+    change:
+      command:
+        set: "&(prefix)&(yellow)Your health has been set to %(health)&(yellow)."
+        give: "&(prefix)&(yellow)Your health has been increased by %(healthChange)&(yellow)."
+        take: "&(prefix)&(yellow)Your health has been decreased by %(healthChange)&(yellow)."
+        restore: "&(prefix)&(yellow)Your health has been restored."
+    help:
+      general: "Health specific commands"
+      get: "Display the health of a player"
+      set: "Change the health of a player"
+      give: "Give health to a player"
+      take: "Take health from a player"
+      restore: "Restore the health of a player"
+  maxHealth:
+    display: "&(red)%(maxHealth) &(heart)"
+    status: "&(white) - &(yellow)Current maximum health: %(maxHealth)&(yellow)."
+    change:
+      levelUp: "&(prefix)&(gold)You leveled up and your maximum health has increased!"
+      death: "&(prefix)&(yellow)Your maximum health has been reset because you died."
+      login: "&(prefix)&(yellow)Your maximum health has been reset because you left the server."
+      command:
+        set: "&(prefix)&(yellow)Your maximum health has been set to %(maxHealth)&(yellow)."
+        give: "&(prefix)&(yellow)Your maximum health has been increased by %(maxHealthChange)&(yellow)."
+        take: "&(prefix)&(yellow)Your maximum health has been decreased by %(maxHealthChange)&(yellow)."
+        reset: "&(prefix)&(yellow)Your maximum health has been reset."
+    help:
+      general: "Maximum health specific commands"
+      get: "Display the maximum health of a player"
+      set: "Change the maximum health of a player"
+      give: "Give maximum health to a player"
+      take: "Take maximum health from a player"
+      reset: "Resets the maximum health of a player"
+  plugin:
+    prefix: "&(gray)[&(darkRed)LevelHearts&(gray)] "
+    info: "&(prefix)&(yellow)This server is running &(red)LevelHearts&(yellow) v%(version) by %(creator)!"
+    website: "&(yellow)Website: &(gray)%(website)"
+    reload: "&(prefix)&(white)Reloaded configurations &(...)"
+    updateAvailable: "&(prefix)&(yellow)An update is available &(white)(%(updateName) for %(updateGameVersion))&(yellow)!&(br)&(white)Download it at &(gray)%(updateLink)&(white)."
+    help:
+      reload: "Reloads the plugin"
+enUK:
+  maxHealth:
+    change:
+      levelUp: "&(prefix)&(gold)You levelled up and your maximum health has increased!"
+deDE:
+  command:
+    error:
+      syntax: "&(red)Syntax: &(yellow)%(syntax)"
+      invalidArgument: "&(red)Parameter \"%(arg)\" ungültig"
+      invalidArgumentType: "&(red)Parameter %(argType) \"%(arg)\" ungültig"
+      missingArgument: "&(red)Parameter %(argType) fehlt"
+      notPlayer: "&(red)Der Spieler %(player) konnte nicht gefunden werden"
+      notNumber: "&(red)%(number) ist keine gültige Zahl"
+      notPositiveNumber: "&(red)%(number) ist keine positive Zahl"
+      noPermission: "&(red)Du darfst das nicht tun"
+      disabled: "&(red)Dieser Befehl ist gesperrt"
+    argument:
+      amount: "Betrag"
+      player: "Spieler"
+      health: "Lebens-Betrag"
+      maxHealth: "maximaler Lebens-Betrag"
+    help:
+      command: "&(yellow)/%(syntax)&(gray) - &(white)%(description)"
+    info:
+      self:
+        get: "&(prefix)&(gold)Du hast %(health)&(gold) von %(maxHealth)&(gold) Leben!"
+        increase: "&(yellow)Dein maximales Leben wird sich auf Stufe &(gold)%(maxHealthIncreaseLevel)&(yellow) verbessern!"
+        noIncrease: "&(yellow)Dein maximales Leben ist auf höchster Stufe."
+      other:
+        get: "&(prefix)&(gold)%(player) hat %(health)&(gold) von %(maxHealth)&(gold) Leben!"
+        increase: "&(yellow)Sein maximales Leben wird sich auf Stufe &(gold)%(maxHealthIncreaseLevel)&(yellow) verbessern!"
+        noIncrease: "&(yellow)Sein maximales Leben ist auf voller Stufe."
+    health:
+      set: "&(yellow)Du hast %(player)s Leben auf %(health)&(yellow) gesetzt."
+      give: "&(yellow)Du hast %(player) um %(healthChange)&(yellow) geheilt.&(br)%(status)"
+      take: "&(yellow)Du hast %(player) %(healthChange) Schaden hinzugefügt.&(br)%(status)"
+      restore: "&(yellow)Du hast %(player)s vollständig geheilt.&(br)%(status)"
+    maxHealth:
+      set: "&(yellow)Du hast %(player)s maximales Leben auf %(maxHealth)&(yellow) gesetzt."
+      give: "&(yellow)Du hast %(player)s maximales Leben um %(maxHealthChange)&(yellow) erhöht.&(br)%(status)"
+      take: "&(yellow)Du hast %(player)s maximales Leben um %(maxHealthChange)&(yellow) verringert.&(br)%(status)"
+      reset: "&(yellow)Du hast %(player)s maximales Leben zurückgesetzt.&(br)%(status)"
+  health:
+    display: "&(red)%(health) &(heart)"
+    status: "&(white) - &(yellow)Neues Leben: %(health)&(yellow)."
+    change:
+      command:
+        set: "&(prefix)&(gold)Dein Leben änderte sich von %(oldHealth)&(gold) auf %(health)&(gold)!"
+        give: "&(prefix)&(yellow)Du wurdest um %(healthChange)&(yellow) geheilt."
+        take: "&(prefix)&(yellow)Du hast %(healthChange)&(yellow) Schaden bekommen."
+        restore: "&(prefix)&(yellow)Dein gesamtes Leben wurde geheilt."
+    help:
+      general: "Zeigt Leben eines Spielers an bzw. ändert es"
+      get: "Zeige das Leben eines Spielers an"
+      set: "Ändere das Leben eines Spielers"
+      give: "Gebe einem Spieler Leben"
+      take: "Nimm Leben von einem Spieler"
+      restore: "Vervollständige das Leben eines Spielers"
+  maxHealth:
+    display: "&(red)%(maxHealth) &(heart)"
+    status: "&(white) - &(yellow)Neues maximales Leben: %(maxHealth)&(yellow)."
+    change:
+      levelUp: "&(prefix)&(gold)Dein maximales Leben wurde erhöht, da du eine Stufe aufgestiegen bist!"
+      death: "&(prefix)&(gold)Dein maximales Leben wurde zurückgesetzt, da du gestorben bist."
+      login: "&(prefix)&(gold)Dein maximales Leben wurde zurückgesetzt, da du den Server verlassen hast."
+      command:
+        set: "&(prefix)&(gold)Dein maximales Leben änderte sich von %(oldMaxHealth)&(gold) auf %(maxHealth)&(gold)!"
+        give: "&(prefix)&(yellow)Dein maximales Leben wurde um %(maxHealthChange)&(yellow) verbessert."
+        take: "&(prefix)&(yellow)Dein maximales Leben wurde um %(maxHealthChange)&(yellow) verringert."
+        reset: "&(prefix)&(yellow)Dein maximales Leben wurde zurückgesetzt."
+    help:
+      general: "Zeigt maximales Leben eines Spielers an bzw. ändert es"
+      get: "Zeige das maximale Leben eines Spielers an"
+      set: "Ändere das maximale Leben eines Spielers"
+      give: "Gebe einem Spieler maximales Leben"
+      take: "Nehme maximales Leben von einem Spieler"
+      reset: "Setzte das maximale Leben eines Spielers zurück"
+  plugin:
+    prefix: "&(gray)[&(darkRed)LevelHearts&(gray)] "
+    info: "&(prefix)&(yellow)Dieser Server verwendet &(red)LevelHearts&(yellow) v%(version) von %(creator)!"
+    website: "&(yellow)Webseite: &(gray)%(website)"
+    reload: "&(prefix)&(white)Plugin neugeladen ..."
+    updateAvailable: "&(prefix)&(yellow)Update verfügbar: &(white)(%(updateName) für %(updateGameVersion))&(yellow)!&(br)&(white)Lade es hier herunter: &(gray)%(updateLink)&(white)."
+    help:
+      reload: "Läd LevelHearts neu"
+ruRU:
+  command:
+    error:
+      syntax: "&(red)Синтаксис: &(yellow)%(syntax)"
+      invalidArgument: "&(red)Аргумент \"%(arg)\" неверный"
+      invalidArgumentType: "&(red)Тип аргумента \"%(arg)\" неверный"
+      missingArgument: "&(red)Недостающий аргумент %(argType)"
+      notPlayer: "&(red)Игрок %(player) не в сети"
+      notNumber: "&(red)%(number) не является  допустимым числом"
+      notPositiveNumber: "не положительное число"
+      noPermission: "&(red)У тебя не достаточно прав"
+      disabled: "&(red)Эта команда отключена"
+    argument:
+      amount: "сумма"
+      player: "игрок"
+      health: "количество здоровья"
+      maxHealth: "максимальное количество здоровья"
+    help:
+      command: "&(yellow)/%(syntax)&(gray) - &(white)%(description)"
+    info:
+      self:
+        get: "&(prefix)&(gold)У тебя %(health)&(gold) из %(maxHealth)&(gold) здоровья!"
+        increase: "&(yellow)Ваше максимальное здоровье увеличится на уровне &(gold)%(maxHealthIncreaseLevel)&(yellow)!"
+        noIncrease: "&(yellow)Ты больше не можешь увеличить максимальное здоровье."
+      other:
+        get: "&(prefix)&(gold)%(player) имеет %(health)&(gold) из %(maxHealth)&(gold) здоровья!"
+        increase: "&(yellow)Его максимальное здоровье увеличится на уровень &(gold)%(maxHealthIncreaseLevel)&(yellow)!"
+        noIncrease: "&(yellow)Он больше не может увеличить свое максимальное здоровье."
+  health:
+    display: "&(red)%(health) &(heart)"
+    change:
+      command:
+        set: "&(prefix)&(gold)Твое здоровье изменилось с %(oldHealth)&(gold) на %(health)&(gold)!"
+    help:
+      get: "Отображение здоровья игрока."
+      set: "Изменение здоровья игрока."
+      give: "Дать здоровье игроку"
+      take: "Взять здоровье у игрока"
+      restore: "Восстановление здоровья игрока"
+  maxHealth:
+    display: "&(red)%(maxHealth) &(heart)"
+    change:
+      levelUp: "&(prefix)&(gold) Твой уровень повысился и максимальное здоровье увеличилось."
+      death: "&(prefix)&(gold)Твое максимальное здоровье удалено, потому что умер."
+      login: "&(prefix)&(gold)максимальное здоровье удалено, потому что покинул сервер."
+      command:
+        set: "&(prefix)&(gold)Твоя максимальная жизнь изменилась с %(oldMaxHealth)&(gold) на %(maxHealth)&(gold)!"
+    help:
+      get: "Отображение максимума здоровья игрока."
+      set: "Изменения максимума здоровья игрока."
+      give: "Дать максимум здоровья игроку"
+      take: "Взять максимум здоровья у игрока."
+      reset: "Сбросить максимум здоровья игрока."
+  plugin:
+    prefix: "&(gray)[&(darkRed)LevelHearts&(gray)] "
+    info: "&(prefix)&(yellow)Этот сервер запущен &(red)LevelHearts&(yellow) v%(version) от %(creator)!"
+    website: "&(yellow)Сайт: &(gray)%(website)"
+    reload: "&(prefix)&(white)Перезагрузка плагина ..."
+    help:
+      reload: "Перезагружает плагин"
+zhCN:
+  command:
+    error:
+      syntax: "&(red)正确的命令: &(yellow)%(syntax)"
+      invalidArgument: "&(red)Argument \"%(arg)\" invalid"
+      invalidArgumentType: "&(red)Argument %(argType) \"%(arg)\" invalid"
+      missingArgument: "&(red)Missing argument %(argType)"
+      notPlayer: "&(red)%(player) 不在线"
+      notNumber: "&(red)%(number) 不是一个有效的值"
+      notPositiveNumber: "&(red)%(number) 不是一个有效的值"
+      noPermission: "&(red)你没有使用此命令的权限"
+      disabled: "&(red)命令已卸载"
+    argument:
+      amount: "amount"
+      player: "player"
+      health: "health"
+      maxHealth: "maxHealth"
+    help:
+      command: "&(yellow)/%(syntax)&(gray) - &(white)%(description)"
+    info:
+      self:
+        get: "&(prefix)&(gold)你的生命值为： %(health)&(gold) / %(maxHealth)&(gold)"
+        increase: "&(yellow)你的最大生命值会在 Lv&(gold)%(maxHealthIncreaseLevel)&(yellow) 时增加!"
+        noIncrease: "&(yellow)你的生命值已经达到了最大值."
+      other:
+        get: "&(prefix)&(gold)%(player) 的生命值为： %(health)&(gold) / %(maxHealth)&(gold) "
+        increase: "&(yellow)他的最大生命值会在&(gold)%(maxHealthIncreaseLevel)&(yellow)级时增加!"
+        noIncrease: "&(yellow)他的生命值已经达到了最大值."
+    health:
+      set: "&(yellow)你更改 %(player) 的生命值为 %(health)&(yellow)."
+      give: "&(yellow)%(player) 生命值增长了 %(healthChange)&(yellow)&(br)%(status)"
+      take: "&(yellow)%(player) 生命值减少了 %(healthChange)&(br)%(status)"
+      restore: "&(yellow)%(player) 的生命值被初始化.&(br)%(status)"
+    maxHealth:
+      set: "&(yellow)你更改 %(player) 的最大生命值为 %(maxHealth)&(yellow)."
+      give: "&(yellow)%(player) 最大生命值增长了 %(maxHealthChange)&(yellow) &(br)%(status)"
+      take: "&(yellow)%(player) 最大生命值减少了 %(maxHealthChange)&(br)%(status)"
+      reset: "&(yellow)你初始化了 %(player)的最大生命值.&(br)%(status)"
+  health:
+    display: "&(red)%(health) &(heart)"
+    status: "&(white) - &(yellow)当前生命值: %(health)&(yellow)."
+    change:
+      command:
+        set: "&(prefix)&(yellow)你的生命值被更改为 %(health)&(yellow)."
+        give: "&(prefix)&(yellow)你的生命值增长了 %(healthChange)&(yellow)."
+        take: "&(prefix)&(yellow)你的生命值减少了 %(healthChange)&(yellow)."
+        restore: "&(prefix)&(yellow)你的生命值被初始化了."
+    help:
+      general: "生命值信息"
+      get: "显示玩家生命值信息"
+      set: "设置玩家生命值"
+      give: "增加玩家生命值"
+      take: "减少玩家生命值"
+      restore: "初始化玩家生命值"
+  maxHealth:
+    display: "&(red)%(maxHealth) &(heart)"
+    status: "&(white) - &(yellow)最大生命值为: %(maxHealth)&(yellow)."
+    change:
+      levelUp: "&(prefix)&(gold)等级提升！最大生命值增加!"
+      death: "&(prefix)&(yellow)由于你死亡了，最大生命值恢复至初始值."
+      login: "&(prefix)&(yellow)由于你离开服务器，最大生命值恢复至初始值."
+      command:
+        set: "&(prefix)&(yellow)你的最大生命值被更改为 %(maxHealth)&(yellow)."
+        give: "&(prefix)&(yellow)你的最大生命值增长了 %(maxHealthChange)&(yellow)."
+        take: "&(prefix)&(yellow)你的最大生命值减少了 %(maxHealthChange)&(yellow)."
+        reset: "&(prefix)&(yellow)你的最大生命值被初始化."
+    help:
+      general: "最大生命值信息"
+      get: "获得玩家最大生命值信息"
+      set: "设置玩家最大生命值"
+      give: "增加玩家最大生命值"
+      take: "减少玩家最大生命值"
+      reset: "初始化玩家最大生命值"
+  plugin:
+    prefix: "&(gray)[&(darkRed)LevelHearts&(gray)] "
+    info: "&(prefix)&(yellow)插件名： &(red)LevelHearts&(yellow) 版本： v%(version) 作者： %(creator)!"
+    website: "&(yellow)插件网站: &(gray)%(website)"
+    reload: "&(prefix)&(white)重载插件配置文件"
+    updateAvailable: "&(prefix)&(yellow)An update is available &(white)(%(updateName) for %(updateGameVersion))&(yellow)!&(br)&(white)Download it at &(gray)%(updateLink)&(white)."
+    help:
+      reload: "重启插件"
+koKR:
+  command:
+    error:
+      syntax: "&(red)구문: &(yellow)%(syntax)"
+      invalidArgument: "&(red)커맨드 값 \"%(arg)\" 이/가 잘못되었습니다"
+      invalidArgumentType: "&(red)커맨드 값 %(argType) \"%(arg)\" 이/가 잘못되었습니다"
+      missingArgument: "&(red)커맨드 값 %(argType) 이/가 입력되지 않았습니다"
+      notPlayer: "&(red)플레이어 %(player) 이/가 현재 서버에 있지 않습니다"
+      notNumber: "&(red)%(number) 은/는 유효한 숫자가 아닙니다"
+      notPositiveNumber: "&(red)%(number) 은/는 양수가 아닙니다"
+      noPermission: "&(red)이것을 수행할 권한이 없습니다"
+      disabled: "&(red)커맨드가 비활성화 되어 있습니다"
+    argument:
+      amount: "크기"
+      player: "플레이어"
+      health: "체력 크기"
+      maxHealth: "최대 체력 크기"
+    help:
+      command: "&(yellow)/%(syntax)&(gray) - &(white)%(description)"
+    info:
+      self:
+        get: "&(prefix)&(gold)당신의 체력: %(health)&(gold) / %(maxHealth)&(gold)"
+        increase: "&(yellow)당신의 최대 체력이 레벨 &(gold)%(maxHealthIncreaseLevel)&(yellow) 이/가 될 때 증가할 것입니다!"
+        noIncrease: "&(yellow)당신은 최대 체력의 크기를 늘릴 수 없습니다."
+      other:
+        get: "&(prefix)&(gold)%(player) 의 체력: %(health)&(gold) / %(maxHealth)&(gold)"
+        increase: "&(yellow)그의 최대 체력이 레벨 &(gold)%(maxHealthIncreaseLevel)&(yellow) 이/가 될 때 증가할 것입니다!"
+        noIncrease: "&(yellow)그는 최대 체력의 크기를 늘릴 수 없습니다."
+    health:
+      set: "&(yellow)당신이 %(player) 의 체력을 %(health)&(yellow) (으)로 변경했습니다.&(br)%(status)"
+      give: "&(yellow)당신이 %(player) 의 체력을 %(healthChange)&(yellow) 증가시켰습니다.&(br)%(status)"
+      take: "&(yellow)당신이 %(player) 의 체력을 %(healthChange) 감소시켰습니다.&(br)%(status)"
+      restore: "&(yellow)당신이 %(player) 의 체력을 초기화 했습니다.&(br)%(status)"
+    maxHealth:
+      set: "&(yellow)당신이 %(player) 의 최대 체력을 %(maxHealth)&(yellow) (으)로 변경했습니다.&(br)%(status)"
+      give: "&(yellow)당신이 %(player) 의 최대체력을 %(maxHealthChange)&(yellow) 증가시켰습니다.&(br)%(status)"
+      take: "&(yellow)당신이 %(player) 의 최대체력을 %(maxHealthChange)&(yellow) 감소시켰습니다.&(br)%(status)"
+      reset: "&(yellow)당신이 %(player) 의 최대 체력을 초기화 시켰습니다.&(br)%(status)"
+  health:
+    display: "&(red)%(health) &(heart)"
+    status: "&(white) - &(yellow)현재 체력: %(health)&(yellow)."
+    change:
+      command:
+        set: "&(prefix)&(yellow)당신의 체력이 %(health)&(yellow) (으)로 설정되었습니다."
+        give: "&(prefix)&(yellow)당신의 체력이 %(healthChange)&(yellow) (으)로 증가되었습니다."
+        take: "&(prefix)&(yellow)당신의 체력이 %(healthChange)&(yellow) (으)로 감소되었습니다."
+        restore: "&(prefix)&(yellow)당신의 체력이 초기화 되었습니다."
+    help:
+      general: "체력 관련 커맨드"
+      get: "플레이어의 체력을 보기"
+      set: "플레이어의 체력을 변경하기"
+      give: "플레이어의 체력을 증진시키기"
+      take: "플레이어의 체력을 뺏기"
+      restore: "플레이어의 체력을 되돌리기"
+  maxHealth:
+    display: "&(red)%(maxHealth) &(heart)"
+    status: "&(white) - &(yellow)현재 최대 체력: %(maxHealth)&(yellow)."
+    change:
+      command:
+        set: "&(prefix)&(yellow)당신의 최대 체력이 %(maxHealth)&(yellow) (으)로 설정되었습니다."
+        give: "&(prefix)&(yellow)당신의 최대 체력이 %(maxHealthChange) &(yellow)(으)로 증가되었습니다."
+        take: "&(prefix)&(yellow)당신의 최대 체력이 %(maxHealthChange) &(yellow)(으)로 감소되었습니다."
+        reset: "&(prefix)&(yellow)당신의 최대 체력이 초기화 되었습니다."
+    help:
+      general: "최대 체력 관련 커맨드"
+      get: "플레이어의 최대 체력의 크기를 보기"
+      set: "플레이어의 최대 체력을 변경하기"
+      give: "플레이어의 최대 체력을 늘리기"
+      take: "플레이어의 최대 체력을 줄이기"
+      reset: "플레이어의 최대 체력을 초기화하기"
+  plugin:
+    prefix: "&(gray)[&(darkRed)LevelHearts&(gray)] "
+    info: "&(prefix)&(yellow)이 서버는 현재 &(red)LevelHearts&(yellow) v%(version) by %(creator) &(yellow)을/를 돌리고 있습니다!"
+    website: "&(yellow)웹사이트: &(gray)%(website)"
+    reload: "&(prefix)&(white)설정을 리로드 했습니다 &(...)"
+    updateAvailable: "&(prefix)&(yellow)업데이트 &(white)(%(updateName) for %(updateGameVersion)) &(yellow)이/가 사용가능합니다!&(br)&(white)다운로드: &(gray)%(updateLink)"
+    help:
+      reload: "플러그인을 리로드 하기"
+ptBR:
+  command:
+    error:
+      syntax: "&(red)Sintaxe: &(yellow)%(syntax)"
+      invalidArgument: "&(red)Argument \"%(arg)\" inválido"
+      invalidArgumentType: "&(red)Argument %(argType) \"%(arg)\" inválido"
+      missingArgument: "&(red)Argumento em falta %(argType)"
+      notPlayer: "&(red)O jogador %(player) não está online neste momento."
+      notNumber: "&(red)%(number) não é um número válido."
+      notPositiveNumber: "&(red)%(number) não é um número positivo."
+      noPermission: "&(red)Você não tem permissão para fazer isso."
+      disabled: "&(red)Este comando está desativado."
+    argument:
+      player: "jogador"
+      health: "pontos de vida"
+      maxHealth: "limite de pontos de vida"
+    help:
+      command: "&(yellow)/%(syntax)&(gray) - &(white)%(description)"
+    info:
+      self:
+        get: "&(prefix)&(gold)Você tem %(health)&(gold) de %(maxHealth)&(gold) de vida!"
+        increase: "&(yellow)O seu limite de pontos de vida irá aumentar quando atingir o nível &(gold)%(maxHealthIncreaseLevel)&(yellow)!"
+        noIncrease: "&(yellow)Não pode aumentar mais os seus pontos de vida."
+      other:
+        get: "&(prefix)&(gold)%(player) tem %(health)&(gold) de %(maxHealth)&(gold) de vida!"
+        increase: "&(yellow)O limite de pontos de vida dele vai aumentar no nível &(gold)%(maxHealthIncreaseLevel)&(yellow)!"
+        noIncrease: "&(yellow)Ele não pode aumentar mais o seu limite de pontos de vida."
+csCZ:
+  command:
+    error:
+      syntax: "&(red)Chyba prikazu: &(yellow)%(syntax)"
+      invalidArgument: "&(red)Tento argument \"%(arg)\" je neplaty"
+      invalidArgumentType: "&(red)Tento typ argumentu %(argType) \"%(arg)\" je neplatny"
+      missingArgument: "&(red)Chybejici argument %(argType)"
+      notPlayer: "&(red)Hrac %(player) neni on-line"
+      notNumber: "&(red)%(number) neni platne cislo"
+      notPositiveNumber: "&(red)%(number) neni pozitivni cislo"
+      noPermission: "&(red)Nemas pravomoce pro tento prikaz"
+      disabled: "&(red)Tento prikaz je vypnuty"
+    argument:
+      amount: "pocet"
+      player: "hrac"
+      health: "srdicek"
+      maxHealth: "maximalni pocet srdicek"
+    help:
+      command: "&(yellow)/%(syntax)&(gray) - &(white)%(description)"
+    info:
+      self:
+        get: "&(prefix)&(gold)Mas %(health)&(gold) z %(maxHealth)&(gold) srdicek!"
+        increase: "&(yellow)Dalsi srdicko dostanes od levelu &(gold)%(maxHealthIncreaseLevel)&(yellow)!"
+        noIncrease: "&(yellow)Jiz nemuzes ziskat dalsi srdicka."
+      other:
+        get: "&(prefix)&(gold)%(player) ma %(health)&(gold) z %(maxHealth)&(gold) srdicek!"
+        increase: "&(yellow)Hrac dostane dalsi srdicko od levelu &(gold)%(maxHealthIncreaseLevel)&(yellow)!"
+        noIncrease: "&(yellow)Hrac jiz nemuze ziskat dalsi srdicka."
+    health:
+      set: "&(yellow)Zmenil jsi hraci %(player) srdicka na %(health)&(yellow) srdicek."
+      give: "&(yellow)Pridal jsi hraci %(player) %(healthChange)&(yellow) do maximalniho poctu srdicek.&(br)%(status)"
+      take: "&(yellow)Odebral jsi hraci %(player) %(healthChange) srdicek.&(br)%(status)"
+      restore: "&(yellow)Obnovil jsi hraci %(player) srdicka na puvodni pocet.&(br)%(status)"
+    maxHealth:
+      set: "&(yellow)Nastavil jsi hraci %(player) maximalni pocet srdicek na %(maxHealth)&(yellow) srdicek."
+      give: "&(yellow)Pridal jsi hraci %(player) %(maxHealthChange)&(yellow) srdicek.&(br)%(status)"
+      take: "&(yellow)Odebral jsi hraci %(player) %(maxHealthChange)&(yellow) z maximalniho poctu srdicek.&(br)%(status)"
+      reset: "&(yellow)Restartoval jsi hraci %(player) maximalni pocet srdicek.&(br)%(status)"
+  health:
+    display: "&(red)%(health) &(heart)"
+    status: "&(white) - &(yellow)Pocet srdicek: %(health)&(yellow)."
+    change:
+      command:
+        set: "&(prefix)&(yellow)Tve srdicka byli nastaveny na %(health)&(yellow) srdicek."
+        give: "&(prefix)&(yellow)Byli ti pridano %(healthChange)&(yellow) srdicek."
+        take: "&(prefix)&(yellow)Bylo ti odebrano %(healthChange)&(yellow) srdicek."
+        restore: "&(prefix)&(yellow)Tve srdicka byli obnoveny!."
+    help:
+      general: "Pocet srdicek - prikazy"
+      get: "Zobrazi pocet srdicek hrace"
+      set: "Zmeni hraci pocet srdicek"
+      give: "Prida hraci srdicka"
+      take: "Odebere hraci srdicka"
+      restore: "Obnovi hraci srdicka"
+  maxHealth:
+    display: "&(red)%(maxHealth) &(heart)"
+    status: "&(white) - &(yellow)Aktualni maximum srdicek: %(maxHealth)&(yellow)."
+    change:
+      levelUp: "&(prefix)&(gold)Dosahl jsi dalsiho milniku, tve srdicka byli navyseny!"
+      death: "&(prefix)&(yellow)Tvuj maximalni pocet srdicek byl obnoven na povudni - zemrel jsi."
+      login: "&(prefix)&(yellow)Tvuj maximalni pocet srdicek byl obnoven na povudni - odpojil jsi se."
+      command:
+        set: "&(prefix)&(yellow)Your maximum health has been set to %(maxHealth)&(yellow)."
+        give: "&(prefix)&(yellow)Your maximum health has been increased by %(maxHealthChange)&(yellow)."
+        take: "&(prefix)&(yellow)Your maximum health has been decreased by %(maxHealthChange)&(yellow)."
+        reset: "&(prefix)&(yellow)Your maximum health has been reset."
+    help:
+      general: "Maximalni pocet srdicek - prikazy"
+      get: "Zobrazi maximalni pocet srdicek hrace"
+      set: "Zmeni hraci maximalni pocet srdicek"
+      give: "Prida hraci maximalni pocet srdicek"
+      take: "Odebere hraci maximalni pocet srdicek"
+      reset: "Restartuje hraci maximalni pocet srdicek"
+  plugin:
+    prefix: "&(gray)[&(darkRed)LevelHearts&(gray)] "
+    info: "&(prefix)&(yellow)Server pouziva &(red)LevelHearts&(yellow) v%(version) od %(creator)!"
+    website: "&(yellow)Webova stranka: &(gray)%(website)"
+    reload: "&(prefix)&(white)Konfigurace byla znovu nactena &(...)"
+    updateAvailable: "&(prefix)&(yellow)Aktualizace je dostupna! &(white)(%(updateName) pro %(updateGameVersion))&(yellow)!&(br)&(white)Stahnete ji zde &(gray)%(updateLink)&(white)."
+    help:
+      reload: "Znovu nacte konfiguraci pluginu"
+esMX:
+  command:
+    error:
+      syntax: "&(red)Sintaxis: &(yellow)%(syntax)"
+      invalidArgument: "&(red)Argumento \"%(arg)\" inválido."
+      invalidArgumentType: "&(red)Argumento %(argType) \"%(arg)\" inválido."
+      missingArgument: "&(red)Falta un argumento %(argType)"
+      notPlayer: "&(red)%(player) no está en línea."
+      notNumber: "&(red)%(number) no es un número válido."
+      notPositiveNumber: "&(red)%(number) no es un número positivo."
+      noPermission: "&(red)No tienes permiso para hacer esto."
+      disabled: "&(red)Este comando está deshabilitado."
+    argument:
+      amount: "cantidad"
+      player: "jugador"
+      health: "cantidad de salud"
+      maxHealth: "cantidad de salud máxima"
+    help:
+      command: "&(yellow)/%(syntax)&(gray) - &(white)%(description)"
+    info:
+      self:
+        get: "&(prefix)&(gold)%(health)&(gold)/%(maxHealth)&(gold) de salud."
+        increase: "&(yellow)Tu salud máxima incrementará al nivel &(gold)%(maxHealthIncreaseLevel)&(yellow)."
+        noIncrease: "&(yellow)Has llegado al límite de salud."
+      other:
+        get: "&(prefix)&(gold)%(player): %(health)&(gold)/%(maxHealth)&(gold) de salud."
+        increase: "&(yellow)Su salud máxima incrementará al nivel &(gold)%(maxHealthIncreaseLevel)&(yellow)."
+        noIncrease: "&(yellow)Ha llegado al límite de salud."
+    health:
+      set: "&(yellow)Has cambiado la salud de %(player) a %(health)&(yellow)."
+      give: "&(yellow)Has dado a %(player) %(healthChange)&(yellow) de salud.&(br)%(status)"
+      take: "&(yellow)Has tomado %(healthChange) de salud de %(player).&(br)%(status)"
+      restore: "&(yellow)Has recuperado la salud de %(player).&(br)%(status)"
+    maxHealth:
+      set: "&(yellow)Has cambiado la salud máxima de %(player) a %(maxHealth)&(yellow)."
+      give: "&(yellow)Has dado a %(player) %(maxHealthChange)&(yellow) de salud máxima.&(br)%(status)"
+      take: "&(yellow)Has quitado %(maxHealthChange)&(yellow) de salud máxima a %(player).&(br)%(status)"
+      reset: "&(yellow)Has reiniciado la salud máxima de %(player).&(br)%(status)"
+plPL:
+  command:
+    error:
+      syntax: "&(red)Skladnia: &(yellow)%(syntax)"
+      invalidArgument: "&(red)Argument \"%(arg)\" jest nieprawidlowy"
+      invalidArgumentType: "&(red)Argument %(argType) \"%(arg)\" jest nieprawidlowy"
+      missingArgument: "&(red)Nie odnaleziono argumentu %(argType)"
+      notPlayer: "&(red)Gracz %(player) aktualnie nie jest online"
+      notNumber: "&(red)%(number) nie jest poprawna liczba"
+      notPositiveNumber: "&(red)%(number) nie jest numerem pozytywnym"
+      noPermission: "&(red)Nie masz pozwolenia, by to zrobic"
+      disabled: "&(red)Ta komenda jest wylaczona"
+    argument:
+      amount: "amount"
+      player: "player"
+      health: "health amount"
+      maxHealth: "maximum health amount"
+    help:
+      command: "&(yellow)/%(syntax)&(gray) - &(white)%(description)"
+    info:
+      self:
+        get: "&(prefix)&(gold)Masz %(health)&(gold) serc na %(maxHealth)&(gold) mozliwych!"
+        increase: "&(yellow)Uzyskaj &(gold)%(maxHealthIncreaseLevel)&(yellow) leveli, aby zwiekszyc ilosc serc!"
+        noIncrease: "&(yellow)Juz dluzej nie mozesz zwiekszac swojej ilosci serc."
+      other:
+        get: "&(prefix)&(gold)Gracz %(player) ma %(health)&(gold) serc na %(maxHealth)&(gold) mozliwych!"
+        increase: "&(yellow)Jego maksymalna ilosc serc powiekszy sie, gdy osiagnie level &(gold)%(maxHealthIncreaseLevel)&(yellow)!"
+        noIncrease: "&(yellow)Nie moze juz powiekszac ilosci swoich serc."
+    health:
+      set: "&(yellow)Zmieniles ilosc zycia graczowi %(player) na %(health)&(yellow).&(br)%(status)"
+      give: "&(yellow)Dostales (ilosc serc) %(player) %(healthChange)&(yellow).&(br)%(status)"
+      take: "&(yellow)Zabrales %(healthChange) serc od %(player).&(br)%(status)"
+      restore: "&(yellow)Oddales serduszka graczowi %(player).&(br)%(status)"
+    maxHealth:
+      set: "&(yellow)Zmieniles dodatkowa ilosc serc gracza %(player) na %(maxHealth)&(yellow).&(br)%(status)"
+      give: "&(yellow)Dales graczowi %(player) %(maxHealthChange)&(yellow) dodatkowych serduszek.&(br)%(status)"
+      take: "&(yellow)Zabrales graczowi %(player) %(maxHealthChange)&(yellow) dodatkowych serc.&(br)%(status)"
+      reset: "&(yellow)Zresetowales dod. zycie gracza %(player).&(br)%(status)"
+  health:
+    display: "&(red)%(health) &(heart)"
+    status: "&(white) - &(yellow)Aktualne zycie: %(health)&(yellow)."
+    change:
+      command:
+        set: "&(prefix)&(yellow)Zmieniono ilosc twoich serc na %(health)&(yellow)."
+        give: "&(prefix)&(yellow)Twoje zycie zostalo zwiekszone o (ilosc serc) %(healthChange)&(yellow)."
+        take: "&(prefix)&(yellow)Twoje zycie zostalo zmniejszone o (ilosc serc) %(healthChange)&(yellow)."
+        restore: "&(prefix)&(yellow)Teraz masz juz pelne serduszka."
+    help:
+      general: "Glówne komendy LevelHearts"
+      get: "Wyswietla serca gracza"
+      set: "Zmienia ilosc zycia gracza"
+      give: "Daje graczowi serce/a"
+      take: "Zabiera graczowi serce/a"
+      restore: "Zeruje dod. serduszka gracza"
+  maxHealth:
+    display: "&(red)%(maxHealth) &(heart)"
+    status: "&(white) - &(yellow)Aktualne dodatkowe zycie: %(maxHealth)&(yellow)."
+    change:
+      command:
+        set: "&(prefix)&(yellow)Maksymalna dod. ilosc twoich serc zostala ustawiona na %(maxHealth)&(yellow)."
+        give: "&(prefix)&(yellow)Twoje dodatkowe zycie zostalo zwiekszone o %(maxHealthChange)&(yellow) serduszko/a."
+        take: "&(prefix)&(yellow)Twoje dodatkowe zycie zostalo zmniejszone o %(maxHealthChange)&(yellow) serduszko/a."
+        reset: "&(prefix)&(yellow)Twoje dodatkowe zycie zresetowano."
+    help:
+      general: "Komendy dotyczace dodatkowego zycia"
+      get: "Wyswietla dodatkowa ilosc zycia gracza"
+      set: "Zmienia dodatkowa ilosc zycia gracza (w serduszkach)"
+      give: "Daje dodatkowa ilosc zycia graczowi"
+      take: "Zabiera dodatkowa ilosc zycia graczowi"
+      reset: "Zeruje dodatkowa ilosc zycia gracza"
+  plugin:
+    prefix: "&(gray)[&(darkRed)LevelHearts&(gray)] "
+    info: "&(prefix)&(yellow)Ten serwer dziala z &(red)LevelHearts&(yellow) v%(version), plugin zostal stworzony przez %(creator)! Tlumaczenie PL przez Moresteck."
+    website: "&(yellow)Strona inernetowa: &(gray)%(website)"
+    reload: "&(prefix)&(white)Przeladowano konfiguracje &(...)"
+    updateAvailable: "&(prefix)&(yellow)Dostepna jest aktualizacja &(white)(%(updateName) dla %(updateGameVersion))&(yellow)!&(br)&(white)Pobierz ja ze strony &(gray)%(updateLink)&(white)."
+    help:
+      reload: "Przeladowuje plugin"
+esES:
+  command:
+    error:
+      notPlayer: "&(red)El jugador %(player) no esta en linea"
+frFR:
+  command:
+    error:
+      invalidArgument: "&4Argument Invalide ! (%(arg))"
+      notPlayer: "&4Le joueur (%player)) n'est pas en ligne"
+      notNumber: "&4%(number) n'est pas un nombre valide"
+      noPermission: "&4Vous n'avez pas la permission de faire ça !"
+

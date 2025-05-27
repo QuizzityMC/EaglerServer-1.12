@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1748126579163
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748130978486
+  login: 1748130891017
+  kits:
+    notch: 1747580533957
+    killer: 1747623739761
+    dtools: 1748124674500
+    tools: 1748124722124
+    color: 1748124670996
+money: '65086962.8199999999999'
+last-account-name: Killer_Assassin
+lastlocation:
+  world: 715836f1-3d8a-4d31-894e-8e30129a12cd
+  world-name: world
+  x: -122.85140727324068
+  y: 90.0
+  z: 123.2111692563581
+  yaw: -62.850341796875
+  pitch: 31.59685707092285
+logoutlocation:
+  world: 2e9c97aa-08c1-44ea-9aba-d127ba7a746e
+  world-name: world_the_end
+  x: -2.03187225256952
+  y: 67.0
+  z: 1.6421962839782958
+  yaw: 35.45401382446289
+  pitch: -12.409624099731445
+powertools:
+  workbench:
+  - wb

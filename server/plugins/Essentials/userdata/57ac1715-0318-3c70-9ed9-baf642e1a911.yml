@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747629049465
+  login: 1747629013582
+money: '0'
+last-account-name: pujf
+lastlocation:
+  world: eecb5aed-4776-45de-a385-d2c524eef69c
+  world-name: world
+  x: -180.5
+  y: 66.0
+  z: 289.5
+  yaw: 6.101123332977295
+  pitch: 0.0
+logoutlocation:
+  world: eecb5aed-4776-45de-a385-d2c524eef69c
+  world-name: world
+  x: -173.21723260308127
+  y: 65.0
+  z: 302.29309385069905
+  yaw: 122.8499984741211
+  pitch: 4.649998188018799

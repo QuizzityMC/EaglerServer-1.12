@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748130958976
+  login: 1748130416146
+money: '1985.010000000000039'
+lastlocation:
+  world: 715836f1-3d8a-4d31-894e-8e30129a12cd
+  world-name: world
+  x: -284.69999998807907
+  y: 67.0
+  z: 143.30000001192093
+  yaw: -10.819634437561035
+  pitch: 46.49995422363281
+last-account-name: Cr7_555
+nickname: §4§lCr7§6_§2§l555
+logoutlocation:
+  world: 715836f1-3d8a-4d31-894e-8e30129a12cd
+  world-name: world
+  x: -150.1564657512859
+  y: 72.0
+  z: 236.9840366139736
+  yaw: -79.34457397460938
+  pitch: 44.999942779541016

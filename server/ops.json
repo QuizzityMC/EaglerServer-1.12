@@ -1,7 +1,25 @@
 [
   {
+    "uuid": "ff609bc8-76af-3b00-be56-3606a053a580",
+    "name": "Killer_Assassin",
+    "level": 1000,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "febdbb10-b91d-3d00-9817-1ff489b34cde",
     "name": "Neonic",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "0528693a-c77a-32e7-b4c2-7cfcddaf938b",
+    "name": "0ff_sw1tch",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "174459a0-657a-31e5-8c51-726617dfc670",
+    "name": "K",
     "level": 4,
     "bypassesPlayerLimit": false
   }

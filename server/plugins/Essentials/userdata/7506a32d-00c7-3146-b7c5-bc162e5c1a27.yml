@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748130737567
+  login: 1748130357983
+money: '23479.75'
+last-account-name: Ping
+lastlocation:
+  world: 715836f1-3d8a-4d31-894e-8e30129a12cd
+  world-name: world
+  x: -112.5
+  y: 78.0
+  z: 248.5
+  yaw: 3.978667974472046
+  pitch: 0.0
+logoutlocation:
+  world: 715836f1-3d8a-4d31-894e-8e30129a12cd
+  world-name: world
+  x: -129.36550635561582
+  y: 66.0
+  z: 433.2630721755469
+  yaw: 27.044464111328125
+  pitch: -29.379894256591797

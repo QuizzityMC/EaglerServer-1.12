@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747541210781
+  login: 1747541126976
+money: '0'
+last-account-name: Killer_Ass
+lastlocation:
+  world: 503ce8a2-7ddb-42f9-a957-16c9d7e18ba9
+  world-name: world
+  x: -134.5
+  y: 67.0
+  z: 260.5
+  yaw: 1.9551090002059937
+  pitch: 0.0
+logoutlocation:
+  world: 503ce8a2-7ddb-42f9-a957-16c9d7e18ba9
+  world-name: world
+  x: -188.18626929759375
+  y: 68.0
+  z: 210.05216024488539
+  yaw: 170.10882568359375
+  pitch: 28.618553161621094

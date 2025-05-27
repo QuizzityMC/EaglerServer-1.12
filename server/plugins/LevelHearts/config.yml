@@ -1,0 +1,72 @@
+# == LevelHearts Configuration ==
+# Please visit http://levelhearts.zettelnet.com/ for more information!
+#
+# Disclaimer: I cannot assume liability for the accuracy and completeness of the translations.
+
+config:
+  version: 1.4.8
+  autoUpdate: true
+
+metricsEnabled: true
+
+storage:
+  mode: sqlite
+  database: 'localhost:3306/database'
+  table: 'Health'
+  username: 'root'
+  password: ''
+
+updateCheck:
+  enabled: true
+  informOperators: false
+
+maxHealth:
+  levelMode: exp
+  default: 20
+  limit: 120
+  levelInterval: 5
+  startLevel: 0
+  reset:
+    levelChange: true
+    login: false
+    death: true
+  restoreHealth: true
+  particleEffect:
+    increase: true
+    decrease: true
+
+chat:
+  language: enUS
+  changeMessagesEnabled: true
+  commandMessagesEnabled: true
+
+commands:
+  maxHealthEnabled: true
+  healthEnabled: true
+  infoEnabled: true
+
+permissions:
+  maxHealth:
+    changeable: lvlhearts.maxhealth.changeable
+    increaseOnLevelUp: lvlhearts.maxhealth.increaselevelup
+    bypassLimit: lvlhearts.maxhealth.limit.bypass
+    reset:
+      bypassLogin: lvlhearts.maxhealth.reset.login.bypass
+      bypassDeath: lvlhearts.maxhealth.reset.death.bypass
+  health:
+    changeable: lvlhearts.health.changeable
+    restore: lvlhearts.health.restore
+  commands:
+    maxHealth:
+      enabled: lvlhearts.maxhealth.command
+      getOthers: lvlhearts.maxhealth.get.others
+      setOwn: lvlhearts.maxhealth.set
+      setOthers: lvlhearts.maxhealth.set.others
+    health:
+      enabled: lvlhearts.health.command
+      getOthers: lvlhearts.health.get.others
+      setOwn: lvlhearts.health.set
+      setOthers: lvlhearts.health.set.others
+    info:
+      enabled: lvlhearts.info.command
+      reload: lvlhearts.info.reload

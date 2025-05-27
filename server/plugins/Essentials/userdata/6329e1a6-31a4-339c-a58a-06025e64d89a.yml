@@ -1,0 +1,42 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748125922771
+  login: 1748125462742
+  kits:
+    killer: 1747636895021
+    notch: 1747636901763
+money: '119.43'
+last-account-name: 5ping
+lastlocation:
+  world: 715836f1-3d8a-4d31-894e-8e30129a12cd
+  world-name: world
+  x: 89.023255438402
+  y: 64.0
+  z: -633.7326480014267
+  yaw: 1.3316391706466675
+  pitch: -5.776499271392822
+logoutlocation:
+  world: 715836f1-3d8a-4d31-894e-8e30129a12cd
+  world-name: world
+  x: -120.08018043197455
+  y: 79.0
+  z: 256.16278192516535
+  yaw: 3.0176169872283936
+  pitch: 5.520031452178955
+nickname: §1§l5ping

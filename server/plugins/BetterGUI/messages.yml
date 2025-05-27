@@ -1,0 +1,10 @@
+success: '&aSuccess'
+player-not-found: '&cThe FUCKING player is not found. Maybe he is FUCKING offline
+  or didnt join your server YOU DUMB ASS'
+invalid-number: '&cError converting! {input} is not a valid number'
+no-permission: '&cYou dont FUCKING have permission to do this!!!'
+menu-required: '&cYou should FUCKING specify a menu'
+have-met-requirement-placeholder: FUCK Yes
+menu-not-found: '&cThat menu does not FUCKING exist'
+player-only: '&cYou must be a FUCKING player to do this'
+prefix: '&f[&bBetterGUI&f] '

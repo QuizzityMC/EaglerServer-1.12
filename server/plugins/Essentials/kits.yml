@@ -1,0 +1,40 @@
+kits:
+  tools:
+    delay: 10
+    items:
+    - stonesword 1
+    - stoneshovel 1
+    - stonepickaxe 1
+    - stoneaxe 1
+    - golden_carrot 32
+  dtools:
+    delay: 600
+    items:
+    - dpickaxe 1 efficiency:12 durability:1000 fortune:15 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+    - dshovel 1 digspeed:15 name:Dwarf lore:Diggy|Diggy|Hole
+    - lhelm 1 color:25,255,2 name:Top_Hat lore:Nigga, Nigga
+    - daxe:780 1
+    - /broadcast {USERNAME} just got some fancy tools!
+  notch:
+    delay: 6000
+    items:
+    - playerhead 1 player:Nigga
+  color:
+    delay: 6000
+    items:
+    - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes
+      book:Colors
+  sword:
+    delay: 20
+    items:
+    - diamondsword 1
+    - diamondaxe 1
+    - goldenapple 8
+    - fishingrod 1
+    - shield 1 basecolor:1908001
+    - spiderweb 12
+    - totem 1
+    - diamondboots 1
+    - diamondleggings 1
+    - diamondchestplate 1
+    - diamondhelmet 1

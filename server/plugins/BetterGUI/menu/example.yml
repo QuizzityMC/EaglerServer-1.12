@@ -1,0 +1,441 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+menu-settings:
+  name: '&c&lExample Menu'
+  rows: 6
+  command: menu
+  auto-refresh: 5
+  open-action:
+    - 'tell: &eYou opened the example menu'
+  close-action:
+    - 'tell: &cYou closed the example menu'
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+default-icon:
+  type: animated
+  child:
+    frame1:
+      id:
+        - RED_STAINED_GLASS_PANE
+        - STAINED_GLASS_PANE:14
+    frame2:
+      id:
+        - GREEN_STAINED_GLASS_PANE
+        - STAINED_GLASS_PANE:13
+    frame3:
+      id:
+        - BLUE_STAINED_GLASS_PANE
+        - STAINED_GLASS_PANE:11
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+# Note that the nodes is case-insensitive (except some sub-nodes)
+# You can use lowercase or uppercase whatever you want
+spawn-cmd:
+  COMMAND: 'spawn'
+  NAME: '&u/spawn'
+  LORE:
+    - 'It just executes /spawn'
+    - 'as the player who clicked.'
+  ID: ender_pearl
+  POSITION-X: 1
+  POSITION-Y: 2
+
+durability-armor:
+  NAME: '&aDamaged armor'
+  LORE:
+    - 'This armor is damaged.'
+  ID: diamond helmet
+  DAMAGE: 100
+  POSITION-X: 2
+  POSITION-Y: 2
+
+enchanted-sword:
+  NAME: '&aEnchanted sword'
+  LORE:
+    - 'This sword is glowing.'
+  ID: diamond_sword
+  ENCHANTMENT:
+    - "durability, 1"
+  POSITION-X: 3
+  POSITION-Y: 2
+
+some-arrows:
+  NAME: '&aSome arrows'
+  LORE:
+    - 'You can set the amount of items to display.'
+  ID: arrow
+  AMOUNT: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+
+test-from-console:
+  COMMAND: 'console: say Hello {player}!'
+  NAME: '&cRuns command from the console.'
+  LORE:
+    - 'It broadcasts your name with the command /say.'
+  ID:
+    - command_block
+    - command
+  POSITION-X: 5
+  POSITION-Y: 2
+
+test-as-op:
+  COMMAND: 'op: say Hello world!'
+  NAME: '&cRuns command as OP.'
+  LORE:
+    - 'Be careful with this type of commands.'
+    - 'It will ignore nearly all the permissions.'
+  ID:
+    - command_block
+    - command
+  POSITION-X: 6
+  POSITION-Y: 2
+
+test-with-placeholder:
+  COMMAND:
+    - "tell: &9Online players: &f{online}/{max_players}"
+    - "tell: &9Your name: &f{player}"
+    - "tell: &9The world you are in: &f{world}"
+    - "tell: &9Ping: &f{ping}"
+  NAME: '&6This message contains some placeholders'
+  LORE:
+    - 'Placeholders will be replaced when the item'
+    - 'is clicked.'
+  ID: water_bucket
+  POSITION-X: 7
+  POSITION-Y: 2
+
+formatting-codes:
+  NAME: '&dFormatting codes'
+  LORE:
+    - 'You can use all the formatting codes!'
+    - '&fColors: &c\&c &a\&a &9\&9 &e\&e &f... ...'
+    - '&fHex Color (&#rrggbb) (1.16+): &#FF0000Red &#00FF00Green &#0000FFBlue'
+    - '&fRandom (\&k): &kfy379!H'
+    - '&fBold (\&l): &lexample'
+    - '&fStrikethrough (\&m): &mexample'
+    - '&fUnderline (\&n): &nexample'
+    - '&fItalic (\&o): &oexample'
+  ID: paper
+  POSITION-X: 8
+  POSITION-Y: 2
+
+talking-fish:
+  COMMAND: 'tell: This is a simple message, without using commands!'
+  NAME: '&3Tells you something.'
+  LORE:
+    - '&7It tells you something without commands.'
+  ID: torch
+  POSITION-X: 9
+  POSITION-Y: 2
+
+test-multiple-command:
+  COMMAND:
+    - 'console: Say Did you know that...'
+    - 'console: say you can run multiple commands?;'
+  NAME: '&aMultiple commands'
+  LORE:
+    - 'Example of multiple commands.'
+  ID: golden_apple
+  POSITION-X: 1
+  POSITION-Y: 3
+
+permission:
+  POSITION-X: 2
+  POSITION-Y: 3
+  type: predicate
+  CLICK-REQUIREMENT:
+    permission:
+      PERMISSION: bettergui.test
+      fail-command: 'tell: &cYou don''t have the correct permission!'
+  button:
+    COMMAND: 'tell: &a[v] You have the correct permission!'
+    NAME: '&8Permission test'
+    LORE:
+      - 'To use this item, you need the'
+      - 'permission "bettergui.test".'
+      - 'Otherwise, a configurable error'
+      - 'message will be displayed.'
+    ID:
+      - iron bars
+      - IRON_FENCE
+
+test-per-click-command:
+  COMMAND:
+    LEFT: 'tell: &cYou left-clicked'
+    RIGHT: 'tell: &cYou right-clicked'
+    MIDDLE: 'tell: &cYou middle-clicked'
+    # Default for every click types
+    DEFAULT:
+      - "tell: &cUnknown click type"
+      - "tell: Left, Right, Middle only"
+  NAME: '&aCommands per clicktype'
+  LORE:
+    - 'You left-click.'
+    - 'You right-click.'
+    - 'You middle-click'
+    - 'And you get different messages.'
+  ID: redstone_block
+  POSITION-X: 3
+  POSITION-Y: 3
+
+test-delay-command:
+  COMMAND:
+    - 'tell: &aThis is current'
+    - 'delay: 60'
+    - 'tell: &aThis is 3 seconds later'
+  NAME: '&eDelay Command'
+  LORE:
+    - 'This is a test of delay command.'
+  ID:
+    - clock
+    - WATCH
+  POSITION-X: 4
+  POSITION-Y: 3
+
+# Simple Cooldown Example
+cooldown:
+  type: predicate
+  button:
+    COMMAND: 'tell: &e You will need to wait 10 seconds to click again'
+    NAME: '&aCooldown'
+    LORE:
+      - 'This is a example of icon with cooldown'
+    ID: paper
+  click-requirement:
+    test-cooldown:
+      cooldown: 10
+    fail-command:
+      - "tell: &cWait until the cooldown is finished"
+  POSITION-X: 5
+  POSITION-Y: 3
+
+enchanted-sword-flag:
+  NAME: '&aEnchanted sword'
+  LORE:
+    - 'This sword is glowing. (literally)'
+  ID: diamond_sword
+  ENCHANTMENT:
+    - "durability, 1"
+  FLAG:
+    - HIDE_ENCHANTS
+  POSITION-X: 6
+  POSITION-Y: 3
+
+# Advanced Cooldown Example
+advanced_cooldown:
+  POSITION-X: 7
+  POSITION-Y: 3
+  type: predicate
+  button:
+    id: paper
+    name: '&cCooldown'
+    lore:
+      - '&eLEFT: &f{button_advanced_cooldown_click_left_reqset_test_cooldown}'
+      - '&eRIGHT: &f{button_advanced_cooldown_click_right_reqset_test_cooldown}'
+      - '&eMIDDLE: &f{button_advanced_cooldown_click_middle_reqset_test_cooldown}'
+      - '&eDEFAULT: &f{button_advanced_cooldown_click_default_reqset_test_cooldown}'
+    command:
+      LEFT: 'tell: &cYou left-clicked'
+      RIGHT: 'tell: &cYou right-clicked'
+      MIDDLE: 'tell: &cYou middle-clicked'
+      DEFAULT: 'tell: &cYou clicked'
+  click-requirement:
+    left:
+      test:
+        cooldown: 10
+    right:
+      test:
+        cooldown: 20
+    middle:
+      test:
+        cooldown: 30
+    default:
+      test:
+        cooldown: 40
+      fail-command:
+        - "tell: &cCalm down"
+
+test-view-requirement:
+  type: predicate
+  position-x: 8
+  position-y: 3
+  button:
+    id:
+      - EXPERIENCE_BOTTLE
+      - EXP_BOTTLE
+    name: "&cA exp bottle"
+    lore:
+      - "You will see this icon when the level is higher than 5"
+  view-requirement:
+    level:
+      level:
+        value: 5
+        take: false
+
+animated-icon:
+  position-x: 9
+  position-y: 3
+  type: animated
+  update: 5
+  child:
+    frame_icon1:
+      name: "&cFrame 1"
+      id:
+        - red_wool
+        - WOOL:14
+      lore:
+        - "This is part of an animated icon"
+    frame_icon2:
+      name: "&aFrame 2"
+      id:
+        - green_wool
+        - WOOL:13
+      lore:
+        - "This is part of an animated icon"
+    frame_icon3:
+      name: "&bFrame 3"
+      id:
+        - light_blue_wool
+        - WOOL:3
+      lore:
+        - "This is part of an animated icon"
+
+skull:
+  position-x: 1
+  position-y: 4
+  name: "&bSkull"
+  id:
+    - player_head
+    - skull_item:3
+  skull: "http://textures.minecraft.net/texture/906bb3b4ad7c295643b4adad3470dc30962eef96131b73c1733d2091f802df12"
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1"
+
+per-player-skull:
+  position-x: 2
+  position-y: 4
+  name: "&bPer Player Skulls"
+  id:
+    - player_head
+    - skull_item:3
+  skull: "{player}"
+
+test-xp-template:
+  type: template
+  position-x: 3
+  position-y: 4
+  template: test-xp
+  variable:
+    xp: 100
+
+test-xp-list-template:
+  type: list
+  position-x: 4
+  position-y: 4
+  child:
+    test-xp-50:
+      type: template
+      template: test-xp-predicate
+      variable:
+        xp: 100
+        level: 50
+    test-xp-40:
+      type: template
+      template: test-xp-predicate
+      variable:
+        xp: 80
+        level: 40
+    test-xp-30:
+      type: template
+      template: test-xp-predicate
+      variable:
+        xp: 60
+        level: 30
+    test-xp-20:
+      type: template
+      template: test-xp-predicate
+      variable:
+        xp: 40
+        level: 20
+    test-xp-10:
+      type: template
+      template: test-xp-predicate
+      variable:
+        xp: 20
+        level: 10
+    default:
+      type: template
+      template: test-xp
+      variable:
+        xp: 10
+
+colored-leather-chestplate: # The order is important: Material (ID) -> NBT -> others
+  id: leather_chestplate
+  nbt:
+    display:
+      color: 16175144
+  #nbt: "{display:{color:16175144}}"
+  name: "&aColored Leather Chestplate"
+  lore:
+    - "This is a colored leather chestplate"
+  position-x: 5
+  position-y: 4
+
+custom-model-chestplate: # The order is important: Material (ID) -> NBT -> others
+  id: leather_chestplate
+  nbt:
+    CustomModelData: 104230
+  #nbt: "{CustomModelData:104230}"
+  name: "&aCustom Model Chestplate"
+  lore:
+    - "This is a custom model chestplate"
+  position-x: 6
+  position-y: 4
+
+potion:
+  position-x: 7
+  position-y: 4
+  name: "&bPotion"
+  id: potion
+  potion:
+    - "SPEED"
+    - "WEAKNESS, 30, 1"
+
+multi-slot:
+  slot: 0-8,45,46,47-52
+  type: animated
+  update: 10
+  child:
+    frame1:
+      name: ' '
+      id:
+        - black stained glass pane
+        - STAINED_GLASS_PANE:15
+    frame2:
+      name: ' '
+      id:
+        - gray stained glass pane
+        - STAINED_GLASS_PANE:7
+    frame3:
+      name: ' '
+      id:
+        - white stained glass pane
+        - STAINED_GLASS_PANE
+
+close-the-menu:
+  id: BARRIER
+  slot: 53
+  name: '&cClose the menu'
+  close-on-click: true
