@@ -529,3 +529,58 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Bukkit.getOn
 [18:37:05] [Server thread/INFO]: /worth: Calculates the worth of items in hand or as specified.
 [18:37:05] [Server thread/INFO]: /xmpp: Sends a message to a player.
 [18:37:05] [Server thread/INFO]: /xmppspy: Toggles XMPP spy for all messages.
+[18:39:17] [User Authenticator #2/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[18:39:17] [Server thread/INFO]: naeem123[/127.0.0.1:53558] logged in with entity id 87 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[18:39:17] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:39:45] [Server thread/INFO]: naeem123 issued server command: /help
+[18:40:16] [Server thread/INFO]: naeem123 issued server command: /help essentials
+[18:40:39] [Server thread/INFO]: naeem123 issued server command: /info
+[18:41:04] [Server thread/INFO]: naeem123 issued server command: /anvil
+[18:41:16] [Server thread/INFO]: naeem123 issued server command: /help essentials
+[18:41:20] [Server thread/INFO]: naeem123 issued server command: /help essentials 2
+[18:41:32] [Server thread/INFO]: naeem123 issued server command: /afk
+[18:41:44] [Server thread/INFO]: naeem123 issued server command: /help essentials 3
+[18:42:15] [Server thread/INFO]: naeem123 issued server command: /easyranks set owner
+[18:42:24] [Server thread/INFO]: naeem123 issued server command: /easyranks set naeem123 owner
+[18:42:29] [Async Chat Thread - #0/INFO]: [Owner] naeem123 ➟ eee
+[18:42:45] [Server thread/INFO]: naeem123 issued server command: /easyranks ranks
+[18:43:02] [Server thread/INFO]: naeem123 issued server command: /help
+[18:43:34] [Server thread/INFO]: naeem123 issued server command: /help animatedscoreboard
+[18:43:45] [Server thread/INFO]: naeem123 issued server command: /aboard
+[18:44:01] [Server thread/INFO]: naeem123 issued server command: /help
+[18:44:07] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[18:44:07] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[18:44:07] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:44:30] [User Authenticator #3/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[18:44:30] [Server thread/INFO]: naeem123[/127.0.0.1:54248] logged in with entity id 194 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[18:44:30] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:44:45] [Server thread/INFO]: naeem123 issued server command: /list
+[18:46:41] [Server thread/INFO]: naeem123 issued server command: /rtp
+[18:46:41] [Server thread/WARN]: [BetterRTP] Seems like the world `Lobby` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby: NETHER`
+[18:46:41] [Craft Scheduler Thread - 27/INFO]: [BetterRTP] -Removed a queue Location{world=CraftWorld{name=Lobby},x=-483.5,y=64.0,z=-35.5,pitch=51.149986,yaw=-73.444824}
+[18:47:05] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[18:47:05] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[18:47:05] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:47:14] [Server thread/INFO]: Stopping server
+[18:47:14] [Server thread/INFO]: [BetterRTP] Disabling BetterRTP v3.6.8
+[18:47:14] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.21.2-dev+2-d42347f
+[18:47:14] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.13.0
+[18:47:14] [Server thread/INFO]: [TSetSpawn] Disabling TSetSpawn v1.7
+[18:47:14] [Server thread/INFO]: [TSetSpawn] Has been deactivated (version: 1.7)
+[18:47:14] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v3.3.2
+[18:47:14] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[18:47:14] [Server thread/INFO]: [EasyRanks] Disabling EasyRanks v1.3.2
+[18:47:14] [Server thread/INFO]: [ABoard] Disabling AnimatedScoreboard v1.2
+[18:47:14] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v1.0
+[18:47:14] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.2
+[18:47:14] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:47:14] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:47:14] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:47:14] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.6
+[18:47:14] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[18:47:14] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.6
+[18:47:14] [Server thread/INFO]: Saving players
+[18:47:14] [Server thread/INFO]: Saving worlds
+[18:47:14] [Server thread/INFO]: Saving chunks for level 'Lobby'/overworld
+[18:47:14] [Server thread/INFO]: Saving chunks for level 'Lobby_nether'/the_nether
+[18:47:14] [Server thread/INFO]: Saving chunks for level 'Lobby_the_end'/the_end

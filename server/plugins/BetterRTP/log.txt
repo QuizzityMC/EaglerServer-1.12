@@ -20,3 +20,6 @@
 2025-06-03 18:35:00 [WARNING]: Seems like the world `Lobby_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby_nether: NETHER`
 2025-06-03 18:35:54 [INFO]: Max attempts to create a Queue reached for default_Lobby_nether (amount: 0)
 2025-06-03 18:35:54 [INFO]: Queueing paused, max queue limit reached!
+2025-06-03 18:46:41 [WARNING]: Seems like the world `Lobby` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby: NETHER`
+2025-06-03 18:46:41 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-483.5,y=64.0,z=-35.5,pitch=51.149986,yaw=-73.444824}
+2025-06-03 18:47:14 [INFO]: Disabling BetterRTP v3.6.8
