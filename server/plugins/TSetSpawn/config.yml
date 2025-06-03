@@ -1,0 +1,49 @@
+Config:
+  enter-message: true
+  enter-message-text: '&6&lWelcome to the server %player%! &f| &5TSetSpawn'
+  go-spawn: true
+  join: true
+  join-message: '&5TSetSpawn &e> &f%player% has joined.'
+  quit: true
+  quit-message: '&5TSetSpawn &e> &f%player% has left.'
+  welcome: true
+  welcome-message: '&5TSetSpawn &e> &f%player% entered for the first time!'
+  cooldown-time: 5
+  wait-time: 5
+  enable-void-teleport: true
+  cancel-on-move: true
+  death-teleport: true
+  drop-items-on-death: true
+  Translate:
+    version: '&5TSetSpawn &e> &7The version is: %version%'
+    spawn-not-placed: '&5TSetSpawn &e> &cThe spawn does not exist'
+    console: '&5TSetSpawn &e> &7You cannot send commands from the console'
+    spawn-placed: '&5TSetSpawn &e> &aSpawn placed'
+    reload: '&5TSetSpawn &e> &aReloaded'
+    unknown-command: '&5TSetSpawn &e> &cUnknown command'
+    help: '&5TSetSpawn &e> &fUse the command &a/spawn &fto go to the spawn'
+    spawn: '&5TSetSpawn &e> &fYou have been teleported'
+    no-permission: '&5TSetSpawn &e> &cYou do not have permissions'
+    cooldown-message: '&5TSetSpawn &e> &cYou have to wait &e%time% &cseconds before
+      running this command again!'
+    wait-time-message: '&5TSetSpawn &e> &fTeleporting...'
+    void-teleport-message: '&5TSetSpawn &e> &fTeleported to the Spawn'
+    move-cancel-message: '&5TSetSpawn &e> &fTeleport canceled because you have moved.'
+    disconnect-message: '&5TSetSpawn &e> &fTeleport canceled because you disconnected.'
+  Particles:
+    enabled: true
+    radius: 1.5
+    amount: 50
+    particle-type: CLOUD
+  Sound:
+    enable-sound: true
+    sound-type: LEVEL_UP
+    volume: 1.0
+    pitch: 1.0
+  Spawn:
+    x: -37.93954579624882
+    y: 185.0
+    z: 138.6294668369215
+    world: Lobby
+    yaw: 90.935745
+    pitch: 47.549942

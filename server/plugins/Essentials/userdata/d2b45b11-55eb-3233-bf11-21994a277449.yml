@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748939689188
+  login: 1748936966658
+money: '0'
+last-account-name: haseeb
+lastlocation:
+  world: baa70d19-0aaf-4180-9d49-6792e9360452
+  world-name: Lobby
+  x: -56.51802436401087
+  y: 183.0
+  z: 140.7576643192873
+  yaw: 93.33563232421875
+  pitch: 8.399921417236328
+logoutlocation:
+  world: baa70d19-0aaf-4180-9d49-6792e9360452
+  world-name: Lobby
+  x: -653.3651554275102
+  y: 74.0
+  z: 546.3276269500752
+  yaw: 23.733184814453125
+  pitch: 19.499942779541016

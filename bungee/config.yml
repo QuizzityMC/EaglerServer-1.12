@@ -46,7 +46,7 @@ disabled_commands:
 servers:
   lobby:
     motd: 'lobby'
-    address: 95.217.198.48:20923
+    address: localhost:25565
     restricted: false
   Civilisations:
     motd: '&1Just another Waterfall - Forced Host'

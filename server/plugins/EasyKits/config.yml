@@ -1,0 +1,37 @@
+# Default Configuration #
+
+config:
+  debug: false
+  default-cooldown: 0
+  default-kit-limit: 0
+  default-price: 0
+  new-player-kit: starter
+  death-kit: death
+  sign-action: view
+  currency-symbol: $
+messages:
+  permission-denied: '&4You do not have permission!'
+  kit-created: '&2%K created successfully!'
+  kit-deleted: '&2%K removed successfully!'
+  kit-obtained: '&2%K has been added to inventory!'
+  kit-sent: '&2You gave %K to %P!'
+  kit-received: '&2You recieved %K from %P!'
+  kit-exist: '&4%K already exists!'
+  kit-not-exist: '&4%K does not exist!'
+  get-kit-limit: '&4%K can only be obtained %L times! Youve reached the limit!'
+  set-kit-limit: '&2Limit set for %K!'
+  reset-kit-limit: '&2%Ps Limit Reset for %K!'
+  get-cooldown: '&4You must wait %T before you can use this %K again!'
+  set-cooldown: '&2Cooldown set for %K!'
+  reset-cooldown: '&2%Ps Cooldown Reset for %K!'
+  get-price: '&2Charged $%M'
+  set-price: '&2Set price for %K to %M!'
+  insufficient-funds: '&4You need at least $%M to purchase this %K!'
+  inventory-space: '&4Insufficient inventory space!'
+  new-player-kit: '&2Heres a kit to get you started!'
+  kit-book-full: '&5There are more kits than can fit in the book. Use /kit list!'
+  not-player: '&4You must be a player to run this command!'
+  no-player: '&4Player is offline or does not exist!'
+  invalid-number: '&4Invalid number format!'
+  invalid-argument: '&4Invalid argument!'
+  db-fail: '&4Unable to connect to database!'

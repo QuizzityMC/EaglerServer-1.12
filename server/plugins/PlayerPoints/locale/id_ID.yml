@@ -1,0 +1,130 @@
+# Plugin Message Prefix
+prefix: '&7[<g:#E8A230:#ECD32D>PlayerPoints&7] '
+
+# Currency
+currency-singular: Poin
+currency-plural: Poin
+currency-separator: ','
+currency-decimal: .
+number-abbreviation-thousands: k
+number-abbreviation-millions: m
+number-abbreviation-billions: b
+
+# Misc
+no-permission: '&cKamu tidak punya izin untuk itu!'
+only-player: '&cPerintah ini hanya dapat dijalankan oleh pemain.'
+invalid-amount: '&cJumlah harus berupa bilangan bulat positif.'
+unknown-player: '&cPemain tidak dapat ditemukan: &b%player%'
+unknown-account: '&cAkun tidak dapat ditemukan: &b%account%'
+unknown-command: '&cPerintah tidak diketahui: &b%input%'
+invalid-argument: '&cInvalid argument: %message%.'
+command-usage: '&cPenggunaan: &b/%cmd% %args%'
+argument-handler-string: Teks tidak boleh kosong
+argument-handler-enum: '%enum% tipe [%input%] tidak ada'
+argument-handler-enum-list: 'Jenis %enum% [%input%] tidak ada. Jenis yang valid: %jenis%'
+argument-handler-value: Nilai [%input%] tidak valid
+votifier-voted: '&eTerima kasih sudah voting di %service%! &b%amount% &etelah ditambahkan ke saldomu.'
+leaderboard-empty-entry: Ini bisa jadi kamu!
+command-cooldown: '&cHarap tunggu sebelum menggunakan perintah itu lagi.'
+
+# Base Command Message
+base-command-color: '&e'
+base-command-help: '&eGunakan &b/%cmd% help &euntuk informasi perintah.'
+
+# Help Command
+command-help-description: Menampilkan menu bantuan... Kamu sudah disini
+command-help-title: '&ePerintah yang Tersedia:'
+command-help-list-description: '&8 - &d/%cmd% %subcmd% %args% &7- %desc%'
+command-help-list-description-no-args: '&8 - &d/%cmd% %subcmd% &7- %desc%'
+
+# Give Command
+command-give-description: Memberikan poin kepada pemain
+command-give-success: '&b%player% &adiberikan &b%amount% &a%currency%.'
+command-give-received: '&eKamu telah menerima &b%amount% &e%currency%.'
+
+# Give All Command
+command-giveall-description: Memberikan poin kepada semua pemain online
+command-giveall-success: '&aMemberikan &b%amount% &a%currency% kepada semua player online.'
+
+# Take Command
+command-take-description: Ambil poin dari pemain
+command-take-success: '&aMengambil &b%amount% &a%currency% dari &b%player%&a.'
+command-take-not-enough: '&b%player% &ctidak memiliki %currency% yang cukup untuk itu.'
+
+# Look Command
+command-look-description: Melihat poin pemain
+command-look-success: '&b%player% &ememiliki &b%amount% &e%currency%.'
+
+# Pay Command
+command-pay-description: Bayar seorang pemain
+command-pay-self: '&cKamu tidak dapat membayar diri sendiri!'
+command-pay-sent: '&aKamu membayar &b%player% %amount% &a%currency%.'
+command-pay-received: '&eKamu dibayar &b%amount% &e%currency% oleh &b%player%&e.'
+command-pay-lacking-funds: '&cKamu tidak punya %currency% yang cukup untuk itu.'
+command-pay-minimum-amount: '&cJumlah minimum yang dapat Anda bayarkan adalah &b%amount% &c%currency%.'
+
+# Set Command
+command-set-description: Atur poin pemain
+command-set-success: '&aMengatur %currency% &b%player% &amenjadi &b%amount%&a.'
+
+# Reset Command
+command-reset-description: Atur ulang poin pemain
+command-reset-success: '&aMengatur ulang %currency% untuk &b%player%&a.'
+
+# Me Command
+command-me-description: Melihat poinmu
+command-me-success: '&eKamu punya &b%amount% &e%currency%.'
+
+# Lead Command
+command-lead-description: Melihat papan peringkat
+command-lead-title: '&ePapan Peringkat &7(Halaman #%page%/%pages%)'
+command-lead-entry: '&b%position%). &e%player% &7- &6%amount% %currency%'
+command-lead-usage: '&cHalaman papan peringkat tidak valid.'
+
+# Broadcast Command
+command-broadcast-description: Menyiarkan poin pemain
+command-broadcast-message: '&b%player% &ememiliki &b%amount% &e%currency%.'
+
+# Reload Command
+command-reload-description: Memuat ulang plugin
+command-reload-reloaded: '&aFile konfigurasi dan bahasa telah dimuat ulang.'
+
+# Export Command
+command-export-description: Ekspor data ke storage.yml
+command-export-success: '&aData yang disimpan telah diekspor ke storage.yml.'
+command-export-warning: '&cCatatan: File storage.yml sudah ada. Jika kamu ingin menimpanya, gunakan &b/points export confirm&c.'
+
+# Import Command
+command-import-description: Impor data dari storage.yml
+command-import-success: '&aData yang disimpan telah diimpor dari storage.yml.'
+command-import-no-backup: '&cTidak dapat mengimpor, tidak ada storage.yml. Kamu dapat membuatnya dengan &b/points export &cdan gunakan itu untuk mentransfer data antar jenis basis data.'
+command-import-warning: '&cCatatan: Operasi ini akan menghapus semua data dari basis data yang aktif dan menggantinya dengan isi dari storage.yml. &cJenis basis data yang aktif saat ini adalah &b&o&l%type%&c. &cJika kamu benar-benar yakin tentang hal ini, gunakan &b/points import confirm&c.'
+
+# Convert Command
+command-convert-description: Memuat data mata uang dari plugin lain
+command-convert-invalid: '&b%plugin% &cbukan nama plugin mata uang yang dapat dikonversi.'
+command-convert-invalid-currency: '&b%currency% &bbukan merupakan mata uang konversi yang valid.'
+command-convert-currency-required: '&cAnda harus menentukan mata uang yang akan dikonversi untuk plugin ini.'
+command-convert-success: '&aData mata uang dari &b%plugin% &asedang dikonversi.'
+command-convert-failure: '&cTerjadi kesalahan saat mencoba mengonversi data. Silakan cek konsolmu dan laporkan kesalahan apa pun ke pembuat plugin PlayerPoints.'
+command-convert-warning: '&cCatatan: operasi ini akan menghapus semua data dari basis data yang aktif dan menggantinya dengan data dari &b%plugin%&c. &cJika kamu benar-benar yakin tentang hal ini, gunakan &b/points convert %plugin% confirm&c.'
+command-convert-warning-currency: '&cCatatan: operasi ini akan menghapus semua data dari basis data yang aktif dan menggantinya dengan data dari &b%plugin%&c. &cJika kamu benar-benar yakin tentang hal ini, gunakan &b/points convert %plugin% %currency% confirm&c.'
+
+# Account Command
+command-account-description: Mengelola pembuatan dan penghapusan akun
+command-account-create-success: '&aBerhasil membuat akun: &b%account%'
+command-account-create-exists: '&cGagal membuat akun. Akun bernama &b%account% &csudah ada.'
+command-account-create-name-invalid: '&cGagal membuat akun. Nama akun harus terdiri dari 3-16 karakter dan hanya boleh terdiri dari huruf, angka, dan garis bawah.'
+command-account-create-warning: '&cPerhatian: Operasi ini akan membuat akun non-pemain yang disebut &b%account%&c. Jika Anda benar-benar yakin tentang hal ini, gunakan &b/points account create %account% confirm&c.'
+command-account-delete-success: '&aAkun berhasil dihapus.'
+command-account-delete-does-not-exist: '&cGagal menghapus akun. Akun bernama &b%account% &ctidak ada.'
+command-account-delete-warning: '&cPerhatian: Operasi ini akan menghapus semua data akun untuk akun &b%account%&c. Jika Anda benar-benar yakin akan hal ini, gunakan &b/points account delete %account% confirm&c.'
+
+# Import Legacy Command
+command-importlegacy-description: Impor tabel lama
+command-importlegacy-success: '&aBerhasil mengimpor data lama dari &b%table%&a.'
+command-importlegacy-failure: '&cGagal mengimpor data lama dari &b%table%&c. Apakah tabelnya ada?'
+command-importlegacy-only-mysql: '&cPerintah ini hanya tersedia disaat kamu sudah mengaktifkan MySQL.'
+
+# Version Command
+command-version-description: Menampilkan informasi versi PlayerPoints

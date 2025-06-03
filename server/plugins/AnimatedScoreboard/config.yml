@@ -1,0 +1,115 @@
+
+#####################################################################################################
+# +-----------------------------------------------------------------------------------------------+ #
+# |                                                                                               | #
+# |                                   How to paint and place vars                                 | #
+# |                                                                                               | #
+# |https://dev.bukkit.org/projects/animated-scoreboard/pages/guide/how-to-paint-and-replaced-vars | #
+# |                                                                                               | #
+# +-----------------------------------------------------------------------------------------------+ #
+#####################################################################################################
+
+
+
+#####################################################################################################
+# +-----------------------------------------------------------------------------------------------+ #
+# |                                                                                               | #
+# |                                          Setup Guide                                          | #
+# |                     For how to Animate the Title see the Online Web-Guide                     | #
+# |    https://dev.bukkit.org/projects/animated-scoreboard/pages/guide/how-to-animate-the-title   | #
+# |                                                                                               | #
+# +-----------------------------------------------------------------------------------------------+ #
+#####################################################################################################
+Title:
+  - '&eSkyForge Server;25'
+  - '&6SkyForge Server;5'
+  - '&eSkyForge Server;5'
+  - '&6SkyForge Server;5'
+  - '&eSkyForge Server;5'
+  - '&6SkyForge Server;5'
+  - '&eSkyForge Server;5'
+  - '&6SkyForge Server;5'
+  - '&eSkyForge Server;5'
+  - '&6SkyForge Server;5'
+  - '&eSkyForge Server;5'
+  - '&6SkyForge Server;5'
+  - '&6SkyForg&f_;2'
+  - '&6SkyFor&f_;2'
+  - '&6SkyFo&f_;2'
+  - '&6SkyF&f_;2'
+  - '&6Sky&f_;2'
+  - '&6Sk&f_;2'
+  - '&6S&f_;2'
+  - '&f_;5'
+  - '&r;10'
+  - '&f_;5'
+  - '&r;10'
+  - '&f_;5'
+  - '&6S&f_;2'
+  - '&6Sk&f_;2'
+  - '&6Sky&f_;2'
+  - '&6SkyF&f_;2'
+  - '&6SkyFo&f_;2'
+  - '&6SkyFor&f_;2'
+  - '&6SkyForg&f_;2'
+  - '&6SkyForge Server;10'
+  - '&eS&6kyForge Server;3'
+  - '&eSk&6yForge Server;3'
+  - '&eSky&6Forge Server;3'
+  - '&eSkyF&6orge Server;3'
+  - '&eSkyFo&6rge Server;3'
+  - '&eSkyFor&6ge Server;3'
+  - '&eSkyForg&6e Server;3'
+  - '&eSkyForge&6 Server;3'
+  - '&eSkyForge Server;5'
+  - '&eSkyForge&6 Server;3'
+  - '&eSkyForg&6e Server;3'
+  - '&eSkyFor&6ge Server;3'
+  - '&eSkyFo&6rge Server;3'
+  - '&eSkyF&6orge Server;3'
+  - '&eSky&6Forge Server;3'
+  - '&eSk&6yForge Server;3'
+  - '&eS&6kyForge Server;3'
+  - '&6SkyForge Server;5'
+  - '&eS&6kyForge Server;3'
+  - '&eSk&6yForge Server;3'
+  - '&eSky&6Forge Server;3'
+  - '&eSkyF&6orge Server;3'
+  - '&eSkyFo&6rge Server;3'
+  - '&eSkyFor&6ge Server;3'
+  - '&eSkyForg&6e Server;3'
+  - '&eSkyForge Server;5'
+  - '&eSkyForg&6e Server;3'
+  - '&eSkyFor&6ge Server;3'
+  - '&eSkyFo&6rge Server;3'
+  - '&eSkyF&6orge Server;3'
+  - '&eSky&6Forge Server;3'
+  - '&eSk&6yForge Server;3'
+  - '&eS&6kyForge Server;3'
+  - '&6SkyForge Server;25'
+
+Pages:
+  amount: 2
+  1:
+    showTime: 1000
+          - ''
+      - '&aWelcome:'
+      - '&2%player%'
+      - ''
+      - '&aPoints:'
+      - '&2%playerpoints_points%'
+      - ''
+      - '&aRank:'
+      - '&2%easyrank_current_rank%'
+      - ''
+
+  2:
+    showTime: 1000
+    lines:
+      - ''
+      - '&aYou are in:'
+      - '&2%world%'
+      - ''
+      - '&aOnline:'
+      - '&f&l%now%&r&2/%max%'
+      - ''
