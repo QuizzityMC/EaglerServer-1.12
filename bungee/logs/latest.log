@@ -53,3 +53,16 @@
 [18:23:15] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] naeem123 (/10.0.0.1:58890) has disconnected: An internal error occurred in your connection.
 [18:23:15] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:58890): read timed out
 [18:23:15] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[18:23:46] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/10.0.0.1:33026]: Connected via websocket
+[18:23:46] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/10.0.0.1:33026]: Origin header is https://r88qfv-8081.csb.app
+[18:23:46] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:33026) has connected
+[18:23:46] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[18:28:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:33026) has disconnected
+[18:28:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[18:29:22] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/10.0.0.1:41398]: Connected via websocket
+[18:29:22] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/10.0.0.1:41398]: Origin header is https://r88qfv-8081.csb.app
+[18:29:23] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:41398) has connected
+[18:29:23] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[18:29:58] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:41398) has disconnected
+[18:29:58] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[18:29:59] [Netty epoll Worker #1/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:35626]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler

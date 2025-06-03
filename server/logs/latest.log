@@ -305,3 +305,20 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Bukkit.getOn
 [18:23:15] [Server thread/INFO]: naeem123 lost connection: Timed out
 [18:23:15] [Server thread/INFO]: TSetSpawn > naeem123 has left.
 [18:23:15] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:23:46] [User Authenticator #2/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[18:23:46] [Server thread/INFO]: naeem123[/127.0.0.1:41162] logged in with entity id 352 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[18:23:46] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:24:04] [Server thread/INFO]: naeem123 issued server command: /time set day
+[18:26:48] [Server thread/INFO]: naeem123 has made the advancement [Monster Hunter]
+[18:28:47] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[18:28:47] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[18:28:47] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:29:23] [User Authenticator #3/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[18:29:23] [Server thread/INFO]: naeem123[/127.0.0.1:52648] logged in with entity id 718 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[18:29:23] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:29:36] [Async Chat Thread - #0/INFO]: [Player] naeem123 ➟ ee
+[18:29:49] [Server thread/INFO]: naeem123 issued server command: /buy
+[18:29:54] [Server thread/INFO]: naeem123 issued server command: /buy
+[18:29:58] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[18:29:58] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[18:29:58] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
