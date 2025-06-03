@@ -15,3 +15,5 @@ unrestricted-advancements: false
 aliases:
   icanhasbukkit:
   - version $1-
+  sell:
+  - economyshopgui:sellall $1-

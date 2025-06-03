@@ -1,0 +1,133 @@
+
+#####################################################################################################
+# +-----------------------------------------------------------------------------------------------+ #
+# |                                                                                               | #
+# |                                   How to paint and place vars                                 | #
+# |                                                                                               | #
+# |https://dev.bukkit.org/projects/animated-scoreboard/pages/guide/how-to-paint-and-replaced-vars | #
+# |                                                                                               | #
+# +-----------------------------------------------------------------------------------------------+ #
+#####################################################################################################
+
+
+
+#####################################################################################################
+# +-----------------------------------------------------------------------------------------------+ #
+# |                                                                                               | #
+# |                                          Setup Guide                                          | #
+# |                     For how to Animate the Title see the Online Web-Guide                     | #
+# |    https://dev.bukkit.org/projects/animated-scoreboard/pages/guide/how-to-animate-the-title   | #
+# |                                                                                               | #
+# +-----------------------------------------------------------------------------------------------+ #
+#####################################################################################################
+Title:
+  - '&eSkyPlex;25'
+  - '&6SkyPlex;5'
+  - '&eSkyPlex;5'
+  - '&6SkyPlex;5'
+  - '&eSkyPlex;5'
+  - '&6SkyPlex;5'
+  - '&eSkyPlex;5'
+  - '&6SkyPlex;5'
+  - '&eSkyPlex;5'
+  - '&6SkyPlex;5'
+  - '&eSkyPlex;5'
+  - '&6SkyPlex;5'
+  - '&6SkyPle&f_;2'
+  - '&6SkyPl&f_;2'
+  - '&6SkyP&f_;2'
+  - '&6Sky&f_;2'
+  - '&6Sk&f_;2'
+  - '&6S&f_;2'
+  - '&f_;5'
+  - '&r;10'
+  - '&f_;5'
+  - '&r;10'
+  - '&f_;5'
+  - '&6S&f_;2'
+  - '&6Sk&f_;2'
+  - '&6Sky&f_;2'
+  - '&6SkyP&f_;2'
+  - '&6SkyPl&f_;2'
+  - '&6SkyPle&f_;2'
+  - '&6SkyPlex;10'
+  - '&eS&6kyPlex;3'
+  - '&eSk&6yPlex;3'
+  - '&eSky&6Plex;3'
+  - '&eSkyP&6lex;3'
+  - '&eSkyPl&6ex;3'
+  - '&eSkyPle&6x;3'
+  - '&eSkyPlex;5'
+  - '&eSkyPle&6x;3'
+  - '&eSkyPl&6ex;3'
+  - '&eSkyP&6lex;3'
+  - '&eSky&6Plex;3'
+  - '&eSk&6yPlex;3'
+  - '&eS&6kyPlex;3'
+  - '&6SkyPlex;5'
+  - '&eS&6kyPlex;3'
+  - '&eSk&6yPlex;3'
+  - '&eSky&6Plex;3'
+  - '&eSkyP&6lex;3'
+  - '&eSkyPl&6ex;3'
+  - '&eSkyPle&6x;3'
+  - '&eSkyPlex;5'
+  - '&eSkyPle&6x;3'
+  - '&eSkyPl&6ex;3'
+  - '&eSkyP&6lex;3'
+  - '&eSky&6Plex;3'
+  - '&eSk&6yPlex;3'
+  - '&eS&6kyPlex;3'
+  - '&6SkyPlex;25'
+  - '&6S&ek&6y&eP&6l&ee&6x;5'
+  - '&eS&6k&ey&6P&el&6e&ex;5'
+  - '&6S&ek&6y&eP&6l&ee&6x;5'
+  - '&eS&6k&ey&6P&el&6e&ex;5'
+  - '&6S&ek&6y&eP&6l&ee&6x;5'
+  - '&eS&6k&ey&6P&el&6e&ex;5'
+  - '&6S&ek&6y&eP&6l&ee&6x;5'
+  - '&eS&6k&ey&6P&el&6e&ex;5'
+  - '&6S&ek&6y&eP&6l&ee&6x;5'
+  - '&eS&6k&ey&6P&el&6e&ex;5'
+  - '&6S&ek&6y&eP&6l&ee&6x;5'
+  - '&eS&6k&ey&6P&el&6e&ex;5'
+  - '&6SkyPlex;25'
+  - '&eSky&6Plex;5'
+  - '&6Sky&ePlex;5'
+  - '&eSky&6Plex;5'
+  - '&6Sky&ePlex;5'
+  - '&eSky&6Plex;5'
+  - '&6Sky&ePlex;5'
+  - '&eSky&6Plex;5'
+  - '&6Sky&ePlex;5'
+  - '&eSky&6Plex;5'
+  - '&6Sky&ePlex;5'
+  - '&eSky&6Plex;5'
+  - '&6Sky&ePlex;5'
+  - '&6SkyPlex;5'
+
+Pages:
+  amount: 2
+  1:
+    showTime: 1000
+    lines:
+      - ''
+      - '&aWelcome:'
+      - '&2%player%'
+      - ''
+      - '&aRank:'
+      - '&2%rank%'
+      - ''
+      - '&aMoney:'
+      - '&2%money%'
+      - ''
+  2:
+    showTime: 1000
+    lines:
+      - ''
+      - '&aYou are in:'
+      - '&2%world%'
+      - ''
+      - '&aOnline:'
+      - '&f&l%now%&r&2/%max%'
+      - ''

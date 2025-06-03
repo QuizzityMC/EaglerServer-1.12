@@ -68,6 +68,8 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
+    prevent-moving-into-unloaded-chunks: false
+    use-vanilla-world-scoreboard-name-coloring: false
     portal-search-radius: 128
     queue-light-updates: false
     optimize-explosions: false
@@ -89,11 +91,9 @@ world-settings:
       disable-unloaded-chunk-enderpearl-exploit: true
       village-sieges-enabled: true
       boats-drop-boats: false
-    prevent-moving-into-unloaded-chunks: false
     max-growth-height:
       cactus: 3
       reeds: 3
-    use-vanilla-world-scoreboard-name-coloring: false
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900

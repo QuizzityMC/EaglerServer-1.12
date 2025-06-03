@@ -1,160 +1,304 @@
-[17:35:38] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[17:35:38] [Server thread/INFO]: Loading properties
-[17:35:38] [Server thread/INFO]: Default game type: SURVIVAL
-[17:35:38] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[17:35:38] [Server thread/INFO]: Debug logging is disabled
-[17:35:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:35:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:35:38] [Server thread/INFO]: Generating keypair
-[17:35:38] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[17:35:38] [Server thread/INFO]: Using default channel type
-[17:35:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:35:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:35:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:35:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:35:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:35:38] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[17:35:38] [Server thread/INFO]: Preparing level "Lobby"
-[17:35:38] [Server thread/INFO]: -------- World Settings For [Lobby] --------
-[17:35:38] [Server thread/INFO]: Mob Spawn Range: 4
-[17:35:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:35:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:35:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:35:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:35:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:35:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:35:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:35:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:35:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:35:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:35:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[17:35:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:35:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:35:38] [Server thread/INFO]: Random Lighting Updates: false
-[17:35:38] [Server thread/INFO]: Structure Info Saving: true
-[17:35:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[17:35:38] [Server thread/INFO]: Max TNT Explosions: 100
-[17:35:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:35:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:35:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:35:38] [Server thread/INFO]: View Distance: 4
-[17:35:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:35:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:35:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:35:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:35:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:35:39] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
-[17:35:39] [Server thread/INFO]: Mob Spawn Range: 4
-[17:35:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[17:35:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:35:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:35:39] [Server thread/INFO]: Random Lighting Updates: false
-[17:35:39] [Server thread/INFO]: Structure Info Saving: true
-[17:35:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[17:35:39] [Server thread/INFO]: Max TNT Explosions: 100
-[17:35:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:35:39] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:35:39] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:35:39] [Server thread/INFO]: View Distance: 4
-[17:35:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:35:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:35:39] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:35:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:35:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:35:39] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
-[17:35:39] [Server thread/INFO]: Mob Spawn Range: 4
-[17:35:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:35:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[17:35:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:35:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:35:39] [Server thread/INFO]: Random Lighting Updates: false
-[17:35:39] [Server thread/INFO]: Structure Info Saving: true
-[17:35:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[17:35:39] [Server thread/INFO]: Max TNT Explosions: 100
-[17:35:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:35:39] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:35:39] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:35:39] [Server thread/INFO]: View Distance: 4
-[17:35:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:35:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:35:39] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:35:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:35:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:35:39] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1372494887900176569)
-[17:35:39] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8034280102195091147)
-[17:35:39] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8034280102195091147)
-[17:35:40] [Server thread/INFO]: Done (1.160s)! For help, type "help" or "?"
-[17:35:40] [Server thread/INFO]: Timings Reset
-[17:36:34] [User Authenticator #1/INFO]: UUID of player ViggEagl0524 is 4bc8fe3e-b07b-312f-b0b8-becdced8631e
-[17:36:35] [Server thread/INFO]: ViggEagl0524[/127.0.0.1:60576] logged in with entity id 18 at ([Lobby]-42.7847402148151, 185.875, 138.1749215129009)
-[17:39:09] [Server thread/INFO]: ViggEagl0524 lost connection: Disconnected
-[17:39:09] [Server thread/INFO]: ViggEagl0524 left the game
-[17:40:09] [User Authenticator #2/INFO]: UUID of player ViggEagl0524 is 4bc8fe3e-b07b-312f-b0b8-becdced8631e
-[17:40:09] [Server thread/INFO]: ViggEagl0524[/127.0.0.1:54898] logged in with entity id 105 at ([Lobby]-35.3410501897632, 184.0, 140.35254742019947)
-[17:41:11] [Server thread/INFO]: ViggEagl0524 was slain by Zombie
-[17:42:54] [Server thread/INFO]: ViggEagl0524 was slain by Spider
-[17:44:18] [Server thread/INFO]: ViggEagl0524 was slain by Spider
-[17:44:30] [Server thread/INFO]: ViggEagl0524 lost connection: Disconnected
-[17:44:30] [Server thread/INFO]: ViggEagl0524 left the game
-[17:44:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[17:44:43] [Paper Watchdog Thread/ERROR]: The server has not responded for 0 seconds! Creating thread dump
-[17:44:43] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:44:43] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[17:44:44] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:44:44] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:44:44] [Paper Watchdog Thread/ERROR]: 	PID: 29 | Suspended: false | Native: false | State: RUNNABLE
-[17:44:44] [Paper Watchdog Thread/ERROR]: 	Stack:
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.getBlockPower(World.java:2796)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.getBlockPower(World.java:2818)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.getBlockFacePower(World.java:2842)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.z(World.java:2856)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRedstoneWire.a(BlockRedstoneWire.java:133)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRedstoneWire.e(BlockRedstoneWire.java:111)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRedstoneWire.a(BlockRedstoneWire.java:303)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockStateList$BlockData.doPhysics(SourceFile:418)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.a(World.java:602)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.applyPhysics(World.java:546)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRedstoneWire.e(BlockRedstoneWire.java:120)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRedstoneWire.a(BlockRedstoneWire.java:303)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockStateList$BlockData.doPhysics(SourceFile:418)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.a(World.java:602)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockDiodeAbstract.h(BlockDiodeAbstract.java:170)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRepeater.remove(SourceFile:128)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.Chunk.a(Chunk.java:535)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.setTypeAndData(World.java:403)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockDiodeAbstract.b(BlockDiodeAbstract.java:52)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:793)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:324)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:905)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.runWith(Thread.java:1596)
-[17:44:44] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.run(Thread.java:1583)
-[17:44:44] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:44:44] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[17:44:44] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:44:48] [User Authenticator #3/INFO]: UUID of player ViggEagl0524 is 4bc8fe3e-b07b-312f-b0b8-becdced8631e
-[17:44:48] [Server thread/INFO]: ViggEagl0524[/127.0.0.1:34378] logged in with entity id 634 at ([Lobby]-204.5, 209.0, 141.5)
-[17:46:06] [Server thread/INFO]: ViggEagl0524 has made the advancement [Monster Hunter]
-[17:46:45] [Server thread/INFO]: ViggEagl0524 lost connection: Disconnected
-[17:46:45] [Server thread/INFO]: ViggEagl0524 left the game
+[18:20:09] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[18:20:09] [Server thread/INFO]: Loading properties
+[18:20:09] [Server thread/INFO]: Default game type: SURVIVAL
+[18:20:09] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[18:20:09] [Server thread/INFO]: Debug logging is disabled
+[18:20:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:20:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:20:09] [Server thread/INFO]: Generating keypair
+[18:20:09] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[18:20:09] [Server thread/INFO]: Using default channel type
+[18:20:09] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[18:20:10] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
+[18:20:10] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.2
+[18:20:10] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v1.0
+[18:20:10] [Server thread/INFO]: [ABoard] Loading AnimatedScoreboard v1.2
+[18:20:10] [Server thread/INFO]: [EasyRanks] Loading EasyRanks v1.3.2
+[18:20:10] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.1
+[18:20:10] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.3.2
+[18:20:10] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.4.7
+[18:20:10] [Server thread/INFO]: [TSetSpawn] Loading TSetSpawn v1.7
+[18:20:10] [Server thread/INFO]: [Vaults] Loading Vaults v1.0.3
+[18:20:10] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.13.0
+[18:20:10] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.21.2-dev+2-d42347f
+[18:20:10] [Server thread/INFO]: [BetterRTP] Loading BetterRTP v3.6.8
+[18:20:10] [Server thread/ERROR]: Permission node 'groups' in permissions.yml is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadCustomPermissions(CraftServer.java:864) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:337) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:223) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:10] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.2
+[18:20:10] [Server thread/INFO]:         __    
+[18:20:10] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.2
+[18:20:10] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:20:10] [Server thread/INFO]: 
+[18:20:10] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:20:10] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:20:11] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:20:11] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:20:11] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 811ms)
+[18:20:11] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.3.2
+[18:20:11] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[18:20:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:20:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:20:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:20:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:20:11] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:20:11] [Server thread/INFO]: Preparing level "Lobby"
+[18:20:11] [Server thread/INFO]: -------- World Settings For [Lobby] --------
+[18:20:11] [Server thread/INFO]: Mob Spawn Range: 4
+[18:20:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:20:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:20:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:20:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:20:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:20:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:20:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:20:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:20:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:20:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:20:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:20:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:20:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:20:11] [Server thread/INFO]: Random Lighting Updates: false
+[18:20:11] [Server thread/INFO]: Structure Info Saving: true
+[18:20:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[18:20:11] [Server thread/INFO]: Max TNT Explosions: 100
+[18:20:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:20:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:20:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:20:11] [Server thread/INFO]: View Distance: 4
+[18:20:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:20:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:20:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:20:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:20:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:20:12] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
+[18:20:12] [Server thread/INFO]: Mob Spawn Range: 4
+[18:20:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:20:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:20:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:20:12] [Server thread/INFO]: Random Lighting Updates: false
+[18:20:12] [Server thread/INFO]: Structure Info Saving: true
+[18:20:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[18:20:12] [Server thread/INFO]: Max TNT Explosions: 100
+[18:20:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:20:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:20:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:20:12] [Server thread/INFO]: View Distance: 4
+[18:20:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:20:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:20:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:20:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:20:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:20:12] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
+[18:20:12] [Server thread/INFO]: Mob Spawn Range: 4
+[18:20:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:20:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:20:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:20:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:20:12] [Server thread/INFO]: Random Lighting Updates: false
+[18:20:12] [Server thread/INFO]: Structure Info Saving: true
+[18:20:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[18:20:12] [Server thread/INFO]: Max TNT Explosions: 100
+[18:20:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:20:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:20:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:20:12] [Server thread/INFO]: View Distance: 4
+[18:20:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:20:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:20:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:20:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:20:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:20:12] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1372494887900176569)
+[18:20:12] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8034280102195091147)
+[18:20:12] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8034280102195091147)
+[18:20:12] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[18:20:12] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[18:20:12] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[18:20:12] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[18:20:12] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v1.0
+[18:20:12] [Server thread/INFO]: [ABoard] Enabling AnimatedScoreboard v1.2
+[18:20:12] [Server thread/INFO]: 
+[18:20:12] [Server thread/INFO]: [ABoard] Sideboard loaded and playing.
+[18:20:12] [Server thread/INFO]: [ABoard] Version: 1.2
+[18:20:12] [Server thread/INFO]: 
+[18:20:12] [Server thread/INFO]: [EasyRanks] Enabling EasyRanks v1.3.2
+[18:20:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[18:20:13] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsXMPP to the same version.
+[18:20:13] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:20:13] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:20:13] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[18:20:13] [Server thread/INFO]: [Essentials] Found 2 files to convert...
+[18:20:13] [Server thread/INFO]: [Essentials] Converted 0/2
+[18:20:13] [Server thread/INFO]: [Essentials] Ban format update complete.
+[18:20:13] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[18:20:13] [Server thread/INFO]: [Essentials] Done converting ignore list.
+[18:20:13] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[18:20:13] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
+[18:20:13] [Server thread/INFO]: [Essentials] Done converting mail list.
+[18:20:13] [Server thread/INFO]: [Essentials] #===========================================================================#
+[18:20:13] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[18:20:13] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
+[18:20:13] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
+[18:20:13] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
+[18:20:13] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[18:20:13] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
+[18:20:13] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
+[18:20:13] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[18:20:13] [Server thread/INFO]: [Essentials] 
+[18:20:13] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
+[18:20:13] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
+[18:20:13] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
+[18:20:13] [Server thread/INFO]: [Essentials] #===========================================================================#
+[18:20:13] [Server thread/INFO]: [Essentials] Found ~2 files under "plugins/Essentials/userdata"...
+[18:20:13] [Server thread/INFO]: [Essentials] #===========================================================================#
+[18:20:13] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
+[18:20:13] [Server thread/INFO]: [Essentials] 
+[18:20:13] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
+[18:20:13] [Server thread/INFO]: [Essentials]  Total accounts processed: 2
+[18:20:13] [Server thread/INFO]: [Essentials] 
+[18:20:13] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
+[18:20:13] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[18:20:13] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
+[18:20:13] [Server thread/INFO]: [Essentials]  to us on GitHub:
+[18:20:13] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[18:20:13] [Server thread/INFO]: [Essentials] #===========================================================================#
+[18:20:13] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[18:20:13] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[18:20:13] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[18:20:13] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[18:20:13] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[18:20:13] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[18:20:13] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[18:20:13] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[18:20:13] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[18:20:13] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[18:20:13] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[18:20:13] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[18:20:13] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[18:20:13] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[18:20:13] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[18:20:13] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[18:20:13] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[18:20:13] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[18:20:13] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[18:20:13] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[18:20:13] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[18:20:13] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[18:20:13] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[18:20:13] [Server thread/INFO]: [Essentials] Using locale en_US
+[18:20:13] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:20:13] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:20:13] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[18:20:13] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[18:20:13] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[18:20:13] [Server thread/INFO]: [TSetSpawn] Enabling TSetSpawn v1.7
+[18:20:13] [Server thread/INFO]: [TSetSpawn] Has been activated (version: 1.7)
+[18:20:13] [Server thread/INFO]: [Vaults] Enabling Vaults v1.0.3
+[18:20:13] [Server thread/ERROR]: Error occurred while enabling Vaults v1.0.3 (Is it up to date?)
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Bukkit.getOnlinePlayers()'
+	at org.vanillaworld.Vaults.Main.onEnable(Main.java:23) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:13] [Server thread/INFO]: [Vaults] Disabling Vaults v1.0.3
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.13.0
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to load default economy provider with reason 'Could not find Vault', trying to automatically find supported economy provider
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Detected PlayerPoints, initializing...
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into PlayerPoints
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.12.2...
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: This item material is not supported in this minecraft version.
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Item path in config.yml: spawner-break-tools.3
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[18:20:13] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 389ms to complete
+[18:20:13] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.21.2-dev+2-d42347f
+[18:20:13] [Server thread/WARN]: [EssentialsXMPP] Version mismatch! Please update all Essentials jars to the same version.
+[18:20:13] [Server thread/WARN]: [EssentialsXMPP] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:20:13] [Server thread/INFO]: [EssentialsXMPP] Starting Metrics. Opt-out using the global bStats config.
+[18:20:13] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.8
+[18:20:13] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[18:20:13] [Server thread/INFO]: [BetterRTP] Loading Overrides...
+[18:20:13] [Server thread/WARN]: [BetterRTP] The world `world` doesn't seem to exist! Please update `master_world's` override! Maybe there are capital letters?
+[18:20:14] [Server thread/WARN]: [BetterRTP] The world `world` doesn't seem to exist! Please update `creative_world's` override! Maybe there are capital letters?
+[18:20:14] [Server thread/INFO]: [BetterRTP] Loading World Types...
+[18:20:14] [Server thread/INFO]: [BetterRTP] - World Type for 'world' set to 'NORMAL'
+[18:20:14] [Server thread/INFO]: [BetterRTP] - World Type for 'world_nether' set to 'NETHER'
+[18:20:14] [Server thread/INFO]: [BetterRTP] - World Type for 'world_the_end' set to 'NORMAL'
+[18:20:14] [Server thread/INFO]: [BetterRTP] Loading Defaults...
+[18:20:14] [Server thread/INFO]: [BetterRTP] Loading Custom Worlds...
+[18:20:14] [Server thread/INFO]: [BetterRTP] [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+[18:20:14] [Server thread/INFO]: [BetterRTP] [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+[18:20:14] [Server thread/INFO]: Done (2.435s)! For help, type "help" or "?"
+[18:20:14] [Server thread/INFO]: Timings Reset
+[18:20:14] [Craft Scheduler Thread - 1/INFO]: [Essentials] Fetching version information...
+[18:20:14] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Database COOLDOWN:Lobby configured and loaded!
+[18:20:14] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Database COOLDOWN:Lobby_nether configured and loaded!
+[18:20:14] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Database COOLDOWN:Lobby_the_end configured and loaded!
+[18:20:14] [Craft Scheduler Thread - 4/INFO]: [BetterRTP] Database QUEUE:Queue configured and loaded!
+[18:20:14] [Craft Scheduler Thread - 5/INFO]: [BetterRTP] Database CHUNK_DATA:ChunkData configured and loaded!
+[18:20:14] [Craft Scheduler Thread - 6/INFO]: [BetterRTP] Database PLAYERS:Players configured and loaded!
+[18:20:14] [Craft Scheduler Thread - 5/INFO]: [BetterRTP] Attempting to queue up some more safe locations...
+[18:20:15] [Server thread/WARN]: [BetterRTP] Seems like the world `Lobby_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby_nether: NETHER`
+[18:20:44] [User Authenticator #1/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[18:20:45] [Server thread/INFO]: naeem123[/127.0.0.1:38042] logged in with entity id 21 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[18:20:45] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:20:54] [Server thread/INFO]: naeem123 issued server command: /rtp
+[18:20:54] [Server thread/WARN]: [BetterRTP] Seems like the world `Lobby` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby: NETHER`
+[18:20:54] [Craft Scheduler Thread - 7/INFO]: [BetterRTP] -Removed a queue Location{world=CraftWorld{name=Lobby},x=-462.5,y=67.0,z=-235.5,pitch=24.29998,yaw=-76.74344}
+[18:21:01] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[18:21:01] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[18:21:01] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:21:04] [User Authenticator #1/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[18:21:04] [Server thread/INFO]: naeem123[/127.0.0.1:57562] logged in with entity id 127 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[18:21:04] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:21:09] [Craft Scheduler Thread - 6/INFO]: [BetterRTP] Max attempts to create a Queue reached for default_Lobby_nether (amount: 0)
+[18:21:09] [Craft Scheduler Thread - 6/INFO]: [BetterRTP] Queueing paused, max queue limit reached!
+[18:21:10] [Server thread/INFO]: naeem123 issued server command: /rtp
+[18:21:10] [Craft Scheduler Thread - 5/INFO]: [BetterRTP] -Removed a queue Location{world=CraftWorld{name=Lobby},x=-876.5,y=76.0,z=37.5,pitch=34.19998,yaw=-270.69342}
+[18:21:23] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[18:21:23] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[18:21:23] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:21:25] [User Authenticator #1/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[18:21:25] [Server thread/INFO]: naeem123[/127.0.0.1:44914] logged in with entity id 238 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[18:21:25] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
