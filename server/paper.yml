@@ -70,6 +70,9 @@ world-settings:
       disable-mesa-additional-gold: false
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
+    fast-drain:
+      lava: false
+      water: false
     portal-search-radius: 128
     queue-light-updates: false
     optimize-explosions: false
@@ -103,9 +106,6 @@ world-settings:
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     water-over-lava-flow-speed: 5
-    fast-drain:
-      lava: false
-      water: false
     lava-flow-speed:
       normal: 30
       nether: 10
