@@ -1,3 +1,0 @@
-# Should all plugins running RoseGarden check for updates?
-# RoseGarden is a core library created by Rosewood Development
-check-updates: true

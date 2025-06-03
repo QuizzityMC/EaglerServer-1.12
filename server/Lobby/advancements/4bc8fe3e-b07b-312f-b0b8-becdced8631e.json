@@ -1,7 +1,25 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-06-03 17:46:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2025-06-03 14:47:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-06-03 17:46:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2025-06-03 17:46:08 +0000"
     },
     "done": true
   },
@@ -22,6 +40,61 @@
       "has_cobblestone": "2025-06-03 14:47:49 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "spider": "2025-06-03 17:46:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "spider": "2025-06-03 17:46:06 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-06-03 14:47:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2025-06-03 14:49:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2025-06-03 14:47:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2025-06-03 14:47:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2025-06-03 14:47:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-06-03 17:46:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "deep_ocean": "2025-06-03 14:42:07 +0000",
+      "ocean": "2025-06-03 14:44:15 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
@@ -59,27 +132,9 @@
     },
     "done": true
   },
-  "minecraft:story/mine_stone": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "get_stone": "2025-06-03 14:47:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite": {
-    "criteria": {
-      "has_stone": "2025-06-03 14:49:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2025-06-03 14:47:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/furnace": {
-    "criteria": {
-      "has_cobblestone": "2025-06-03 14:47:49 +0000"
+      "killed_by_something": "2025-06-03 17:41:11 +0000"
     },
     "done": true
   },
@@ -95,23 +150,10 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2025-06-03 14:47:49 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "entered_water": "2025-06-03 14:48:25 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "deep_ocean": "2025-06-03 14:42:07 +0000",
-      "ocean": "2025-06-03 14:44:15 +0000"
-    },
-    "done": false
   }
 }

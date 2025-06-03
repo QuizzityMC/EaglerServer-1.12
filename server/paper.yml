@@ -15,11 +15,11 @@ settings:
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
   sleep-between-chunk-saves: false
-  save-player-data: true
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
   incoming-packet-spam-threshold: 300
   remove-invalid-statistics: false
+  save-player-data: true
   use-alternative-luck-formula: false
   min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
@@ -93,19 +93,19 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
+    use-vanilla-world-scoreboard-name-coloring: false
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
     despawn-ranges:
       soft: 32
       hard: 128
-    fast-drain:
-      lava: false
-      water: false
-    use-vanilla-world-scoreboard-name-coloring: false
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     water-over-lava-flow-speed: 5
+    fast-drain:
+      lava: false
+      water: false
     lava-flow-speed:
       normal: 30
       nether: 10

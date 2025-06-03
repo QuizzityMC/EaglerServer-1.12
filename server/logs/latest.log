@@ -1,119 +1,160 @@
-[17:27:20] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[17:27:20] [Server thread/INFO]: Loading properties
-[17:27:20] [Server thread/INFO]: Default game type: SURVIVAL
-[17:27:20] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[17:27:20] [Server thread/INFO]: Debug logging is disabled
-[17:27:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:27:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:27:20] [Server thread/INFO]: Generating keypair
-[17:27:20] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[17:27:20] [Server thread/INFO]: Using default channel type
-[17:27:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:27:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:27:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:27:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:27:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:27:20] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[17:27:20] [Server thread/INFO]: Preparing level "Lobby"
-[17:27:20] [Server thread/INFO]: -------- World Settings For [Lobby] --------
-[17:27:20] [Server thread/INFO]: Mob Spawn Range: 4
-[17:27:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[17:27:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:27:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:27:20] [Server thread/INFO]: Random Lighting Updates: false
-[17:27:20] [Server thread/INFO]: Structure Info Saving: true
-[17:27:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[17:27:20] [Server thread/INFO]: Max TNT Explosions: 100
-[17:27:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:27:20] [Server thread/INFO]: View Distance: 4
-[17:27:20] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:27:20] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:27:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:27:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:27:20] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:27:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:27:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:27:20] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
-[17:27:20] [Server thread/INFO]: Mob Spawn Range: 4
-[17:27:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:27:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[17:27:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:27:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:27:20] [Server thread/INFO]: Random Lighting Updates: false
-[17:27:20] [Server thread/INFO]: Structure Info Saving: true
-[17:27:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[17:27:20] [Server thread/INFO]: Max TNT Explosions: 100
-[17:27:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:27:20] [Server thread/INFO]: View Distance: 4
-[17:27:20] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:27:20] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:27:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:27:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:27:21] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:27:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:27:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:27:21] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
-[17:27:21] [Server thread/INFO]: Mob Spawn Range: 4
-[17:27:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:27:21] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:27:21] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:27:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:27:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:27:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:27:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:27:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:27:21] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:27:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:27:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[17:27:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:27:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:27:21] [Server thread/INFO]: Random Lighting Updates: false
-[17:27:21] [Server thread/INFO]: Structure Info Saving: true
-[17:27:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[17:27:21] [Server thread/INFO]: Max TNT Explosions: 100
-[17:27:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:27:21] [Server thread/INFO]: View Distance: 4
-[17:27:21] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:27:21] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:27:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:27:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:27:21] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:27:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:27:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:27:21] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1372494887900176569)
-[17:27:21] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8034280102195091147)
-[17:27:21] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8034280102195091147)
-[17:27:21] [Server thread/INFO]: Done (1.245s)! For help, type "help" or "?"
-[17:27:21] [Server thread/INFO]: Timings Reset
-[17:28:03] [User Authenticator #1/INFO]: UUID of player ViggEagl0524 is 4bc8fe3e-b07b-312f-b0b8-becdced8631e
-[17:28:03] [Server thread/INFO]: ViggEagl0524[/127.0.0.1:41054] logged in with entity id 30 at ([Lobby]-88.43336269643946, 184.5, 160.1614767931655)
-[17:28:17] [Server thread/INFO]: ViggEagl0524 issued server command: /shop
-[17:28:21] [Server thread/INFO]: ViggEagl0524 issued server command: /help
-[17:28:25] [Server thread/INFO]: ViggEagl0524 issued server command: /
-[17:28:33] [Server thread/INFO]: ViggEagl0524 lost connection: Disconnected
-[17:28:33] [Server thread/INFO]: ViggEagl0524 left the game
-[17:28:41] [Server thread/INFO]: Stopping server
-[17:28:41] [Server thread/INFO]: Saving players
-[17:28:41] [Server thread/INFO]: Saving worlds
-[17:28:41] [Server thread/INFO]: Saving chunks for level 'Lobby'/overworld
-[17:28:41] [Server thread/INFO]: Saving chunks for level 'Lobby_nether'/the_nether
-[17:28:41] [Server thread/INFO]: Saving chunks for level 'Lobby_the_end'/the_end
+[17:35:38] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[17:35:38] [Server thread/INFO]: Loading properties
+[17:35:38] [Server thread/INFO]: Default game type: SURVIVAL
+[17:35:38] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[17:35:38] [Server thread/INFO]: Debug logging is disabled
+[17:35:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:35:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:35:38] [Server thread/INFO]: Generating keypair
+[17:35:38] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[17:35:38] [Server thread/INFO]: Using default channel type
+[17:35:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:35:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:35:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:35:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:35:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:35:38] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[17:35:38] [Server thread/INFO]: Preparing level "Lobby"
+[17:35:38] [Server thread/INFO]: -------- World Settings For [Lobby] --------
+[17:35:38] [Server thread/INFO]: Mob Spawn Range: 4
+[17:35:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:35:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:35:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:35:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:35:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:35:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:35:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:35:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:35:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:35:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:35:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[17:35:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:35:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:35:38] [Server thread/INFO]: Random Lighting Updates: false
+[17:35:38] [Server thread/INFO]: Structure Info Saving: true
+[17:35:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[17:35:38] [Server thread/INFO]: Max TNT Explosions: 100
+[17:35:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:35:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:35:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:35:38] [Server thread/INFO]: View Distance: 4
+[17:35:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:35:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:35:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:35:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:35:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:35:39] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
+[17:35:39] [Server thread/INFO]: Mob Spawn Range: 4
+[17:35:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[17:35:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:35:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:35:39] [Server thread/INFO]: Random Lighting Updates: false
+[17:35:39] [Server thread/INFO]: Structure Info Saving: true
+[17:35:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[17:35:39] [Server thread/INFO]: Max TNT Explosions: 100
+[17:35:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:35:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:35:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:35:39] [Server thread/INFO]: View Distance: 4
+[17:35:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:35:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:35:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:35:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:35:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:35:39] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
+[17:35:39] [Server thread/INFO]: Mob Spawn Range: 4
+[17:35:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:35:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[17:35:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:35:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:35:39] [Server thread/INFO]: Random Lighting Updates: false
+[17:35:39] [Server thread/INFO]: Structure Info Saving: true
+[17:35:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[17:35:39] [Server thread/INFO]: Max TNT Explosions: 100
+[17:35:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:35:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:35:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:35:39] [Server thread/INFO]: View Distance: 4
+[17:35:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:35:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:35:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:35:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:35:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:35:39] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1372494887900176569)
+[17:35:39] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8034280102195091147)
+[17:35:39] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8034280102195091147)
+[17:35:40] [Server thread/INFO]: Done (1.160s)! For help, type "help" or "?"
+[17:35:40] [Server thread/INFO]: Timings Reset
+[17:36:34] [User Authenticator #1/INFO]: UUID of player ViggEagl0524 is 4bc8fe3e-b07b-312f-b0b8-becdced8631e
+[17:36:35] [Server thread/INFO]: ViggEagl0524[/127.0.0.1:60576] logged in with entity id 18 at ([Lobby]-42.7847402148151, 185.875, 138.1749215129009)
+[17:39:09] [Server thread/INFO]: ViggEagl0524 lost connection: Disconnected
+[17:39:09] [Server thread/INFO]: ViggEagl0524 left the game
+[17:40:09] [User Authenticator #2/INFO]: UUID of player ViggEagl0524 is 4bc8fe3e-b07b-312f-b0b8-becdced8631e
+[17:40:09] [Server thread/INFO]: ViggEagl0524[/127.0.0.1:54898] logged in with entity id 105 at ([Lobby]-35.3410501897632, 184.0, 140.35254742019947)
+[17:41:11] [Server thread/INFO]: ViggEagl0524 was slain by Zombie
+[17:42:54] [Server thread/INFO]: ViggEagl0524 was slain by Spider
+[17:44:18] [Server thread/INFO]: ViggEagl0524 was slain by Spider
+[17:44:30] [Server thread/INFO]: ViggEagl0524 lost connection: Disconnected
+[17:44:30] [Server thread/INFO]: ViggEagl0524 left the game
+[17:44:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:44:43] [Paper Watchdog Thread/ERROR]: The server has not responded for 0 seconds! Creating thread dump
+[17:44:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:44:43] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:44:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:44:44] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:44:44] [Paper Watchdog Thread/ERROR]: 	PID: 29 | Suspended: false | Native: false | State: RUNNABLE
+[17:44:44] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.getBlockPower(World.java:2796)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.getBlockPower(World.java:2818)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.getBlockFacePower(World.java:2842)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.z(World.java:2856)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRedstoneWire.a(BlockRedstoneWire.java:133)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRedstoneWire.e(BlockRedstoneWire.java:111)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRedstoneWire.a(BlockRedstoneWire.java:303)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockStateList$BlockData.doPhysics(SourceFile:418)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.a(World.java:602)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.applyPhysics(World.java:546)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRedstoneWire.e(BlockRedstoneWire.java:120)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRedstoneWire.a(BlockRedstoneWire.java:303)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockStateList$BlockData.doPhysics(SourceFile:418)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.a(World.java:602)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockDiodeAbstract.h(BlockDiodeAbstract.java:170)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockRepeater.remove(SourceFile:128)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.Chunk.a(Chunk.java:535)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.World.setTypeAndData(World.java:403)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.BlockDiodeAbstract.b(BlockDiodeAbstract.java:52)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:793)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:324)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:905)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.runWith(Thread.java:1596)
+[17:44:44] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.run(Thread.java:1583)
+[17:44:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:44:44] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:44:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:44:48] [User Authenticator #3/INFO]: UUID of player ViggEagl0524 is 4bc8fe3e-b07b-312f-b0b8-becdced8631e
+[17:44:48] [Server thread/INFO]: ViggEagl0524[/127.0.0.1:34378] logged in with entity id 634 at ([Lobby]-204.5, 209.0, 141.5)
+[17:46:06] [Server thread/INFO]: ViggEagl0524 has made the advancement [Monster Hunter]
+[17:46:45] [Server thread/INFO]: ViggEagl0524 lost connection: Disconnected
+[17:46:45] [Server thread/INFO]: ViggEagl0524 left the game
