@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.cryptomorin</groupId>
+    <artifactId>XSeries</artifactId>
+    <version>11.3.0</version>
+
+    <name>XSeries</name>
+    <description>A set of utilities for Minecraft plugins</description>
+    <url>https://www.spigotmc.org/threads/378136/</url>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/CryptoMorin/XSeries/issues</url>
+    </issueManagement>
+
+    <inceptionYear>2019</inceptionYear>
+
+    <developers>
+        <developer>
+            <id>CryptoMorin</id>
+            <name>Crypto Morin</name>
+            <roles>
+                <role>Owner</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>9</version>
+    </parent>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <!-- https://repo1.maven.org/maven2/com/github/cryptomorin/XSeries/ -->
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>nms-repo</id>
+            <url>https://repo.codemc.org/repository/nms/</url>
+        </repository>
+        <!--        <repository>-->
+        <!--            &lt;!&ndash; Sometimes codemc's snapshots don't have the mojang packages. &ndash;&gt;-->
+        <!--            &lt;!&ndash; https://libraries.minecraft.net/com/mojang/authlib/VERSION/authlib-VERSION.jar &ndash;&gt;-->
+        <!--            <id>minecraft-libraries</id>-->
+        <!--            <name>Minecraft Libraries</name>-->
+        <!--            <url>https://libraries.minecraft.net/</url>-->
+        <!--        </repository>-->
+    </repositories>
+
+    <properties>
+        <!-- Latest version -->
+        <!-- https://repo.codemc.io/service/rest/repository/browse/nms/org/spigotmc/spigot/ -->
+        <!-- 1.8.8-R0.1-SNAPSHOT -->
+        <!-- 1.9.4-R0.1-SNAPSHOT -->
+        <!-- 1.10.2-R0.1-SNAPSHOT -->
+        <!-- 1.11.2-R0.1-SNAPSHOT -->
+        <!-- 1.12.2-R0.1-SNAPSHOT -->
+        <!-- 1.13.2-R0.1-SNAPSHOT -->
+        <!-- 1.14.4-R0.1-SNAPSHOT -->
+        <!-- 1.15.2-R0.1-SNAPSHOT -->
+        <!-- 1.16.5-R0.1-SNAPSHOT -->
+        <!-- 1.17.1-R0.1-SNAPSHOT -->
+        <!-- 1.19.4-R0.1-SNAPSHOT -->
+        <!-- 1.20.6-R0.1-SNAPSHOT -->
+        <!-- 1.21.1-R0.1-SNAPSHOT -->
+        <spigotVersion>1.21.1-R0.1-SNAPSHOT</spigotVersion>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <dependencies>
+        <!--        <dependency>-->
+        <!--            <groupId>com.mojang</groupId>-->
+        <!--            <artifactId>authlib</artifactId>-->
+        <!--            <version>6.0.54</version>-->
+        <!--            <scope>provided</scope>-->
+        <!--        </dependency>-->
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>${spigotVersion}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <!-- https://mvnrepository.com/artifact/org.jetbrains/annotations -->
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>24.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.3.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <!--all,-missing-->
+                    <doclint>none</doclint>
+                    <release>8</release>
+                    <excludePackageNames>com.cryptomorin.xseries.unused:com.cryptomorin.xseries.particles
+                    </excludePackageNames>
+                    <!-- Apparently this is needed because it's a bug with maven JavaDoc plugin not being able to find the exe by itself. -->
+                    <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>3.2.4</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.7.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>ossrh</serverId>
+                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <proc>none</proc>
+                    <source>8</source>
+                    <target>8</target>
+                    <compilerArgs>
+                        <!-- Fails to build the JAR if one of the excluded classes are being used inside an included class. -->
+                        <arg>-sourcepath</arg>
+                        <arg>doesnotexist</arg>
+                    </compilerArgs>
+                    <excludes>
+                        <exclude>com/cryptomorin/xseries/unused/</exclude>
+                        <exclude>com/cryptomorin/xseries/SkullCacheListener.java</exclude>
+                    </excludes>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>default-testCompile</id>
+                        <phase>test-compile</phase>
+                        <goals>
+                            <goal>testCompile</goal>
+                        </goals>
+                        <configuration>
+                            <skip>true</skip>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
+                <configuration>
+                    <!--<failIfNoTests>true</failIfNoTests>-->
+                    <!-- <skipTests>true</skipTests>-->
+                    <trimStackTrace>false</trimStackTrace>
+                    <workingDirectory>${basedir}/target/tests</workingDirectory>
+                    <!--                    <dependenciesToScan>-->
+                    <!--                        <dependency>*:spigot:*:*:1.16.5-R0.1-SNAPSHOT</dependency>-->
+                    <!--                    </dependenciesToScan>-->
+                    <includes>
+                        <include>**/*.java</include>
+                    </includes>
+                </configuration>
+            </plugin>
+        </plugins>
+
+        <testSourceDirectory>src/test</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+                <filtering>true</filtering>
+            </testResource>
+        </testResources>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>tester</id>
+            <dependencies>
+                <dependency>
+                    <groupId>org.spigotmc</groupId>
+                    <artifactId>spigot</artifactId>
+                    <version>${spigotVersion}</version>
+                    <scope>provided</scope>
+                </dependency>
+            </dependencies>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <version>3.13.0</version>
+                        <configuration>
+                            <source>21</source>
+                            <target>21</target>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>default-testCompile</id>
+                                <phase>test-compile</phase>
+                                <goals>
+                                    <goal>testCompile</goal>
+                                </goals>
+                                <configuration>
+                                    <skip>false</skip>
+                                    <testIncludes>
+                                        <include>**/*.java</include>
+                                    </testIncludes>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>latest</id>
+            <properties>
+                <nms>21_R0</nms>
+            </properties>
+        </profile>
+        <profile>
+            <id>20</id>
+            <properties>
+                <nms>20_R0</nms>
+                <spigotVersion>1.20.6-R0.1-SNAPSHOT</spigotVersion>
+            </properties>
+        </profile>
+        <profile>
+            <id>19</id>
+            <properties>
+                <nms>19_R1</nms>
+                <spigotVersion>1.19.4-R0.1-SNAPSHOT</spigotVersion>
+            </properties>
+        </profile>
+        <profile>
+            <id>18</id>
+            <properties>
+                <nms>18_R1</nms>
+                <spigotVersion>1.18.2-R0.1-SNAPSHOT</spigotVersion>
+            </properties>
+        </profile>
+        <profile>
+            <id>17</id>
+            <properties>
+                <nms>17_R1</nms>
+                <spigotVersion>1.17.1-R0.1-SNAPSHOT</spigotVersion>
+            </properties>
+        </profile>
+        <profile>
+            <!-- Doens't seem to work. I can't find a way to compile with one dependency and test with another -->
+            <id>16</id>
+            <properties>
+                <nms>16_R3</nms>
+                <spigotVersion>1.16.5-R0.1-SNAPSHOT</spigotVersion>
+            </properties>
+        </profile>
+    </profiles>
+</project>

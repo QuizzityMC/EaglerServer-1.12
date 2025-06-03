@@ -1,0 +1,18 @@
+# This is the message.yml | You can customize all messages
+# -------------------------------------------------------
+# Put & in front of color codes in order to use them
+# %p will be replaced with the player-name
+# %r will be replaced with the rank-name
+# %c will be replaced with the command
+# %p will be replaced with the permission
+
+
+messages:
+  noPermission: '&7Sry, but you do not have the &cpermission&7!'
+  notOnline: '&7This player is &cnot &7online! You can only rank &aonline &7player!'
+  noRank: '&7This is not an &cavailable §7Rank! Use &f%c &7to see all ranks!'
+  setRank: '&7You ranked &a%p &7to &f%r&7!'
+  uninstall: '&7You have 30 seconds to &2confirm &7the uninstall-process with &f/easyranks
+    confirm&7!'
+  confirm: '&7You &cdeleted &7all ranks and configs! You now can remove the plugin!'
+  noUninstall: '&7Before you can confirm you have to &f/easyranks uninstall&7!'

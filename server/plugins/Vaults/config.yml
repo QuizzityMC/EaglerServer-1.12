@@ -1,0 +1,21 @@
+version: 1.0.0
+backend:
+  type: file
+  update-period: 20
+  file:
+    name: vaults.yml
+  mysql:
+    host: localhost
+    port: 3306
+    username: root
+    password: password
+    database: playerdata
+    table: vaults
+vault-rows: 3
+caching: true
+messages:
+  no-vault: '&4You do not have that many vaults!'
+  need-to-specify-number: '&4You need to specify a vault number. For example /vault
+    3'
+  no-permission: '&4You do not have permission to do that!'
+  admin-view-no-vault: '&4<player> is not allowed that many vaults!'

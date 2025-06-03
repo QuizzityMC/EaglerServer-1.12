@@ -1,0 +1,7 @@
+# This file lets you disable the command, change the name and aliases, and set the priority.
+# If you edit the name/aliases at the top of this file, you will need to restart the server to see all the changes applied properly.
+# Enabling the priority setting will make this command take priority over commands from other plugins on the server.
+enabled: true
+name: rwd
+aliases: []
+priority: false

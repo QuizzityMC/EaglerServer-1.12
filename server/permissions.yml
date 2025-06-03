@@ -1,0 +1,7 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - betterrtp.rtp
+    - betterrtp.world.world

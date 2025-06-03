@@ -11,6 +11,9 @@
 # Bug tracker: http://www.spigotmc.org/go/bugs
 
 command-block-overrides: []
+unrestricted-advancements: false
 aliases:
   icanhasbukkit:
   - version $1-
+  sell:
+  - economyshopgui:sellall $1-
