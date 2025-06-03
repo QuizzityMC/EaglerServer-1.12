@@ -322,3 +322,15 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Bukkit.getOn
 [18:29:58] [Server thread/INFO]: naeem123 lost connection: Disconnected
 [18:29:58] [Server thread/INFO]: TSetSpawn > naeem123 has left.
 [18:29:58] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:30:19] [User Authenticator #3/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[18:30:19] [Server thread/INFO]: naeem123[/127.0.0.1:49616] logged in with entity id 748 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[18:30:19] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:32:26] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[18:32:26] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[18:32:26] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:32:30] [User Authenticator #4/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[18:32:30] [Server thread/INFO]: naeem123[/127.0.0.1:47668] logged in with entity id 1047 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[18:32:30] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:32:46] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[18:32:46] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[18:32:46] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
