@@ -108,3 +108,11 @@
 [14:42:07] [Server thread/INFO]: ViggEagl0524[/127.0.0.1:44716] logged in with entity id 49 at ([Lobby]-209.5, 209.0, 136.5)
 [14:42:24] [Server thread/INFO]: ViggEagl0524 lost connection: Disconnected
 [14:42:24] [Server thread/INFO]: ViggEagl0524 left the game
+[14:44:06] [User Authenticator #2/INFO]: UUID of player ViggEagl0524 is 4bc8fe3e-b07b-312f-b0b8-becdced8631e
+[14:44:06] [Server thread/INFO]: ViggEagl0524[/127.0.0.1:46328] logged in with entity id 65 at ([Lobby]-202.08871999453666, 208.0, 143.61211188663765)
+[14:44:58] [Server thread/INFO]: ViggEagl0524 lost connection: Disconnected
+[14:44:58] [Server thread/INFO]: ViggEagl0524 left the game
+[14:45:15] [User Authenticator #3/INFO]: UUID of player ViggEagl0524 is 4bc8fe3e-b07b-312f-b0b8-becdced8631e
+[14:45:15] [Server thread/INFO]: ViggEagl0524[/127.0.0.1:35728] logged in with entity id 103 at ([Lobby]-147.73594669536408, 193.0, 129.15689423589095)
+[14:45:24] [Server thread/INFO]: ViggEagl0524 lost connection: Disconnected
+[14:45:24] [Server thread/INFO]: ViggEagl0524 left the game

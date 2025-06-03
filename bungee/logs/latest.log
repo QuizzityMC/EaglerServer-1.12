@@ -38,3 +38,19 @@
 [14:42:06] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ViggEagl0524 -> lobby has connected
 [14:42:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ViggEagl0524 (/10.0.0.1:48832) has disconnected
 [14:42:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ViggEagl0524 -> lobby has disconnected
+[14:43:42] [Netty epoll Worker #1/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:35824]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
+[14:43:54] [Netty epoll Worker #2/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:35636]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
+[14:44:05] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:32926]: Connected via websocket
+[14:44:05] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:32926]: Origin header is https://r88qfv-8081.csb.app
+[14:44:06] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] ViggEagl0524 (/10.0.0.1:32926) has connected
+[14:44:06] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ViggEagl0524 -> lobby has connected
+[14:44:58] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ViggEagl0524 (/10.0.0.1:32926) has disconnected
+[14:44:58] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ViggEagl0524 -> lobby has disconnected
+[14:45:00] [Netty epoll Worker #0/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:45508]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
+[14:45:13] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:57502]: Connected via websocket
+[14:45:13] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:57502]: Origin header is https://r88qfv-8081.csb.app
+[14:45:15] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] ViggEagl0524 (/10.0.0.1:57502) has connected
+[14:45:15] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ViggEagl0524 -> lobby has connected
+[14:45:24] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ViggEagl0524 (/10.0.0.1:57502) has disconnected
+[14:45:24] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ViggEagl0524 -> lobby has disconnected
+[14:45:25] [Netty epoll Worker #2/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:56064]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
