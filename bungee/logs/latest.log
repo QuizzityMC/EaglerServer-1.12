@@ -1,53 +1,40 @@
-[13:41:25] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-965db127-b454)...
-[13:41:25] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[13:41:26] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
-[13:41:27] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[13:41:27] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
-[13:41:27] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:a33f2d1a:b452
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[13:41:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[13:41:28] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.5 by lax1dude, ayunami2000
-[13:41:28] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
-[13:41:28] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
-[13:41:28] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
-[13:41:29] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Loading vanilla profile: lax1dude
-[13:41:31] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: Loaded vanilla profile: lax1dude
-[13:41:31] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
-[13:41:31] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
-[13:41:32] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[13:41:32] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[13:41:32] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25577
-[13:41:32] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (8.84s)!
-[13:47:08] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:57446]: Connected via websocket
-[13:47:08] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:57446]: Origin header is https://sny9kk-8081.csb.app
-[13:47:25] [Netty epoll Worker #0/WARN] [eaglerxvelocity]: Server icon is not a file: /project/workspace/bungee/server-icon.png
-[13:47:36] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:57606]: Connected via websocket
-[13:47:36] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:57606]: Origin header is https://sny9kk-8081.csb.app
-[13:47:38] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] EaglerDarver9092 (/10.0.0.1:57606) has connected
-[13:47:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EaglerDarver9092 -> lobby has connected
-[13:47:39] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EaglerDarver9092 (/10.0.0.1:57606) has disconnected
-[13:47:39] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EaglerDarver9092 -> lobby has disconnected
-[13:47:49] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/10.0.0.1:37932]: Connected via websocket
-[13:47:49] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/10.0.0.1:37932]: Origin header is https://sny9kk-8081.csb.app
-[13:47:50] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] EaglerDarver9092 (/10.0.0.1:37932) has connected
-[13:47:50] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EaglerDarver9092 -> lobby has connected
-[13:48:19] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EaglerDarver9092 (/10.0.0.1:37932) has disconnected
-[13:48:19] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EaglerDarver9092 -> lobby has disconnected
-[13:49:55] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[13:49:55] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25577
-[13:49:55] [EaglercraftXVelocity - Task Executor #2/INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
-[13:49:55] [EaglercraftXVelocity - Task Executor #2/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
-[13:49:55] [EaglercraftXVelocity - Task Executor #2/INFO] [eaglerxvelocity]: Stopping skin cache HTTP client...
+[14:39:43] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-965db127-b454)...
+[14:39:43] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[14:39:43] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
+[14:39:43] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[14:39:43] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[14:39:43] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:a33f2d1a:b452
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[14:39:44] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:39:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.5 by lax1dude, ayunami2000
+[14:39:44] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[14:39:44] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[14:39:44] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[14:39:44] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Loading vanilla profile: lax1dude
+[14:39:45] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: Loaded vanilla profile: lax1dude
+[14:39:46] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[14:39:46] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[14:39:46] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[14:39:46] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[14:39:46] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25577
+[14:39:46] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (2.89s)!
+[14:41:59] [Netty epoll Worker #2/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:48820]: Exception Caught: java.lang.ExceptionInInitializerError
+[14:42:06] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:48832]: Connected via websocket
+[14:42:06] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:48832]: Origin header is https://r88qfv-8081.csb.app
+[14:42:06] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] ViggEagl0524 (/10.0.0.1:48832) has connected
+[14:42:06] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ViggEagl0524 -> lobby has connected
+[14:42:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ViggEagl0524 (/10.0.0.1:48832) has disconnected
+[14:42:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ViggEagl0524 -> lobby has disconnected

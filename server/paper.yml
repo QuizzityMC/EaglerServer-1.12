@@ -14,13 +14,12 @@ config-version: 13
 settings:
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
+  save-player-data: true
   sleep-between-chunk-saves: false
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
-  play-in-use-item-spam-threshold: 300
   incoming-packet-spam-threshold: 300
   remove-invalid-statistics: false
-  save-player-data: true
   use-alternative-luck-formula: false
   min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
@@ -36,9 +35,9 @@ settings:
   enable-player-collisions: true
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1
+  play-in-use-item-spam-threshold: 300
   baby-zombie-movement-speed: 0.5
   limit-player-interactions: true
-remove-invalid-statistics: false
 messages:
   kick:
     authentication-servers-down: ''
@@ -97,10 +96,10 @@ world-settings:
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
-    use-vanilla-world-scoreboard-name-coloring: false
     despawn-ranges:
       soft: 32
       hard: 128
+    use-vanilla-world-scoreboard-name-coloring: false
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     water-over-lava-flow-speed: 5
@@ -126,7 +125,6 @@ world-settings:
       push-based: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
-    use-alternate-fallingblock-onGround-detection: false
     keep-spawn-loaded-range: 4
     auto-save-interval: -1
     nether-ceiling-void-damage: false
@@ -141,8 +139,8 @@ world-settings:
     disable-explosion-knockback: false
     elytra-hit-wall-damage: true
     grass-spread-tick-rate: 1
+    use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 1
-    enable-old-tnt-cannon-behaviors: false
     prevent-tnt-from-moving-in-water: false
     non-player-arrow-despawn-rate: -1
     armor-stands-tick: true
@@ -188,6 +186,7 @@ world-settings:
     disable-teleportation-suffocation-check: false
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
+    enable-old-tnt-cannon-behaviors: false
     verbose: true
     allow-block-location-tab-completion: true
     load-chunks:
@@ -213,6 +212,7 @@ world-settings:
     use-async-lighting: false
     tick-next-tick-list-cap: 10000
     tick-next-tick-list-cap-ignores-redstone: false
+remove-invalid-statistics: false
 data-value-allowed-items: []
 effect-modifiers:
   strength: 1.3
