@@ -350,3 +350,4 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Bukkit.getOn
 [08:12:55] [Server thread/INFO]: zohaib issued server command: /tpa naeem123
 [08:12:57] [Server thread/INFO]: naeem123 issued server command: /tpaccept
 [08:13:19] [Server thread/INFO]: haseeb issued server command: /sethome haseeb
+[08:13:34] [Server thread/INFO]: zohaib issued server command: /tpa naeem123
