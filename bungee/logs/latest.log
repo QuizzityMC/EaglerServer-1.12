@@ -1,67 +1,108 @@
-[02:22:53] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-965db127-b454)...
-[02:22:53] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[02:22:53] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
-[02:22:53] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[02:22:53] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
-[02:22:53] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:a33f2d1a:b452
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[02:22:54] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[02:22:54] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.5 by lax1dude, ayunami2000
-[02:22:54] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
-[02:22:54] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
-[02:22:54] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
-[02:22:54] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Loading vanilla profile: lax1dude
-[02:22:55] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: Loaded vanilla profile: lax1dude
-[02:22:55] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
-[02:22:55] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
-[02:22:55] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[02:22:55] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[02:22:56] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25577
-[02:22:56] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (2.79s)!
-[02:24:02] [Netty epoll Worker #2/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:44986]: Exception Caught: java.lang.ExceptionInInitializerError
-[02:24:04] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:45002]: Connected via websocket
-[02:24:04] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:45002]: Origin header is https://r88qfv-8081.csb.app
-[02:24:05] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:45002) has connected
-[02:24:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
-[02:25:54] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:45002) has disconnected
-[02:25:54] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
-[02:25:55] [Netty epoll Worker #0/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:49378]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
-[02:26:34] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:48378]: Connected via websocket
-[02:26:34] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:48378]: Origin header is https://r88qfv-8081.csb.app
-[02:26:34] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:48378) has connected
-[02:26:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
-[02:28:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:48378) has disconnected
-[02:28:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
-[02:29:20] [Netty epoll Worker #2/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:34102]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
-[02:29:21] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:34106]: Connected via websocket
-[02:29:21] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:34106]: Origin header is https://r88qfv-8081.csb.app
-[02:29:22] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:34106) has connected
-[02:29:22] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
-[02:32:45] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:34106) has disconnected
-[02:32:45] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
-[02:32:46] [Netty epoll Worker #0/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:45906]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
-[02:32:48] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:47648]: Connected via websocket
-[02:32:48] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:47648]: Origin header is https://r88qfv-8081.csb.app
-[02:32:49] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:47648) has connected
-[02:32:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
-[02:34:04] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:47648) has disconnected
-[02:34:04] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
-[02:34:07] [Netty epoll Worker #2/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:50766]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
-[02:34:26] [Thread-13/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[02:34:26] [Thread-13/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25577
-[02:34:26] [EaglercraftXVelocity - Task Executor #6/INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
-[02:34:26] [EaglercraftXVelocity - Task Executor #6/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
-[02:34:26] [EaglercraftXVelocity - Task Executor #6/INFO] [eaglerxvelocity]: Stopping skin cache HTTP client...
+[03:43:17] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-965db127-b454)...
+[03:43:17] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[03:43:17] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
+[03:43:17] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[03:43:17] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[03:43:17] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:a33f2d1a:b452
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[03:43:17] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[03:43:17] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.5 by lax1dude, ayunami2000
+[03:43:17] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[03:43:17] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[03:43:17] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[03:43:18] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Loading vanilla profile: lax1dude
+[03:43:19] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: Loaded vanilla profile: lax1dude
+[03:43:19] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[03:43:19] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[03:43:19] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[03:43:19] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[03:43:19] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25577
+[03:43:19] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (2.75s)!
+[03:44:41] [Netty epoll Worker #2/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:50738]: Exception Caught: java.lang.ExceptionInInitializerError
+[03:44:43] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:50744]: Connected via websocket
+[03:44:43] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:50744]: Origin header is https://r88qfv-8081.csb.app
+[03:44:44] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:50744) has connected
+[03:44:44] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[03:49:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:50744) has disconnected
+[03:49:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[03:49:19] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:50640]: Connected via websocket
+[03:49:19] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:50640]: Origin header is https://r88qfv-8081.csb.app
+[03:49:20] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:50640) has connected
+[03:49:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[03:50:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:50640) has disconnected
+[03:50:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[03:50:51] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:51160]: Connected via websocket
+[03:50:51] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:51160]: Origin header is https://r88qfv-8081.csb.app
+[03:50:52] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:51160) has connected
+[03:50:52] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[03:51:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:51160) has disconnected
+[03:51:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[03:51:33] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:34136]: Connected via websocket
+[03:51:33] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/10.0.0.1:34136]: Origin header is https://r88qfv-8081.csb.app
+[03:51:34] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:34136) has connected
+[03:51:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[03:54:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:34136) has disconnected
+[03:54:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[03:54:48] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:51870]: Connected via websocket
+[03:54:48] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/10.0.0.1:51870]: Origin header is https://r88qfv-8081.csb.app
+[03:54:49] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:51870) has connected
+[03:54:49] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[03:54:58] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:51870) has disconnected
+[03:54:58] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[03:54:59] [Netty epoll Worker #0/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:44752]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
+[03:55:56] [Netty epoll Worker #1/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:48552]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
+[03:55:58] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/10.0.0.1:42016]: Connected via websocket
+[03:55:58] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/10.0.0.1:42016]: Origin header is https://r88qfv-8081.csb.app
+[03:55:59] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:42016) has connected
+[03:55:59] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[03:56:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:42016) has disconnected
+[03:56:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[03:56:26] [Netty epoll Worker #3/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:58060]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
+[03:56:48] [main/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: This command does not exist.
+[03:56:55] [main/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: This command does not exist.
+[03:57:35] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/10.0.0.1:52426]: Connected via websocket
+[03:57:35] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/10.0.0.1:52426]: Origin header is https://r88qfv-8081.csb.app
+[03:57:35] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:52426) has connected
+[03:57:36] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[03:58:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:52426) has disconnected
+[03:58:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[03:58:03] [Netty epoll Worker #1/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:48338]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
+[03:58:34] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/10.0.0.1:51530]: Connected via websocket
+[03:58:34] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/10.0.0.1:51530]: Origin header is https://r88qfv-8081.csb.app
+[03:58:35] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:51530) has connected
+[03:58:35] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[03:59:42] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:51530) has disconnected
+[03:59:42] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[03:59:44] [Netty epoll Worker #3/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:43838]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
+[03:59:47] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/10.0.0.1:43848]: Connected via websocket
+[03:59:47] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/10.0.0.1:43848]: Origin header is https://r88qfv-8081.csb.app
+[03:59:47] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:43848) has connected
+[03:59:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[04:00:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:43848) has disconnected
+[04:00:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[04:03:56] [Netty epoll Worker #1/WARN] [eaglerxvelocity]: [Yee][/10.0.0.1:54676]: Exception Caught: java.lang.NoClassDefFoundError: Could not initialize class net.lax1dude.eaglercraft.v1_8.plugin.gateway_velocity.server.query.MOTDQueryHandler
+[04:03:57] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/10.0.0.1:43154]: Connected via websocket
+[04:03:57] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/10.0.0.1:43154]: Origin header is https://r88qfv-8081.csb.app
+[04:03:57] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] naeem123 (/10.0.0.1:43154) has connected
+[04:03:57] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has connected
+[04:06:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] naeem123 (/10.0.0.1:43154) has disconnected: An internal error occurred in your connection.
+[04:06:05] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] naeem123 (/10.0.0.1:43154): read timed out
+[04:06:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] naeem123 -> lobby has disconnected
+[04:35:19] [Thread-28/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[04:35:19] [Thread-28/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25577
+[04:35:19] [EaglercraftXVelocity - Task Executor #15/INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
+[04:35:19] [EaglercraftXVelocity - Task Executor #15/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[04:35:19] [EaglercraftXVelocity - Task Executor #15/INFO] [eaglerxvelocity]: Stopping skin cache HTTP client...
