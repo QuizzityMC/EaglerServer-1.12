@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2025-06-04 08:06:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/emerald": {
     "criteria": {
       "has_emerald_block": "2025-06-03 18:14:25 +0000"
@@ -61,12 +67,16 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "swampland": "2025-06-04 08:11:53 +0000",
       "deep_ocean": "2025-06-03 18:12:36 +0000",
+      "beaches": "2025-06-04 08:11:51 +0000",
+      "extreme_hills_with_trees": "2025-06-04 08:12:04 +0000",
       "plains": "2025-06-04 02:31:10 +0000",
       "redwood_taiga": "2025-06-03 18:20:54 +0000",
       "taiga": "2025-06-04 02:30:32 +0000",
       "redwood_taiga_hills": "2025-06-03 18:20:59 +0000",
       "ocean": "2025-06-03 18:13:31 +0000",
+      "extreme_hills": "2025-06-04 08:12:14 +0000",
       "river": "2025-06-03 18:46:41 +0000"
     },
     "done": false
