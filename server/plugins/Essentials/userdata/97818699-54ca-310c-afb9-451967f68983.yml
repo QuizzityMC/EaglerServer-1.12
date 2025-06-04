@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749017965577
+  login: 1749017930404
+money: '0'
+last-account-name: naeem123_
+logoutlocation:
+  world: baa70d19-0aaf-4180-9d49-6792e9360452
+  world-name: Lobby
+  x: -55.841637394472436
+  y: 183.0
+  z: 148.38515740891842
+  yaw: -216.693359375
+  pitch: 15.149982452392578

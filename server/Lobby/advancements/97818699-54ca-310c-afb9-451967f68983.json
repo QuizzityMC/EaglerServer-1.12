@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "deep_ocean": "2025-06-04 06:18:51 +0000",
+      "ocean": "2025-06-04 06:18:53 +0000"
+    },
+    "done": false
+  }
+}

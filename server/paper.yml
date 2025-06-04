@@ -14,12 +14,8 @@ config-version: 13
 settings:
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
-  sleep-between-chunk-saves: false
-  region-file-cache-size: 256
-  save-empty-scoreboard-teams: false
-  incoming-packet-spam-threshold: 300
-  save-player-data: true
   remove-invalid-statistics: false
+  save-player-data: true
   use-alternative-luck-formula: false
   min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
@@ -32,6 +28,10 @@ settings:
   book-size:
     page-max: 2560
     total-multiplier: 0.98
+  sleep-between-chunk-saves: false
+  region-file-cache-size: 256
+  save-empty-scoreboard-teams: false
+  incoming-packet-spam-threshold: 300
   enable-player-collisions: true
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1
@@ -70,6 +70,7 @@ world-settings:
       disable-mesa-additional-gold: false
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
+    portal-search-radius: 128
     queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
@@ -118,7 +119,6 @@ world-settings:
     filter-nbt-data-from-spawn-eggs-and-related: true
     max-entity-collisions: 8
     disable-creeper-lingering-effect: false
-    portal-search-radius: 128
     hopper:
       cooldown-when-full: true
       disable-move-event: false
