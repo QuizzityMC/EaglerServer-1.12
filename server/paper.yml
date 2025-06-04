@@ -14,6 +14,10 @@ config-version: 13
 settings:
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
+  sleep-between-chunk-saves: false
+  region-file-cache-size: 256
+  save-empty-scoreboard-teams: false
+  incoming-packet-spam-threshold: 300
   remove-invalid-statistics: false
   save-player-data: true
   use-alternative-luck-formula: false
@@ -28,10 +32,6 @@ settings:
   book-size:
     page-max: 2560
     total-multiplier: 0.98
-  sleep-between-chunk-saves: false
-  region-file-cache-size: 256
-  save-empty-scoreboard-teams: false
-  incoming-packet-spam-threshold: 300
   enable-player-collisions: true
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1
