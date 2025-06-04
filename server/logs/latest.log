@@ -351,3 +351,298 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Bukkit.getOn
 [08:12:57] [Server thread/INFO]: naeem123 issued server command: /tpaccept
 [08:13:19] [Server thread/INFO]: haseeb issued server command: /sethome haseeb
 [08:13:34] [Server thread/INFO]: zohaib issued server command: /tpa naeem123
+[08:14:03] [Server thread/INFO]: zohaib issued server command: /tpa naeem123
+[08:14:15] [Server thread/INFO]: naeem123 issued server command: /tpaccept
+[08:14:17] [Server thread/INFO]: naeem123 issued server command: /tpaccept
+[08:14:17] [Server thread/INFO]: naeem123 issued server command: /tpaccept
+[08:14:47] [Server thread/INFO]: zohaib issued server command: /sethome zohaib
+[08:15:49] [Server thread/INFO]: naeem123 issued server command: /points
+[08:15:56] [Server thread/INFO]: naeem123 issued server command: /shop
+[08:16:10] [Server thread/INFO]: Shop >> naeem123 bought 34 x Diamond(Ores.page1.items.3) for 7,140 Points with the buy screen.
+[08:16:11] [Server thread/INFO]: Owner: naeem123 has made the advancement [Diamonds!]
+[08:16:40] [Server thread/INFO]: VIP: zohaib has made the advancement [Diamonds!]
+[08:17:47] [Server thread/INFO]: naeem123 issued server command: /tp naeem123 haseeb
+[08:17:58] [Server thread/INFO]: naeem123 issued server command: /tp naeem123 zohaib
+[08:18:05] [Server thread/INFO]: naeem123 issued server command: /tp naeem123 haseeb
+[08:18:19] [Server thread/INFO]: zohaib lost connection: Disconnected
+[08:18:19] [Server thread/INFO]: TSetSpawn > zohaib has left.
+[08:18:19] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:18:24] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[08:18:24] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[08:18:24] [Server thread/INFO]: haseeb lost connection: Disconnected
+[08:18:24] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[08:18:24] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:18:24] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:19:41] [User Authenticator #5/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[08:19:42] [Server thread/INFO]: haseeb[/127.0.0.1:49600] logged in with entity id 4578 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:19:42] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:19:47] [User Authenticator #5/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[08:19:47] [Server thread/INFO]: naeem123[/127.0.0.1:54418] logged in with entity id 4607 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:19:47] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:19:51] [User Authenticator #5/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
+[08:19:51] [Server thread/INFO]: zohaib[/127.0.0.1:54420] logged in with entity id 4631 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:19:51] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:19:54] [Server thread/INFO]: haseeb issued server command: /home haseeb
+[08:19:56] [Server thread/INFO]: naeem123 issued server command: /home naeem123
+[08:19:56] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'home' in plugin SimpleHomes v1.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:152) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1492) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1297) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:14) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:850) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: Name cannot be null
+	at org.apache.commons.lang.Validate.notNull(Validate.java:192) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.getWorld(CraftServer.java:1086) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.Bukkit.getWorld(Bukkit.java:520) ~[patched_1.12.2.jar:git-Paper-1620]
+	at me.home.main.onCommand(main.java:44) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 15 more
+[08:20:05] [Server thread/INFO]: naeem123 issued server command: /home naeem
+[08:20:05] [Server thread/INFO]: zohaib lost connection: Disconnected
+[08:20:05] [Server thread/INFO]: TSetSpawn > zohaib has left.
+[08:20:05] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:20:13] [Server thread/INFO]: naeem123 issued server command: /shop
+[08:20:33] [User Authenticator #5/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
+[08:20:33] [Server thread/INFO]: zohaib[/127.0.0.1:46354] logged in with entity id 4828 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:20:33] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:20:39] [Server thread/INFO]: Shop >> naeem123 bought 18 x Wool(Blocks.page3.items.115) for 529 Points with the buy screen.
+[08:20:53] [Server thread/INFO]: zohaib issued server command: /home zohaib
+[08:20:56] [Server thread/INFO]: Shop >> naeem123 bought 17 x Log(Blocks.page3.items.97) for 51 Points with the buy screen.
+[08:21:20] [Server thread/INFO]: Admin: haseeb has made the advancement [Sweet dreams]
+[08:21:46] [Server thread/INFO]: Owner: naeem123 has made the advancement [Sweet dreams]
+[08:21:48] [Server thread/INFO]: VIP: zohaib has made the advancement [Sweet dreams]
+[08:22:07] [Server thread/INFO]: naeem123 issued server command: /shop
+[08:22:17] [Server thread/INFO]: Shop >> naeem123 bought 50 x Cobblestone(Blocks.page1.items.17) for 34 Points with the buy screen.
+[08:22:17] [Server thread/INFO]: Shop >> naeem123 bought 50 x Cobblestone(Blocks.page1.items.17) for 34 Points with the buy screen.
+[08:22:18] [Server thread/INFO]: Shop >> naeem123 bought 50 x Cobblestone(Blocks.page1.items.17) for 34 Points with the buy screen.
+[08:22:18] [Server thread/INFO]: Shop >> naeem123 bought 50 x Cobblestone(Blocks.page1.items.17) for 34 Points with the buy screen.
+[08:22:20] [Server thread/INFO]: Owner: naeem123 has made the advancement [Stone Age]
+[08:22:25] [Server thread/INFO]: VIP: zohaib has made the advancement [Stone Age]
+[08:22:27] [Server thread/INFO]: Admin: haseeb has made the advancement [Stone Age]
+[08:22:37] [Server thread/INFO]: naeem123 issued server command: /
+[08:22:40] [Server thread/INFO]: naeem123 issued server command: /shop
+[08:22:48] [pool-11-thread-1/INFO]: [net.craftingstore.libraries.apache.http.impl.execchain.RetryExec] I/O exception (java.net.SocketException) caught when processing request to {s}->https://api.craftingstore.net:443: Connection reset
+[08:22:48] [pool-11-thread-1/INFO]: [net.craftingstore.libraries.apache.http.impl.execchain.RetryExec] Retrying request to {s}->https://api.craftingstore.net:443
+[08:22:49] [Server thread/INFO]: Shop >> naeem123 bought 50 x Log 2(Blocks.page2.items.85) for 150 Points with the buy screen.
+[08:22:50] [Server thread/INFO]: Shop >> naeem123 bought 50 x Log 2(Blocks.page2.items.85) for 150 Points with the buy screen.
+[08:23:23] [Server thread/INFO]: Owner: naeem123 has made the advancement [Cover Me With Diamonds]
+[08:23:28] [Server thread/INFO]: Admin: haseeb has made the advancement [Getting an Upgrade]
+[08:23:34] [Server thread/INFO]: naeem123 issued server command: /shop
+[08:23:41] [Server thread/INFO]: Shop >> naeem123 bought 50 x Diamond(Ores.page1.items.3) for 10,500 Points with the buy screen.
+[08:23:53] [Server thread/INFO]: naeem123 issued server command: /shop
+[08:24:01] [Server thread/INFO]: haseeb issued server command: /home haseeb
+[08:24:12] [Server thread/INFO]: VIP: zohaib has made the advancement [Cover Me With Diamonds]
+[08:25:10] [Server thread/INFO]: haseeb lost connection: Disconnected
+[08:25:10] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[08:25:10] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[08:25:10] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[08:25:10] [Server thread/INFO]: zohaib lost connection: Internal Exception: java.net.SocketException: Connection reset
+[08:25:10] [Server thread/INFO]: TSetSpawn > zohaib has left.
+[08:25:10] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:25:10] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:25:10] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:25:39] [User Authenticator #6/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[08:25:40] [Server thread/INFO]: naeem123[/127.0.0.1:55150] logged in with entity id 5323 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:25:40] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:25:42] [User Authenticator #6/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
+[08:25:43] [Server thread/INFO]: zohaib[/127.0.0.1:55154] logged in with entity id 5348 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:25:43] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:25:45] [Server thread/INFO]: naeem123 issued server command: /home naeem
+[08:25:51] [Server thread/INFO]: zohaib issued server command: /home zohaib
+[08:25:53] [User Authenticator #6/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[08:25:54] [Server thread/INFO]: haseeb[/127.0.0.1:53888] logged in with entity id 5517 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:25:54] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:26:02] [Server thread/INFO]: haseeb issued server command: /home haseeb
+[08:27:21] [Server thread/INFO]: naeem123 issued server command: /shop
+[08:27:39] [Server thread/INFO]: Shop >> naeem123 bought 2 x Iron Ingot(Ores.page1.items.10) for 42 Points with the buy screen.
+[08:27:40] [Server thread/INFO]: Owner: naeem123 has made the advancement [Acquire Hardware]
+[08:28:18] [Server thread/INFO]: naeem123 issued server command: /shop
+[08:28:25] [Server thread/INFO]: Shop >> naeem123 bought 33 x Cooked Beef(Food.page1.items.6) for 208 Points with the buy screen.
+[08:31:04] [Server thread/INFO]: naeem123 issued server command: /home naeem
+[08:31:11] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[08:31:11] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[08:31:11] [Server thread/INFO]: zohaib lost connection: Disconnected
+[08:31:11] [Server thread/INFO]: TSetSpawn > zohaib has left.
+[08:31:11] [Server thread/INFO]: haseeb lost connection: Disconnected
+[08:31:11] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[08:31:11] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:31:11] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:31:11] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:31:36] [User Authenticator #7/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[08:31:36] [Server thread/INFO]: haseeb[/127.0.0.1:51910] logged in with entity id 6275 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:31:36] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:31:48] [Server thread/INFO]: haseeb issued server command: /home haseeb
+[08:32:04] [User Authenticator #7/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
+[08:32:04] [Server thread/INFO]: zohaib[/127.0.0.1:44812] logged in with entity id 6648 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:32:04] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:32:21] [Server thread/INFO]: zohaib issued server command: /home zohaib
+[08:33:01] [Server thread/INFO]: zohaib issued server command: /home zohaib
+[08:33:25] [Server thread/INFO]: haseeb issued server command: /home haseeb
+[08:34:04] [User Authenticator #8/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[08:34:04] [Server thread/INFO]: naeem123[/127.0.0.1:59108] logged in with entity id 6741 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:34:04] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:34:19] [Server thread/INFO]: Admin: haseeb has made the advancement [Acquire Hardware]
+[08:34:30] [Async Chat Thread - #0/INFO]: [Owner] naeem123 ➟ hiii
+[08:34:38] [Async Chat Thread - #0/INFO]: [VIP] zohaib ➟ hi
+[08:34:49] [Async Chat Thread - #0/INFO]: [Owner] naeem123 ➟ haseeb kha he
+[08:34:54] [Async Chat Thread - #0/INFO]: [Admin] haseeb ➟ naeem hello
+[08:35:07] [Async Chat Thread - #0/INFO]: [Owner] naeem123 ➟ ok server is Running
+[08:35:19] [Async Chat Thread - #0/INFO]: [Admin] haseeb ➟ ok
+[08:35:24] [Server thread/INFO]: naeem123 issued server command: /tp naeem123 zohaib
+[08:36:31] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[08:36:31] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[08:36:31] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:36:34] [User Authenticator #9/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[08:36:34] [Server thread/INFO]: naeem123[/127.0.0.1:56178] logged in with entity id 6996 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:36:34] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:36:42] [Server thread/INFO]: naeem123 issued server command: /gamemode c
+[08:36:52] [Server thread/INFO]: naeem123 issued server command: /gamemode s
+[08:37:00] [Server thread/INFO]: naeem123 issued server command: /home naeem
+[08:37:02] [Server thread/INFO]: Admin: haseeb has made the advancement [Suit Up]
+[08:37:06] [Async Chat Thread - #1/INFO]: [VIP] zohaib ➟ ajao nahi mar raha
+[08:37:21] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[08:37:21] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[08:37:21] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:37:48] [User Authenticator #10/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[08:37:48] [Server thread/INFO]: naeem123[/127.0.0.1:46746] logged in with entity id 7111 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:37:48] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:37:55] [Server thread/INFO]: naeem123 issued server command: /home naeem
+[08:38:52] [Server thread/INFO]: VIP: zohaib was slain by Owner: naeem123
+[08:39:16] [Async Chat Thread - #2/INFO]: [Admin] haseeb ➟ bye
+[08:39:18] [Server thread/INFO]: zohaib issued server command: /home zohaib
+[08:39:19] [Server thread/INFO]: naeem123 issued server command: /tp zohaib naeem
+[08:40:05] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ byb
+[08:40:22] [Server thread/INFO]: haseeb issued server command: /home haseeb
+[08:40:44] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
+[08:40:46] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
+[08:40:48] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
+[08:40:49] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
+[08:40:50] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
+[08:40:51] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
+[08:40:54] [Server thread/INFO]: haseeb issued server command: /points
+[08:40:59] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ kisko
+[08:41:02] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ kis ko
+[08:41:28] [Server thread/INFO]: naeem123 issued server command: /tp zohaib naeem
+[08:41:32] [Server thread/INFO]: haseeb lost connection: Disconnected
+[08:41:32] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[08:41:32] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:41:42] [User Authenticator #11/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[08:41:42] [Server thread/INFO]: haseeb[/127.0.0.1:59722] logged in with entity id 7621 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:41:42] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:41:52] [Server thread/INFO]: haseeb issued server command: /home haseeb
+[08:42:01] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[08:42:01] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[08:42:01] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:42:43] [Server thread/INFO]: [Server] hi
+[08:42:54] [Server thread/INFO]: [Server] i am naeem
+[08:42:55] [Server thread/INFO]: haseeb lost connection: Disconnected
+[08:42:55] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[08:42:55] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:43:01] [User Authenticator #12/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[08:43:01] [Server thread/INFO]: haseeb[/127.0.0.1:53050] logged in with entity id 7784 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:43:01] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:43:08] [Server thread/INFO]: [Server] hiii zohaib
+[08:43:17] [Server thread/INFO]: haseeb issued server command: /home haseeb
+[08:43:17] [Async Chat Thread - #3/INFO]: [VIP] zohaib ➟ hii
+[08:43:34] [Server thread/INFO]: [Server] ami nhi any da rai
+[08:43:53] [Async Chat Thread - #3/INFO]: [Admin] haseeb ➟ ok
+[08:44:00] [Server thread/INFO]: [Server] kis ko points chaia
+[08:44:07] [Async Chat Thread - #3/INFO]: [VIP] zohaib ➟ jan chutii
+[08:44:16] [Server thread/INFO]: [Server] noob
+[08:44:18] [Async Chat Thread - #3/INFO]: [Admin] haseeb ➟ yessssssssssssssssssssssssss
+[08:44:27] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /kick zohaib
+[08:44:27] [Server thread/INFO]: zohaib lost connection: Kicked from server.
+[08:44:27] [Server thread/INFO]: TSetSpawn > zohaib has left.
+[08:44:27] [Server thread/INFO]: [Essentials] Player Console kicked zohaib for Kicked from server..
+[08:44:27] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:44:27] [Server thread/WARN]: handleDisconnection() called twice
+[08:44:44] [User Authenticator #13/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
+[08:44:44] [Server thread/INFO]: zohaib[/127.0.0.1:45874] logged in with entity id 8061 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:44:44] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:44:45] [Server thread/INFO]: [Server] zohaib is kicked by naeem
+[08:44:58] [Server thread/INFO]: zohaib issued server command: /home zohaib
+[08:44:59] [Server thread/INFO]: zohaib lost connection: Disconnected
+[08:44:59] [Server thread/INFO]: TSetSpawn > zohaib has left.
+[08:44:59] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:45:07] [Server thread/INFO]: [Server] haseeb
+[08:45:16] [Server thread/INFO]: haseeb issued server command: /home haseeb
+[08:45:21] [User Authenticator #13/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
+[08:45:21] [Server thread/INFO]: zohaib[/127.0.0.1:54336] logged in with entity id 8242 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[08:45:21] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:45:39] [Server thread/INFO]: zohaib issued server command: /home zohaib
+[08:45:41] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[08:45:49] [Server thread/WARN]: zohaib moved wrongly!
+[08:45:52] [Server thread/INFO]: [Server] haseeb ko 10000 points mala ge
+[08:46:05] [Server thread/WARN]: haseeb moved wrongly!
+[08:46:29] [Server thread/INFO]: [PlayerPoints] Set the Points of haseeb to 10,000.
+[08:46:43] [Server thread/INFO]: [Server] haseeb points check
+[08:47:06] [Server thread/INFO]: haseeb issued server command: /points
+[08:47:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /list 
+[08:47:09] [Server thread/INFO]: There are 2 out of maximum 20 players online.
+[08:47:09] [Server thread/INFO]: default: haseeb, zohaib
+[08:47:22] [Async Chat Thread - #4/INFO]: [VIP] zohaib ➟ abe dhoke baaz
+[08:47:36] [Async Chat Thread - #4/INFO]: [Admin] haseeb ➟ thanks naeemmmmmmmmmmmmmm
+[08:47:47] [Server thread/INFO]: [PlayerPoints] Set the Points of zohaib to 10,000.
+[08:47:57] [Server thread/INFO]: haseeb issued server command: /shop
+[08:48:15] [Server thread/INFO]: [Server] zohaib points check
+[08:48:30] [Server thread/INFO]: [Server] zohaib points check
+[08:48:32] [Server thread/INFO]: [Server] zohaib points check
+[08:48:34] [Server thread/INFO]: [Server] zohaib points check
+[08:48:36] [Server thread/INFO]: [Server] zohaib points check
+[08:48:37] [Server thread/INFO]: [Server] zohaib points check
+[08:48:46] [Server thread/INFO]: Shop >> haseeb bought 8 x Diamond(Ores.page1.items.3) for 1,680 Points with the buy screen.
+[08:48:47] [Server thread/INFO]: Admin: haseeb has made the advancement [Diamonds!]
+[08:49:12] [Server thread/INFO]: [Server] haseeb diamond ya tho cheting
+[08:49:49] [Server thread/INFO]: Admin: haseeb has made the advancement [Cover Me With Diamonds]
+[08:50:30] [Server thread/INFO]: zohaib issued server command: /point
+[08:50:33] [Server thread/INFO]: zohaib issued server command: /points
+[08:50:43] [Server thread/INFO]: haseeb issued server command: /wwwwwwwwww
+[08:52:40] [Server thread/INFO]: haseeb issued server command: /shop
+[08:53:04] [Server thread/INFO]: Shop >> haseeb bought 33 x Cooked Beef(Food.page1.items.6) for 208 Points with the buy screen.
+[08:53:27] [Server thread/INFO]: haseeb issued server command: /home haseeb
+[08:54:14] [Server thread/INFO]: haseeb issued server command: /sethome 123
+[08:54:14] [Server thread/INFO]: zohaib issued server command: /sethome 123
+[08:55:01] [Server thread/INFO]: haseeb lost connection: Disconnected
+[08:55:01] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[08:55:01] [Server thread/INFO]: zohaib lost connection: Disconnected
+[08:55:01] [Server thread/INFO]: TSetSpawn > zohaib has left.
+[08:55:01] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[08:55:01] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[09:58:54] [User Authenticator #14/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
+[09:58:54] [Server thread/INFO]: zohaib[/127.0.0.1:38392] logged in with entity id 8873 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[09:58:54] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[09:59:19] [Server thread/INFO]: [Server] hi
+[10:00:03] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:00:11] [Server thread/INFO]: zohaib issued server command: /home 123
+[10:00:24] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:00:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /time set day
+[10:00:48] [Server thread/INFO]: The time was set to 0 ticks in: Lobby, Lobby_nether, Lobby_the_end.
+[10:01:21] [pool-11-thread-1/INFO]: [net.craftingstore.libraries.apache.http.impl.execchain.RetryExec] I/O exception (java.net.SocketException) caught when processing request to {s}->https://api.craftingstore.net:443: Connection reset
+[10:01:21] [pool-11-thread-1/INFO]: [net.craftingstore.libraries.apache.http.impl.execchain.RetryExec] Retrying request to {s}->https://api.craftingstore.net:443
+[10:06:04] [Server thread/INFO]: zohaib issued server command: /buy
+[10:08:37] [Async Chat Thread - #5/INFO]: [VIP] zohaib ➟ hi
+[10:08:47] [Server thread/INFO]: zohaib issued server command: /points
+[10:08:54] [Server thread/INFO]: zohaib lost connection: Disconnected
+[10:08:54] [Server thread/INFO]: TSetSpawn > zohaib has left.
+[10:08:54] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[10:08:59] [User Authenticator #15/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
+[10:08:59] [Server thread/INFO]: zohaib[/127.0.0.1:57644] logged in with entity id 10012 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[10:08:59] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[10:09:02] [Server thread/INFO]: [PlayerPoints] zohaib was given 10,000 Points.
+[10:09:11] [Server thread/INFO]: zohaib issued server command: / points
+[10:09:18] [Server thread/INFO]: zohaib issued server command: /points
+[10:10:42] [Server thread/INFO]: zohaib lost connection: Disconnected
+[10:10:42] [Server thread/INFO]: TSetSpawn > zohaib has left.
+[10:10:42] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
