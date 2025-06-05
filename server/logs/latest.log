@@ -1,29 +1,51 @@
-[07:51:53] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[07:51:53] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[07:51:53] [Server thread/INFO]: Loading properties
-[07:51:53] [Server thread/INFO]: Default game type: SURVIVAL
-[07:51:53] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[07:51:53] [Server thread/INFO]: Debug logging is disabled
-[07:51:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:51:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:51:54] [Server thread/INFO]: Generating keypair
-[07:51:54] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[07:51:54] [Server thread/INFO]: Using default channel type
-[07:51:54] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[07:51:54] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
-[07:51:54] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.2
-[07:51:55] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v1.0
-[07:51:55] [Server thread/INFO]: [CraftingStore] Loading CraftingStore v2.9.3
-[07:51:55] [Server thread/INFO]: [EasyRanks] Loading EasyRanks v1.3.2
-[07:51:55] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.1
-[07:51:55] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.3.2
-[07:51:55] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.4.7
-[07:51:55] [Server thread/INFO]: [TSetSpawn] Loading TSetSpawn v1.7
-[07:51:55] [Server thread/INFO]: [Vaults] Loading Vaults v1.0.3
-[07:51:55] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.13.0
-[07:51:55] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.21.2-dev+2-d42347f
-[07:51:55] [Server thread/INFO]: [BetterRTP] Loading BetterRTP v3.6.8
-[07:51:55] [Server thread/ERROR]: Permission node 'groups' in permissions.yml is invalid
+[18:25:32] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[18:25:32] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[18:25:32] [Server thread/INFO]: Loading properties
+[18:25:32] [Server thread/INFO]: Default game type: SURVIVAL
+[18:25:32] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[18:25:32] [Server thread/INFO]: Debug logging is disabled
+[18:25:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:25:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:25:32] [Server thread/INFO]: Generating keypair
+[18:25:32] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[18:25:32] [Server thread/INFO]: Using default channel type
+[18:25:32] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[18:25:33] [Server thread/ERROR]: Could not load 'plugins/Shopkeepers-2.23.6.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoSuchMethodError: 'int org.bukkit.UnsafeValues.getDataVersion()'
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'int org.bukkit.UnsafeValues.getDataVersion()'
+	at com.nisovin.shopkeepers.storage.DataVersion.getCurrentMinecraftDataVersion(DataVersion.java:97) ~[?:?]
+	at com.nisovin.shopkeepers.storage.DataVersion.init(DataVersion.java:91) ~[?:?]
+	at com.nisovin.shopkeepers.storage.SKShopkeeperStorage.<init>(SKShopkeeperStorage.java:139) ~[?:?]
+	at com.nisovin.shopkeepers.SKShopkeepersPlugin.<init>(SKShopkeepersPlugin.java:118) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128) ~[?:?]
+	at jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:304) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:725) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:94) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 6 more
+[18:25:33] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
+[18:25:33] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.2
+[18:25:33] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.1
+[18:25:33] [Server thread/INFO]: [TSetSpawn] Loading TSetSpawn v1.7
+[18:25:33] [Server thread/INFO]: [Vaults] Loading Vaults v1.0.3
+[18:25:33] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v1.0
+[18:25:33] [Server thread/INFO]: [CraftingStore] Loading CraftingStore v2.9.3
+[18:25:33] [Server thread/INFO]: [EasyRanks] Loading EasyRanks v1.3.2
+[18:25:33] [Server thread/INFO]: [BetterRTP] Loading BetterRTP v3.6.8
+[18:25:33] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.3.2
+[18:25:33] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.4.7
+[18:25:33] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.21.2-dev+2-d42347f
+[18:25:33] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.13.0
+[18:25:33] [Server thread/ERROR]: Permission node 'groups' in permissions.yml is invalid
 java.lang.IllegalArgumentException: 'default' key contained unknown value
 	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -32,156 +54,152 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:223) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[07:51:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.2
-[07:51:55] [Server thread/INFO]:         __    
-[07:51:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.2
-[07:51:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[07:51:55] [Server thread/INFO]: 
-[07:51:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[07:51:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[07:51:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[07:51:57] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[07:51:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2663ms)
-[07:51:58] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.3.2
-[07:51:59] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
-[07:52:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:52:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:52:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:52:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:52:00] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[07:52:00] [Server thread/INFO]: Preparing level "Lobby"
-[07:52:00] [Server thread/INFO]: -------- World Settings For [Lobby] --------
-[07:52:00] [Server thread/INFO]: Mob Spawn Range: 4
-[07:52:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:52:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:52:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:52:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:52:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:52:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:52:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:52:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:52:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:52:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:52:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[07:52:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:52:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:52:00] [Server thread/INFO]: Random Lighting Updates: false
-[07:52:00] [Server thread/INFO]: Structure Info Saving: true
-[07:52:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[07:52:00] [Server thread/INFO]: Max TNT Explosions: 100
-[07:52:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:52:00] [Server thread/INFO]: View Distance: 4
-[07:52:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:52:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:52:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:52:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:52:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:52:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:52:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:52:01] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
-[07:52:01] [Server thread/INFO]: Mob Spawn Range: 4
-[07:52:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[07:52:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:52:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:52:01] [Server thread/INFO]: Random Lighting Updates: false
-[07:52:01] [Server thread/INFO]: Structure Info Saving: true
-[07:52:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[07:52:01] [Server thread/INFO]: Max TNT Explosions: 100
-[07:52:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:52:01] [Server thread/INFO]: View Distance: 4
-[07:52:01] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:52:01] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:52:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:52:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:52:01] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:52:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:52:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:52:01] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
-[07:52:01] [Server thread/INFO]: Mob Spawn Range: 4
-[07:52:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:52:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[07:52:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:52:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:52:01] [Server thread/INFO]: Random Lighting Updates: false
-[07:52:01] [Server thread/INFO]: Structure Info Saving: true
-[07:52:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[07:52:01] [Server thread/INFO]: Max TNT Explosions: 100
-[07:52:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:52:01] [Server thread/INFO]: View Distance: 4
-[07:52:01] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:52:01] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:52:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:52:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:52:01] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:52:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:52:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:52:01] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1372494887900176569)
-[07:52:02] [Server thread/INFO]: Preparing spawn area: 1%
-[07:52:03] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8034280102195091147)
-[07:52:03] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8034280102195091147)
-[07:52:03] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[07:52:03] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[07:52:03] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
-[07:52:03] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[07:52:03] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v1.0
-[07:52:03] [Server thread/INFO]: [CraftingStore] Enabling CraftingStore v2.9.3
-[07:52:04] [Server thread/INFO]: [EasyRanks] Enabling EasyRanks v1.3.2
-[07:52:04] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
-[07:52:04] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsXMPP to the same version.
-[07:52:04] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[07:52:04] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[07:52:04] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
-[07:52:04] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
-[07:52:04] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
-[07:52:04] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
-[07:52:04] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
-[07:52:04] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[07:52:04] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
-[07:52:04] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
-[07:52:04] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
-[07:52:04] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
-[07:52:04] [Server thread/INFO]: [Essentials] Using locale en_US
-[07:52:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[07:52:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[07:52:04] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[07:52:04] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[07:52:04] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[07:52:04] [Server thread/INFO]: [TSetSpawn] Enabling TSetSpawn v1.7
-[07:52:04] [Server thread/INFO]: [TSetSpawn] Has been activated (version: 1.7)
-[07:52:04] [Server thread/INFO]: [Vaults] Enabling Vaults v1.0.3
-[07:52:04] [Server thread/ERROR]: Error occurred while enabling Vaults v1.0.3 (Is it up to date?)
+[18:25:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.2
+[18:25:34] [Server thread/INFO]:         __    
+[18:25:34] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.2
+[18:25:34] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:25:34] [Server thread/INFO]: 
+[18:25:34] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:25:34] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:25:35] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:25:35] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:25:35] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1755ms)
+[18:25:35] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.3.2
+[18:25:36] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[18:25:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:25:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:25:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:25:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:25:36] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:25:36] [Server thread/INFO]: Preparing level "Lobby"
+[18:25:36] [Server thread/INFO]: -------- World Settings For [Lobby] --------
+[18:25:36] [Server thread/INFO]: Mob Spawn Range: 4
+[18:25:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:25:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:25:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:25:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:25:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:25:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:25:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:25:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:25:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:25:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:25:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:25:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:25:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:25:36] [Server thread/INFO]: Random Lighting Updates: false
+[18:25:36] [Server thread/INFO]: Structure Info Saving: true
+[18:25:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[18:25:36] [Server thread/INFO]: Max TNT Explosions: 100
+[18:25:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:25:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:25:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:25:36] [Server thread/INFO]: View Distance: 4
+[18:25:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:25:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:25:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:25:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:25:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:25:37] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
+[18:25:37] [Server thread/INFO]: Mob Spawn Range: 4
+[18:25:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:25:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:25:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:25:37] [Server thread/INFO]: Random Lighting Updates: false
+[18:25:37] [Server thread/INFO]: Structure Info Saving: true
+[18:25:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[18:25:37] [Server thread/INFO]: Max TNT Explosions: 100
+[18:25:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:25:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:25:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:25:37] [Server thread/INFO]: View Distance: 4
+[18:25:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:25:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:25:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:25:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:25:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:25:37] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
+[18:25:37] [Server thread/INFO]: Mob Spawn Range: 4
+[18:25:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:25:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:25:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:25:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:25:37] [Server thread/INFO]: Random Lighting Updates: false
+[18:25:37] [Server thread/INFO]: Structure Info Saving: true
+[18:25:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[18:25:37] [Server thread/INFO]: Max TNT Explosions: 100
+[18:25:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:25:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:25:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:25:37] [Server thread/INFO]: View Distance: 4
+[18:25:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:25:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:25:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:25:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:25:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:25:37] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1372494887900176569)
+[18:25:38] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8034280102195091147)
+[18:25:38] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8034280102195091147)
+[18:25:38] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[18:25:38] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[18:25:38] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[18:25:38] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[18:25:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[18:25:39] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsXMPP to the same version.
+[18:25:39] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:25:39] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:25:39] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[18:25:39] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[18:25:39] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[18:25:39] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[18:25:39] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[18:25:39] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[18:25:39] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[18:25:39] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[18:25:39] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[18:25:39] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[18:25:39] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[18:25:39] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[18:25:39] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[18:25:39] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[18:25:39] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[18:25:39] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[18:25:39] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[18:25:39] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[18:25:39] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[18:25:39] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[18:25:39] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[18:25:39] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[18:25:39] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[18:25:39] [Server thread/INFO]: [Essentials] Using locale en_US
+[18:25:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:25:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:25:39] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[18:25:39] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[18:25:39] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[18:25:39] [Server thread/INFO]: [TSetSpawn] Enabling TSetSpawn v1.7
+[18:25:39] [Server thread/INFO]: [TSetSpawn] Has been activated (version: 1.7)
+[18:25:39] [Server thread/INFO]: [Vaults] Enabling Vaults v1.0.3
+[18:25:39] [Server thread/ERROR]: Error occurred while enabling Vaults v1.0.3 (Is it up to date?)
 java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Bukkit.getOnlinePlayers()'
 	at org.vanillaworld.Vaults.Main.onEnable(Main.java:23) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -195,454 +213,61 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Bukkit.getOn
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[07:52:04] [Server thread/INFO]: [Vaults] Disabling Vaults v1.0.3
-[07:52:04] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.13.0
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to load default economy provider with reason 'Could not find Vault', trying to automatically find supported economy provider
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Detected PlayerPoints, initializing...
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into PlayerPoints
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.12.2...
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: This item material is not supported in this minecraft version.
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Item path in config.yml: spawner-break-tools.3
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[07:52:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 672ms to complete
-[07:52:05] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.21.2-dev+2-d42347f
-[07:52:05] [Server thread/WARN]: [EssentialsXMPP] Version mismatch! Please update all Essentials jars to the same version.
-[07:52:05] [Server thread/WARN]: [EssentialsXMPP] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[07:52:05] [Server thread/INFO]: [EssentialsXMPP] Starting Metrics. Opt-out using the global bStats config.
-[07:52:05] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.8
-[07:52:05] [Server thread/INFO]: [BetterRTP] Cooldown = 600
-[07:52:06] [Server thread/INFO]: [BetterRTP] Loading Overrides...
-[07:52:06] [Server thread/WARN]: [BetterRTP] The world `world` doesn't seem to exist! Please update `master_world's` override! Maybe there are capital letters?
-[07:52:06] [Server thread/WARN]: [BetterRTP] The world `world` doesn't seem to exist! Please update `creative_world's` override! Maybe there are capital letters?
-[07:52:06] [Server thread/INFO]: [BetterRTP] Loading World Types...
-[07:52:06] [Server thread/INFO]: [BetterRTP] - World Type for 'world' set to 'NORMAL'
-[07:52:06] [Server thread/INFO]: [BetterRTP] - World Type for 'world_nether' set to 'NETHER'
-[07:52:06] [Server thread/INFO]: [BetterRTP] - World Type for 'world_the_end' set to 'NORMAL'
-[07:52:06] [Server thread/INFO]: [BetterRTP] Loading Defaults...
-[07:52:06] [Server thread/INFO]: [BetterRTP] Loading Custom Worlds...
-[07:52:06] [Server thread/INFO]: [BetterRTP] [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
-[07:52:06] [Server thread/INFO]: [BetterRTP] [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
-[07:52:06] [Server thread/INFO]: Done (5.967s)! For help, type "help" or "?"
-[07:52:06] [Server thread/INFO]: Timings Reset
-[07:52:06] [Craft Scheduler Thread - 0/INFO]: [Essentials] Fetching version information...
-[07:52:06] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Database QUEUE:Queue configured and loaded!
-[07:52:06] [Craft Scheduler Thread - 5/INFO]: [BetterRTP] Database COOLDOWN:Lobby configured and loaded!
-[07:52:06] [Craft Scheduler Thread - 5/INFO]: [BetterRTP] Database COOLDOWN:Lobby_nether configured and loaded!
-[07:52:06] [Craft Scheduler Thread - 5/INFO]: [BetterRTP] Database COOLDOWN:Lobby_the_end configured and loaded!
-[07:52:06] [Craft Scheduler Thread - 6/INFO]: [BetterRTP] Database PLAYERS:Players configured and loaded!
-[07:52:06] [Craft Scheduler Thread - 8/INFO]: [BetterRTP] Database CHUNK_DATA:ChunkData configured and loaded!
-[07:52:06] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Attempting to queue up some more safe locations...
-[07:52:07] [Server thread/WARN]: [BetterRTP] Seems like the world `Lobby_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby_nether: NETHER`
-[07:53:00] [Craft Scheduler Thread - 10/INFO]: [BetterRTP] Max attempts to create a Queue reached for default_Lobby_nether (amount: 0)
-[07:53:00] [Craft Scheduler Thread - 10/INFO]: [BetterRTP] Queueing paused, max queue limit reached!
-[07:54:29] [User Authenticator #1/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[07:54:30] [Server thread/INFO]: zohaib[/127.0.0.1:48218] logged in with entity id 20 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[07:54:30] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[07:54:45] [User Authenticator #1/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
-[07:54:45] [Server thread/INFO]: naeem123[/127.0.0.1:42224] logged in with entity id 73 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[07:54:45] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[07:55:03] [Server thread/INFO]: naeem123 issued server command: /rtp
-[07:55:03] [Server thread/WARN]: [BetterRTP] Seems like the world `Lobby` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby: NETHER`
-[07:55:03] [Craft Scheduler Thread - 18/INFO]: [BetterRTP] -Removed a queue Location{world=CraftWorld{name=Lobby},x=-684.5,y=66.0,z=936.5,pitch=28.349983,yaw=-102.2434}
-[07:55:18] [Server thread/INFO]: zohaib issued server command: /rtp
-[07:55:31] [Server thread/INFO]: zohaib issued server command: /rtp
-[07:55:49] [Server thread/INFO]: zohaib issued server command: /tpa naeem123
-[07:55:52] [Server thread/INFO]: naeem123 issued server command: /tpaccept
-[07:56:21] [Server thread/INFO]: zohaib issued server command: /point
-[07:56:22] [Server thread/INFO]: naeem123 issued server command: /points
-[07:58:04] [Server thread/INFO]: naeem123 issued server command: /time set day
-[07:58:30] [User Authenticator #2/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
-[07:58:30] [Server thread/INFO]: haseeb[/127.0.0.1:43580] logged in with entity id 914 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[07:58:30] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[07:59:08] [Server thread/INFO]: haseeb issued server command: /tpa naeem123
-[07:59:14] [Server thread/INFO]: naeem123 issued server command: /tpaccept
-[08:00:24] [Server thread/INFO]: Player: haseeb was slain by Player: zohaib
-[08:00:54] [Server thread/INFO]: haseeb issued server command: /tpa naeem
-[08:00:56] [Server thread/INFO]: naeem123 issued server command: /easykits kist
-[08:01:00] [Server thread/INFO]: naeem123 issued server command: /tpaccept
-[08:01:08] [Server thread/INFO]: naeem123 issued server command: /easykits kits
-[08:01:14] [Server thread/INFO]: naeem123 issued server command: /easykits kit
-[08:01:18] [Server thread/INFO]: naeem123 issued server command: /easykits list
-[08:01:30] [Server thread/INFO]: naeem123 issued server command: /easyranks list
-[08:01:37] [Server thread/INFO]: naeem123 issued server command: /easyranks ranks
-[08:02:27] [Server thread/INFO]: naeem123 issued server command: /easyranks haseeb Admin
-[08:02:28] [Server thread/INFO]: zohaib lost connection: Disconnected
-[08:02:28] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[08:02:28] [Server thread/INFO]: naeem123 lost connection: Disconnected
-[08:02:28] [Server thread/INFO]: TSetSpawn > naeem123 has left.
-[08:02:28] [Server thread/INFO]: haseeb lost connection: Disconnected
-[08:02:28] [Server thread/INFO]: TSetSpawn > haseeb has left.
-[08:02:28] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:02:28] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:02:28] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:02:42] [User Authenticator #3/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
-[08:02:43] [Server thread/INFO]: haseeb[/127.0.0.1:56080] logged in with entity id 1646 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:02:43] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:02:47] [User Authenticator #3/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[08:02:47] [Server thread/INFO]: zohaib[/127.0.0.1:56094] logged in with entity id 1764 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:02:47] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:02:55] [User Authenticator #3/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
-[08:02:55] [Server thread/INFO]: naeem123[/127.0.0.1:44028] logged in with entity id 1961 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:02:55] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:03:01] [Server thread/INFO]: zohaib lost connection: Disconnected
-[08:03:01] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[08:03:01] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:03:29] [User Authenticator #3/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[08:03:29] [Server thread/INFO]: zohaib[/127.0.0.1:40164] logged in with entity id 2070 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:03:29] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:03:42] [Server thread/INFO]: zohaib lost connection: Disconnected
-[08:03:42] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[08:03:42] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:03:53] [Server thread/INFO]: naeem123 issued server command: /easykits kits
-[08:04:04] [Server thread/INFO]: naeem123 issued server command: /easyranks ranks
-[08:04:06] [Server thread/INFO]: haseeb lost connection: Disconnected
-[08:04:06] [Server thread/INFO]: TSetSpawn > haseeb has left.
-[08:04:06] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:04:09] [Server thread/INFO]: naeem123 issued server command: /easyranks rank
-[08:04:23] [User Authenticator #3/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
-[08:04:23] [Server thread/INFO]: haseeb[/127.0.0.1:60664] logged in with entity id 2183 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:04:23] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:04:30] [Server thread/INFO]: naeem123 issued server command: /easyranks set haseeb Admin
-[08:04:43] [Server thread/INFO]: naeem123 issued server command: /easyranks set zohaib VIP
-[08:04:50] [User Authenticator #3/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[08:04:51] [Server thread/INFO]: zohaib[/127.0.0.1:56992] logged in with entity id 2187 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:04:51] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:04:51] [Server thread/INFO]: naeem123 issued server command: /easyranks set zohaib VIP
-[08:05:14] [Server thread/INFO]: VIP: zohaib has made the advancement [Monster Hunter]
-[08:05:28] [Server thread/INFO]: zohaib issued server command: /shop
-[08:05:33] [Server thread/INFO]: haseeb issued server command: /points
-[08:06:36] [Server thread/INFO]: Admin: haseeb was slain by VIP: zohaib
-[08:08:45] [Server thread/INFO]: naeem123 issued server command: /tp haseeb zobaib
-[08:08:53] [Server thread/INFO]: naeem123 issued server command: /tp haseeb zohaib
-[08:09:02] [Server thread/INFO]: naeem123 issued server command: /tp haseeb zohaib
-[08:09:05] [Server thread/INFO]: haseeb lost connection: Disconnected
-[08:09:05] [Server thread/INFO]: TSetSpawn > haseeb has left.
-[08:09:05] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:09:11] [User Authenticator #4/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
-[08:09:11] [Server thread/INFO]: haseeb[/127.0.0.1:54624] logged in with entity id 3025 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:09:11] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:09:24] [Server thread/INFO]: naeem123 issued server command: /time set day
-[08:09:51] [Server thread/INFO]: naeem123 issued server command: /tp haseeb zohaib
-[08:11:05] [Server thread/INFO]: naeem123 issued server command: /clear haseeb
-[08:11:14] [Server thread/INFO]: naeem123 issued server command: /clear zohaib
-[08:11:20] [Server thread/INFO]: naeem123 issued server command: /clear naeem123
-[08:11:26] [Server thread/INFO]: naeem123 issued server command: /gamemode s
-[08:11:45] [Server thread/INFO]: naeem123 issued server command: /rtp
-[08:11:45] [Craft Scheduler Thread - 80/INFO]: [BetterRTP] -Removed a queue Location{world=CraftWorld{name=Lobby},x=-67.5,y=65.0,z=614.5,pitch=12.449909,yaw=-215.7921}
-[08:11:52] [Server thread/INFO]: naeem123 issued server command: /rtp
-[08:11:52] [Craft Scheduler Thread - 80/INFO]: [BetterRTP] -Removed a queue Location{world=CraftWorld{name=Lobby},x=876.5,y=64.0,z=-946.5,pitch=-0.1500901,yaw=-79.742096}
-[08:11:57] [Server thread/INFO]: naeem123 issued server command: /rtp
-[08:11:57] [Craft Scheduler Thread - 80/INFO]: [BetterRTP] -Removed a queue Location{world=CraftWorld{name=Lobby},x=-657.5,y=64.0,z=481.5,pitch=2.099909,yaw=19.707903}
-[08:12:03] [Server thread/INFO]: naeem123 issued server command: /rtp
-[08:12:03] [Craft Scheduler Thread - 81/INFO]: [BetterRTP] -Removed a queue Location{world=CraftWorld{name=Lobby},x=752.5,y=77.0,z=-997.5,pitch=-9.150092,yaw=157.70796}
-[08:12:21] [Server thread/INFO]: naeem123 issued server command: /sethomenaeem
-[08:12:28] [Server thread/INFO]: naeem123 issued server command: /sethome naeem
-[08:12:52] [Server thread/INFO]: haseeb issued server command: /tpa naeem
-[08:12:55] [Server thread/INFO]: zohaib issued server command: /tpa naeem123
-[08:12:57] [Server thread/INFO]: naeem123 issued server command: /tpaccept
-[08:13:19] [Server thread/INFO]: haseeb issued server command: /sethome haseeb
-[08:13:34] [Server thread/INFO]: zohaib issued server command: /tpa naeem123
-[08:14:03] [Server thread/INFO]: zohaib issued server command: /tpa naeem123
-[08:14:15] [Server thread/INFO]: naeem123 issued server command: /tpaccept
-[08:14:17] [Server thread/INFO]: naeem123 issued server command: /tpaccept
-[08:14:17] [Server thread/INFO]: naeem123 issued server command: /tpaccept
-[08:14:47] [Server thread/INFO]: zohaib issued server command: /sethome zohaib
-[08:15:49] [Server thread/INFO]: naeem123 issued server command: /points
-[08:15:56] [Server thread/INFO]: naeem123 issued server command: /shop
-[08:16:10] [Server thread/INFO]: Shop >> naeem123 bought 34 x Diamond(Ores.page1.items.3) for 7,140 Points with the buy screen.
-[08:16:11] [Server thread/INFO]: Owner: naeem123 has made the advancement [Diamonds!]
-[08:16:40] [Server thread/INFO]: VIP: zohaib has made the advancement [Diamonds!]
-[08:17:47] [Server thread/INFO]: naeem123 issued server command: /tp naeem123 haseeb
-[08:17:58] [Server thread/INFO]: naeem123 issued server command: /tp naeem123 zohaib
-[08:18:05] [Server thread/INFO]: naeem123 issued server command: /tp naeem123 haseeb
-[08:18:19] [Server thread/INFO]: zohaib lost connection: Disconnected
-[08:18:19] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[08:18:19] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:18:24] [Server thread/INFO]: naeem123 lost connection: Disconnected
-[08:18:24] [Server thread/INFO]: TSetSpawn > naeem123 has left.
-[08:18:24] [Server thread/INFO]: haseeb lost connection: Disconnected
-[08:18:24] [Server thread/INFO]: TSetSpawn > haseeb has left.
-[08:18:24] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:18:24] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:19:41] [User Authenticator #5/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
-[08:19:42] [Server thread/INFO]: haseeb[/127.0.0.1:49600] logged in with entity id 4578 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:19:42] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:19:47] [User Authenticator #5/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
-[08:19:47] [Server thread/INFO]: naeem123[/127.0.0.1:54418] logged in with entity id 4607 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:19:47] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:19:51] [User Authenticator #5/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[08:19:51] [Server thread/INFO]: zohaib[/127.0.0.1:54420] logged in with entity id 4631 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:19:51] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:19:54] [Server thread/INFO]: haseeb issued server command: /home haseeb
-[08:19:56] [Server thread/INFO]: naeem123 issued server command: /home naeem123
-[08:19:56] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'home' in plugin SimpleHomes v1.0
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:152) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1492) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1297) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:14) ~[patched_1.12.2.jar:git-Paper-1620]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:850) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.lang.IllegalArgumentException: Name cannot be null
-	at org.apache.commons.lang.Validate.notNull(Validate.java:192) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.getWorld(CraftServer.java:1086) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.Bukkit.getWorld(Bukkit.java:520) ~[patched_1.12.2.jar:git-Paper-1620]
-	at me.home.main.onCommand(main.java:44) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[patched_1.12.2.jar:git-Paper-1620]
-	... 15 more
-[08:20:05] [Server thread/INFO]: naeem123 issued server command: /home naeem
-[08:20:05] [Server thread/INFO]: zohaib lost connection: Disconnected
-[08:20:05] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[08:20:05] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:20:13] [Server thread/INFO]: naeem123 issued server command: /shop
-[08:20:33] [User Authenticator #5/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[08:20:33] [Server thread/INFO]: zohaib[/127.0.0.1:46354] logged in with entity id 4828 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:20:33] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:20:39] [Server thread/INFO]: Shop >> naeem123 bought 18 x Wool(Blocks.page3.items.115) for 529 Points with the buy screen.
-[08:20:53] [Server thread/INFO]: zohaib issued server command: /home zohaib
-[08:20:56] [Server thread/INFO]: Shop >> naeem123 bought 17 x Log(Blocks.page3.items.97) for 51 Points with the buy screen.
-[08:21:20] [Server thread/INFO]: Admin: haseeb has made the advancement [Sweet dreams]
-[08:21:46] [Server thread/INFO]: Owner: naeem123 has made the advancement [Sweet dreams]
-[08:21:48] [Server thread/INFO]: VIP: zohaib has made the advancement [Sweet dreams]
-[08:22:07] [Server thread/INFO]: naeem123 issued server command: /shop
-[08:22:17] [Server thread/INFO]: Shop >> naeem123 bought 50 x Cobblestone(Blocks.page1.items.17) for 34 Points with the buy screen.
-[08:22:17] [Server thread/INFO]: Shop >> naeem123 bought 50 x Cobblestone(Blocks.page1.items.17) for 34 Points with the buy screen.
-[08:22:18] [Server thread/INFO]: Shop >> naeem123 bought 50 x Cobblestone(Blocks.page1.items.17) for 34 Points with the buy screen.
-[08:22:18] [Server thread/INFO]: Shop >> naeem123 bought 50 x Cobblestone(Blocks.page1.items.17) for 34 Points with the buy screen.
-[08:22:20] [Server thread/INFO]: Owner: naeem123 has made the advancement [Stone Age]
-[08:22:25] [Server thread/INFO]: VIP: zohaib has made the advancement [Stone Age]
-[08:22:27] [Server thread/INFO]: Admin: haseeb has made the advancement [Stone Age]
-[08:22:37] [Server thread/INFO]: naeem123 issued server command: /
-[08:22:40] [Server thread/INFO]: naeem123 issued server command: /shop
-[08:22:48] [pool-11-thread-1/INFO]: [net.craftingstore.libraries.apache.http.impl.execchain.RetryExec] I/O exception (java.net.SocketException) caught when processing request to {s}->https://api.craftingstore.net:443: Connection reset
-[08:22:48] [pool-11-thread-1/INFO]: [net.craftingstore.libraries.apache.http.impl.execchain.RetryExec] Retrying request to {s}->https://api.craftingstore.net:443
-[08:22:49] [Server thread/INFO]: Shop >> naeem123 bought 50 x Log 2(Blocks.page2.items.85) for 150 Points with the buy screen.
-[08:22:50] [Server thread/INFO]: Shop >> naeem123 bought 50 x Log 2(Blocks.page2.items.85) for 150 Points with the buy screen.
-[08:23:23] [Server thread/INFO]: Owner: naeem123 has made the advancement [Cover Me With Diamonds]
-[08:23:28] [Server thread/INFO]: Admin: haseeb has made the advancement [Getting an Upgrade]
-[08:23:34] [Server thread/INFO]: naeem123 issued server command: /shop
-[08:23:41] [Server thread/INFO]: Shop >> naeem123 bought 50 x Diamond(Ores.page1.items.3) for 10,500 Points with the buy screen.
-[08:23:53] [Server thread/INFO]: naeem123 issued server command: /shop
-[08:24:01] [Server thread/INFO]: haseeb issued server command: /home haseeb
-[08:24:12] [Server thread/INFO]: VIP: zohaib has made the advancement [Cover Me With Diamonds]
-[08:25:10] [Server thread/INFO]: haseeb lost connection: Disconnected
-[08:25:10] [Server thread/INFO]: TSetSpawn > haseeb has left.
-[08:25:10] [Server thread/INFO]: naeem123 lost connection: Disconnected
-[08:25:10] [Server thread/INFO]: TSetSpawn > naeem123 has left.
-[08:25:10] [Server thread/INFO]: zohaib lost connection: Internal Exception: java.net.SocketException: Connection reset
-[08:25:10] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[08:25:10] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:25:10] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:25:10] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:25:39] [User Authenticator #6/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
-[08:25:40] [Server thread/INFO]: naeem123[/127.0.0.1:55150] logged in with entity id 5323 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:25:40] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:25:42] [User Authenticator #6/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[08:25:43] [Server thread/INFO]: zohaib[/127.0.0.1:55154] logged in with entity id 5348 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:25:43] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:25:45] [Server thread/INFO]: naeem123 issued server command: /home naeem
-[08:25:51] [Server thread/INFO]: zohaib issued server command: /home zohaib
-[08:25:53] [User Authenticator #6/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
-[08:25:54] [Server thread/INFO]: haseeb[/127.0.0.1:53888] logged in with entity id 5517 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:25:54] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:26:02] [Server thread/INFO]: haseeb issued server command: /home haseeb
-[08:27:21] [Server thread/INFO]: naeem123 issued server command: /shop
-[08:27:39] [Server thread/INFO]: Shop >> naeem123 bought 2 x Iron Ingot(Ores.page1.items.10) for 42 Points with the buy screen.
-[08:27:40] [Server thread/INFO]: Owner: naeem123 has made the advancement [Acquire Hardware]
-[08:28:18] [Server thread/INFO]: naeem123 issued server command: /shop
-[08:28:25] [Server thread/INFO]: Shop >> naeem123 bought 33 x Cooked Beef(Food.page1.items.6) for 208 Points with the buy screen.
-[08:31:04] [Server thread/INFO]: naeem123 issued server command: /home naeem
-[08:31:11] [Server thread/INFO]: naeem123 lost connection: Disconnected
-[08:31:11] [Server thread/INFO]: TSetSpawn > naeem123 has left.
-[08:31:11] [Server thread/INFO]: zohaib lost connection: Disconnected
-[08:31:11] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[08:31:11] [Server thread/INFO]: haseeb lost connection: Disconnected
-[08:31:11] [Server thread/INFO]: TSetSpawn > haseeb has left.
-[08:31:11] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:31:11] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:31:11] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:31:36] [User Authenticator #7/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
-[08:31:36] [Server thread/INFO]: haseeb[/127.0.0.1:51910] logged in with entity id 6275 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:31:36] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:31:48] [Server thread/INFO]: haseeb issued server command: /home haseeb
-[08:32:04] [User Authenticator #7/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[08:32:04] [Server thread/INFO]: zohaib[/127.0.0.1:44812] logged in with entity id 6648 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:32:04] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:32:21] [Server thread/INFO]: zohaib issued server command: /home zohaib
-[08:33:01] [Server thread/INFO]: zohaib issued server command: /home zohaib
-[08:33:25] [Server thread/INFO]: haseeb issued server command: /home haseeb
-[08:34:04] [User Authenticator #8/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
-[08:34:04] [Server thread/INFO]: naeem123[/127.0.0.1:59108] logged in with entity id 6741 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:34:04] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:34:19] [Server thread/INFO]: Admin: haseeb has made the advancement [Acquire Hardware]
-[08:34:30] [Async Chat Thread - #0/INFO]: [Owner] naeem123 ➟ hiii
-[08:34:38] [Async Chat Thread - #0/INFO]: [VIP] zohaib ➟ hi
-[08:34:49] [Async Chat Thread - #0/INFO]: [Owner] naeem123 ➟ haseeb kha he
-[08:34:54] [Async Chat Thread - #0/INFO]: [Admin] haseeb ➟ naeem hello
-[08:35:07] [Async Chat Thread - #0/INFO]: [Owner] naeem123 ➟ ok server is Running
-[08:35:19] [Async Chat Thread - #0/INFO]: [Admin] haseeb ➟ ok
-[08:35:24] [Server thread/INFO]: naeem123 issued server command: /tp naeem123 zohaib
-[08:36:31] [Server thread/INFO]: naeem123 lost connection: Disconnected
-[08:36:31] [Server thread/INFO]: TSetSpawn > naeem123 has left.
-[08:36:31] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:36:34] [User Authenticator #9/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
-[08:36:34] [Server thread/INFO]: naeem123[/127.0.0.1:56178] logged in with entity id 6996 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:36:34] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:36:42] [Server thread/INFO]: naeem123 issued server command: /gamemode c
-[08:36:52] [Server thread/INFO]: naeem123 issued server command: /gamemode s
-[08:37:00] [Server thread/INFO]: naeem123 issued server command: /home naeem
-[08:37:02] [Server thread/INFO]: Admin: haseeb has made the advancement [Suit Up]
-[08:37:06] [Async Chat Thread - #1/INFO]: [VIP] zohaib ➟ ajao nahi mar raha
-[08:37:21] [Server thread/INFO]: naeem123 lost connection: Disconnected
-[08:37:21] [Server thread/INFO]: TSetSpawn > naeem123 has left.
-[08:37:21] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:37:48] [User Authenticator #10/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
-[08:37:48] [Server thread/INFO]: naeem123[/127.0.0.1:46746] logged in with entity id 7111 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:37:48] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:37:55] [Server thread/INFO]: naeem123 issued server command: /home naeem
-[08:38:52] [Server thread/INFO]: VIP: zohaib was slain by Owner: naeem123
-[08:39:16] [Async Chat Thread - #2/INFO]: [Admin] haseeb ➟ bye
-[08:39:18] [Server thread/INFO]: zohaib issued server command: /home zohaib
-[08:39:19] [Server thread/INFO]: naeem123 issued server command: /tp zohaib naeem
-[08:40:05] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ byb
-[08:40:22] [Server thread/INFO]: haseeb issued server command: /home haseeb
-[08:40:44] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
-[08:40:46] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
-[08:40:48] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
-[08:40:49] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
-[08:40:50] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
-[08:40:51] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ point free
-[08:40:54] [Server thread/INFO]: haseeb issued server command: /points
-[08:40:59] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ kisko
-[08:41:02] [Async Chat Thread - #2/INFO]: [Owner] naeem123 ➟ kis ko
-[08:41:28] [Server thread/INFO]: naeem123 issued server command: /tp zohaib naeem
-[08:41:32] [Server thread/INFO]: haseeb lost connection: Disconnected
-[08:41:32] [Server thread/INFO]: TSetSpawn > haseeb has left.
-[08:41:32] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:41:42] [User Authenticator #11/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
-[08:41:42] [Server thread/INFO]: haseeb[/127.0.0.1:59722] logged in with entity id 7621 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:41:42] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:41:52] [Server thread/INFO]: haseeb issued server command: /home haseeb
-[08:42:01] [Server thread/INFO]: naeem123 lost connection: Disconnected
-[08:42:01] [Server thread/INFO]: TSetSpawn > naeem123 has left.
-[08:42:01] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:42:43] [Server thread/INFO]: [Server] hi
-[08:42:54] [Server thread/INFO]: [Server] i am naeem
-[08:42:55] [Server thread/INFO]: haseeb lost connection: Disconnected
-[08:42:55] [Server thread/INFO]: TSetSpawn > haseeb has left.
-[08:42:55] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:43:01] [User Authenticator #12/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
-[08:43:01] [Server thread/INFO]: haseeb[/127.0.0.1:53050] logged in with entity id 7784 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:43:01] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:43:08] [Server thread/INFO]: [Server] hiii zohaib
-[08:43:17] [Server thread/INFO]: haseeb issued server command: /home haseeb
-[08:43:17] [Async Chat Thread - #3/INFO]: [VIP] zohaib ➟ hii
-[08:43:34] [Server thread/INFO]: [Server] ami nhi any da rai
-[08:43:53] [Async Chat Thread - #3/INFO]: [Admin] haseeb ➟ ok
-[08:44:00] [Server thread/INFO]: [Server] kis ko points chaia
-[08:44:07] [Async Chat Thread - #3/INFO]: [VIP] zohaib ➟ jan chutii
-[08:44:16] [Server thread/INFO]: [Server] noob
-[08:44:18] [Async Chat Thread - #3/INFO]: [Admin] haseeb ➟ yessssssssssssssssssssssssss
-[08:44:27] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /kick zohaib
-[08:44:27] [Server thread/INFO]: zohaib lost connection: Kicked from server.
-[08:44:27] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[08:44:27] [Server thread/INFO]: [Essentials] Player Console kicked zohaib for Kicked from server..
-[08:44:27] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:44:27] [Server thread/WARN]: handleDisconnection() called twice
-[08:44:44] [User Authenticator #13/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[08:44:44] [Server thread/INFO]: zohaib[/127.0.0.1:45874] logged in with entity id 8061 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:44:44] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:44:45] [Server thread/INFO]: [Server] zohaib is kicked by naeem
-[08:44:58] [Server thread/INFO]: zohaib issued server command: /home zohaib
-[08:44:59] [Server thread/INFO]: zohaib lost connection: Disconnected
-[08:44:59] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[08:44:59] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:45:07] [Server thread/INFO]: [Server] haseeb
-[08:45:16] [Server thread/INFO]: haseeb issued server command: /home haseeb
-[08:45:21] [User Authenticator #13/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[08:45:21] [Server thread/INFO]: zohaib[/127.0.0.1:54336] logged in with entity id 8242 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[08:45:21] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:45:39] [Server thread/INFO]: zohaib issued server command: /home zohaib
-[08:45:41] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[08:45:49] [Server thread/WARN]: zohaib moved wrongly!
-[08:45:52] [Server thread/INFO]: [Server] haseeb ko 10000 points mala ge
-[08:46:05] [Server thread/WARN]: haseeb moved wrongly!
-[08:46:29] [Server thread/INFO]: [PlayerPoints] Set the Points of haseeb to 10,000.
-[08:46:43] [Server thread/INFO]: [Server] haseeb points check
-[08:47:06] [Server thread/INFO]: haseeb issued server command: /points
-[08:47:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /list 
-[08:47:09] [Server thread/INFO]: There are 2 out of maximum 20 players online.
-[08:47:09] [Server thread/INFO]: default: haseeb, zohaib
-[08:47:22] [Async Chat Thread - #4/INFO]: [VIP] zohaib ➟ abe dhoke baaz
-[08:47:36] [Async Chat Thread - #4/INFO]: [Admin] haseeb ➟ thanks naeemmmmmmmmmmmmmm
-[08:47:47] [Server thread/INFO]: [PlayerPoints] Set the Points of zohaib to 10,000.
-[08:47:57] [Server thread/INFO]: haseeb issued server command: /shop
-[08:48:15] [Server thread/INFO]: [Server] zohaib points check
-[08:48:30] [Server thread/INFO]: [Server] zohaib points check
-[08:48:32] [Server thread/INFO]: [Server] zohaib points check
-[08:48:34] [Server thread/INFO]: [Server] zohaib points check
-[08:48:36] [Server thread/INFO]: [Server] zohaib points check
-[08:48:37] [Server thread/INFO]: [Server] zohaib points check
-[08:48:46] [Server thread/INFO]: Shop >> haseeb bought 8 x Diamond(Ores.page1.items.3) for 1,680 Points with the buy screen.
-[08:48:47] [Server thread/INFO]: Admin: haseeb has made the advancement [Diamonds!]
-[08:49:12] [Server thread/INFO]: [Server] haseeb diamond ya tho cheting
-[08:49:49] [Server thread/INFO]: Admin: haseeb has made the advancement [Cover Me With Diamonds]
-[08:50:30] [Server thread/INFO]: zohaib issued server command: /point
-[08:50:33] [Server thread/INFO]: zohaib issued server command: /points
-[08:50:43] [Server thread/INFO]: haseeb issued server command: /wwwwwwwwww
-[08:52:40] [Server thread/INFO]: haseeb issued server command: /shop
-[08:53:04] [Server thread/INFO]: Shop >> haseeb bought 33 x Cooked Beef(Food.page1.items.6) for 208 Points with the buy screen.
-[08:53:27] [Server thread/INFO]: haseeb issued server command: /home haseeb
-[08:54:14] [Server thread/INFO]: haseeb issued server command: /sethome 123
-[08:54:14] [Server thread/INFO]: zohaib issued server command: /sethome 123
-[08:55:01] [Server thread/INFO]: haseeb lost connection: Disconnected
-[08:55:01] [Server thread/INFO]: TSetSpawn > haseeb has left.
-[08:55:01] [Server thread/INFO]: zohaib lost connection: Disconnected
-[08:55:01] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[08:55:01] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[08:55:01] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[09:58:54] [User Authenticator #14/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[09:58:54] [Server thread/INFO]: zohaib[/127.0.0.1:38392] logged in with entity id 8873 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[09:58:54] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[09:59:19] [Server thread/INFO]: [Server] hi
-[10:00:03] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[10:00:11] [Server thread/INFO]: zohaib issued server command: /home 123
-[10:00:24] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[10:00:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /time set day
-[10:00:48] [Server thread/INFO]: The time was set to 0 ticks in: Lobby, Lobby_nether, Lobby_the_end.
-[10:01:21] [pool-11-thread-1/INFO]: [net.craftingstore.libraries.apache.http.impl.execchain.RetryExec] I/O exception (java.net.SocketException) caught when processing request to {s}->https://api.craftingstore.net:443: Connection reset
-[10:01:21] [pool-11-thread-1/INFO]: [net.craftingstore.libraries.apache.http.impl.execchain.RetryExec] Retrying request to {s}->https://api.craftingstore.net:443
-[10:06:04] [Server thread/INFO]: zohaib issued server command: /buy
-[10:08:37] [Async Chat Thread - #5/INFO]: [VIP] zohaib ➟ hi
-[10:08:47] [Server thread/INFO]: zohaib issued server command: /points
-[10:08:54] [Server thread/INFO]: zohaib lost connection: Disconnected
-[10:08:54] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[10:08:54] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[10:08:59] [User Authenticator #15/INFO]: UUID of player zohaib is 2d82e5dc-a682-36b6-8013-aa157c7b7e9b
-[10:08:59] [Server thread/INFO]: zohaib[/127.0.0.1:57644] logged in with entity id 10012 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
-[10:08:59] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
-[10:09:02] [Server thread/INFO]: [PlayerPoints] zohaib was given 10,000 Points.
-[10:09:11] [Server thread/INFO]: zohaib issued server command: / points
-[10:09:18] [Server thread/INFO]: zohaib issued server command: /points
-[10:10:42] [Server thread/INFO]: zohaib lost connection: Disconnected
-[10:10:42] [Server thread/INFO]: TSetSpawn > zohaib has left.
-[10:10:42] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:25:39] [Server thread/INFO]: [Vaults] Disabling Vaults v1.0.3
+[18:25:39] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v1.0
+[18:25:39] [Server thread/INFO]: [CraftingStore] Enabling CraftingStore v2.9.3
+[18:25:39] [Server thread/INFO]: [EasyRanks] Enabling EasyRanks v1.3.2
+[18:25:39] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.8
+[18:25:40] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[18:25:40] [Server thread/INFO]: [BetterRTP] Loading Overrides...
+[18:25:40] [Server thread/WARN]: [BetterRTP] The world `world` doesn't seem to exist! Please update `master_world's` override! Maybe there are capital letters?
+[18:25:40] [Server thread/WARN]: [BetterRTP] The world `world` doesn't seem to exist! Please update `creative_world's` override! Maybe there are capital letters?
+[18:25:40] [Server thread/INFO]: [BetterRTP] Loading World Types...
+[18:25:40] [Server thread/INFO]: [BetterRTP] - World Type for 'world' set to 'NORMAL'
+[18:25:40] [Server thread/INFO]: [BetterRTP] - World Type for 'world_nether' set to 'NETHER'
+[18:25:40] [Server thread/INFO]: [BetterRTP] - World Type for 'world_the_end' set to 'NORMAL'
+[18:25:40] [Server thread/INFO]: [BetterRTP] Loading Defaults...
+[18:25:40] [Server thread/INFO]: [BetterRTP] Loading Custom Worlds...
+[18:25:40] [Server thread/INFO]: [BetterRTP] [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+[18:25:40] [Server thread/INFO]: [BetterRTP] [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+[18:25:40] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.21.2-dev+2-d42347f
+[18:25:40] [Server thread/WARN]: [EssentialsXMPP] Version mismatch! Please update all Essentials jars to the same version.
+[18:25:40] [Server thread/WARN]: [EssentialsXMPP] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:25:40] [Server thread/INFO]: [EssentialsXMPP] Starting Metrics. Opt-out using the global bStats config.
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.13.0
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to load default economy provider with reason 'Could not find Vault', trying to automatically find supported economy provider
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Detected PlayerPoints, initializing...
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into PlayerPoints
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.12.2...
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: This item material is not supported in this minecraft version.
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Item path in config.yml: spawner-break-tools.3
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[18:25:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 639ms to complete
+[18:25:41] [Server thread/INFO]: Done (4.363s)! For help, type "help" or "?"
+[18:25:41] [Server thread/INFO]: Timings Reset
+[18:25:41] [Craft Scheduler Thread - 1/INFO]: [Essentials] Fetching version information...
+[18:25:41] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Database COOLDOWN:Lobby configured and loaded!
+[18:25:41] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Database COOLDOWN:Lobby_nether configured and loaded!
+[18:25:41] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Database COOLDOWN:Lobby_the_end configured and loaded!
+[18:25:41] [Craft Scheduler Thread - 5/INFO]: [BetterRTP] Database PLAYERS:Players configured and loaded!
+[18:25:41] [Craft Scheduler Thread - 7/INFO]: [BetterRTP] Database CHUNK_DATA:ChunkData configured and loaded!
+[18:25:41] [Craft Scheduler Thread - 8/INFO]: [BetterRTP] Database QUEUE:Queue configured and loaded!
+[18:25:41] [Craft Scheduler Thread - 8/INFO]: [BetterRTP] Attempting to queue up some more safe locations...
+[18:25:42] [Server thread/WARN]: [BetterRTP] Seems like the world `Lobby_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby_nether: NETHER`
+[18:26:34] [Craft Scheduler Thread - 9/INFO]: [BetterRTP] Max attempts to create a Queue reached for default_Lobby_nether (amount: 0)
+[18:26:34] [Craft Scheduler Thread - 9/INFO]: [BetterRTP] Queueing paused, max queue limit reached!
+[18:28:30] [User Authenticator #1/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[18:28:31] [Server thread/INFO]: naeem123[/127.0.0.1:35920] logged in with entity id 16 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[18:28:31] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[18:30:55] [Server thread/INFO]: naeem123 lost connection: Timed out
+[18:30:55] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[18:30:55] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
