@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749115446333
+  login: 1749115008418
+money: '0'
+last-account-name: PLAYER
+logoutlocation:
+  world: baa70d19-0aaf-4180-9d49-6792e9360452
+  world-name: Lobby
+  x: -52.43278441220752
+  y: 184.0
+  z: 138.7188113889954
+  yaw: -34.14346694946289
+  pitch: 8.999981880187988

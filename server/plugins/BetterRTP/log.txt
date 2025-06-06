@@ -1,22 +1,59 @@
-2025-06-04 18:25:40 [INFO]: Cooldown = 600
-2025-06-04 18:25:40 [INFO]: Loading Overrides...
-2025-06-04 18:25:40 [WARNING]: The world `world` doesn't seem to exist! Please update `master_world's` override! Maybe there are capital letters?
-2025-06-04 18:25:40 [WARNING]: The world `world` doesn't seem to exist! Please update `creative_world's` override! Maybe there are capital letters?
-2025-06-04 18:25:40 [INFO]: Loading World Types...
-2025-06-04 18:25:40 [INFO]: - World Type for 'world' set to 'NORMAL'
-2025-06-04 18:25:40 [INFO]: - World Type for 'world_nether' set to 'NETHER'
-2025-06-04 18:25:40 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
-2025-06-04 18:25:40 [INFO]: Loading Defaults...
-2025-06-04 18:25:40 [INFO]: Loading Custom Worlds...
-2025-06-04 18:25:40 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
-2025-06-04 18:25:40 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
-2025-06-04 18:25:41 [INFO]: Database COOLDOWN:Lobby configured and loaded!
-2025-06-04 18:25:41 [INFO]: Database COOLDOWN:Lobby_nether configured and loaded!
-2025-06-04 18:25:41 [INFO]: Database COOLDOWN:Lobby_the_end configured and loaded!
-2025-06-04 18:25:41 [INFO]: Database PLAYERS:Players configured and loaded!
-2025-06-04 18:25:41 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2025-06-04 18:25:41 [INFO]: Database QUEUE:Queue configured and loaded!
-2025-06-04 18:25:41 [INFO]: Attempting to queue up some more safe locations...
-2025-06-04 18:25:42 [WARNING]: Seems like the world `Lobby_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby_nether: NETHER`
-2025-06-04 18:26:34 [INFO]: Max attempts to create a Queue reached for default_Lobby_nether (amount: 0)
-2025-06-04 18:26:34 [INFO]: Queueing paused, max queue limit reached!
+2025-06-05 10:51:24 [INFO]: Cooldown = 600
+2025-06-05 10:51:24 [INFO]: Loading Overrides...
+2025-06-05 10:51:24 [WARNING]: The world `world` doesn't seem to exist! Please update `master_world's` override! Maybe there are capital letters?
+2025-06-05 10:51:24 [WARNING]: The world `world` doesn't seem to exist! Please update `creative_world's` override! Maybe there are capital letters?
+2025-06-05 10:51:24 [INFO]: Loading World Types...
+2025-06-05 10:51:24 [INFO]: - World Type for 'world' set to 'NORMAL'
+2025-06-05 10:51:24 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2025-06-05 10:51:24 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2025-06-05 10:51:24 [INFO]: Loading Defaults...
+2025-06-05 10:51:24 [INFO]: Loading Custom Worlds...
+2025-06-05 10:51:24 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-06-05 10:51:24 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-06-05 10:51:27 [INFO]: Database COOLDOWN:Lobby configured and loaded!
+2025-06-05 10:51:27 [INFO]: Database COOLDOWN:Lobby_nether configured and loaded!
+2025-06-05 10:51:27 [INFO]: Database COOLDOWN:Lobby_the_end configured and loaded!
+2025-06-05 10:51:27 [INFO]: Database PLAYERS:Players configured and loaded!
+2025-06-05 10:51:27 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2025-06-05 10:51:27 [INFO]: Database QUEUE:Queue configured and loaded!
+2025-06-05 10:51:27 [INFO]: Attempting to queue up some more safe locations...
+2025-06-05 10:51:28 [WARNING]: Seems like the world `Lobby_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby_nether: NETHER`
+2025-06-05 10:52:20 [INFO]: Max attempts to create a Queue reached for default_Lobby_nether (amount: 0)
+2025-06-05 10:52:20 [INFO]: Queueing paused, max queue limit reached!
+2025-06-06 07:29:08 [WARNING]: Seems like the world `Lobby` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby: NETHER`
+2025-06-06 07:29:08 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-250.5,y=72.0,z=-799.5,pitch=22.350048,yaw=95.60779}
+2025-06-06 07:29:29 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-733.5,y=70.0,z=551.5,pitch=30.450054,yaw=260.30786}
+2025-06-06 07:29:44 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-993.5,y=79.0,z=780.5,pitch=30.900053,yaw=260.30786}
+2025-06-06 07:32:40 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-973.5,y=66.0,z=651.5,pitch=26.399946,yaw=100.85803}
+2025-06-06 07:32:49 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=955.5,y=63.0,z=-393.5,pitch=14.399943,yaw=346.70804}
+2025-06-06 07:33:04 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=960.5,y=71.0,z=-871.5,pitch=10.949946,yaw=76.70798}
+2025-06-06 07:33:30 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-577.5,y=66.0,z=350.5,pitch=24.749956,yaw=-125.34193}
+2025-06-06 07:34:04 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-541.5,y=83.0,z=505.5,pitch=34.19998,yaw=-270.69342}
+2025-06-06 07:35:11 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=998.5,y=70.0,z=-269.5,pitch=19.049974,yaw=-49.893383}
+2025-06-06 07:35:19 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-861.5,y=65.0,z=842.5,pitch=28.349977,yaw=-0.99337184}
+2025-06-06 07:35:19 [INFO]: Attempting to queue up some more safe locations...
+2025-06-06 07:35:24 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 48, location= x: -883, y: 65, z: 218, world: Lobby
+2025-06-06 07:35:28 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 49, location= x: -999, y: 64, z: 639, world: Lobby
+2025-06-06 07:35:30 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 50, location= x: -221, y: 194, z: 124, world: Lobby
+2025-06-06 07:35:35 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 51, location= x: -73, y: 64, z: 678, world: Lobby
+2025-06-06 07:35:37 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 52, location= x: -605, y: 86, z: 779, world: Lobby
+2025-06-06 07:35:47 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 53, location= x: -300, y: 69, z: -880, world: Lobby
+2025-06-06 07:35:49 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-882.5,y=65.0,z=218.5,pitch=22.499973,yaw=113.60659}
+2025-06-06 07:35:50 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 54, location= x: -884, y: 63, z: 150, world: Lobby
+2025-06-06 07:35:52 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 55, location= x: -583, y: 67, z: -514, world: Lobby
+2025-06-06 07:35:53 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 56, location= x: -623, y: 81, z: -416, world: Lobby
+2025-06-06 07:35:56 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 57, location= x: -464, y: 69, z: 857, world: Lobby
+2025-06-06 07:36:01 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-622.5,y=81.0,z=-415.5,pitch=21.149963,yaw=144.50676}
+2025-06-06 07:36:08 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 58, location= x: -787, y: 77, z: 106, world: Lobby
+2025-06-06 07:36:10 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 59, location= x: -709, y: 70, z: 413, world: Lobby
+2025-06-06 07:36:11 [INFO]: Queue position generated: id= rtp_Lobby, database_ID= 60, location= x: -279, y: 63, z: 898, world: Lobby
+2025-06-06 07:36:12 [INFO]: Max attempts to create a Queue reached for rtp_Lobby (amount: 12)
+2025-06-06 07:36:40 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-582.5,y=67.0,z=-513.5,pitch=6.300043,yaw=105.2063}
+2025-06-06 07:36:47 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-998.5,y=64.0,z=639.5,pitch=6.300043,yaw=105.2063}
+2025-06-06 07:36:59 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-786.5,y=77.0,z=106.5,pitch=70.80002,yaw=301.7063}
+2025-06-06 07:37:30 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-974.5,y=76.0,z=308.5,pitch=41.400013,yaw=284.7564}
+2025-06-06 07:39:44 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-708.5,y=70.0,z=413.5,pitch=20.09996,yaw=55.55664}
+2025-06-06 07:40:26 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-463.5,y=69.0,z=857.5,pitch=33.149975,yaw=6.956238}
+2025-06-06 07:41:37 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-72.5,y=64.0,z=678.5,pitch=22.499979,yaw=-1.4437113}
+2025-06-06 07:42:57 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-278.5,y=63.0,z=898.5,pitch=8.999951,yaw=313.70633}
+2025-06-06 08:07:42 [INFO]: -Removed a queue Location{world=CraftWorld{name=Lobby},x=-883.5,y=63.0,z=150.5,pitch=52.50002,yaw=-265.291}
