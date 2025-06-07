@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-06-07 06:28:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "deep_ocean": "2025-06-07 06:23:46 +0000",
+      "ocean": "2025-06-07 06:24:48 +0000"
+    },
+    "done": false
+  }
+}
