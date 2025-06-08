@@ -1,15 +1,979 @@
-[07:35:22] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[07:35:22] [Server thread/INFO]: Loading properties
-[07:35:22] [Server thread/INFO]: Default game type: SURVIVAL
-[07:35:22] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[07:35:22] [Server thread/INFO]: Debug logging is disabled
-[07:35:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:35:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:35:22] [Server thread/INFO]: Generating keypair
-[07:35:22] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[07:35:22] [Server thread/INFO]: Using default channel type
-[07:35:23] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[07:35:23] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use
-[07:35:23] [Server thread/WARN]: Perhaps a server is already running on that port?
-[07:35:23] [Server thread/INFO]: Stopping server
-[07:35:23] [Server thread/INFO]: Saving players
+[06:00:58] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[06:00:58] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[06:00:58] [Server thread/INFO]: Loading properties
+[06:00:58] [Server thread/INFO]: Default game type: SURVIVAL
+[06:00:59] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[06:00:59] [Server thread/INFO]: Debug logging is disabled
+[06:00:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:00:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:00:59] [Server thread/INFO]: Generating keypair
+[06:00:59] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[06:00:59] [Server thread/INFO]: Using default channel type
+[06:00:59] [Server thread/ERROR]: Could not load 'plugins/voicechat-forge-1.12.2-2.5.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[06:01:00] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[06:01:00] [Server thread/ERROR]: Could not load 'plugins/Morph-3.6.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: LibsDisguises
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:01:00] [Server thread/ERROR]: Could not load 'plugins/CommandNPC-1.9.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Citizens
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:01:00] [Server thread/ERROR]: Could not load 'plugins/multiverse-core-5.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.IncompatibleClassChangeError: class org.mvplugins.multiverse.core.MultiverseCore overrides final method org.bukkit.plugin.java.JavaPlugin.getLogger()Ljava/util/logging/Logger;
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IncompatibleClassChangeError: class org.mvplugins.multiverse.core.MultiverseCore overrides final method org.bukkit.plugin.java.JavaPlugin.getLogger()Ljava/util/logging/Logger;
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:152) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:104) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 6 more
+[06:01:00] [Server thread/ERROR]: Could not load 'plugins/Shopkeepers-2.23.6.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoSuchMethodError: 'int org.bukkit.UnsafeValues.getDataVersion()'
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'int org.bukkit.UnsafeValues.getDataVersion()'
+	at com.nisovin.shopkeepers.storage.DataVersion.getCurrentMinecraftDataVersion(DataVersion.java:97) ~[?:?]
+	at com.nisovin.shopkeepers.storage.DataVersion.init(DataVersion.java:91) ~[?:?]
+	at com.nisovin.shopkeepers.storage.SKShopkeeperStorage.<init>(SKShopkeeperStorage.java:139) ~[?:?]
+	at com.nisovin.shopkeepers.SKShopkeepersPlugin.<init>(SKShopkeepersPlugin.java:118) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128) ~[?:?]
+	at jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:304) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:725) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:94) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 6 more
+[06:01:00] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
+[06:01:00] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.2
+[06:01:01] [Server thread/INFO]: [voicechat] Loading voicechat v2.5.26
+[06:01:01] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[06:01:01] [Server thread/INFO]: [FakePlayers] Loading FakePlayers v2.4
+[06:01:01] [Server thread/INFO]: [BuildPaste] Loading BuildPaste v1.11.1
+[06:01:01] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.1
+[06:01:01] [Server thread/INFO]: [TSetSpawn] Loading TSetSpawn v1.7
+[06:01:01] [Server thread/INFO]: [Vaults] Loading Vaults v1.0.3
+[06:01:01] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v1.0
+[06:01:01] [Server thread/INFO]: [CraftingStore] Loading CraftingStore v2.9.3
+[06:01:01] [Server thread/INFO]: [EasyRanks] Loading EasyRanks v1.3.2
+[06:01:01] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.3.2
+[06:01:01] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.4.7
+[06:01:01] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.21.2-dev+2-d42347f
+[06:01:01] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.13.0
+[06:01:01] [Server thread/INFO]: [BetterRTP] Loading BetterRTP v3.6.8
+[06:01:01] [Server thread/ERROR]: Permission node 'groups' in permissions.yml is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadCustomPermissions(CraftServer.java:864) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:337) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:223) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:01:01] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.2
+[06:01:01] [Server thread/INFO]:         __    
+[06:01:01] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.2
+[06:01:01] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[06:01:01] [Server thread/INFO]: 
+[06:01:01] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[06:01:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[06:01:02] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[06:01:02] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[06:01:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2031ms)
+[06:01:03] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.3.2
+[06:01:03] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[06:01:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:01:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:01:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:01:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:01:04] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[06:01:04] [Server thread/INFO]: Preparing level "Lobby"
+[06:01:04] [Server thread/INFO]: -------- World Settings For [Lobby] --------
+[06:01:04] [Server thread/INFO]: Mob Spawn Range: 4
+[06:01:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[06:01:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:01:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:01:04] [Server thread/INFO]: Random Lighting Updates: false
+[06:01:04] [Server thread/INFO]: Structure Info Saving: true
+[06:01:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[06:01:04] [Server thread/INFO]: Max TNT Explosions: 100
+[06:01:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:01:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:01:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:01:04] [Server thread/INFO]: View Distance: 4
+[06:01:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:01:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:01:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:01:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:01:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:01:04] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
+[06:01:04] [Server thread/INFO]: Mob Spawn Range: 4
+[06:01:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[06:01:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:01:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:01:04] [Server thread/INFO]: Random Lighting Updates: false
+[06:01:04] [Server thread/INFO]: Structure Info Saving: true
+[06:01:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[06:01:04] [Server thread/INFO]: Max TNT Explosions: 100
+[06:01:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:01:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:01:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:01:04] [Server thread/INFO]: View Distance: 4
+[06:01:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:01:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:01:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:01:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:01:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:01:04] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
+[06:01:04] [Server thread/INFO]: Mob Spawn Range: 4
+[06:01:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:01:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[06:01:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:01:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:01:04] [Server thread/INFO]: Random Lighting Updates: false
+[06:01:04] [Server thread/INFO]: Structure Info Saving: true
+[06:01:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[06:01:04] [Server thread/INFO]: Max TNT Explosions: 100
+[06:01:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:01:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:01:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:01:04] [Server thread/INFO]: View Distance: 4
+[06:01:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:01:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:01:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:01:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:01:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:01:05] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1372494887900176569)
+[06:01:06] [Server thread/INFO]: Preparing spawn area: 11%
+[06:01:06] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8034280102195091147)
+[06:01:06] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8034280102195091147)
+[06:01:06] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[06:01:06] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[06:01:06] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[06:01:06] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[06:01:06] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
+[06:01:06] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.12.2-R0.1
+[06:01:06] [Server thread/INFO]: [voicechat] Compatibility version 18
+[06:01:06] [Server thread/WARN]: [voicechat] Commodore command completion is not supported
+[06:01:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[06:01:06] [Server thread/ERROR]: Error occurred while enabling WorldEdit v6.1.9;caf0ad9 (Is it up to date?)
+org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 24, column 1:
+    ignore-nijiperms-bries: true
+    ^
+expected <block end>, but found BlockMappingStart
+ in 'reader', line 36, column 3:
+      default:
+      ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:571) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:140) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467) ~[patched_1.12.2.jar:git-Paper-1620]
+	at com.sk89q.util.yaml.YAMLProcessor.load(YAMLProcessor.java:111) ~[?:?]
+	at com.sk89q.wepif.PermissionsResolverManager.loadConfig(PermissionsResolverManager.java:202) ~[?:?]
+	at com.sk89q.wepif.PermissionsResolverManager.<init>(PermissionsResolverManager.java:106) ~[?:?]
+	at com.sk89q.wepif.PermissionsResolverManager.initialize(PermissionsResolverManager.java:70) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:103) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:01:06] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
+[06:01:06] [Server thread/ERROR]: Error occurred while disabling WorldEdit v6.1.9;caf0ad9 (Is it up to date?)
+java.lang.NullPointerException: null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770) ~[patched_1.12.2.jar:git-Paper-1620]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.unregister(PlatformManager.java:127) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onDisable(WorldEditPlugin.java:173) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:350) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:437) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:320) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:01:06] [Server thread/INFO]: [FakePlayers] Enabling FakePlayers v2.4
+[06:01:06] [Server thread/INFO]: Detected version: v1_12_R1
+[06:01:06] [Server thread/INFO]: Paper detected.
+[06:01:06] [Server thread/ERROR]: Permission node 'paste' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at org.apache.commons.lang.Validate.notNull(Validate.java:192) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:284) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:771) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:01:06] [Server thread/ERROR]: Permission node 'upload' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at org.apache.commons.lang.Validate.notNull(Validate.java:192) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:284) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:771) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:01:06] [Server thread/ERROR]: Permission node 'construct' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at org.apache.commons.lang.Validate.notNull(Validate.java:192) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:284) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:771) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:01:06] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[06:01:06] [Server thread/ERROR]: [BuildPaste] Plugin BuildPaste v1.11.1 has failed to register events for class de.mistrx.buildpaste.listeners.ServerStartEvent because org/bukkit/event/server/ServerLoadEvent does not exist.
+[06:01:06] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[06:01:07] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsXMPP to the same version.
+[06:01:07] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[06:01:07] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[06:01:07] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[06:01:07] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[06:01:07] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[06:01:07] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[06:01:07] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[06:01:07] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[06:01:07] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[06:01:07] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[06:01:07] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[06:01:07] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[06:01:07] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[06:01:07] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[06:01:07] [Server thread/INFO]: [Essentials] Using locale en_US
+[06:01:07] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[06:01:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[06:01:07] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[06:01:07] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[06:01:07] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[06:01:07] [Server thread/INFO]: [TSetSpawn] Enabling TSetSpawn v1.7
+[06:01:07] [Server thread/INFO]: [TSetSpawn] Has been activated (version: 1.7)
+[06:01:07] [Server thread/INFO]: [Vaults] Enabling Vaults v1.0.3
+[06:01:07] [Server thread/ERROR]: Error occurred while enabling Vaults v1.0.3 (Is it up to date?)
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Bukkit.getOnlinePlayers()'
+	at org.vanillaworld.Vaults.Main.onEnable(Main.java:23) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:01:07] [Server thread/INFO]: [Vaults] Disabling Vaults v1.0.3
+[06:01:07] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v1.0
+[06:01:07] [Server thread/INFO]: [CraftingStore] Enabling CraftingStore v2.9.3
+[06:01:07] [Server thread/INFO]: [EasyRanks] Enabling EasyRanks v1.3.2
+[06:01:07] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.21.2-dev+2-d42347f
+[06:01:07] [Server thread/WARN]: [EssentialsXMPP] Version mismatch! Please update all Essentials jars to the same version.
+[06:01:07] [Server thread/WARN]: [EssentialsXMPP] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:01:07] [Server thread/INFO]: [EssentialsXMPP] Starting Metrics. Opt-out using the global bStats config.
+[06:01:07] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.13.0
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to load default economy provider with reason 'Could not find Vault', trying to automatically find supported economy provider
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Detected PlayerPoints, initializing...
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into PlayerPoints
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.12.2...
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: This item material is not supported in this minecraft version.
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Item path in config.yml: spawner-break-tools.3
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[06:01:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 665ms to complete
+[06:01:08] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.8
+[06:01:08] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.13.0 but found v6.13.1.
+[06:01:08] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[06:01:08] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[06:01:08] [Server thread/INFO]: [BetterRTP] Loading Overrides...
+[06:01:08] [Server thread/WARN]: [BetterRTP] The world `world` doesn't seem to exist! Please update `master_world's` override! Maybe there are capital letters?
+[06:01:08] [Server thread/WARN]: [BetterRTP] The world `world` doesn't seem to exist! Please update `creative_world's` override! Maybe there are capital letters?
+[06:01:08] [Server thread/INFO]: [BetterRTP] Loading World Types...
+[06:01:08] [Server thread/INFO]: [BetterRTP] - World Type for 'world' set to 'NORMAL'
+[06:01:08] [Server thread/INFO]: [BetterRTP] - World Type for 'world_nether' set to 'NETHER'
+[06:01:08] [Server thread/INFO]: [BetterRTP] - World Type for 'world_the_end' set to 'NORMAL'
+[06:01:08] [Server thread/INFO]: [BetterRTP] Loading Defaults...
+[06:01:08] [Server thread/INFO]: [BetterRTP] Loading Custom Worlds...
+[06:01:08] [Server thread/INFO]: [BetterRTP] [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+[06:01:08] [Server thread/INFO]: [BetterRTP] [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+[06:01:09] [Server thread/INFO]: Done (4.972s)! For help, type "help" or "?"
+[06:01:09] [Server thread/INFO]: Timings Reset
+[06:01:09] [Craft Scheduler Thread - 0/INFO]: [Essentials] Fetching version information...
+[06:01:09] [Server thread/INFO]: [voicechat] Loading plugins
+[06:01:09] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[06:01:09] [Server thread/INFO]: [voicechat] Initializing plugins
+[06:01:09] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[06:01:09] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[06:01:09] [VoiceChatServerThread/WARN]: [voicechat] Failed to get server-ip from server.properties - binding to wildcard address
+java.lang.IllegalStateException: Could not find any of the following classes: MinecraftServer
+	at de.maxhenkel.voicechat.compatibility.Compatibility.getBukkitClass(Compatibility.java:144) ~[?:?]
+	at de.maxhenkel.voicechat.compatibility.Compatibility1_12.getServerIp(Compatibility1_12.java:24) ~[?:?]
+	at de.maxhenkel.voicechat.voice.server.Server.getBindAddress(Server.java:104) ~[?:?]
+	at de.maxhenkel.voicechat.voice.server.Server.run(Server.java:77) ~[?:?]
+[06:01:09] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[06:01:09] [Craft Scheduler Thread - 7/INFO]: [BetterRTP] Database CHUNK_DATA:ChunkData configured and loaded!
+[06:01:09] [Craft Scheduler Thread - 2/INFO]: [BetterRTP] Database PLAYERS:Players configured and loaded!
+[06:01:09] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Database COOLDOWN:Lobby configured and loaded!
+[06:01:09] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Database COOLDOWN:Lobby_nether configured and loaded!
+[06:01:09] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Database COOLDOWN:Lobby_the_end configured and loaded!
+[06:01:09] [Craft Scheduler Thread - 5/INFO]: [BetterRTP] Database QUEUE:Queue configured and loaded!
+[06:01:09] [Server thread/INFO]: [FakePlayers] You are using the latest version of FakePlayers.
+[06:01:09] [Craft Scheduler Thread - 3/INFO]: [BetterRTP] Attempting to queue up some more safe locations...
+[06:01:10] [Server thread/WARN]: [BetterRTP] Seems like the world `Lobby_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby_nether: NETHER`
+[06:02:02] [Craft Scheduler Thread - 11/INFO]: [BetterRTP] Max attempts to create a Queue reached for default_Lobby_nether (amount: 0)
+[06:02:02] [Craft Scheduler Thread - 11/INFO]: [BetterRTP] Queueing paused, max queue limit reached!
+[06:11:18] [User Authenticator #1/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[06:11:18] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:156) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:104) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:11:18] [Server thread/INFO]: naeem123[/127.0.0.1:57634] logged in with entity id 16 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:11:18] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:11:18] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[06:11:18] [Server thread/INFO]: [voicechat] Disconnecting client naeem123
+[06:11:18] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[06:11:18] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:11:21] [User Authenticator #1/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[06:11:21] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:11:21] [Server thread/INFO]: naeem123[/127.0.0.1:57650] logged in with entity id 17 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:11:21] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:11:32] [Server thread/INFO]: naeem123 issued server command: /home 123
+[06:15:43] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[06:15:43] [Server thread/INFO]: [voicechat] Disconnecting client naeem123
+[06:15:43] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[06:15:43] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:17:56] [User Authenticator #2/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[06:17:56] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:17:56] [Server thread/INFO]: naeem123[/127.0.0.1:55656] logged in with entity id 49 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:17:56] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:18:08] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[06:18:08] [Server thread/INFO]: [voicechat] Disconnecting client naeem123
+[06:18:08] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[06:18:08] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:18:08] [User Authenticator #2/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[06:18:09] [Server thread/INFO]: haseeb[/127.0.0.1:52246] logged in with entity id 50 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:18:09] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:18:28] [Server thread/INFO]: haseeb issued server command: /home 123
+[06:18:39] [User Authenticator #2/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[06:18:39] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:18:39] [Server thread/INFO]: naeem123[/127.0.0.1:52270] logged in with entity id 71 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:18:39] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:18:48] [Server thread/INFO]: naeem123 issued server command: /home 123
+[06:19:03] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[06:19:03] [Server thread/INFO]: [voicechat] Disconnecting client naeem123
+[06:19:03] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[06:19:03] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:19:16] [User Authenticator #2/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[06:19:16] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:19:17] [Server thread/INFO]: naeem123[/127.0.0.1:52692] logged in with entity id 82 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:19:17] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:19:24] [Server thread/INFO]: naeem123 issued server command: /home 123
+[06:19:32] [Async Chat Thread - #0/INFO]: [Admin] haseeb ➟ tyy
+[06:21:59] [Server thread/INFO]: haseeb issued server command: /shop
+[06:22:07] [Server thread/INFO]: Shop >> haseeb bought 1 x Leash(Miscellaneous.page1.items.10) for 17 Points with the buy screen.
+[06:22:42] [Server thread/INFO]: haseeb issued server command: /shop
+[06:24:10] [pool-15-thread-1/INFO]: [net.craftingstore.libraries.apache.http.impl.execchain.RetryExec] I/O exception (java.net.SocketException) caught when processing request to {s}->https://api.craftingstore.net:443: Connection reset
+[06:24:10] [pool-15-thread-1/INFO]: [net.craftingstore.libraries.apache.http.impl.execchain.RetryExec] Retrying request to {s}->https://api.craftingstore.net:443
+[06:27:30] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[06:27:30] [Server thread/INFO]: [voicechat] Disconnecting client naeem123
+[06:27:30] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[06:27:30] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:27:32] [Server thread/INFO]: haseeb lost connection: Disconnected
+[06:27:32] [Server thread/INFO]: [voicechat] Disconnecting client haseeb
+[06:27:32] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[06:27:32] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:27:38] [User Authenticator #3/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[06:27:38] [Server thread/INFO]: haseeb[/127.0.0.1:43200] logged in with entity id 380 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:27:38] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:27:52] [Server thread/INFO]: haseeb lost connection: Disconnected
+[06:27:52] [Server thread/INFO]: [voicechat] Disconnecting client haseeb
+[06:27:52] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[06:27:52] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:28:05] [User Authenticator #3/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[06:28:05] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:28:05] [Server thread/INFO]: naeem123[/127.0.0.1:38216] logged in with entity id 381 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:28:05] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:28:13] [User Authenticator #3/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[06:28:13] [Server thread/INFO]: haseeb[/127.0.0.1:37390] logged in with entity id 382 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:28:13] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:28:34] [Server thread/INFO]: naeem123 issued server command: /time set day
+[06:28:45] [Server thread/WARN]: naeem123 moved too quickly! -14.83731750937146,5.994333133397134,-2.202693793943922
+[06:28:51] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[06:28:51] [Server thread/INFO]: [voicechat] Disconnecting client naeem123
+[06:28:51] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[06:28:51] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:29:14] [User Authenticator #4/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[06:29:14] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:29:14] [Server thread/INFO]: naeem123[/127.0.0.1:45368] logged in with entity id 384 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:29:14] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:29:26] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[06:29:26] [Server thread/INFO]: [voicechat] Disconnecting client naeem123
+[06:29:26] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[06:29:26] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:30:29] [Server thread/INFO]: haseeb lost connection: Disconnected
+[06:30:29] [Server thread/INFO]: [voicechat] Disconnecting client haseeb
+[06:30:29] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[06:30:29] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:30:41] [User Authenticator #5/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[06:30:41] [Server thread/INFO]: haseeb[/127.0.0.1:51328] logged in with entity id 386 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:30:41] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:30:54] [Server thread/INFO]: haseeb lost connection: Disconnected
+[06:30:54] [Server thread/INFO]: [voicechat] Disconnecting client haseeb
+[06:30:54] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[06:30:54] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:31:09] [User Authenticator #5/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[06:31:09] [Server thread/INFO]: haseeb[/127.0.0.1:60876] logged in with entity id 387 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:31:09] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:31:25] [User Authenticator #5/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[06:31:25] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:31:25] [Server thread/INFO]: naeem123[/127.0.0.1:60202] logged in with entity id 388 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:31:25] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:32:16] [Server thread/WARN]: naeem123 moved too quickly! 10.23116926897194,1.3404586702196752,-3.338116123830247
+[06:32:56] [Server thread/INFO]: naeem123 issued server command: /gamemode c haseeb
+[06:33:21] [Server thread/INFO]: naeem123 issued server command: /help
+[06:33:29] [Server thread/INFO]: naeem123 issued server command: /help 2
+[06:33:37] [Server thread/INFO]: naeem123 issued server command: /help
+[06:34:18] [Server thread/INFO]: naeem123 issued server command: /clear haseb
+[06:34:28] [Server thread/INFO]: naeem123 issued server command: /clear hasseb
+[06:34:31] [Server thread/INFO]: naeem123 issued server command: /clear haseeb
+[06:36:02] [Server thread/INFO]: naeem123 issued server command: /
+[06:36:54] [Server thread/INFO]: naeem123 issued server command: /op haseeb
+[06:37:11] [Server thread/INFO]: naeem123 issued server command: /weather clear
+[06:38:33] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[06:38:33] [Server thread/INFO]: [voicechat] Disconnecting client naeem123
+[06:38:33] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[06:38:33] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:38:53] [User Authenticator #6/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[06:38:53] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:38:53] [Server thread/INFO]: naeem123[/127.0.0.1:42822] logged in with entity id 397 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:38:53] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:39:05] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[06:39:05] [Server thread/INFO]: [voicechat] Disconnecting client naeem123
+[06:39:05] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[06:39:05] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:39:37] [User Authenticator #6/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[06:39:37] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:39:37] [Server thread/INFO]: naeem123[/127.0.0.1:57796] logged in with entity id 402 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:39:37] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:39:50] [Server thread/INFO]: haseeb lost connection: Disconnected
+[06:39:50] [Server thread/INFO]: [voicechat] Disconnecting client haseeb
+[06:39:50] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[06:39:50] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:39:51] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[06:39:51] [Server thread/INFO]: [voicechat] Disconnecting client naeem123
+[06:39:51] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[06:39:51] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:40:07] [User Authenticator #6/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[06:40:07] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:40:07] [Server thread/INFO]: haseeb[/127.0.0.1:40600] logged in with entity id 403 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:40:07] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:40:13] [User Authenticator #6/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[06:40:13] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:40:13] [Server thread/INFO]: naeem123[/127.0.0.1:49480] logged in with entity id 404 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:40:13] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:40:18] [Server thread/WARN]: haseeb moved too quickly! 1.9395050379976055,6.583448139090166,7.518060867317189
+[06:40:25] [Server thread/INFO]: haseeb lost connection: Disconnected
+[06:40:25] [Server thread/INFO]: [voicechat] Disconnecting client haseeb
+[06:40:25] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[06:40:25] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:40:26] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[06:40:26] [Server thread/INFO]: [voicechat] Disconnecting client naeem123
+[06:40:26] [Server thread/INFO]: TSetSpawn > naeem123 has left.
+[06:40:26] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:40:34] [User Authenticator #6/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[06:40:34] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:40:34] [Server thread/INFO]: haseeb[/127.0.0.1:34536] logged in with entity id 405 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:40:34] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:40:48] [Server thread/INFO]: haseeb lost connection: Disconnected
+[06:40:48] [Server thread/INFO]: [voicechat] Disconnecting client haseeb
+[06:40:48] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[06:40:48] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:41:18] [User Authenticator #6/INFO]: UUID of player haseeb is d2b45b11-55eb-3233-bf11-21994a277449
+[06:41:18] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to BuildPaste v1.11.1
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/hover/content/Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.hover.content.Content
+	at de.mistrx.buildpaste.listeners.JoinServerListener.onPlayerJoin(JoinServerListener.java:51) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 14 more
+[06:41:18] [Server thread/INFO]: haseeb[/127.0.0.1:41972] logged in with entity id 406 at ([Lobby]-41.311312992223485, 185.0, 138.50817683465124)
+[06:41:18] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:41:32] [Server thread/INFO]: haseeb lost connection: Disconnected
+[06:41:32] [Server thread/INFO]: [voicechat] Disconnecting client haseeb
+[06:41:32] [Server thread/INFO]: TSetSpawn > haseeb has left.
+[06:41:32] [Server thread/WARN]: [Essentials] XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:41:47] [Server thread/INFO]: Stopping server
+[06:41:47] [Server thread/INFO]: [BetterRTP] Disabling BetterRTP v3.6.8
+[06:41:47] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.13.0
+[06:41:47] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.21.2-dev+2-d42347f
+[06:41:47] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v3.3.2
+[06:41:47] [Server thread/INFO]: [EasyRanks] Disabling EasyRanks v1.3.2
+[06:41:47] [Server thread/INFO]: [CraftingStore] Disabling CraftingStore v2.9.3
+[06:41:47] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v1.0
+[06:41:47] [Server thread/INFO]: [TSetSpawn] Disabling TSetSpawn v1.7
+[06:41:47] [Server thread/INFO]: [TSetSpawn] Has been deactivated (version: 1.7)
+[06:41:47] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[06:41:47] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[06:41:47] [Server thread/INFO]: [FakePlayers] Disabling FakePlayers v2.4
+[06:41:47] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
+[06:41:47] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.2
+[06:41:47] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[06:41:47] [Server thread/INFO]: [LuckPerms] Closing storage...
+[06:41:47] [Server thread/INFO]: [LuckPerms] Goodbye!
+[06:41:47] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.6
+[06:41:47] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[06:41:47] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.6
+[06:41:47] [Server thread/INFO]: Saving players
+[06:41:47] [Server thread/INFO]: Saving worlds
+[06:41:47] [Server thread/INFO]: Saving chunks for level 'Lobby'/overworld
+[06:41:47] [Server thread/INFO]: Saving chunks for level 'Lobby_nether'/the_nether
+[06:41:47] [Server thread/INFO]: Saving chunks for level 'Lobby_the_end'/the_end
