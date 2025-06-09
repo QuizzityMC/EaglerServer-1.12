@@ -1,0 +1,29 @@
+command /startbot:
+    permission: bot.use
+    trigger:
+        spawn a player named "&fBot123" at player's location
+        set {bot.loc} to location of last spawned entity
+        set {bot.id} to last spawned entity
+        send "&aBot spawned and running simulation..."
+
+every 5 seconds:
+    if {bot.id} is set:
+        set {_move} to a random number between 1 and 4
+        set {_yaw} to a random number between 0 and 360
+        teleport {bot.id} to location {bot.loc}
+        set yaw of {bot.id} to {_yaw}
+        if {_move} = 1:
+            add 0.5 to x-coordinate of {bot.loc}
+        if {_move} = 2:
+            subtract 0.5 from x-coordinate of {bot.loc}
+        if {_move} = 3:
+            add 0.5 to z-coordinate of {bot.loc}
+        if {_move} = 4:
+            subtract 0.5 from z-coordinate of {bot.loc}
+        teleport {bot.id} to location {bot.loc}
+
+every 15 seconds:
+    if {bot.id} is set:
+        set {_msg::*} to "Hey!" and "Anyone here?" and "I'm building stuff." and "Nice base!" and "lol"
+        set {_random} to a random element out of {_msg::*}
+        make {bot.id} chat "%{_random}%"

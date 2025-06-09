@@ -18,8 +18,8 @@ settings:
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
   incoming-packet-spam-threshold: 300
-  remove-invalid-statistics: false
   save-player-data: true
+  remove-invalid-statistics: false
   use-alternative-luck-formula: false
   min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
