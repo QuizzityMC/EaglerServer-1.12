@@ -41136,3 +41136,29 @@ Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCas
 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor27.execute(Unknown Source) ~[?:?]
 	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[patched_1.12.2.jar:git-Paper-1620]
 	... 18 more
+[13:37:11] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:236) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:203) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:934) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:14) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:850) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor27.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 18 more
