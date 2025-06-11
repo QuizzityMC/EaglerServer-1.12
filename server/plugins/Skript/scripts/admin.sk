@@ -1,0 +1,62 @@
+# Main Configuration (put in plugins/Skript/scripts/admin_tools.sk)
+options:
+    permission: admin_tools.admin
+
+command /data [<player>]:
+    trigger:
+        if arg-1 is set:
+            set {_target} to arg-1
+            send "&a[&6Player Data&a] &b%{_target}%'s Stats:" to player
+            send "&c❤ Health: &f%health of {_target}% / %max health of {_target}%"
+            send "&6Hunger: &f%food level of {_target}%"
+            send "&aXP Levels: &f%xp level of {_target}%"
+        else:
+            send "&cUsage: /data <player>"
+
+command /con [<player>] [<text>]:
+    trigger:
+        if arg-1 is not set or arg-2 is not set:
+            send "&cUsage: /con <player> <kill|clear|kick>"
+            stop
+        if {con_ops::%player's uuid%} is not set:
+            send "&4You don't have permission to use this command!"
+            stop
+        set {_target} to arg-1
+        set {_action} to arg-2
+        if {_action} is "kill":
+            kill {_target}
+            send "&aKilled %{_target}%"
+        else if {_action} is "clear":
+            clear {_target}'s inventory
+            send "&aCleared %{_target}%'s inventory"
+        else if {_action} is "kick":
+            kick {_target}
+            send "&aKicked %{_target}%"
+        else:
+            send "&cInvalid action! Use: kill, clear, or kick"
+
+command /conop [<player>]:
+    trigger:
+        if player doesn't have permission "admin_tools.admin":
+            send "&cYou don't have permission!"
+            stop
+        if arg-1 is not set:
+            send "&cUsage: /conop <player>"
+            stop
+        set {con_ops::%arg-1's uuid%} to true
+        send "&aGranted CON permissions to %arg-1%"
+
+command /condeop [<player>]:
+    trigger:
+        if player doesn't have permission "admin_tools.admin":
+            send "&cYou don't have permission!"
+            stop
+        if arg-1 is not set:
+            send "&cUsage: /condeop <player>"
+            stop
+        delete {con_ops::%arg-1's uuid%}
+        send "&aRevoked CON permissions from %arg-1%"
+
+on join:
+    # Cleanup old name-based entries
+    delete {con_ops::%player's name%}

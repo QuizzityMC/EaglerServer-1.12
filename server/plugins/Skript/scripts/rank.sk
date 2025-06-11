@@ -1,0 +1,89 @@
+options:
+    rank_file: plugins/SimpleRanks/ranks.yml
+    default_rank: Member
+
+on server load:
+    loadRanks()
+    set {ranks::Admin} to "&4[Admin] "
+    set {ranks::Mod} to "&2[Mod] "
+    set {ranks::VIP} to "&6[VIP] "
+    set {ranks::Member} to "&7[Member] "
+
+function loadRanks():
+    if file "{@rank_file}" exists:
+        set {_admin} to yaml key "ranks.Admin" from file "{@rank_file}"
+        set {_mod} to yaml key "ranks.Mod" from file "{@rank_file}"
+        set {_vip} to yaml key "ranks.VIP" from file "{@rank_file}"
+        set {_member} to yaml key "ranks.Member" from file "{@rank_file}"
+        if {_admin} is set:
+            set {ranks::Admin} to {_admin}
+        if {_mod} is set:
+            set {ranks::Mod} to {_mod}
+        if {_vip} is set:
+            set {ranks::VIP} to {_vip}
+        if {_member} is set:
+            set {ranks::Member} to {_member}
+    else:
+        set yaml key "ranks.Admin" to "&4[Admin] " in file "{@rank_file}"
+        set yaml key "ranks.Mod" to "&2[Mod] " in file "{@rank_file}"
+        set yaml key "ranks.VIP" to "&6[VIP] " in file "{@rank_file}"
+        set yaml key "ranks.Member" to "&7[Member] " in file "{@rank_file}"
+
+function saveRanks():
+    set yaml key "ranks.Admin" to {ranks::Admin} in file "{@rank_file}"
+    set yaml key "ranks.Mod" to {ranks::Mod} in file "{@rank_file}"
+    set yaml key "ranks.VIP" to {ranks::VIP} in file "{@rank_file}"
+    set yaml key "ranks.Member" to {ranks::Member} in file "{@rank_file}"
+
+function getPlayerRank(p: player):
+    if {player_rank::uuid of p} is not set:
+        return "{@default_rank}"
+    else:
+        return {player_rank::uuid of p}
+
+function setPlayerRank(p: player, rank):
+    set {player_rank::uuid of p} to rank
+
+command /setrank <player> <text>:
+    permission: "simpleranks.setrank"
+    trigger:
+        set {_player} to player named arg-1
+        set {_rank} to arg-2
+        if {_rank} is not "Admin" and {_rank} is not "Mod" and {_rank} is not "VIP" and {_rank} is not "Member":
+            send "&cThat rank does not exist. Valid ranks: Admin, Mod, VIP, Member" to player
+            stop
+        setPlayerRank(_player, {_rank})
+        send "&aSet %{_player}%'s rank to {_rank}." to player
+        send "&aYour rank has been set to {_rank} by %player%." to {_player}
+
+command /getrank <player>:
+    permission: "simpleranks.getrank"
+    trigger:
+        set {_player} to player named arg-1
+        set {_rank} to getPlayerRank(_player)
+        send "&a%{_player}%'s rank is: {_rank}" to player
+
+on chat:
+    set {_player_rank} to getPlayerRank(player)
+    if {_player_rank} is "Admin":
+        set {_formatted_rank} to {ranks::Admin}
+    else if {_player_rank} is "Mod":
+        set {_formatted_rank} to {ranks::Mod}
+    else if {_player_rank} is "VIP":
+        set {_formatted_rank} to {ranks::VIP}
+    else:
+        set {_formatted_rank} to {ranks::Member}
+    set the chat format to "%{_formatted_rank}%player% %message%"
+
+on join:
+    if {player_rank::uuid of player} is not set:
+        setPlayerRank(player, "{@default_rank}")
+        if {@default_rank} is "Admin":
+            set {_rank_text} to {ranks::Admin}
+        else if {@default_rank} is "Mod":
+            set {_rank_text} to {ranks::Mod}
+        else if {@default_rank} is "VIP":
+            set {_rank_text} to {ranks::VIP}
+        else:
+            set {_rank_text} to {ranks::Member}
+        send "&aYou have been assigned the default rank: {_rank_text}." to player

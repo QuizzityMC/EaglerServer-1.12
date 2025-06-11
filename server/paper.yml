@@ -18,8 +18,8 @@ settings:
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
   incoming-packet-spam-threshold: 300
-  save-player-data: true
   remove-invalid-statistics: false
+  save-player-data: true
   use-alternative-luck-formula: false
   min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
@@ -138,11 +138,11 @@ world-settings:
     parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
     elytra-hit-wall-damage: true
+    non-player-arrow-despawn-rate: -1
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 1
     prevent-tnt-from-moving-in-water: false
-    non-player-arrow-despawn-rate: -1
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:

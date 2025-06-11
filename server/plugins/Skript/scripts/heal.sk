@@ -1,0 +1,6 @@
+command /heal:
+    trigger:
+        # Applies the regeneration effect to the player for 10 seconds (duration: 10 * 20 ticks = 200 ticks, amplifier: 1)
+        apply regeneration 1 to player for 10 seconds
+        # Sends a confirmation message to the player
+        send "&aYou have been healed!" to player

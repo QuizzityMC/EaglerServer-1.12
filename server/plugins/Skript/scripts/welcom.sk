@@ -1,0 +1,16 @@
+on first join:
+    # Give welcome bonus to new players
+    give 5 diamonds to player
+    send "&aWelcome to the server, %player%! You received 5 diamonds as a welcome gift!" to player
+    set {firstJoin::%player's uuid%} to true
+
+on join:
+    # Check if player has joined before
+    if {firstJoin::%player's uuid%} is not set:
+        # This shouldn't happen as first join triggers first, but just in case
+        set {firstJoin::%player's uuid%} to true
+        give 5 diamonds to player
+        send "&aWelcome to the server, %player%! You received 5 diamonds as a welcome gift!" to player
+    else:
+        # Welcome back message for returning players
+        send "&eWelcome back, %player%! We missed you!" to player

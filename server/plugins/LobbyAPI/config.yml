@@ -1,0 +1,6 @@
+disallowHubCommandNoPerm: true
+Settings:
+  Enable_Per_World_Inventories: true
+  Enable_Per_World_Ender_Chests: true
+  Enable_Teleport_To_Spawn_If_Same_World: true
+auto-update: true

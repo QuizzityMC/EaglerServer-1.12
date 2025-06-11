@@ -1,0 +1,25 @@
+# MyPlugin.sk
+# Generated from: ✅ 29. Simple Weather Plugin
+Concept: Control the weather with commands.
+
+Features:
+
+/sun, /rain, /storm
+
+Changes world weather instantly
+
+Optional permission nodes
+
+Why it’s basic: Teaches simple world interaction.
+
+
+
+command /custom:
+    trigger:
+        send "&aCustom command executed!" to player
+        # Add your custom functionality here
+
+on join:
+    send "&bWelcome to the server!" to player
+
+# You can edit this code to match your specific requirements
