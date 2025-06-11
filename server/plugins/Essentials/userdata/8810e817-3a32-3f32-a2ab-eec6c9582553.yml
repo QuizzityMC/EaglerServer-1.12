@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1748532752944
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749579971124
+  login: 1749579909976
+money: '12928.00'
+last-account-name: FIFISIGMA
+logoutlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: 3454.526255763675
+  y: 85.0
+  z: 379.1031436878333
+  yaw: 87.19989013671875
+  pitch: 5.550014019012451
+lastlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: 3615.4569201544655
+  y: 75.24918707874468
+  z: 548.054647104124
+  yaw: -184.65997314453125
+  pitch: 77.84999084472656

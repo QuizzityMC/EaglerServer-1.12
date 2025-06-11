@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749231387221
+  login: 1749231296443
+money: '498.00'
+last-account-name: austin
+logoutlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: 419.68095228416325
+  y: 43.0
+  z: -98.27570004949487
+  yaw: -131.42715454101562
+  pitch: 81.15001678466797
+lastlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: 419.68095228416325
+  y: 43.0
+  z: -98.27570004949487
+  yaw: -131.42715454101562
+  pitch: 81.15001678466797

@@ -1,0 +1,19 @@
+command /zeus [<player>]:
+    permission: arlen.zeus
+    trigger:
+        if arg-1 is set:
+            broadcast "&b⚡ The sky cracks open..."
+            wait 3 seconds
+            execute console command "smite %player% 10000"
+            broadcast "&b☁ Zeus has struck &c%arg-1% &bdown from the heavens! ⚡"
+        else:
+            if number of all players > 0:
+                set {_target} to a random player out of all players
+                broadcast "&b⚡ The sky cracks open..."
+                wait 3 seconds
+                execute console command "smite %{_target}% 10000"
+                broadcast "&b☁ Zeus has struck &c%{_target}% &bdown from the heavens! ⚡"
+            else:
+                send "&cNo one online to smite, mighty Zeus."
+
+        

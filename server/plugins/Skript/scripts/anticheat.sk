@@ -1,0 +1,45 @@
+on damage:
+    attacker is a player
+    victim is a player
+    set {incombat.%attacker%} to now
+    set {incombat.%victim%} to now
+
+on quit:
+    if difference between now and {incombat.%player%} < 10 seconds:
+        broadcast "&c%player% tried to leave during Combat!"
+        execute console command "tempban %player% 30m Combat logging."
+        # can't cancel quit, player is already leaving
+
+every 10 minutes:
+    broadcast "&6----------------------------"
+    broadcast "&6Remember! Do not combat log."
+    broadcast "&6----------------------------"
+
+command /banac [<player>] [<text>]:
+    permission: arlen.banac
+    trigger:
+        if arg-1 is not set:
+            send "&7Please specify a player."
+        else if arg-2 is not set:
+            send "&7Please specify a reason."
+        else:
+            execute console command "tempban %arg-1% 30m %arg-2%"
+            execute console command "broadcast ----------------------------------"
+            execute console command "broadcast &4&l[ArlenAC] &f&lBanned %arg-1%. Reason: %arg-2%"
+            execute console command "broadcast ----------------------------------"
+
+command /unbanac [<player>]:
+    permission: arlen.unbanac
+    trigger:
+        if arg-1 is not set:
+            send "&7Please specify a player."
+        else:
+            execute console command "unban %arg-1%"
+            execute console command "broadcast ----------------------------------"
+            execute console command "broadcast &4&l[ArlenAC] &f&lUnbanned %arg-1%."
+            execute console command "broadcast ----------------------------------"
+
+on join:
+    if name of player is "Flexysexy":
+        kick player due to "Connection Refused"
+

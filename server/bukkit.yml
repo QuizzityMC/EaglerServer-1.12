@@ -18,10 +18,10 @@ settings:
   permissions-file: permissions.yml
   update-folder: update
   plugin-profiling: false
-  connection-throttle: 4000
+  connection-throttle: -1
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: server is closed wait until it turns on NEEKAHN AND CLAY
 spawn-limits:
   monsters: 70
   animals: 15

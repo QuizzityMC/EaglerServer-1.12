@@ -1,0 +1,20 @@
+on rightclick:
+    if name of player's tool is "Thor's Hammer":
+        if player's name is "Bananakin123":
+            set {_target} to targeted entity
+            if {_target} is a player:
+                strike lightning at location of {_target}
+                stop
+
+            set {_block} to targeted block
+            if {_block} is set:
+                strike lightning at {_block}
+                stop
+
+            set {_loc} to location of player
+            add 0, 5, 0 to {_loc}
+            strike lightning at {_loc}
+
+            
+            
+

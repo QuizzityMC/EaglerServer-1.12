@@ -1,0 +1,18 @@
+every 5 minutes:
+    loop all players:
+        execute console command "eco give %loop-player% 100"
+
+command /valuelist:
+    aliases: /vl /valuelist /vlist /valuel
+    trigger:
+        send "&e&lKnown Value List:" to player
+        send "&eDirt, Grass, Cobblestone, Andesine, Gravel, Sapling: &a$1"
+        send "&bDiamond: &a$200"
+        send "&7Iron Tools/Armour: &a$22"
+        send "&5Obsidian: &a$130"
+        send "&aSugar Canes: &a$10"
+        send "&6Gold: &a$45"
+        send "&cRedstone: &a$32"
+        send "&7Iron: &a$18"
+        send "&aSeeds: &a$8"
+        send "&4Leather: &a$10"

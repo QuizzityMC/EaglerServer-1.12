@@ -1,0 +1,37 @@
+on right click:
+    if name of player's tool is "Vanisher":
+        if name of player is "ninja":
+            if {vanisher.vanished} is not set:
+                set {vanisher.vanished} to false
+            if {vanisher.vanished} is false:
+                execute console command "vanish %player%"
+                hide player
+                wait 25 seconds
+                send "&cUnvanishing in 5..." to player
+                wait 1 second
+                send "&cUnvanishing in 4..." to player
+                wait 1 second
+                send "&cUnvanishing in 3..." to player
+                wait 1 second
+                send "&cUnvanishing in 2..." to player
+                wait 1 second
+                send "&cUnvanishing in 1... Prepare to be kicked!" to player
+                wait 1 second
+                set {vanisher.vanished} to false
+                execute console command "vanish %player%"
+                execute console command "kick %player%"
+            if {vanisher.vanished} is true:
+                send "&cUnvanishing in 5..." to player
+                wait 1 second
+                send "&cUnvanishing in 4..." to player
+                wait 1 second
+                send "&cUnvanishing in 3..." to player
+                wait 1 second
+                send "&cUnvanishing in 2..." to player
+                wait 1 second
+                send "&cUnvanishing in 1... Prepare to be kicked!" to player
+                wait 1 second
+                set {vanisher.vanished} to false
+                execute console command "vanish %player%"
+                execute console command "kick %player%"
+                
