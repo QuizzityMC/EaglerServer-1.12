@@ -477,7 +477,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "ice_flats": "2025-06-11 05:09:10 +0000",
       "plains": "2025-06-10 12:08:40 +0000",
+      "ice_mountains": "2025-06-11 05:17:26 +0000",
       "roofed_forest": "2025-06-10 12:09:21 +0000"
     },
     "done": false

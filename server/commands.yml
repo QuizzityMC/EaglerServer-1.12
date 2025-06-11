@@ -15,5 +15,10 @@ unrestricted-advancements: false
 aliases:
   icanhasbukkit:
   - version $1-
-  sell:
-  - economyshopgui:sellall $1-
+  lobbyfix:
+  - gamerule doMobSpawning false
+  - gamerule doDaylightCycle false
+  - time set day
+  - gamerule doWeatherCycle false
+  - weather clear
+ignore-vanilla-permissions: false
