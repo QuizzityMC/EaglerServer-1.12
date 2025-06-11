@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748972091143
+  login: 1748970235014
+money: '10'
+last-account-name: kianm_Y
+lastlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -287.87437385675463
+  y: 39.0
+  z: 173.54333431132008
+  yaw: 204.60023498535156
+  pitch: 16.349971771240234
+logoutlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: 245.1010711838223
+  y: 66.0
+  z: -203.8639366443774
+  yaw: -201.60025024414062
+  pitch: 11.250005722045898

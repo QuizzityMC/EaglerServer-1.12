@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749567180632
+  login: 1749567172189
+money: '0'
+last-account-name: flexythesigma
+logoutlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -247.13167184965468
+  y: 64.0
+  z: 264.12694470819997
+  yaw: -126.4204330444336
+  pitch: 18.900001525878906

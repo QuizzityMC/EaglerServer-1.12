@@ -1,0 +1,8 @@
+Events:
+	Lambda when:
+		ID: lambda_when
+		Patterns:
+			when %predicate% [[with] limit[(ing|er)] %-boolean%]
+		Event values:
+			none
+		Cancellable: false

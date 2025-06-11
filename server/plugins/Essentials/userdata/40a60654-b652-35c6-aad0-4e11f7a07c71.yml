@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1748010076138
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748884980366
+  login: 1748884925342
+money: '10'
+last-account-name: bonchon
+logoutlocation:
+  world: 3d1897d1-8eb7-4f1c-bf84-6a5ced8b4d74
+  world-name: world
+  x: 187.93155929976155
+  y: 66.0
+  z: 264.46497322173786
+  yaw: -78.5999984741211
+  pitch: 10.799997329711914
+lastlocation:
+  world: 3d1897d1-8eb7-4f1c-bf84-6a5ced8b4d74
+  world-name: world
+  x: 2022.8034615993383
+  y: 8.200000047683716
+  z: -1313.3560132597627
+  yaw: -310.80084228515625
+  pitch: -38.850006103515625

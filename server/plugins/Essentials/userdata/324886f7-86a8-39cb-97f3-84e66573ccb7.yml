@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749576378163
+  login: 1749576370214
+money: '0'
+last-account-name: banankin123
+logoutlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -261.5
+  y: 70.0
+  z: 247.5
+  yaw: 1.9905084371566772
+  pitch: 6.15000057220459

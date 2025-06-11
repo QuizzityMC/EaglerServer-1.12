@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Supreme Waffle - Server Status</title>
+  <style>
+    body {
+      background-color: #141414;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #ff0000;
+      margin-bottom: 1rem;
+      text-shadow: 1px 1px 5px #550000;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+      color: #ccc;
+    }
+    .status {
+      font-weight: 700;
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+    }
+    .online {
+      color: #0f0;
+      text-shadow: 0 0 10px #0f0;
+    }
+    .offline {
+      color: #f00;
+      text-shadow: 0 0 10px #f00;
+    }
+    button {
+      padding: 0.75rem 2rem;
+      font-size: 1.2rem;
+      font-weight: 700;
+      background-color: #ff0000;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 0 10px #ff0000aa;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    button:hover {
+      background-color: #cc0000;
+      box-shadow: 0 0 15px #ff4444;
+    }
+  </style>
+</head>
+<body>
+  <h1>Supreme Waffle Server Status</h1>
+  <p class="status" id="serverStatus">Checking server status...</p>
+  <p>Server IP: <strong>wss://supreme-waffle-r4vrrqxx6pjcp97g-8081.app.github.dev</strong></p>
+
+  <button id="enterServerBtn">Enter Server</button>
+
+  <script>
+    const statusEl = document.getElementById('serverStatus');
+    const wsUrl = 'wss://supreme-waffle-r4vrrqxx6pjcp97g-8081.app.github.dev';
+
+    let ws;
+
+    function connectWebSocket() {
+      try {
+        ws = new WebSocket(wsUrl);
+
+        ws.onopen = () => {
+          statusEl.textContent = 'Server is ONLINE';
+          statusEl.classList.remove('offline');
+          statusEl.classList.add('online');
+          ws.close(); // We only check status, so close right away
+        };
+
+        ws.onerror = () => {
+          statusEl.textContent = 'Server is OFFLINE or unreachable';
+          statusEl.classList.remove('online');
+          statusEl.classList.add('offline');
+        };
+
+        ws.onclose = (event) => {
+          if (!event.wasClean) {
+            statusEl.textContent = 'Server is OFFLINE or unreachable';
+            statusEl.classList.remove('online');
+            statusEl.classList.add('offline');
+          }
+        };
+      } catch (e) {
+        statusEl.textContent = 'Error connecting to server';
+        statusEl.classList.remove('online');
+        statusEl.classList.add('offline');
+      }
+    }
+
+    connectWebSocket();
+
+    document.getElementById('enterServerBtn').addEventListener('click', () => {
+      window.location.href = 'minecraft/index.html';
+    });
+  </script>
+</body>
+</html>

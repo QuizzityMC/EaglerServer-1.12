@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748282408689
+  login: 1748282398891
+money: '10'
+last-account-name: sexyflexy
+logoutlocation:
+  world: 3d1897d1-8eb7-4f1c-bf84-6a5ced8b4d74
+  world-name: world
+  x: 188.31703313045526
+  y: 66.0
+  z: 259.7697829545674
+  yaw: -11.59952449798584
+  pitch: 3.2968177795410156

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748024947139
+  login: 1748024934651
+money: '10'
+last-account-name: AUSTINa
+logoutlocation:
+  world: 3d1897d1-8eb7-4f1c-bf84-6a5ced8b4d74
+  world-name: world
+  x: 190.7427041871242
+  y: 65.0
+  z: 256.63610815186007
+  yaw: -29.518064498901367
+  pitch: 12.998881340026855

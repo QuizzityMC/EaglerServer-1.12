@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1748010339121
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749579925421
+  login: 1749579241114
+  kits:
+    og: 1749579834171
+money: '702.00'
+last-account-name: Snow
+logoutlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -1405.863920140227
+  y: 70.16610926093821
+  z: 457.2465096488286
+  yaw: 155.3978271484375
+  pitch: 16.499908447265625
+lastlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -1318.9747096327526
+  y: 61.53289112496046
+  z: 784.3304618235447
+  yaw: 86.54688262939453
+  pitch: 22.799949645996094

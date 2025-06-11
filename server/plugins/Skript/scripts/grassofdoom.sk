@@ -1,0 +1,27 @@
+on rightclick:
+    if name of player is "Bananakin123":
+        if name of player's tool is "Grass of Doom":
+            set {_target} to targeted entity
+            if {_target} is a player:
+                strike lightning at location of {_target}
+                stop
+
+            set {_block} to targeted block
+            if {_block} is set:
+                strike lightning at {_block}
+                stop
+
+            set {_loc} to location of player
+            add 0, 5, 0 to {_loc}
+            strike lightning at {_loc}
+
+
+on leftclick:
+    if name of player is "Bananakin123":
+        if name of player's tool is "Grass of Doom":
+            set {_loc} to eye location of player
+            spawn a fireball at {_loc}
+
+on place:
+    if name of player's tool is "Grass of Doom":
+        cancel event

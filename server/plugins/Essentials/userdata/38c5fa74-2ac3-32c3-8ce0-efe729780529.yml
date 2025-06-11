@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748970143884
+  login: 1748970113368
+money: '10'
+last-account-name: RAPEING_ben_
+lastlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -177.04298717022237
+  y: 65.0
+  z: 315.80526947523623
+  yaw: -36.90001678466797
+  pitch: -1.200024127960205
+logoutlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -287.79534983560643
+  y: 69.0
+  z: 257.67035888699746
+  yaw: 109.50017547607422
+  pitch: -2.250060558319092

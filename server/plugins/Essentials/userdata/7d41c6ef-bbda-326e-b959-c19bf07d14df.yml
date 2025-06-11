@@ -1,0 +1,46 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748446000200
+  login: 1748445954704
+money: '10'
+last-account-name: AUSTIN
+logoutlocation:
+  world: 3d1897d1-8eb7-4f1c-bf84-6a5ced8b4d74
+  world-name: world
+  x: -2524.013803308743
+  y: 64.0
+  z: -614.1218173748568
+  yaw: 14.150067329406738
+  pitch: 40.14998245239258
+lastlocation:
+  world: 3d1897d1-8eb7-4f1c-bf84-6a5ced8b4d74
+  world-name: world
+  x: -2522.934676431639
+  y: 59.24918707874468
+  z: -865.2460839004842
+  yaw: -185.4525146484375
+  pitch: 24.565181732177734
+mail:
+- legacy: false
+  read: true
+  message: watch out im coming for u
+  sender-name: sigmaarlen
+  sender-uuid: ac706c41-a89f-36b7-aaec-821ab949fd06
+  timestamp: 1748013931272
+  expire: 0

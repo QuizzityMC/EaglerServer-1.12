@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748878757334
+  login: 1748878649400
+money: '10'
+last-account-name: imbennotclaybut
+lastlocation:
+  world: 3d1897d1-8eb7-4f1c-bf84-6a5ced8b4d74
+  world-name: world
+  x: 297.24139801203927
+  y: 63.0
+  z: 470.24572563235483
+  yaw: -71.84991455078125
+  pitch: 51.950050354003906
+logoutlocation:
+  world: 3d1897d1-8eb7-4f1c-bf84-6a5ced8b4d74
+  world-name: world
+  x: 191.92281739679183
+  y: 66.0
+  z: 277.9936623186033
+  yaw: -226.04998779296875
+  pitch: 9.600001335144043

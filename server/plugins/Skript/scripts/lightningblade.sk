@@ -1,0 +1,46 @@
+on rightclick:
+    if name of player's tool is "Lightning Blade":
+        if player's name is "sigmaarlen":
+            set {_target} to targeted entity
+            if {_target} is a player:
+                strike lightning at location of {_target}
+                stop
+
+            set {_block} to targeted block
+            if {_block} is set:
+                strike lightning at {_block}
+                stop
+
+            set {_loc} to location of player
+            add 0, 5, 0 to {_loc}
+            strike lightning at {_loc}
+
+on left click:
+    if name of player's tool is "Lightning Blade":
+        if name of player is "sigmaarlen":
+            set {_yaw} to yaw of player
+
+            if pitch of player < -60:
+                set velocity of player to vector(0, 1, 0)
+            else:
+                if {_yaw} >= -45:
+                    if {_yaw} < 45:
+                        # Facing south
+                        set velocity of player to vector(0, 0.1, 1)
+                    else:
+                        if {_yaw} < 135:
+                            # Facing west
+                            set velocity of player to vector(-1, 0.1, 0)
+                        else:
+                            # Facing north (wrap around past 135)
+                            set velocity of player to vector(0, 0.1, -1)
+                else:
+                    if {_yaw} >= -135:
+                        # Facing east
+                        set velocity of player to vector(1, 0.1, 0)
+                    else:
+                        # Facing north (wrap around below -135)
+                        set velocity of player to vector(0, 0.1, -1)
+            
+            
+

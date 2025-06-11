@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1748443942751
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749579788568
+  login: 1749579640059
+  kits:
+    og: 1749579488033
+money: '30782.00'
+last-account-name: ninja
+logoutlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -252.02025583148017
+  y: 68.0
+  z: 119.82408733606192
+  yaw: -14.5506591796875
+  pitch: 7.650054454803467
+lastlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -1263.0723119901731
+  y: 63.0
+  z: 660.2375000119209
+  yaw: -316.05010986328125
+  pitch: 22.04999542236328

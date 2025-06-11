@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749579984473
+  login: 1749578498538
+money: '33234.500'
+last-account-name: Bananakin123
+logoutlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -1860.932490644016
+  y: 108.0
+  z: 313.80816207706994
+  yaw: 355.8507080078125
+  pitch: 25.0500431060791
+past-usernames:
+- bananakin123
+lastlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -249.8910168915079
+  y: 64.47145412704744
+  z: 190.30435876688992
+  yaw: 302.34991455078125
+  pitch: 77.9000015258789

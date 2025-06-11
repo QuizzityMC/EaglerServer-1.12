@@ -1,0 +1,44 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1749579158648
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749579799668
+  login: 1749579674765
+  kits:
+    og: 1748970636979
+    color: 1748964808806
+    notch: 1748964816595
+    dtools: 1748964826833
+    tools: 1748964881838
+money: '265464.250'
+last-account-name: sigmaarlen
+logoutlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -252.569919223474
+  y: 68.0
+  z: 132.16214112611001
+  yaw: -185.5504608154297
+  pitch: 7.500038146972656
+lastlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -1335.133176608752
+  y: 64.0
+  z: 593.3475695158704
+  yaw: -200.85015869140625
+  pitch: 21.299985885620117

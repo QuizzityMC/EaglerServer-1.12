@@ -1,0 +1,507 @@
+# TeleportSuccess: Message After Teleport
+# 
+# SetHomeSuccess: If player sets their home
+# 
+# InvalidPlayer: Invalid Player
+# 
+# NoHome: No Home was provided
+# 
+# NoPlayer: No player provided
+# 
+# NoExist: When players home doesnt exist
+# 
+# HomeWasDeleted: On player's home deletion
+# 
+# NoPermission: When player does not have permission to do this command
+# 
+# SetHomeSomeonesSuccess: When player sets current location as another players home
+# 
+# TeleportSomeonesSuccess: When player teleports to another players home
+
+
+TeleportSuccess: Successfully teleported to home!
+SetHomeSuccess: Successfully set your home!
+InvalidPlayer: Invalid Player!
+NoHome: No Home Provided!
+NoPlayer: No Player Provided!
+NoExist: This Home doesn't exist!
+NoPermission: You have no permission to do that command!
+SetHomeSomeonesSuccess: Successfully set current location as target's home!
+TeleportSomeonesSuccess: Successfully teleported to player's home!
+ac706c41-a89f-36b7-aaec-821ab949fd06:
+  home:
+    x: -1338
+    y: 65
+    z: 591
+    yaw: 86
+    pitch: 2
+  cave:
+    x: -1340
+    y: 13
+    z: 570
+    yaw: 213
+    pitch: 14
+  stripmine:
+    x: 226
+    y: 13
+    z: 218
+    yaw: 185
+    pitch: 34
+  clay:
+    x: -2589
+    y: 73
+    z: -659
+    yaw: -218
+    pitch: 12
+  spawn:
+    x: 184
+    y: 64
+    z: 243
+    yaw: -150
+    pitch: 21
+  newhome:
+    x: 339
+    y: 72
+    z: 371
+    yaw: 328
+    pitch: 27
+  ocean:
+    x: -1882
+    y: 62
+    z: -231
+    yaw: -31
+    pitch: 35
+  adventure:
+    x: -1655
+    y: 55
+    z: -243
+    yaw: 34
+    pitch: 22
+  elder:
+    x: -1484
+    y: 53
+    z: -261
+    yaw: -139
+    pitch: 21
+  claylay:
+    x: 192
+    y: 64
+    z: 154
+    yaw: 65
+    pitch: 18
+  xp:
+    x: -929
+    y: 21
+    z: 810
+    yaw: 152
+    pitch: 18
+  xpxp:
+    x: -929
+    y: 5
+    z: 808
+    yaw: 175
+    pitch: -7
+  diamonds:
+    x: -1340
+    y: 13
+    z: 567
+    yaw: 216
+    pitch: 22
+  reload:
+    x: -225
+    y: 53
+    z: 233
+    yaw: -283
+    pitch: 6
+  trap:
+    x: 46
+    y: 63
+    z: 214
+    yaw: 60
+    pitch: -15
+592d4b49-aa65-37fe-bebf-09bf5a3f63e2:
+  home:
+    x: -1264
+    y: 63
+    z: 661
+    yaw: 291
+    pitch: 19
+  homeeeee:
+    x: 278
+    y: 64
+    z: 377
+    yaw: 13
+    pitch: 5
+  bum:
+    x: 245
+    y: 11
+    z: 294
+    yaw: -83
+    pitch: 16
+  cave:
+    x: -1322
+    y: 12
+    z: 696
+    yaw: -208
+    pitch: 47
+  secret:
+    x: 390
+    y: 63
+    z: 344
+    yaw: 337
+    pitch: 44
+  arlen:
+    x: -1324
+    y: 67
+    z: -271
+    yaw: 130
+    pitch: 19
+  clay:
+    x: -184
+    y: 64
+    z: 368
+    yaw: 280
+    pitch: -2
+  lava:
+    x: -1292
+    y: 65
+    z: 760
+    yaw: -28
+    pitch: 23
+  homee:
+    x: -255
+    y: 68
+    z: 140
+    yaw: -213
+    pitch: -15
+ab0b656d-b6f7-3790-b1e8-8cd7d1537271:
+  home:
+    x: 343
+    y: 77
+    z: 358
+    yaw: -267
+    pitch: 50
+  swamp:
+    x: 427
+    y: 63
+    z: 637
+    yaw: 36
+    pitch: 35
+  base:
+    x: 343
+    y: 77
+    z: 358
+    yaw: 270
+    pitch: 55
+  skeleton:
+    x: 352
+    y: 20
+    z: 374
+    yaw: 6
+    pitch: 56
+  island:
+    x: -1599
+    y: 63
+    z: 829
+    yaw: 70
+    pitch: 22
+  bridge:
+    x: -1462
+    y: 63
+    z: -271
+    yaw: 314
+    pitch: 41
+  lol:
+    x: 354
+    y: 20
+    z: 381
+    yaw: 63
+    pitch: 56
+  execution:
+    x: -226
+    y: 55
+    z: 232
+    yaw: 30
+    pitch: 38
+  a:
+    x: -226
+    y: 66
+    z: 229
+    yaw: 64
+    pitch: 73
+75e39b2f-bae1-3ba1-966b-14f107ed81ad:
+  home:
+    x: -2601
+    y: 75
+    z: -676
+    yaw: 205
+    pitch: -3
+40a60654-b652-35c6-aad0-4e11f7a07c71:
+  home:
+    x: -2601
+    y: 75
+    z: -679
+    yaw: 234
+    pitch: 26
+8810e817-3a32-3f32-a2ab-eec6c9582553:
+  base:
+    x: 343
+    y: 77
+    z: 358
+    yaw: -86
+    pitch: 42
+  room:
+    x: 345
+    y: 77
+    z: 340
+    yaw: 222
+    pitch: 24
+  enemy:
+    x: -2591
+    y: 72
+    z: -661
+    yaw: 179
+    pitch: 51
+  apple:
+    x: -1327
+    y: 64
+    z: -277
+    yaw: 263
+    pitch: 43
+  chill:
+    x: -2425
+    y: 69
+    z: -1858
+    yaw: -270
+    pitch: 23
+  cool:
+    x: 3443
+    y: 85
+    z: 379
+    yaw: 89
+    pitch: 44
+  jungle:
+    x: -1587
+    y: 67
+    z: 747
+    yaw: 268
+    pitch: 21
+  clay:
+    x: -189
+    y: 64
+    z: 369
+    yaw: 273
+    pitch: 22
+  flex:
+    x: -226
+    y: 53
+    z: 233
+    yaw: -55
+    pitch: 25
+7713092f-6d4c-3a9b-b157-de8652f6282b:
+  base:
+    x: -2598
+    y: 73
+    z: -670
+    yaw: 190
+    pitch: 9
+7d41c6ef-bbda-326e-b959-c19bf07d14df:
+  hi:
+    x: -2623
+    y: 68
+    z: -680
+    yaw: -165
+    pitch: 24
+  home:
+    x: -2581
+    y: 69
+    z: -660
+    yaw: 98
+    pitch: -53
+5b4fb62d-508a-36ba-b663-0dd40f396957:
+  base:
+    x: 1214
+    y: 64
+    z: 737
+    yaw: -188
+    pitch: 49
+  mine:
+    x: -374
+    y: 12
+    z: 184
+    yaw: 177
+    pitch: 84
+  mine#:
+    x: 440
+    y: 12
+    z: 283
+    yaw: 24
+    pitch: 1
+  minetwo:
+    x: -371
+    y: 12
+    z: 132
+    yaw: 184
+    pitch: 21
+  home:
+    x: -262
+    y: 67
+    z: 184
+    yaw: 262
+    pitch: 20
+  explore:
+    x: 1421
+    y: 63
+    z: 1011
+    yaw: 22
+    pitch: 7
+  claybase:
+    x: -204
+    y: 74
+    z: 385
+    yaw: 40
+    pitch: -5
+  exp:
+    x: -1862
+    y: 108
+    z: 312
+    yaw: 98
+    pitch: 41
+2efd4d54-9e4f-39b4-a7ce-da4dea4dbdbb:
+  start:
+    x: 85
+    y: 59
+    z: 390
+    yaw: -73
+    pitch: 8
+  strip:
+    x: 63
+    y: 11
+    z: 248
+    yaw: -273
+    pitch: 48
+  neekahn:
+    x: 390
+    y: 63
+    z: 345
+    yaw: -39
+    pitch: 45
+  home:
+    x: -1349
+    y: 63
+    z: -275
+    yaw: 310
+    pitch: -2
+4b84e752-7d93-35d8-8d3a-593b7ebd87e3:
+  home:
+    x: 197
+    y: 64
+    z: 265
+    yaw: 45
+    pitch: 3
+e7d1baaa-cc79-3376-b36a-ebad537eb39d:
+  start:
+    x: -157
+    y: 26
+    z: 370
+    yaw: -107
+    pitch: 5
+  home:
+    x: -155
+    y: 18
+    z: 374
+    yaw: -208
+    pitch: 89
+  cave:
+    x: -155
+    y: 18
+    z: 374
+    yaw: -208
+    pitch: 89
+  spawn:
+    x: -155
+    y: 18
+    z: 374
+    yaw: -208
+    pitch: 89
+  arlen:
+    x: -155
+    y: 18
+    z: 374
+    yaw: -208
+    pitch: 89
+  neekahn:
+    x: -155
+    y: 18
+    z: 374
+    yaw: -208
+    pitch: 89
+  clay:
+    x: -176
+    y: 69
+    z: 358
+    yaw: 31
+    pitch: 25
+367f98d1-020e-3c49-b9cf-8a10cfeded04:
+  home:
+    x: -177
+    y: 68
+    z: 359
+    yaw: 279
+    pitch: 26
+  hi:
+    x: -286
+    y: 15
+    z: 330
+    yaw: 258
+    pitch: 27
+  kill:
+    x: -196
+    y: 70
+    z: 288
+    yaw: 111
+    pitch: 5
+  fix:
+    x: -277
+    y: 17
+    z: 328
+    yaw: 85
+    pitch: 71
+6e9b5dd9-07c9-35b7-817b-d77248984726:
+  home:
+    x: -172
+    y: 68
+    z: 361
+    yaw: -47
+    pitch: 23
+  zombie:
+    x: -233
+    y: 67
+    z: 242
+    yaw: -171
+    pitch: 27
+  base:
+    x: -303
+    y: 13
+    z: 331
+    yaw: 46
+    pitch: 44
+a424371d-c51a-3efc-a0ac-3b4177a5d9d9:
+  e:
+    x: -227
+    y: 53
+    z: 233
+    yaw: -83
+    pitch: 36
+  neek:
+    x: -1264
+    y: 63
+    z: 660
+    yaw: 110
+    pitch: 34
+  home:
+    x: -263
+    y: 75
+    z: 121
+    yaw: 152
+    pitch: -35

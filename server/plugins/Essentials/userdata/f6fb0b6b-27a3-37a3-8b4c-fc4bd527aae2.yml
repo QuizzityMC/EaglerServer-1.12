@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1748532670309
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748867276194
+  login: 1748867195187
+money: '10'
+last-account-name: Claystina
+lastlocation:
+  world: 3d1897d1-8eb7-4f1c-bf84-6a5ced8b4d74
+  world-name: world
+  x: 112.3188384034438
+  y: 42.0
+  z: 289.30000001192093
+  yaw: 182.4005126953125
+  pitch: 81.74996948242188
+logoutlocation:
+  world: 3d1897d1-8eb7-4f1c-bf84-6a5ced8b4d74
+  world-name: world
+  x: 69.39436234018497
+  y: 42.0
+  z: 317.67550617650375
+  yaw: -118.19970703125
+  pitch: 36.599952697753906

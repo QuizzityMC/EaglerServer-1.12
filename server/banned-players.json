@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "uuid": "2efd4d54-9e4f-39b4-a7ce-da4dea4dbdbb",
+    "name": "flexysexy",
+    "created": "2025-06-06 14:32:39 +0000",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "eb2b2111-6a47-3e01-aa7d-80025869932f",
+    "name": "flexyesxy",
+    "created": "2025-05-22 12:18:26 +0000",
+    "source": "§4sigmaarlen§r",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "511d0080-e24a-33a9-a05a-41a84f9ae6b6",
+    "name": "ninja\u0027",
+    "created": "2025-05-28 14:56:01 +0000",
+    "source": "§4sigmaarlen§r",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "e7d1baaa-cc79-3376-b36a-ebad537eb39d",
+    "name": "Flexysexy",
+    "created": "2025-06-10 17:10:43 +0000",
+    "source": "§4Bananakin123§r",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "46e5b8c6-8203-32a3-8e88-1eff3b234b1e",
+    "name": "DarvlerYee7303_",
+    "created": "2025-05-20 14:34:55 +0000",
+    "source": "§4sigmaarlen§r",
+    "expires": "forever",
+    "reason": "not changing name to irl name"
+  },
+  {
+    "uuid": "3aa10d45-6372-352e-b9af-2eba497ed912",
+    "name": "___",
+    "created": "2025-05-20 14:35:04 +0000",
+    "source": "§4sigmaarlen§r",
+    "expires": "forever",
+    "reason": "not chaning namet o irl name"
+  }
+]

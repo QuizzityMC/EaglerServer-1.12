@@ -1,0 +1,26 @@
+on right click:
+    if name of player's tool is "Grappling Hook":
+        if name of player is "FIFISIGMA":
+            set {_yaw} to yaw of player
+
+            if pitch of player < -60:
+                set velocity of player to vector(0, 1, 0)
+            else:
+                if {_yaw} >= -45:
+                    if {_yaw} < 45:
+                        # Facing south
+                        set velocity of player to vector(0, 0.1, 1)
+                    else:
+                        if {_yaw} < 135:
+                            # Facing west
+                            set velocity of player to vector(-1, 0.1, 0)
+                        else:
+                            # Facing north (wrap around past 135)
+                            set velocity of player to vector(0, 0.1, -1)
+                else:
+                    if {_yaw} >= -135:
+                        # Facing east
+                        set velocity of player to vector(1, 0.1, 0)
+                    else:
+                        # Facing north (wrap around below -135)
+                        set velocity of player to vector(0, 0.1, -1)

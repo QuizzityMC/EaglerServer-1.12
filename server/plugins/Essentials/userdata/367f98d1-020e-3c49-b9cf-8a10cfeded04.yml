@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749580068123
+  login: 1749579042627
+money: '4652.00'
+last-account-name: LuGi_ben
+logoutlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -286.62749417155976
+  y: 15.0
+  z: 328.8409258585703
+  yaw: 6.900054931640625
+  pitch: 31.950021743774414
+lastlocation:
+  world: 5256daf6-deca-4449-8983-4664ddb5a370
+  world-name: world
+  x: -307.917501173866
+  y: 12.0
+  z: 343.1623443761797
+  yaw: 318.54913330078125
+  pitch: 6.399993419647217
