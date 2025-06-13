@@ -20,3 +20,7 @@
 2025-06-13 06:59:42 [WARNING]: Seems like the world `Lobby_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby_nether: NETHER`
 2025-06-13 07:00:36 [INFO]: Max attempts to create a Queue reached for default_Lobby_nether (amount: 0)
 2025-06-13 07:00:36 [INFO]: Queueing paused, max queue limit reached!
+2025-06-13 07:08:00 [WARNING]: Seems like the world `Lobby` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby: NETHER`
+2025-06-13 07:23:15 [WARNING]: Seems like the world `survival` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- survival: NETHER`
+2025-06-13 07:23:16 [INFO]: -Removed a queue Location{world=CraftWorld{name=survival},x=-796.5,y=70.0,z=14.5,pitch=13.049992,yaw=-8.700008}
+2025-06-13 07:23:33 [INFO]: -Removed a queue Location{world=CraftWorld{name=survival},x=525.5,y=71.0,z=-782.5,pitch=21.900007,yaw=17.850018}
