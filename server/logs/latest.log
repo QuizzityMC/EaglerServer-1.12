@@ -1,32 +1,32 @@
-[10:12:18] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[10:12:18] [Server thread/INFO]: Loading properties
-[10:12:18] [Server thread/INFO]: Default game type: SURVIVAL
-[10:12:18] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[10:12:18] [Server thread/INFO]: Debug logging is disabled
-[10:12:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:12:18] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:12:18] [Server thread/INFO]: Generating keypair
-[10:12:19] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[10:12:19] [Server thread/INFO]: Using default channel type
-[10:12:19] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[10:12:19] [Server thread/ERROR]: Could not load 'plugins/commandnpc-2.1.2.jar' in folder 'plugins'
+[10:29:25] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[10:29:25] [Server thread/INFO]: Loading properties
+[10:29:25] [Server thread/INFO]: Default game type: SURVIVAL
+[10:29:25] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[10:29:25] [Server thread/INFO]: Debug logging is disabled
+[10:29:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:29:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:29:25] [Server thread/INFO]: Generating keypair
+[10:29:26] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[10:29:26] [Server thread/INFO]: Using default channel type
+[10:29:26] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[10:29:26] [Server thread/ERROR]: Could not load 'plugins/commandnpc-2.1.2.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Citizens
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[10:12:19] [Server thread/INFO]: [LobbyAPI] Loading LobbyAPI v3.7.104
-[10:12:19] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
-[10:12:19] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.2
-[10:12:20] [Server thread/INFO]: [SetSpawn] Loading SetSpawn v2.3.5
-[10:12:20] [Server thread/INFO]: [Skript] Loading Skript v2.2-dev36
-[10:12:20] [Server thread/INFO]: [SkBee] Loading SkBee v1.10.3
-[10:12:20] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[10:12:20] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
-[10:12:20] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.3.0
-[10:12:20] [Server thread/INFO]: [BetterRTP] Loading BetterRTP v3.6.13
-[10:12:20] [Server thread/ERROR]: Permission node 'groups' in permissions.yml is invalid
+[10:29:26] [Server thread/INFO]: [LobbyAPI] Loading LobbyAPI v3.7.104
+[10:29:26] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
+[10:29:26] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.2
+[10:29:27] [Server thread/INFO]: [SetSpawn] Loading SetSpawn v2.3.5
+[10:29:27] [Server thread/INFO]: [Skript] Loading Skript v2.2-dev36
+[10:29:27] [Server thread/INFO]: [SkBee] Loading SkBee v1.10.3
+[10:29:27] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[10:29:27] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
+[10:29:27] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.3.0
+[10:29:27] [Server thread/INFO]: [BetterRTP] Loading BetterRTP v3.6.13
+[10:29:27] [Server thread/ERROR]: Permission node 'groups' in permissions.yml is invalid
 java.lang.IllegalArgumentException: 'default' key contained unknown value
 	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[patched_1.12.2.jar:git-Paper-1620]
 	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -35,113 +35,117 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:223) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[10:12:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.2
-[10:12:20] [Server thread/INFO]:         __    
-[10:12:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.2
-[10:12:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[10:12:20] [Server thread/INFO]: 
-[10:12:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[10:12:21] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[10:12:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[10:12:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[10:12:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2060ms)
-[10:12:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:12:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:12:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:12:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:12:22] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[10:12:22] [Server thread/INFO]: Preparing level "Lobby"
-[10:12:22] [Server thread/INFO]: -------- World Settings For [Lobby] --------
-[10:12:22] [Server thread/INFO]: Mob Spawn Range: 4
-[10:12:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:12:22] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:12:22] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:12:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:12:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:12:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:12:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:12:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:12:22] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:12:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:12:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[10:12:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:12:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:12:22] [Server thread/INFO]: Random Lighting Updates: false
-[10:12:22] [Server thread/INFO]: Structure Info Saving: true
-[10:12:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[10:12:22] [Server thread/INFO]: Max TNT Explosions: 100
-[10:12:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:12:22] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:12:22] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:12:22] [Server thread/INFO]: View Distance: 4
-[10:12:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[10:12:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:12:22] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:12:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:12:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:12:23] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
-[10:12:23] [Server thread/INFO]: Mob Spawn Range: 4
-[10:12:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[10:12:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:12:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:12:23] [Server thread/INFO]: Random Lighting Updates: false
-[10:12:23] [Server thread/INFO]: Structure Info Saving: true
-[10:12:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[10:12:23] [Server thread/INFO]: Max TNT Explosions: 100
-[10:12:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:12:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:12:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:12:23] [Server thread/INFO]: View Distance: 4
-[10:12:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[10:12:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:12:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:12:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:12:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:12:23] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
-[10:12:23] [Server thread/INFO]: Mob Spawn Range: 4
-[10:12:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:12:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[10:12:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:12:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:12:23] [Server thread/INFO]: Random Lighting Updates: false
-[10:12:23] [Server thread/INFO]: Structure Info Saving: true
-[10:12:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[10:12:23] [Server thread/INFO]: Max TNT Explosions: 100
-[10:12:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:12:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:12:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:12:23] [Server thread/INFO]: View Distance: 4
-[10:12:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[10:12:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:12:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:12:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:12:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:12:23] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
-[10:12:23] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8034280102195091147)
-[10:12:24] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8034280102195091147)
-[10:12:24] [Server thread/INFO]: [LobbyAPI] Enabling LobbyAPI v3.7.104
-[10:12:24] [Server thread/INFO]: Found a new version v1.1.53 downloading now!!
-[10:12:24] [Server thread/INFO]: [LobbyAPI]Bungee For LobbyAPI is disabled
-[10:12:24] [Server thread/ERROR]: Error occurred while enabling LobbyAPI v3.7.104 (Is it up to date?)
+[10:29:27] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.2
+[10:29:28] [Server thread/INFO]:         __    
+[10:29:28] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.2
+[10:29:28] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[10:29:28] [Server thread/INFO]: 
+[10:29:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:29:33] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[10:29:33] [Server thread/INFO]: Loading properties
+[10:29:33] [Server thread/INFO]: Default game type: SURVIVAL
+[10:29:34] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[10:29:34] [Server thread/INFO]: Debug logging is disabled
+[10:29:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:29:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:29:34] [Server thread/INFO]: Generating keypair
+[10:29:35] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[10:29:35] [Server thread/INFO]: Using default channel type
+[10:29:35] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[10:29:35] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use
+[10:29:35] [Server thread/WARN]: Perhaps a server is already running on that port?
+[10:29:35] [Server thread/INFO]: Stopping server
+[10:29:35] [Server thread/INFO]: Saving players
+ob Spawn Range: 4
+[10:29:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:29:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:29:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:29:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:29:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:29:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:29:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:29:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:29:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:29:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:29:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[10:29:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:29:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:29:31] [Server thread/INFO]: Random Lighting Updates: false
+[10:29:31] [Server thread/INFO]: Structure Info Saving: true
+[10:29:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:29:31] [Server thread/INFO]: Max TNT Explosions: 100
+[10:29:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:29:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:29:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:29:31] [Server thread/INFO]: View Distance: 4
+[10:29:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:29:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:29:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:29:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:29:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:29:33] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
+[10:29:33] [Server thread/INFO]: Mob Spawn Range: 4
+[10:29:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[10:29:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:29:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:29:33] [Server thread/INFO]: Random Lighting Updates: false
+[10:29:33] [Server thread/INFO]: Structure Info Saving: true
+[10:29:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:29:33] [Server thread/INFO]: Max TNT Explosions: 100
+[10:29:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:29:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:29:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:29:33] [Server thread/INFO]: View Distance: 4
+[10:29:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:29:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:29:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:29:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:29:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:29:33] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
+[10:29:33] [Server thread/INFO]: Mob Spawn Range: 4
+[10:29:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:29:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[10:29:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:29:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:29:33] [Server thread/INFO]: Random Lighting Updates: false
+[10:29:33] [Server thread/INFO]: Structure Info Saving: true
+[10:29:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:29:33] [Server thread/INFO]: Max TNT Explosions: 100
+[10:29:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:29:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:29:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:29:33] [Server thread/INFO]: View Distance: 4
+[10:29:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:29:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:29:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:29:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:29:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:29:33] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
+[10:29:34] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8034280102195091147)
+[10:29:34] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8034280102195091147)
+[10:29:35] [Server thread/INFO]: [LobbyAPI] Enabling LobbyAPI v3.7.104
+[10:29:35] [Server thread/INFO]: Found a new version v1.1.53 downloading now!!
+[10:29:35] [Server thread/INFO]: [LobbyAPI]Bungee For LobbyAPI is disabled
+[10:29:35] [Server thread/ERROR]: Error occurred while enabling LobbyAPI v3.7.104 (Is it up to date?)
 java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/io/IOUtils
 	at me.zombie_striker.lobbyapi.utils.SpiGetUpdater.getLastUpdate(SpiGetUpdater.java:62) ~[?:?]
 	at me.zombie_striker.lobbyapi.utils.SpiGetUpdater.checkAutoUpdate(SpiGetUpdater.java:31) ~[?:?]
@@ -164,117 +168,123 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.libs.org.apa
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 15 more
-[10:12:24] [Server thread/INFO]: [LobbyAPI] Disabling LobbyAPI v3.7.104
-[10:12:24] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[10:12:24] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[10:12:24] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
-[10:12:24] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[10:12:24] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v2.3.5
-[10:12:24] [Server thread/INFO]: [org.minecraftlist.setspawn.UpdateCheck] Checking for updates for setspawn on mclist.io
-[10:12:24] [Server thread/WARN]: [org.minecraftlist.setspawn.UpdateCheck] Failed to check update for setspawn
-[10:12:24] [Server thread/WARN]: java.io.FileNotFoundException: https://api.mclist.io/resource/setspawn
-[10:12:24] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994)
-[10:12:24] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
-[10:12:24] [Server thread/WARN]: 	at java.base/java.net.URLConnection.getContent(URLConnection.java:769)
-[10:12:24] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getContent(HttpsURLConnectionImpl.java:403)
-[10:12:24] [Server thread/WARN]: 	at org.minecraftlist.setspawn.UpdateCheck.checkUpdate(UpdateCheck.java:34)
-[10:12:24] [Server thread/WARN]: 	at org.minecraftlist.setspawn.SetSpawnPlugin.onEnable(SetSpawnPlugin.java:24)
-[10:12:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[10:12:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316)
-[10:12:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
-[10:12:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395)
-[10:12:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344)
-[10:12:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442)
-[10:12:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403)
-[10:12:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341)
-[10:12:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289)
-[10:12:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616)
-[10:12:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[10:12:24] [Server thread/INFO]: [SetSpawn] =-=-=-=-=-=-=-=-=-=-=-=
-[10:12:24] [Server thread/INFO]: [SetSpawn] Thanks for downloading SetSpawn
-[10:12:24] [Server thread/INFO]: [SetSpawn] Advertise your Minecraft server today at
-[10:12:24] [Server thread/INFO]: [SetSpawn] https://mclist.io
-[10:12:24] [Server thread/INFO]: [SetSpawn] =-=-=-=-=-=-=-=-=-=-=-=
-[10:12:24] [Server thread/INFO]: [Skript] Enabling Skript v2.2-dev36
-[10:12:25] [Server thread/INFO]: [Skript] Starting updater thread
-[10:12:25] [Server thread/INFO]: [Skript] Loaded a total of 7398 english aliases
-[10:12:25] [Server thread/WARN]: [Skript] There are no aliases defined for the following ids: 165, 166, 167, 168, 169, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 255, 409, 410, 411, 412, 413, 414, 415, 416, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 452, 453
-[10:12:25] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[10:12:25] [Server thread/INFO]: [SkBee] Enabling SkBee v1.10.3
-[10:12:25] [Server thread/INFO]: [SkBee] Skript 2.6.2+ is required for this version of SkBee
-[10:12:25] [Server thread/INFO]: [SkBee] Disabling SkBee v1.10.3
-[10:12:25] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[10:12:25] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[10:12:25] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[10:12:25] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[10:12:25] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[10:12:26] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727
-[10:12:26] [Server thread/INFO]: -------- World Settings For [survival] --------
-[10:12:26] [Server thread/INFO]: Mob Spawn Range: 4
-[10:12:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:12:26] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:12:26] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:12:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:12:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:12:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:12:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:12:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:12:26] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:12:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:12:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[10:12:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:12:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:12:26] [Server thread/INFO]: Random Lighting Updates: false
-[10:12:26] [Server thread/INFO]: Structure Info Saving: true
-[10:12:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[10:12:26] [Server thread/INFO]: Max TNT Explosions: 100
-[10:12:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:12:26] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:12:26] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:12:26] [Server thread/INFO]: View Distance: 4
-[10:12:26] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[10:12:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:12:26] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:12:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:12:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:12:26] [Server thread/INFO]: Preparing start region for level 3 (Seed: 3590672027358642951)
-[10:12:27] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: pvp_world
-[10:12:27] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[10:12:27] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[10:12:27] [Server thread/INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
-[10:12:27] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.3.0
-[10:12:27] [Server thread/INFO]: [SetHomes] Hooked into LuckPerms!
-[10:12:27] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
-[10:12:27] [Server thread/INFO]: [BetterRTP] Cooldown = 600
-[10:12:27] [Server thread/INFO]: Done (5.218s)! For help, type "help" or "?"
-[10:12:27] [Server thread/INFO]: Timings Reset
-[10:12:27] [Craft Scheduler Thread - 2/INFO]: [org.minecraftlist.setspawn.UpdateCheck] Checking for updates for setspawn on mclist.io
-[10:12:27] [Server thread/INFO]: [Skript] Loading variables...
-[10:12:27] [Server thread/INFO]: [Skript] Loaded 23 variables in 0.0 seconds
-[10:12:27] [Server thread/WARN]: [Skript] Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section. (wcon.sk, line 5: Features:')
-[10:12:27] [Server thread/ERROR]: [Skript] Can't understand this expression: xp level of {_target} (admin.sk, line 12: send "&aXP Levels: &f%xp level of {_target}%"')
-[10:12:27] [Server thread/ERROR]: [Skript] Can't compare a player with ('set' or 'arg-2 is not set') (admin.sk, line 18: if arg-1 is not set or arg-2 is not set:')
-[10:12:27] [Server thread/ERROR]: [Skript] can't understand this condition: '{cmdaccess.%{_label}%} is false and player doesn't have permission "skript.admin"' (cmd.sk, line 53: if {cmdaccess.%{_label}%} is false and player doesn't have permission "skript.admin":')
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: [org.minecraftlist.setspawn.UpdateCheck] Failed to check update for setspawn
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: java.io.FileNotFoundException: https://api.mclist.io/resource/setspawn
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994)
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at java.base/java.net.URLConnection.getContent(URLConnection.java:769)
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getContent(HttpsURLConnectionImpl.java:403)
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at org.minecraftlist.setspawn.UpdateCheck.checkUpdate(UpdateCheck.java:34)
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at org.minecraftlist.setspawn.SetSpawnPlugin.lambda$onEnable$0(SetSpawnPlugin.java:51)
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-[10:12:28] [Craft Scheduler Thread - 2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[10:12:28] [Server thread/ERROR]: [Skript] invalid line - all code has to be put into triggers (wcon.sk, line 3: Concept: Control the weather with commands.')
-[10:12:28] [Server thread/ERROR]: [Skript] can't understand this event: 'Features' (wcon.sk, line 5: Features:')
-[10:12:28] [Server thread/ERROR]: [Skript] invalid line - all code has to be put into triggers (wcon.sk, line 7: /sun, /rain, /storm')
-[10:12:28] [Server thread/ERROR]: [Skript] invalid line - all code has to be put into triggers (wcon.sk, line 9: Changes world weather instantly')
-[10:12:28] [Server thread/ERROR]: [Skript] invalid line - all code has to be put into triggers (wcon.sk, line 11: Optional permission nodes')
-[10:12:28] [Server thread/ERROR]: [Skript] invalid line - all code has to be put into triggers (wcon.sk, line 13: Why it’s basic: Teaches simple world interaction.')
-[10:12:28] [Server thread/INFO]: [Skript] Loaded 7 scripts with a total of 6 triggers and 13 commands in 0.52 seconds
-[10:12:28] [Server thread/INFO]: [Skript] Finished loading.
-[10:12:28] [Craft Scheduler Thread - 1/INFO]: [Skript] You're currently running custom Skript version. No updates will be automatically installed.
+[10:29:35] [Server thread/INFO]: [LobbyAPI] Disabling LobbyAPI v3.7.104
+[10:29:35] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[10:29:35] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[10:29:35] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[10:29:35] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[10:29:35] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v2.3.5
+[10:29:35] [Server thread/INFO]: [org.minecraftlist.setspawn.UpdateCheck] Checking for updates for setspawn on mclist.io
+[10:29:35] [Server thread/WARN]: [org.minecraftlist.setspawn.UpdateCheck] Failed to check update for setspawn
+[10:29:35] [Server thread/WARN]: java.io.FileNotFoundException: https://api.mclist.io/resource/setspawn
+[10:29:35] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994)
+[10:29:35] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+[10:29:35] [Server thread/WARN]: 	at java.base/java.net.URLConnection.getContent(URLConnection.java:769)
+[10:29:35] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getContent(HttpsURLConnectionImpl.java:403)
+[10:29:35] [Server thread/WARN]: 	at org.minecraftlist.setspawn.UpdateCheck.checkUpdate(UpdateCheck.java:34)
+[10:29:35] [Server thread/WARN]: 	at org.minecraftlist.setspawn.SetSpawnPlugin.onEnable(SetSpawnPlugin.java:24)
+[10:29:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[10:29:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316)
+[10:29:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[10:29:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395)
+[10:29:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344)
+[10:29:35] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442)
+[10:29:35] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403)
+[10:29:35] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341)
+[10:29:35] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289)
+[10:29:35] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616)
+[10:29:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[10:29:35] [Server thread/INFO]: [SetSpawn] =-=-=-=-=-=-=-=-=-=-=-=
+[10:29:35] [Server thread/INFO]: [SetSpawn] Thanks for downloading SetSpawn
+[10:29:35] [Server thread/INFO]: [SetSpawn] Advertise your Minecraft server today at
+[10:29:35] [Server thread/INFO]: [SetSpawn] https://mclist.io
+[10:29:35] [Server thread/INFO]: [SetSpawn] =-=-=-=-=-=-=-=-=-=-=-=
+[10:29:35] [Server thread/INFO]: [Skript] Enabling Skript v2.2-dev36
+[10:29:36] [Server thread/INFO]: [Skript] Starting updater thread
+[10:29:36] [Server thread/INFO]: [Skript] Loaded a total of 7398 english aliases
+[10:29:36] [Server thread/WARN]: [Skript] There are no aliases defined for the following ids: 165, 166, 167, 168, 169, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 255, 409, 410, 411, 412, 413, 414, 415, 416, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 452, 453
+[10:29:36] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[10:29:36] [Server thread/INFO]: [SkBee] Enabling SkBee v1.10.3
+[10:29:36] [Server thread/INFO]: [SkBee] Skript 2.6.2+ is required for this version of SkBee
+[10:29:36] [Server thread/INFO]: [SkBee] Disabling SkBee v1.10.3
+[10:29:36] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[10:29:36] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[10:29:36] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[10:29:37] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[10:29:37] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[10:29:37] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727
+[10:29:37] [Server thread/INFO]: -------- World Settings For [survival] --------
+[10:29:37] [Server thread/INFO]: Mob Spawn Range: 4
+[10:29:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:29:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:29:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:29:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:29:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:29:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:29:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:29:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:29:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:29:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:29:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[10:29:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:29:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:29:37] [Server thread/INFO]: Random Lighting Updates: false
+[10:29:37] [Server thread/INFO]: Structure Info Saving: true
+[10:29:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:29:37] [Server thread/INFO]: Max TNT Explosions: 100
+[10:29:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:29:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:29:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:29:37] [Server thread/INFO]: View Distance: 4
+[10:29:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:29:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:29:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:29:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:29:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:29:37] [Server thread/INFO]: Preparing start region for level 3 (Seed: 3590672027358642951)
+[10:29:38] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: pvp_world
+[10:29:38] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[10:29:38] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[10:29:38] [Server thread/INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[10:29:38] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.3.0
+[10:29:38] [Server thread/INFO]: [SetHomes] Hooked into LuckPerms!
+[10:29:38] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
+[10:29:38] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[10:29:38] [Server thread/INFO]: Done (7.448s)! For help, type "help" or "?"
+[10:29:38] [Server thread/INFO]: Timings Reset
+[10:29:38] [Craft Scheduler Thread - 2/INFO]: [org.minecraftlist.setspawn.UpdateCheck] Checking for updates for setspawn on mclist.io
+[10:29:39] [Server thread/INFO]: [Skript] Loading variables...
+[10:29:39] [Server thread/INFO]: [Skript] Loaded 23 variables in 0.0 seconds
+[10:29:39] [Server thread/WARN]: [Skript] Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section. (wcon.sk, line 5: Features:')
+[10:29:39] [Server thread/ERROR]: [Skript] Can't understand this expression: xp level of {_target} (admin.sk, line 12: send "&aXP Levels: &f%xp level of {_target}%"')
+[10:29:39] [Server thread/ERROR]: [Skript] Can't compare a player with ('set' or 'arg-2 is not set') (admin.sk, line 18: if arg-1 is not set or arg-2 is not set:')
+[10:29:39] [Craft Scheduler Thread - 1/INFO]: [Skript] You're currently running custom Skript version. No updates will be automatically installed.
+[10:29:39] [Server thread/ERROR]: [Skript] can't understand this condition: '{cmdaccess.%{_label}%} is false and player doesn't have permission "skript.admin"' (cmd.sk, line 53: if {cmdaccess.%{_label}%} is false and player doesn't have permission "skript.admin":')
+[10:29:39] [Server thread/ERROR]: [Skript] invalid line - all code has to be put into triggers (wcon.sk, line 3: Concept: Control the weather with commands.')
+[10:29:39] [Server thread/ERROR]: [Skript] can't understand this event: 'Features' (wcon.sk, line 5: Features:')
+[10:29:39] [Server thread/ERROR]: [Skript] invalid line - all code has to be put into triggers (wcon.sk, line 7: /sun, /rain, /storm')
+[10:29:39] [Server thread/ERROR]: [Skript] invalid line - all code has to be put into triggers (wcon.sk, line 9: Changes world weather instantly')
+[10:29:39] [Server thread/ERROR]: [Skript] invalid line - all code has to be put into triggers (wcon.sk, line 11: Optional permission nodes')
+[10:29:39] [Server thread/ERROR]: [Skript] invalid line - all code has to be put into triggers (wcon.sk, line 13: Why it’s basic: Teaches simple world interaction.')
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: [org.minecraftlist.setspawn.UpdateCheck] Failed to check update for setspawn
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: java.io.FileNotFoundException: https://api.mclist.io/resource/setspawn
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994)
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at java.base/java.net.URLConnection.getContent(URLConnection.java:769)
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getContent(HttpsURLConnectionImpl.java:403)
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at org.minecraftlist.setspawn.UpdateCheck.checkUpdate(UpdateCheck.java:34)
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at org.minecraftlist.setspawn.SetSpawnPlugin.lambda$onEnable$0(SetSpawnPlugin.java:51)
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[10:29:39] [Craft Scheduler Thread - 2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[10:29:39] [Server thread/INFO]: [Skript] Loaded 7 scripts with a total of 6 triggers and 13 commands in 0.37 seconds
+[10:29:39] [Server thread/INFO]: [Skript] Finished loading.
+[10:30:27] [User Authenticator #1/INFO]: UUID of player naeem123 is a8d851a0-d2b0-32a4-80be-33b152c844cc
+[10:30:27] [Server thread/INFO]: naeem123[/127.0.0.1:43272] logged in with entity id 32 at ([Lobby]-19.558750536596676, 98.0, 4.841632514577151)
+[10:30:37] [pool-5-thread-1/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[10:31:41] [Server thread/INFO]: naeem123 lost connection: Disconnected
+[10:31:41] [Server thread/INFO]: naeem123 left the game
+[10:34:41] [Thread-1/INFO]: Stopping server

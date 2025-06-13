@@ -1,42 +1,54 @@
 const express = require("express");
+const http = require("http");
+const socketIO = require("socket.io");
 const { spawn } = require("child_process");
 const app = express();
+const server = http.createServer(app);
+const io = socketIO(server);
 const port = 3000;
 
-app.use(express.json());
+let mcProcess;
+
 app.use(express.static("public"));
+app.use(express.json());
 
-app.post("/execute", (req, res) => {
-  const { command } = req.body;
+app.post("/send", (req, res) => {
+  const { input } = req.body;
+  if (mcProcess && mcProcess.stdin.writable) {
+    mcProcess.stdin.write(input + "\n");
+    res.sendStatus(200);
+  } else {
+    res.status(500).send("Server not running");
+  }
+});
 
-  if (!command) return res.status(400).send("No command provided");
+io.on("connection", (socket) => {
+  console.log("User connected");
 
-  // Split the command into command and args
-  const parts = command.split(" ");
-  const cmd = parts[0];
-  const args = parts.slice(1);
+  if (!mcProcess) {
+    mcProcess = spawn("java", ["-jar", "server/server.jar"], {
+      shell: true,
+    });
 
-  const child = spawn(cmd, args, { shell: true });
+    mcProcess.stdout.on("data", (data) => {
+      socket.emit("output", data.toString());
+    });
 
-  let output = "";
+    mcProcess.stderr.on("data", (data) => {
+      socket.emit("output", data.toString());
+    });
 
-  child.stdout.on("data", (data) => {
-    output += data.toString();
-  });
+    mcProcess.on("close", (code) => {
+      socket.emit("output", `\n[SERVER CLOSED WITH CODE ${code}]\n`);
+      mcProcess = null;
+    });
+  }
 
-  child.stderr.on("data", (data) => {
-    output += data.toString(); // Include errors too
-  });
-
-  child.on("close", (code) => {
-    res.send(output || `Command exited with code ${code}`);
-  });
-
-  child.on("error", (err) => {
-    res.status(500).send(`Failed to start command: ${err.message}`);
+  socket.on("disconnect", () => {
+    console.log("User disconnected");
   });
 });
 
-app.listen(port, () => {
+server.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
