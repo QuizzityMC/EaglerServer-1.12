@@ -26,7 +26,8 @@ io.on("connection", (socket) => {
   console.log("User connected");
 
   if (!mcProcess) {
-    mcProcess = spawn("java", ["-jar", "server/server.jar"], {
+    mcProcess = spawn("java", ["-jar", "server.jar"], {
+      cwd: "server", // ✅ Run server.jar from inside /server folder
       shell: true,
     });
 

@@ -65,7 +65,34 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
+    portal-search-radius: 128
     use-vanilla-world-scoreboard-name-coloring: false
+    queue-light-updates: false
+    optimize-explosions: false
+    use-chunk-inhabited-timer: true
+    delay-chunk-unloads-by: 10s
+    max-auto-save-chunks-per-tick: 24
+    save-queue-limit-for-auto-save: 50
+    remove-corrupt-tile-entities: false
+    max-chunk-sends-per-tick: 81
+    max-chunk-gens-per-tick: 10
+    game-mechanics:
+      allow-permanent-chunk-loaders: false
+      scan-for-legacy-ender-dragon: true
+      disable-end-credits: false
+      disable-player-crits: false
+      disable-sprint-interruption-on-attack: false
+      shield-blocking-delay: 5
+      disable-chest-cat-detection: false
+      disable-unloaded-chunk-enderpearl-exploit: true
+      village-sieges-enabled: true
+    prevent-moving-into-unloaded-chunks: false
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 600
     despawn-ranges:
       soft: 32
       hard: 128
@@ -94,33 +121,6 @@ world-settings:
       push-based: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
-    portal-search-radius: 128
-    queue-light-updates: false
-    optimize-explosions: false
-    use-chunk-inhabited-timer: true
-    delay-chunk-unloads-by: 10s
-    max-auto-save-chunks-per-tick: 24
-    save-queue-limit-for-auto-save: 50
-    remove-corrupt-tile-entities: false
-    max-chunk-sends-per-tick: 81
-    max-chunk-gens-per-tick: 10
-    game-mechanics:
-      allow-permanent-chunk-loaders: false
-      scan-for-legacy-ender-dragon: true
-      disable-end-credits: false
-      disable-player-crits: false
-      disable-sprint-interruption-on-attack: false
-      shield-blocking-delay: 5
-      disable-chest-cat-detection: false
-      disable-unloaded-chunk-enderpearl-exploit: true
-      village-sieges-enabled: true
-    prevent-moving-into-unloaded-chunks: false
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 600
     keep-spawn-loaded-range: 8
     auto-save-interval: -1
     nether-ceiling-void-damage: false

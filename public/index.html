@@ -2,76 +2,104 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Minecraft Server Console</title>
-    <script src="/socket.io/socket.io.js"></script>
+    <title>Minecraft Console</title>
     <style>
+      html,
       body {
-        background: #111;
-        color: #0f0;
-        font-family: monospace;
         margin: 0;
+        height: 100%;
+        background: #111;
+        color: white;
+        font-family: monospace;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: 10px;
       }
       #output {
-        white-space: pre-wrap;
+        flex: 1;
+        overflow-y: auto;
+        background: #1e1e1e;
         padding: 10px;
-        height: 90vh;
-        overflow-y: scroll;
-        border-bottom: 1px solid #333;
+        white-space: pre-wrap;
+        border-radius: 5px;
       }
-      input[type="text"] {
-        width: 100%;
+      #output .info {
+        color: #4da6ff;
+      }
+      #output .warn {
+        color: #ffff66;
+      }
+      #output .error {
+        color: #ff4d4d;
+      }
+
+      .bottom-controls {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      #commandInput {
+        flex-grow: 1;
         padding: 10px;
         background: #222;
         color: #0f0;
         border: none;
-        font-family: monospace;
-        font-size: 16px;
+        border-radius: 4px;
+      }
+
+      button {
+        background: #444;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 4px;
       }
     </style>
   </head>
   <body>
-    <div id="output"></div>
-    <input type="text" id="commandInput" placeholder="Enter command..." />
+    <div class="container">
+      <div id="output"></div>
+      <div class="bottom-controls">
+        <input id="commandInput" placeholder="Command..." />
+        <button onclick="sendCommand()">Send</button>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
     <script>
       const socket = io();
       const output = document.getElementById("output");
       const input = document.getElementById("commandInput");
 
-      socket.on("output", (data) => {
-        const lines = data.split("\n");
-        lines.forEach((line) => {
-          const div = document.createElement("div");
-
-          if (line.includes("INFO")) {
-            div.style.color = "lightblue";
-          } else if (line.includes("WARN")) {
-            div.style.color = "yellow";
-          } else if (
-            line.includes("ERROR") ||
-            line.includes("Exception") ||
-            line.includes("Failed")
-          ) {
-            div.style.color = "red";
-          } else {
-            div.style.color = "#0f0";
-          }
-
-          div.textContent = line;
-          output.appendChild(div);
-        });
+      function appendLog(line) {
+        const div = document.createElement("div");
+        if (line.includes("[INFO]")) div.classList.add("info");
+        else if (line.includes("[WARN]")) div.classList.add("warn");
+        else if (line.includes("[ERROR]")) div.classList.add("error");
+        div.textContent = line;
+        output.appendChild(div);
         output.scrollTop = output.scrollHeight;
+      }
+
+      socket.on("output", (line) => {
+        appendLog(line);
       });
 
-      input.addEventListener("keypress", (e) => {
-        if (e.key === "Enter") {
-          fetch("/send", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ input: input.value }),
-          });
-          input.value = "";
-        }
-      });
+      function sendCommand() {
+        const command = input.value.trim();
+        if (!command) return;
+        fetch("/send", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ input: command }),
+        });
+        input.value = "";
+      }
     </script>
   </body>
 </html>
