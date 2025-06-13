@@ -15,6 +15,8 @@ settings:
   debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
+  bungeecord: false
+  late-bind: false
   player-shuffle: 0
   filter-creative-items: true
   user-cache-size: 1000
@@ -22,8 +24,6 @@ settings:
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   item-dirty-ticks: 20
-  bungeecord: false
-  late-bind: false
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
@@ -38,6 +38,7 @@ settings:
   moved-too-quickly-threshold: 100.0
 commands:
   tab-complete: 0
+  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -46,7 +47,6 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.

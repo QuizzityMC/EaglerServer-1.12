@@ -1,0 +1,62 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Terminal Web Interface</title>
+    <style>
+      #terminal {
+        width: 600px;
+        height: 400px;
+        background: #000;
+        color: #0f0;
+        padding: 10px;
+        overflow-y: auto;
+        font-family: monospace;
+      }
+      #commandInput {
+        width: 580px;
+        padding: 10px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Web Terminal</h1>
+    <div id="terminal"></div>
+    <input type="text" id="commandInput" placeholder="Enter command..." />
+
+    <script>
+      const terminal = document.getElementById("terminal");
+      const commandInput = document.getElementById("commandInput");
+
+      function addToTerminal(text) {
+        terminal.innerHTML += text + "<br>";
+        terminal.scrollTop = terminal.scrollHeight;
+      }
+
+      commandInput.addEventListener("keypress", (e) => {
+        if (e.key === "Enter") {
+          const command = commandInput.value;
+          addToTerminal("$ " + command);
+          commandInput.value = "";
+
+          // Send command to server
+          fetch("/execute", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ command }),
+          })
+            .then((response) => response.text())
+            .then((output) => {
+              addToTerminal(output);
+            })
+            .catch((error) => {
+              addToTerminal("Error: " + error);
+            });
+        }
+      });
+    </script>
+  </body>
+</html>
