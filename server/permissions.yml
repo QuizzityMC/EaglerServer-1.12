@@ -5,3 +5,7 @@ groups:
     permissions:
       - betterrtp.rtp
       - betterrtp.world.world
+default:
+  permissions:
+    multiverse.core.tp.self: true
+    multiverse.access.*: true

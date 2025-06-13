@@ -1,0 +1,6 @@
+command /world:
+    permission: world.use
+    permission message: &cYou don't have permission to use this!
+    trigger:
+        execute console command "mv tp %player% survival"
+        send "&aTeleporting you to the survival world..." to player

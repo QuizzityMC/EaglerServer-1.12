@@ -1,0 +1,59 @@
+# Data storage
+command /cmdcreate <text>:
+    permission: skript.admin
+    trigger:
+        set {cmds.%arg-1%::*} to {_dummy} # placeholder
+        set {cmdaccess.%arg-1%} to true
+        send "&aCreated command: /%arg-1%"
+
+command /cmdadd <text> <text>:
+    permission: skript.admin
+    trigger:
+        if {cmds.%arg-1%::*} is not set:
+            send "&cThis command doesn't exist. Use /cmdcreate first."
+            stop
+        add arg-2 to {cmds.%arg-1%::*}
+        send "&aAdded command: /%arg-2% to /%arg-1%"
+
+command /cmddelete <text>:
+    permission: skript.admin
+    trigger:
+        delete {cmds.%arg-1%::*}
+        delete {cmdaccess.%arg-1%}
+        send "&cDeleted command group: /%arg-1%"
+
+command /cmdclear:
+    permission: skript.admin
+    trigger:
+        delete {cmds::*}
+        delete {cmdaccess::*}
+        send "&cAll custom commands cleared."
+
+command /cmdaccess <text> <boolean>:
+    permission: skript.admin
+    trigger:
+        set {cmdaccess.%arg-1%} to arg-2
+        send "&6Access for /%arg-1% set to: %arg-2%"
+
+command /cmds <text>:
+    permission: skript.admin
+    trigger:
+        if {cmds.%arg-1%::*} is set:
+            loop {cmds.%arg-1%::*}:
+                send "&7- /%loop-value%"
+        else:
+            send "&cCommand /%arg-1% doesn't exist."
+
+# Catch-all dynamic command executor
+on command:
+    set {_label} to command label
+    if {_label} is "cmdcreate" or "cmdadd" or "cmddelete" or "cmdclear" or "cmdaccess" or "cmds":
+        stop
+    if {cmds.%{_label}%::*} is set:
+        if {cmdaccess.%{_label}%} is false and player doesn't have permission "skript.admin":
+            send "&cYou don't have access to this command."
+            stop
+        loop {cmds.%{_label}%::*}:
+            if loop-value is not {_dummy}:
+                execute console command "%loop-value%"
+        stop
