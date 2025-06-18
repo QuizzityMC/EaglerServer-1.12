@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["openjdk"]
+
+[start]
+cmd = "bash main.sh"

@@ -1,7 +1,23 @@
 #!/bin/bash
 # ~~~ EaglercraftX Server
 # ~~~ >> smashed together once again by ayunami2000
-# ~~~ >> modified by WinRAR
+# ~~~ >> modified by WinRA
+
+#!/bin/bash
+
+#!/bin/bash
+
+# Accept EULA if not already
+echo "eula=true" > server/eula.txt
+
+# Start backend Minecraft server
+cd server
+java -Xmx512M -jar server.jar nogui &
+
+# Start BungeeCord proxy
+cd ../bungee
+exec java -Xmx128M -jar bungee.jar
+
 
 unset DISPLAY
 

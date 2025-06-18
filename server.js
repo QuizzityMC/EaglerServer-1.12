@@ -14,10 +14,21 @@ let mcProcess;
 
 const upload = multer({ dest: "uploads/" });
 
+// Middleware
 app.use(express.static("public"));
 app.use(express.json());
 
-// Minecraft command
+// 🟢 Route: Home page (/) → public/index.html
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
+
+// 🟢 Route: /game → web/index.html
+app.get("/game", (req, res) => {
+  res.sendFile(path.join(__dirname, "web", "index.html"));
+});
+
+// Minecraft command sender
 app.post("/send", (req, res) => {
   const { input } = req.body;
   if (mcProcess && mcProcess.stdin.writable) {
@@ -28,7 +39,7 @@ app.post("/send", (req, res) => {
   }
 });
 
-// Start bungee silently
+// 🔒 Start Bungee server silently
 spawn("sudo", ["java", "-jar", "bungee.jar"], {
   cwd: "bungee",
   detached: true,
@@ -36,7 +47,7 @@ spawn("sudo", ["java", "-jar", "bungee.jar"], {
   shell: true,
 }).unref();
 
-// Explorer - list
+// 🗂 Explorer - list files/folders
 app.get("/explorer", (req, res) => {
   const dirPath = path.join(__dirname, "server", req.query.path || "");
   fs.readdir(dirPath, { withFileTypes: true }, (err, entries) => {
@@ -49,7 +60,7 @@ app.get("/explorer", (req, res) => {
   });
 });
 
-// Explorer - view
+// 📄 Explorer - view file content
 app.get("/explorer/view", (req, res) => {
   const filePath = path.join(__dirname, "server", req.query.file);
   fs.readFile(filePath, "utf8", (err, data) => {
@@ -58,7 +69,7 @@ app.get("/explorer/view", (req, res) => {
   });
 });
 
-// Explorer - save
+// 💾 Explorer - save file
 app.post("/explorer/save", (req, res) => {
   const filePath = path.join(__dirname, "server", req.body.file);
   fs.writeFile(filePath, req.body.content, "utf8", (err) => {
@@ -67,7 +78,7 @@ app.post("/explorer/save", (req, res) => {
   });
 });
 
-// Explorer - upload
+// ⬆️ Explorer - upload file
 app.post("/explorer/upload", upload.single("file"), (req, res) => {
   const targetDir = path.join(__dirname, "server", req.body.path || "");
   const targetPath = path.join(targetDir, req.file.originalname);
@@ -77,7 +88,7 @@ app.post("/explorer/upload", upload.single("file"), (req, res) => {
   });
 });
 
-// Explorer - delete
+// ❌ Explorer - delete file/folder
 app.post("/explorer/delete", (req, res) => {
   const filePath = path.join(__dirname, "server", req.body.file);
   fs.rm(filePath, { recursive: true, force: true }, (err) => {
@@ -86,13 +97,13 @@ app.post("/explorer/delete", (req, res) => {
   });
 });
 
-// Explorer - download
+// 📥 Explorer - download file
 app.get("/explorer/download", (req, res) => {
   const filePath = path.join(__dirname, "server", req.query.file);
   res.download(filePath);
 });
 
-// Socket for logs
+// 🔌 Socket.IO for live logs
 io.on("connection", (socket) => {
   console.log("User connected");
 
@@ -121,6 +132,7 @@ io.on("connection", (socket) => {
   });
 });
 
+// 🚀 Start server
 server.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });

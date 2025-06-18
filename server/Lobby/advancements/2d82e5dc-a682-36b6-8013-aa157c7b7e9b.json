@@ -326,6 +326,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "potato": "2025-06-10 14:14:27 +0000",
+      "mutton": "2025-06-14 10:50:57 +0000",
       "bread": "2025-06-13 05:50:17 +0000"
     },
     "done": false
