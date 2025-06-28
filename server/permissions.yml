@@ -1,11 +1,17 @@
 groups:
   default:
-    options:
-      default: true
+    default: true
     permissions:
       - betterrtp.rtp
       - betterrtp.world.world
-default:
-  permissions:
-    multiverse.core.tp.self: true
-    multiverse.access.*: true
+      - multiverse.core.tp.self
+      - multiverse.access.*
+      - multiverse.teleport.self.survival
+      - multiverse.access.survival
+      - multiverse.teleport.self.*
+      - multiverse.teleport.self.w
+      - multiverse.teleport.self.e
+      - multiverse.teleport.self.pl
+      - multiverse.teleport.self.ca
+      - multiverse.teleport.self.b
+      - multiverse.teleport.self.a

@@ -1,24 +1,20 @@
-2025-06-14 06:43:44 [INFO]: Loading Overrides...
-2025-06-14 06:43:44 [WARNING]: The world `world` doesn't seem to exist! Please update `master_world's` override! Maybe there are capital letters?
-2025-06-14 06:43:44 [WARNING]: The world `world` doesn't seem to exist! Please update `creative_world's` override! Maybe there are capital letters?
-2025-06-14 06:43:44 [INFO]: Loading World Types...
-2025-06-14 06:43:44 [INFO]: - World Type for 'world' set to 'NORMAL'
-2025-06-14 06:43:44 [INFO]: - World Type for 'world_nether' set to 'NETHER'
-2025-06-14 06:43:44 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
-2025-06-14 06:43:44 [INFO]: Loading Defaults...
-2025-06-14 06:43:44 [INFO]: Loading Custom Worlds...
-2025-06-14 06:43:44 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
-2025-06-14 06:43:44 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
-2025-06-14 06:43:44 [INFO]: Database QUEUE:Queue configured and loaded!
-2025-06-14 06:43:44 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2025-06-14 06:43:44 [INFO]: Database COOLDOWN:Lobby configured and loaded!
-2025-06-14 06:43:44 [INFO]: Database COOLDOWN:Lobby_nether configured and loaded!
-2025-06-14 06:43:44 [INFO]: Database COOLDOWN:Lobby_the_end configured and loaded!
-2025-06-14 06:43:44 [INFO]: Database COOLDOWN:survival configured and loaded!
-2025-06-14 06:43:44 [INFO]: Database PLAYERS:Players configured and loaded!
-2025-06-14 06:43:44 [INFO]: Attempting to queue up some more safe locations...
-2025-06-14 06:43:45 [WARNING]: Seems like the world `Lobby_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Lobby_nether: NETHER`
-2025-06-14 06:43:51 [INFO]: Queue position generated: id= default_Lobby_nether, database_ID= 59, location= x: 38, y: 13, z: -16, world: Lobby_nether
-2025-06-14 06:44:39 [INFO]: Max attempts to create a Queue reached for default_Lobby_nether (amount: 2)
-2025-06-14 06:44:39 [INFO]: Queueing paused, max queue limit reached!
-2025-06-14 12:30:40 [INFO]: Disabling BetterRTP v3.6.13
+2025-06-28 06:42:12 [INFO]: Loading Overrides...
+2025-06-28 06:42:12 [WARNING]: The world `world` doesn't seem to exist! Please update `master_world's` override! Maybe there are capital letters?
+2025-06-28 06:42:12 [WARNING]: The world `world` doesn't seem to exist! Please update `creative_world's` override! Maybe there are capital letters?
+2025-06-28 06:42:12 [INFO]: Loading World Types...
+2025-06-28 06:42:12 [INFO]: - World Type for 'world' set to 'NORMAL'
+2025-06-28 06:42:12 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2025-06-28 06:42:12 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2025-06-28 06:42:12 [INFO]: Loading Defaults...
+2025-06-28 06:42:12 [INFO]: Loading Custom Worlds...
+2025-06-28 06:42:12 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-06-28 06:42:12 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-06-28 06:42:12 [INFO]: Database PLAYERS:Players configured and loaded!
+2025-06-28 06:42:12 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2025-06-28 06:42:12 [INFO]: Database QUEUE:Queue configured and loaded!
+2025-06-28 06:42:12 [INFO]: Database COOLDOWN:Lobby configured and loaded!
+2025-06-28 06:42:12 [INFO]: Database COOLDOWN:Lobby_nether configured and loaded!
+2025-06-28 06:42:12 [INFO]: Database COOLDOWN:Lobby_the_end configured and loaded!
+2025-06-28 06:42:12 [INFO]: Database COOLDOWN:survival configured and loaded!
+2025-06-28 06:42:12 [INFO]: Attempting to queue up some more safe locations...
+2025-06-28 06:42:13 [INFO]: Queueing paused, max queue limit reached!

@@ -13,6 +13,7 @@ con_ops::a8d851a0-d2b0-32a4-80be-33b152c844cc, boolean, 01
 crate::keys::naeem123::<none>, long, FFFFFFFFFFFFFFFF
 firstjoin::2d82e5dc-a682-36b6-8013-aa157c7b7e9b, boolean, 01
 firstjoin::4d266868-3679-3ea0-ad35-b6dc44fb78d5, boolean, 01
+firstjoin::3191f21f-c0ce-3410-8d7a-fab12180d20f, boolean, 01
 firstjoin::97818699-54ca-310c-afb9-451967f68983, boolean, 01
 firstjoin::a8d851a0-d2b0-32a4-80be-33b152c844cc, boolean, 01
 firstjoin::d2b45b11-55eb-3233-bf11-21994a277449, boolean, 01
@@ -27,3 +28,4 @@ redeemed::admin::a8d851a0-d2b0-32a4-80be-33b152c844cc, boolean, 01
 redeemed::naeem::4d266868-3679-3ea0-ad35-b6dc44fb78d5, boolean, 01
 redeemed::op::4d266868-3679-3ea0-ad35-b6dc44fb78d5, boolean, 01
 
+con_ops::naeem123, null, 
