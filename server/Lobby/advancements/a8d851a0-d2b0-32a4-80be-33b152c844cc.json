@@ -407,6 +407,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-06-29 14:21:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2025-06-10 17:29:17 +0000"
@@ -627,6 +633,12 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2025-06-10 13:00:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-06-29 14:21:50 +0000"
     },
     "done": true
   },
@@ -945,6 +957,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "polar_bear": "2025-06-11 07:49:11 +0000",
+      "slime": "2025-06-29 14:21:44 +0000",
       "skeleton": "2025-06-10 12:45:47 +0000",
       "zombie": "2025-06-10 13:06:20 +0000",
       "spider": "2025-06-10 17:29:12 +0000"

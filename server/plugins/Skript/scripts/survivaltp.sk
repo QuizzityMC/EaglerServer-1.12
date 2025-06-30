@@ -1,6 +1,14 @@
 command /survival:
-    permission: survival.tp
-    permission message: You do not have permission to use this command.
     trigger:
-        execute console command "/mv tp survival %player%"
-        send "&aTeleporting you to the Survival world..." to player
+        execute console command "mv tp %player% survival"
+        send "&aTeleporting you to the &2Survival &aworld..."
+
+command /hworld:
+    trigger:
+        execute console command "mv tp %player% hworld"
+        send "&aTeleporting you to the &2HWorld &aworld..."
+
+command /zworld:
+    trigger:
+        execute console command "mv tp %player% zworld"
+        send "&aTeleporting you to the &2ZWorld &aworld..."

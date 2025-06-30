@@ -29,4 +29,11 @@ allNamedHomes:
       z: 741.480753188098
       pitch: 57.899967
       yaw: -81.8497
-unknownHomes: {}
+unknownHomes:
+  a8d851a0-d2b0-32a4-80be-33b152c844cc:
+    world: Lobby
+    x: 0.6741708285166379
+    y: 100.0
+    z: 0.25076006449760546
+    pitch: 55.200035
+    yaw: 7.850952
