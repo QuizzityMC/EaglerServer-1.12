@@ -11,6 +11,7 @@ cmdaccess.survival, boolean, 01
 cmdaccess.warpkit, boolean, 01
 con_ops::a8d851a0-d2b0-32a4-80be-33b152c844cc, boolean, 01
 crate::keys::naeem123::<none>, long, FFFFFFFFFFFFFFFF
+firstjoin::2a66d47a-fc59-34c9-a014-d1bc23906407, boolean, 01
 firstjoin::2d82e5dc-a682-36b6-8013-aa157c7b7e9b, boolean, 01
 firstjoin::4d266868-3679-3ea0-ad35-b6dc44fb78d5, boolean, 01
 firstjoin::3191f21f-c0ce-3410-8d7a-fab12180d20f, boolean, 01
@@ -27,18 +28,11 @@ ranks::vip, string, 8009C2A7365B5649505D20
 redeemed::admin::a8d851a0-d2b0-32a4-80be-33b152c844cc, boolean, 01
 redeemed::naeem::4d266868-3679-3ea0-ad35-b6dc44fb78d5, boolean, 01
 redeemed::op::4d266868-3679-3ea0-ad35-b6dc44fb78d5, boolean, 01
+regions::pvp1::owner, string, 802461386438353161302D643262302D333261342D383062652D333362313532633834346363
+regions::pvp::owner, string, 802461386438353161302D643262302D333261342D383062652D333362313532633834346363
+wg.naeem123.pos1, location, 8605776F726C6480FF0000000181046E616D65208003707670017809C0627000000000000179094023000000000000017A09C09C5E00000000000570697463680800000000037961770800000000
+wg.naeem123.pos2, location, 8605776F726C6480FF0000000181046E616D65208003707670017809C05BE000000000000179093FE0000000000000017A09C09CE200000000000570697463680800000000037961770800000000
 
-con_ops::naeem123, null, 
-con_ops::yeelervool5714, null, 
-firstjoin::2a66d47a-fc59-34c9-a014-d1bc23906407, boolean, 01
-con_ops::haseeb, null, 
-con_ops::haseeb, null, 
-con_ops::naeem123, null, 
-con_ops::naeem123, null, 
 con_ops::naeem, null, 
-con_ops::naeem, null, 
-con_ops::naeem123, null, 
-con_ops::naeem123, null, 
-con_ops::naeem123, null, 
 con_ops::naeem123, null, 
 con_ops::naeem123, null, 
