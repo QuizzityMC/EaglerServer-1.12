@@ -1,0 +1,16 @@
+#SetSpawn by artur9010
+#Looking for a way to advertise your Minecraft server?
+#Advertise your Minecraft server for free at https://minecraft-list.org
+
+teleport:
+    cooldown: 5
+    cooldown_enabled: false
+enable_messages:
+    spawn: true
+messages:
+    spawn: "&7Teleported to spawn"
+    spawnset: "&7Spawn set!"
+    pleasewait: "&7Please wait &95 &7seconds."
+    canceled: "&cTeleportation canceled."
+    permissions: "&c[SetSpawn] No permissions."
+    unknown_player: "&cUnknown player"

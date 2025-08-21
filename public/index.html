@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minecraft Panel</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: linear-gradient(135deg, #0d0d17, #1a1a28);
+        color: #eee;
+        display: flex;
+        height: 100vh;
+        overflow: hidden;
+      }
+      aside {
+        width: 220px;
+        background: rgba(25, 25, 40, 0.95);
+        padding: 25px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        border-right: 1px solid #333;
+        backdrop-filter: blur(10px);
+      }
+      aside h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #00ffc3;
+        text-shadow: 0 0 10px #00ffc388;
+      }
+      aside button {
+        background: linear-gradient(145deg, #222233, #1c1c2c);
+        border: none;
+        padding: 12px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: left;
+        border-radius: 8px;
+        font-weight: 500;
+        box-shadow: 0 0 8px transparent;
+      }
+      aside button:hover {
+        background: #2e2e46;
+        box-shadow: 0 0 10px #00ffc355;
+        transform: translateX(5px);
+      }
+      main {
+        flex: 1;
+        padding: 30px;
+        overflow-y: auto;
+        background: linear-gradient(145deg, #10101a, #1a1a28);
+        box-shadow: inset 0 0 40px #00000088;
+        position: relative;
+      }
+      .hidden {
+        display: none;
+      }
+      #output {
+        background: #111;
+        padding: 20px;
+        border-radius: 8px;
+        height: 400px;
+        overflow-y: auto;
+        white-space: pre-wrap;
+        font-family: "Fira Code", monospace;
+        margin-bottom: 15px;
+        border: 1px solid #333;
+        box-shadow: inset 0 0 8px #00ff88aa;
+        color: #00ff88;
+      }
+      input {
+        width: 100%;
+        padding: 12px;
+        background: #161616;
+        color: #eee;
+        border: 1px solid #333;
+        border-radius: 8px;
+        outline: none;
+        transition: border 0.3s ease, box-shadow 0.3s ease;
+        font-family: "Fira Code", monospace;
+      }
+      input:focus {
+        border: 1px solid #00ffc3;
+        box-shadow: 0 0 8px #00ffc3aa;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+      }
+      li {
+        margin: 6px 0;
+        cursor: pointer;
+        padding: 8px 12px;
+        border-radius: 6px;
+        transition: 0.3s;
+        background: linear-gradient(145deg, #202030, #1a1a28);
+        border: 1px solid #2c2c3c;
+        color: #ccc;
+      }
+      li:hover {
+        background: #2e2e3f;
+        text-decoration: none;
+        color: #00ffc3;
+        box-shadow: 0 0 10px #00ffc388;
+      }
+      #editor {
+        width: 100%;
+        height: 300px;
+        background: #101010;
+        color: #00ff88;
+        border: 1px solid #333;
+        padding: 15px;
+        margin-top: 20px;
+        font-family: "Fira Code", monospace;
+        border-radius: 8px;
+        display: none;
+        box-shadow: inset 0 0 12px #00ff8877;
+      }
+      #saveBtn {
+        margin-top: 15px;
+        padding: 12px;
+        background: linear-gradient(145deg, #00ffc3, #00ccaa);
+        border: none;
+        border-radius: 8px;
+        color: #000;
+        font-weight: bold;
+        cursor: pointer;
+        display: none;
+        transition: 0.3s;
+        box-shadow: 0 0 12px #00ffc3aa;
+      }
+      #saveBtn:hover {
+        background: #00d1a7;
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <aside>
+      <h2>MC Panel</h2>
+      <button onclick="showSection('console')">🖥️ Console</button>
+      <button onclick="showSection('files')">📁 Files</button>
+    </aside>
+    <main>
+      <section id="console">
+        <h2>🖥️ Minecraft Server Console</h2>
+        <div id="output"></div>
+        <input id="input" placeholder="Enter command..." autofocus />
+      </section>
+      <section id="files" class="hidden">
+        <h2>📁 File Explorer</h2>
+        <div>
+          <button onclick="goUp()">⬆️ Go Up</button>
+          <input
+            type="file"
+            id="uploadInput"
+            multiple
+            onchange="uploadFiles()"
+          />
+          <span id="currentPath">/</span>
+        </div>
+        <ul id="fileList"></ul>
+        <textarea id="editor"></textarea>
+        <button id="saveBtn" onclick="saveFile()">💾 Save</button>
+      </section>
+    </main>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      const socket = io();
+      const output = document.getElementById("output");
+      const input = document.getElementById("input");
+      socket.on("output", (data) => {
+        const div = document.createElement("div");
+        div.textContent = data;
+        output.appendChild(div);
+        output.scrollTop = output.scrollHeight;
+      });
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          fetch("/send", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ input: input.value }),
+          });
+          input.value = "";
+        }
+      });
+      function showSection(id) {
+        document.getElementById("console").classList.add("hidden");
+        document.getElementById("files").classList.add("hidden");
+        document.getElementById(id).classList.remove("hidden");
+        if (id === "files") loadFiles();
+      }
+      let currentPath = "";
+      function loadFiles(path = "") {
+        fetch(`/explorer?path=${encodeURIComponent(path)}`)
+          .then((res) => res.json())
+          .then((data) => {
+            currentPath = data.path;
+            document.getElementById("currentPath").textContent =
+              "/" + currentPath;
+            const fileList = document.getElementById("fileList");
+            fileList.innerHTML = "";
+            data.files.forEach((f) => {
+              const li = document.createElement("li");
+              li.textContent = f.isDirectory ? `📁 ${f.name}` : `📄 ${f.name}`;
+              li.dataset.path = pathJoin(currentPath, f.name);
+              li.dataset.isDirectory = f.isDirectory;
+              li.ondblclick = () => {
+                if (f.isDirectory) loadFiles(li.dataset.path);
+                else viewFile(li.dataset.path);
+              };
+              li.oncontextmenu = (e) => {
+                e.preventDefault();
+                showContextMenu(
+                  e.pageX,
+                  e.pageY,
+                  f.name,
+                  f.isDirectory,
+                  li.dataset.path
+                );
+              };
+              fileList.appendChild(li);
+            });
+          });
+      }
+      function pathJoin(base, name) {
+        return base ? `${base}/${name}` : name;
+      }
+      function goUp() {
+        if (!currentPath) return;
+        const parts = currentPath.split("/").filter(Boolean);
+        parts.pop();
+        loadFiles(parts.join("/"));
+      }
+      function viewFile(filePath) {
+        fetch(`/explorer/view?file=${encodeURIComponent(filePath)}`)
+          .then((res) => res.text())
+          .then((data) => {
+            const editor = document.getElementById("editor");
+            editor.style.display = "block";
+            editor.value = data;
+            const saveBtn = document.getElementById("saveBtn");
+            saveBtn.style.display = "inline-block";
+            saveBtn.dataset.file = filePath;
+          });
+      }
+      function saveFile() {
+        const file = document.getElementById("saveBtn").dataset.file;
+        const content = document.getElementById("editor").value;
+        fetch("/explorer/save", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ file, content }),
+        }).then(() => alert("File saved."));
+      }
+      function uploadFiles() {
+        const files = document.getElementById("uploadInput").files;
+        const formData = new FormData();
+        for (const file of files) formData.append("files", file);
+        fetch(`/explorer/upload?path=${encodeURIComponent(currentPath)}`, {
+          method: "POST",
+          body: formData,
+        }).then(() => loadFiles(currentPath));
+      }
+      function showContextMenu(x, y, name, isDirectory, filePath) {
+        const existing = document.getElementById("contextMenu");
+        if (existing) existing.remove();
+        const menu = document.createElement("div");
+        menu.id = "contextMenu";
+        menu.style = `position:absolute;top:${y}px;left:${x}px;background:#222;border:1px solid #444;padding:10px;border-radius:6px;box-shadow:0 0 10px #00ffc366;z-index:1000;`;
+        const open = document.createElement("div");
+        open.textContent = isDirectory ? "📂 Open Folder" : "📄 Open File";
+        open.style.cursor = "pointer";
+        open.onclick = () => {
+          if (isDirectory) loadFiles(filePath);
+          else viewFile(filePath);
+          menu.remove();
+        };
+        menu.appendChild(open);
+        if (!isDirectory) {
+          const download = document.createElement("div");
+          download.textContent = "📥 Download";
+          download.style.cursor = "pointer";
+          download.onclick = () => {
+            window.location.href = `/explorer/download?file=${encodeURIComponent(
+              filePath
+            )}`;
+            menu.remove();
+          };
+          menu.appendChild(download);
+        }
+        const del = document.createElement("div");
+        del.textContent = "🗑️ Delete";
+        del.style.cursor = "pointer";
+        del.onclick = () => {
+          if (confirm(`Delete ${name}?`)) {
+            fetch(`/explorer/delete`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ file: filePath }),
+            }).then(() => loadFiles(currentPath));
+          }
+          menu.remove();
+        };
+        menu.appendChild(del);
+        document.body.appendChild(menu);
+        document.addEventListener("click", () => menu.remove(), { once: true });
+      }
+    </script>
+  </body>
+</html>

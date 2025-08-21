@@ -11,6 +11,14 @@
 # Bug tracker: http://www.spigotmc.org/go/bugs
 
 command-block-overrides: []
+unrestricted-advancements: false
 aliases:
   icanhasbukkit:
   - version $1-
+  lobbyfix:
+  - gamerule doMobSpawning false
+  - gamerule doDaylightCycle false
+  - time set day
+  - gamerule doWeatherCycle false
+  - weather clear
+ignore-vanilla-permissions: false

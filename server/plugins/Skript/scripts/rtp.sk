@@ -1,0 +1,36 @@
+command /rtp:
+    description: Random teleport at least 100 blocks from spawn
+    trigger:
+        if world of player is "world":
+            send "&cYou cannot use /rtp in this world."
+            stop
+        set {_centerX} to 0
+        set {_centerZ} to 0
+        set {_minDistance} to 100
+        set {_maxDistance} to 5000
+
+        loop 10 times:
+            set {_radius} to random integer between {_minDistance} and {_maxDistance}
+            set {_angle} to random number from 0 to 6.283185307
+            set {_x} to {_centerX} + (cos({_angle}) * {_radius})
+            set {_z} to {_centerZ} + (sin({_angle}) * {_radius})
+            set {_world} to world of player
+
+            set {_found} to false
+            # Loop from the top down to find first solid block
+            loop 255 down to 1:
+                set {_block} to block at {_x}, loop-number, {_z} in {_world}
+                if {_block} is solid:
+                    set {_y} to loop-number + 1
+                    set {_found} to true
+                    stop loop
+
+            if {_found} is true:
+                set {_loc} to location({_x}, {_y}, {_z}) in {_world}
+                if block at {_loc} is not water and block at {_loc} is not lava:
+                    teleport player to {_loc}
+                    send "&aTeleported to a random location!"
+                    stop
+            # If no solid block or unsafe, try again
+
+        send "&cFailed to find a safe location. Try again."

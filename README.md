@@ -1,16 +1,18 @@
 # EaglerCraftX Server
 
 ## Credits
+
 Original Project: Lax1Dude
 <br>
 1.12 Project: PeytonPlayz595
 <br>
 Original Server Fork: EcoliEater87
-<br> 
+<br>
 Adapted to Canary Craft (ADSCRAFT): QuizzityMC
 <br>
 
 ## To make an eaglercraft 1.12 server, follow the instructions below:
+
 Here is how you can setup a connection:
 <br>
 <br>
@@ -23,7 +25,7 @@ Create a terminal tab and paste the following:<br>
 <br>
 enter the following: `cd bungee && sudo java -jar bungee.jar`
 <br>
-then, make a new tab and enter the following: cd server && sudo java -jar server.jar
+then, make a new tab and enter the following: `cd server && sudo java -jar server.jar`
 <br>
 Now go to the ports area and forward (and make public) port `8081`
 <br>
