@@ -1,0 +1,27 @@
+# Server logs
+*/logs/
+*.log
+*.log.gz
+
+# Databases
+*.db
+
+# Temporary files
+*.tmp
+tmp/
+
+# Build artifacts
+*.class
+target/
+build/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

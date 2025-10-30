@@ -1,5 +1,8 @@
 # EaglerCraftX Server
 
+## Client Version
+This repository includes the **latest Eaglercraft 1.12.2 WASM-GC client**. See [CLIENT_VERSION.md](CLIENT_VERSION.md) for details and verification information.
+
 ## Credits
 Original Project: Lax1Dude
 <br>
